@@ -711,9 +711,6 @@ El siguiente glosario detalla los términos esenciales del Lenguaje Ubiquo que u
 
 ### 3.4 Product Backlog
 
-
-
-
 ## Capítulo IV: Strategic-Level Software Design
 
 ## 4.1 Strategic-Level Domain-Driven Design
@@ -913,6 +910,16 @@ Este Bounded Context "###############333" se encarga exclusivamente de
 ###### 4.2.3.6.2. Bounded Context Database Design Diagram.
 
 #########################
+
+
+
+
+## Conclusiones
+
+## Bibliografía
+
+## Anexos
+
 
 
 
