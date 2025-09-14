@@ -24,7 +24,7 @@
 | **Bruce Andres Cipriano Chumbes**         | ++++++++++ |
 | **Jose Miguel Riega Salas**               | ++++++++++ |
 | **Godofredo Quispe Tipo**                 | u202120772 |
-| **+++++++++++++++++++++++++++++++++++++** | ++++++++++ |
+| **Erick Hernan Ruiz Torres**              | u202118946 |
 
 **Agosto 2025**
 
@@ -87,27 +87,20 @@ El enlace a github del reporte del proyecto es el siguiente: [https://github.com
   - [3.2 User Stories](#32-user-stories)
   - [3.3 Impact Mapping](#33-impact-mapping)
   - [3.4 Product Backlog](#34-product-backlog)
+
 - [Capítulo IV: Strategic-Level Software Design](#capítulo-iv-strategic-level-software-design)
-  - [4.1 Strategic-Level Attribute-Driven Design](#41-strategic-level-attribute-driven-design)
-    - [4.1.1 Design Purpose](#411-design-purpose)
-    - [4.1.2 Attribute-Driven Design Inputs](#412-attribute-driven-design-inputs)
-      - [4.1.2.1 Primary Functionality (Primary User Stories)](#4121-primary-functionality-primary-user-stories)
-      - [4.1.2.2 Quality attribute Scenarios](#4122-quality-attribute-scenarios)
-      - [4.1.2.3 Constraints](#4123-constraints)
-    - [4.1.3 Architectural Drivers Backlog](#413-architectural-drivers-backlog)
-    - [4.1.4 Architectural Design Decisions](#414-architectural-design-decisions)
-    - [4.1.5 Quality Attribute Scenario Refinements](#415-quality-attribute-scenario-refinements)
-  - [4.2 Strategic-Level Domain-Driven Design](#42-strategic-level-domain-driven-design)
-    - [4.2.1 EventStorming](#421-eventstorming)
-    - [4.2.2 Candidate Context Discovery](#422-candidate-context-discovery)
-    - [4.2.3 Domain Message Flows Modeling](#423-domain-message-flows-modeling)
-    - [4.2.4 Bounded Context Canvases](#424-bounded-context-canvases)
-    - [4.2.5 Context Mapping](#425-context-mapping)
-  - [4.3 Software Architecture](#43-software-architecture)
-    - [4.3.1 Software Architecture System Landscape Diagram](#431-software-architecture-system-landscape-diagram)
-    - [4.3.2 Software Architecture Context Level Diagrams](#432-software-architecture-context-level-diagrams)
-    - [4.3.3 Software Architecture Container Level Diagrams](#433-software-architecture-container-level-diagrams)
-    - [4.3.4 Software Architecture Deployment Diagrams](#434-software-architecture-deployment-diagrams)
+  - [4.1 Strategic-Level Domain-Driven Design](#41-strategic-level-attribute-driven-design)
+    - [4.1.1 Design-Level EventStorming](#411-design-devel-eventStorming)
+      - [4.1.1.1 Candidate Context Discovery](#4111-candidate-context-discovery)
+      - [4.1.1.2 Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
+      - [4.1.1.3 Bounded Context Canvases](#4113-bounded-context-canvases)
+    - [4.1.2 Context Mapping](#412-context-mapping)
+    - [4.1.3 Software Architecture](#413-software-architecture)
+      - [4.1.3.1 Software Architecture System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)
+      - [4.1.3.2 Software Architecture Context Level Diagrams](#4132-software-architecture-context-level-diagrams)
+      - [4.1.3.3 Software Architecture Container Level Diagrams](#4133-software-architecture-container-level-diagrams)
+      - [4.1.3.4 Software Architecture Deployment Diagrams](#4134-software-architecture-deployment-diagrams)
+  - [4.2 Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -718,47 +711,211 @@ El siguiente glosario detalla los términos esenciales del Lenguaje Ubiquo que u
 
 ### 3.4 Product Backlog
 
+
+
+
 ## Capítulo IV: Strategic-Level Software Design
 
-### 4.1 Strategic-Level Attribute-Driven Design
+## 4.1 Strategic-Level Domain-Driven Design
 
-#### 4.1.1 Design Purpose
+### 4.1.1 Design-Level EventStorming<br>
+Para el desarroolo del EventStorming, nos reunimos para organizar una lluvia de ideas con los temas, datos y funcionalidades necesarias para el desarrollo de la aplicación, resultando en el siguiente gráfico:<br>
 
-#### 4.1.2 Attribute-Driven Design Inputs
+![EventStorming](./assets/capitulo4/###)
 
-##### 4.1.2.1 Primary Functionality (Primary User Stories)
+#### 4.1.1.1 Candidate Context Discovery<br>
+A continuación mostraremos el paso a paso para la organizacion del EventStorming: <br>
 
-##### 4.1.2.2 Quality attribute Scenarios
 
-##### 4.1.2.3 Constraints
+<br>Step 1: <br>
+<br>Step 2: <br>
+<br>Step 3: <br>
+<br>Step 4: <br>
+<br>Step 5: <br>
+<br>Step 6: <br>
+<br>Step 7: <br>
+<br>Step 8: <br>
 
-#### 4.1.3 Architectural Drivers Backlog
+#### 4.1.1.2 Domain Message Flows Modeling<br>
+En esta sección se expone el proceso realizado para representar la forma en que los bounded contexts deben interactuar con el fin de atender los casos de negocio que enfrentan los usuarios del sistema. <br>
+Leyenda: <br>
 
-#### 4.1.4 Architectural Design Decisions
+![Leyenda](./assets/capitulo4/domainmessage.png)
 
-#### 4.1.5 Quality Attribute Scenario Refinements
+Escenario 1: #### <br>
+##############
+![Escenario 1](./assets/capitulo4/###)
+Escenario 2: #### <br>
+##############
+![Escenario 2](./assets/capitulo4/###)
+Escenario 3: #### <br>
+##############
+![Escenario 3](./assets/capitulo4/###)
+Escenario 4: #### <br>
+##############
+![Escenario 4](./assets/capitulo4/###)
 
-### 4.2 Strategic-Level Domain-Driven Design
+#### 4.1.1.3 Bounded Context Canvases
 
-#### 4.2.1 EventStorming
+Bounded context '###'  <br>
+##############################3333
+![Bounded Context Canvas ## ](./assets/capitulo4/####)
+Bounded context '###'  <br>
+##############################3333
+![Bounded Context Canvas ## ](./assets/capitulo4/####)
+Bounded context '###'  <br>
+##############################3333
+![Bounded Context Canvas ## ](./assets/capitulo4/####)
+Bounded context '###'  <br>
+##############################3333
+![Bounded Context Canvas ## ](./assets/capitulo4/####)
+Bounded context '###'  <br>
+##############################3333
+![Bounded Context Canvas ## ](./assets/capitulo4/####)
+Bounded context '###'  <br>
+##############################3333
+![Bounded Context Canvas ## ](./assets/capitulo4/####)
 
-#### 4.2.2 Candidate Context Discovery
+### 4.1.2 Context Mapping
+BOUNDEN CONTEXT ## ↔️ BOUNDED CONTEXT ##
+Relación: ####
+Patrón:
+###############################
 
-#### 4.2.3 Domain Message Flows Modeling
+BOUNDEN CONTEXT ## ↔️ BOUNDED CONTEXT ##
+Relación: ####
+Patrón:
+###############################
 
-#### 4.2.4 Bounded Context Canvases
+BOUNDEN CONTEXT ## ↔️ BOUNDED CONTEXT ##
+Relación: ####
+Patrón:
+###############################
 
-#### 4.2.5 Context Mapping
+BOUNDEN CONTEXT ## ↔️ BOUNDED CONTEXT ##
+Relación: ####
+Patrón:
+###############################
 
-### 4.3 Software Architecture
+### 4.1.3 Software Architecture
 
-#### 4.3.1 Software Architecture System Landscape Diagram
+#### 4.1.3.1 Software Architecture System Landscape Diagram
 
-#### 4.3.2 Software Architecture Context Level Diagrams
+#### 4.1.3.2 Software Architecture Context Level Diagrams
 
-#### 4.3.3 Software Architecture Container Level Diagrams
+#### 4.1.3.3 Software Architecture Container Level Diagrams
 
-#### 4.3.4 Software Architecture Deployment Diagrams
+#### 4.1.3.4 Software Architecture Deployment Diagrams
+
+
+
+
+## 4.2 Tactical-Level Domain-Driven Design
+
+### 4.2.1. Bounded Context:####
+
+Este Bounded Context "###############333" se encarga exclusivamente de 
+########################
+
+#### 4.2.1.1. Domain Layer.
+
+##############################
+
+#### 4.2.1.2. Interface Layer.
+
+##############################
+
+#### 4.2.1.3. Application Layer.
+
+################################
+
+#### 4.2.1.4. Infrastructure Layer.
+
+##########################
+
+#### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.
+
+##########################
+
+#### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.
+###### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.
+#########################
+
+###### 4.2.1.6.2. Bounded Context Database Design Diagram.
+
+#########################
+
+
+### 4.2.2. Bounded Context:####
+
+Este Bounded Context "###############333" se encarga exclusivamente de 
+########################
+
+#### 4.2.2.1. Domain Layer.
+
+##############################
+
+#### 4.2.2.2. Interface Layer.
+
+##############################
+
+#### 4.2.2.3. Application Layer.
+
+################################
+
+#### 4.2.2.4. Infrastructure Layer.
+
+##########################
+
+#### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.
+
+##########################
+
+#### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.
+###### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.
+#########################
+
+###### 4.2.2.6.2. Bounded Context Database Design Diagram.
+
+#########################
+
+
+
+### 4.2.3. Bounded Context:####
+
+Este Bounded Context "###############333" se encarga exclusivamente de 
+########################
+
+#### 4.2.3.1. Domain Layer.
+
+##############################
+
+#### 4.2.3.2. Interface Layer.
+
+##############################
+
+#### 4.2.3.3. Application Layer.
+
+################################
+
+#### 4.2.3.4. Infrastructure Layer.
+
+##########################
+
+#### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams.
+
+##########################
+
+#### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams.
+###### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.
+#########################
+
+###### 4.2.3.6.2. Bounded Context Database Design Diagram.
+
+#########################
+
+
+
 
 ## Conclusiones
 
