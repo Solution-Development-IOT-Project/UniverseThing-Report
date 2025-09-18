@@ -16,11 +16,11 @@
 
 <h1 align="center"> TB1 Report </h1>
 
-<h3 align="center"> Docente: Vera Olivera, David Carlos </h3>
+<h3 align="center"> Docente: Marco Antonio Leon Baca </h3>
 
 <h3 align="center"> 1ASI0572 - Desarrollo de Soluciones IoT </h3>
 
-<h4 align="center"> NRC: 3355 </h4>
+<h4 align="center"> NRC: ---- </h4>
 
 
 <h3> Startup: ------ </h3>
@@ -34,7 +34,7 @@
 | Member                              |    Code    |
 | :---------------------------------- | :--------: |
 | ##                                  |     ##     |
-| Del Carmen Zorrilla, Ray Alessandro | U202124061 |
+| Ruiz Torres Erick Hernan            | U202118946 |
 | ##                                  |     ##     |
 | ##                                  |     ##     |
 | ##                                  |     ##     |
