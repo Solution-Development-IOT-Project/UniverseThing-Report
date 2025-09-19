@@ -8,40 +8,37 @@
 
 <h3 align="center">Ciclo 2025 - 2</h3>
 
-
 <div align="center">
   <img width=250 src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"/>
 </div>
 
-
 <h1 align="center"> TB1 Report </h1>
 
-<h3 align="center"> Docente: Vera Olivera, David Carlos </h3>
+<h3 align="center"> Docente: Leon Baca, Marco Antonio </h3>
 
 <h3 align="center"> 1ASI0572 - Desarrollo de Soluciones IoT </h3>
 
-<h4 align="center"> NRC: 3355 </h4>
+<h4 align="center"> NRC: 3414 </h4>
 
+<h3> Startup: UniverseThing </h3>
 
-<h3> Startup: ------ </h3>
-
-<h3> Product: ------ </h3>
+<h3> Product: AgroPre </h3>
 
 <h3> Team Members: </h3>
 
 <div align="center">
 
-| Member                              |    Code    |
-| :---------------------------------- | :--------: |
-| ##                                  |     ##     |
-| Del Carmen Zorrilla, Ray Alessandro | U202124061 |
-| ##                                  |     ##     |
-| ##                                  |     ##     |
-| ##                                  |     ##     |
+| Member                |    Code    |
+| :-------------------- | :--------: |
+| ##                    |     ##     |
+| Quispe Tipo Godofredo | U202120772 |
+| ##                    |     ##     |
+| ##                    |     ##     |
+| ##                    |     ##     |
 
 </div>
 
-<h3 align="center">Agosto, 2025</h3>
+<h3 align="center">Septiembre, 2025</h3>
 
 <br><br>
 
@@ -194,23 +191,174 @@
 
 ### 1.1.1. Descripción de la StartUp
 
+**UniverseThing** es una startup de agrotech que desarrolla soluciones de IoT para la agricultura de precisión. Nuestro producto principal, **AgroPre**, es un sistema integral de monitoreo y automatización diseñado para optimizar el manejo de cultivos, con enfoque en la protección contra heladas y el control inteligente de plagas. **AgroPre** combina hardware robusto, visión artificial y análisis de datos en tiempo real para ofrecer a los agricultores una herramienta capaz de transformar la gestión de riesgos climáticos y biológicos en sus cultivos.
+
+**Misión:**
+Empoderar a los agricultores con tecnología accesible y automatizada que maximice el rendimiento de sus cultivos, reduzca pérdidas por factores ambientales y promueva prácticas agrícolas sostenibles mediante el uso eficiente de recursos.
+
+**Visión:**
+Ser la plataforma líder en soluciones de IoT para la agricultura de precisión en América Latina, reconocida por su innovación, confiabilidad y impacto positivo en la seguridad alimentaria y la economía rural.
+
+**Problema Identificado:**
+La agricultura enfrenta desafíos críticos debido a la imprevisibilidad climática y la creciente incidencia de plagas. Las heladas, por ejemplo, pueden destruir cosechas enteras en horas, mientras que las plagas como Áfidos generan pérdidas silenciosas pero igualmente devastadoras. Los métodos tradicionales de protección (como coberturas manuales o fumigaciones calendarizadas) son ineficientes, costosos y reactivos. Además, la falta de datos en tiempo real y la dependencia de la mano de obra limitan la capacidad de los agricultores para responder a tiempo ante estas amenazas.
+
+**Solución Propuesta:**
+**AgroPre** ofrece un sistema modular y escalable que incluye:
+
+- **Monitoreo en tiempo real:** Sensores de temperatura ambiental, sensor de luz y cámaras con visión artificial para detectar riesgos de heladas y plagas.
+- **Automatización inteligente:** Activación automática de mecanismos de protección (como cubiertas térmicas motorizadas y fumigación localizada) basada en umbrales predefinidos o detección de plagas.
+- **Plataforma digital:** Una interfaz web y móvil que permite a los agricultores visualizar datos, recibir alertas y controlar el sistema de forma remota.
+- **Sostenibilidad:** Reducción del uso de agua, insecticidas y mano de obra mediante intervenciones precisas y basadas en datos.
+
 ### 1.1.2. Perfiles de integrantes del equipo
 
 ## 1.2. Solution Profile
 
+**Problema identificado:** Los agricultores de papa, especialmente aquellos con cultivos medianos y grandes, enfrentan pérdidas significativas debido a dos factores principales: las heladas impredecibles que queman los cultivos y las plagas (Áfidos) que dañan las plantas y reducen el rendimiento. Los métodos tradicionales de protección (como quema de heno o fumigar de forma preventiva) son intensivos en mano de obra, poco precisos, costosos y a menudo reactivos en lugar de preventivos. La falta de monitoreo en tiempo real y automatización conduce a la toma de decisiones tardía, resultan en daños económicos sustanciales.
+
+**Solución propuesta:**
+**AgroPre** es un sistema integral de IoT que automatiza la protección de cultivos contra heladas y plagas, permitiendo a los agricultores monitorear y actuar de forma remota.
+
+- **Desde el rol del agricultor o administrador:** Puede visualizar en tiempo real la temperatura ambiental y alertas de plagas en su finca a través de una app web y móvil. Recibe notificaciones automáticas cuando se detecta una helada inminente o una plaga. Tiene el control para activar manualmente los sistemas de protección (telas, fumigación) o confiar en la automatización total.
+- **Desde el rol del sistema (automatizado):** El sistema monitorea constantemente las condiciones ambientales. Para heladas: Activa automáticamente motores que deslizan una cubierta térmica sobre los cultivos cuando la temperatura cae por debajo de un umbral predefinido. Para plagas: Utiliza cámaras con visión artificial para detectar insectos en las plantas. Al confirmar una plaga, activa un mecanismo de sacudida para derribar las plagas a una plataforma y luego fumiga el área.
+- Gracias a la automatización, el monitoreo en tiempo real y la respuesta precisa, **AgroPre** convierte al agricultor en un gestor de datos, reduce pérdidas, optimiza recursos (insecticida, mano de obra) y promueve una agricultura más sostenible y precisa.
+
 ### 1.2.1. Antecedentes y problemática
+
+**What (Qué)**
+
+- **¿Cuál es el problema?** Pérdida de cultivos y reducción de la rentabilidad debido a heladas y plagas, combinado con métodos de control manuales, ineficientes y que no escalan.
+- **¿Cuál es la relación con la persona en cuestión?** **AgroPre** empodera al agricultor con tecnología accesible que automatiza las tareas más críticas y estresantes, permitiéndole proteger su inversión de forma proactiva y desde cualquier lugar.
+
+**When (Cuándo)**
+
+- **¿Cuándo sucede el problema?** Las heladas son más frecuentes en las madrugadas durante el invierno. Las plagas pueden aparecer en cualquier momento, especialmente en temporadas cálidas, y su detección temprana es crucial.
+- **¿Cuándo utiliza el cliente el producto?** El cliente utiliza el dashboard de **AgroPre** diariamente para monitorear el estado de su cultivo. El sistema actúa de forma autónoma durante eventos críticos (noches frías, detección de plagas), pero el cliente recibe alertas inmediatas en esos momentos.
+
+**Where (Dónde)**
+
+- **¿Dónde está el cliente cuando usa el producto?** En cualquier lugar con conexión a internet: su oficina, su casa, o incluso mientras viaja, a través de su teléfono móvil o computador.
+- **¿Dónde surge el problema?** Directamente en el campo, en las parcelas de cultivo de papa.
+
+**Who (Quién)**
+
+- **¿Quiénes se ven involucrados en el problema?**
+
+1. **Agricultores Tecnificados (Medianos/Grandes):** Pierden dinero e inversión. Su dolor es económico y de gestión.
+2. **Cooperativas:** Ven afectada la productividad y calidad consistente de sus socios, impactando su competitividad en el mercado.
+3. **Ingenieros Agrónomos:** Necesitan herramientas mejores para asesorar a sus clientes de manera efectiva y basada en datos.
+
+**Why (Por qué)**
+
+- **¿Cuáles son las causas del problema?**
+
+- **Clima impredecible:** El cambio climático aumenta la frecuencia de eventos extremos como heladas.
+- **Métodos reactivos:** Los agricultores a menudo actúan cuando el daño ya está hecho.
+- **Altos costos de mano de obra:** Estar las 24 horas vigilando el campo es inviable y caro.
+- **Fumigación indiscriminada:** Aumenta costos, daña el medio ambiente y puede generar resistencia en las plagas.
+
+**How (Cómo)**
+
+- **¿En qué condiciones los clientes usan nuestro producto?** Lo usan como parte de su rutina diaria de gestión agrícola y confían en que funcione de forma autónoma en condiciones climáticas adversas o de detección de plagas, often mientras ellos se dedican a otras actividades.
+
+**How Much (Cuánto)**
+
+- **¿Cuál es la magnitud del problema?** Las pérdidas pueden ser devastadoras. Una sola helada fuerte puede destruir el 100% de una cosecha. Según la FAO, las plagas y enfermedades de las plantas causan pérdidas de hasta el 40% de la producción agrícola mundial anualmente. Para un agricultor mediano, esto puede representar la diferencia entre la rentabilidad y la quiebra.
 
 ### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
 
+En el sector agrícola actual, los productores de papa se enfrentan a pérdidas económicas recurrentes y significativas debido a la incapacidad de responder a tiempo ante amenazas ambientales como heladas y plagas. Las soluciones existentes (monitoreo manual, fumigación preventiva) son ineficientes, costosas y no escalables. Esto crea una necesidad crítica de un sistema integrado, automatizado y basado en datos que permita una protección preventiva y precisa, transformando la gestión del riesgo climático y sanitario de un arte reactivo a una ciencia predecible.
+
 #### 1.2.2.2. Lean UX Assumptions
 
+**User Assumptions (Suposiciones de Usuario)**
+
+- **¿Quién es el usuario?** Un agricultor mediano/grande o representante de una cooperativa, con cierto nivel de tecnificación y acceso a un smartphone.
+- **¿Dónde encaja nuestro producto en su trabajo o vida?** Encaja como una herramienta de gestión crítica para proteger su principal activo que es **su cultivo**. Es una extensión de su toma de decisiones.
+- **¿Qué problemas resuelve nuestro producto?** **Resuelve** la ansiedad por las **heladas**, la detección tardía de **plagas**, el gasto excesivo en insecticidas y la dependencia de la mano de obra para vigilancia.
+- **¿Cuándo y cómo se usa nuestro producto?** Se usa **diariamente** para monitoreo y de forma automática **durante la noche** o en **alertas.** La interfaz debe ser simple para usarse en el campo.
+- **¿Qué características son importantes?** **Alertas en tiempo real**, dashboard claro con datos históricos, **control manual remoto** y confiabilidad absoluta del **sistema automático**.
+- **¿Cómo debe verse y comportarse nuestro producto?** Debe verse robusto y profesional, pero simple. Debe inspirar confianza. La app debe funcionar offline en modo básico.
+
+**Business Assumptions (Suposiciones de Negocio)**
+
+- **Necesidades y problemas:** Creemos que los agricultores pagarán por una solución que reduzca tangiblemente el riesgo de perder su cosecha.
+- **Plataforma:** La necesidad se resuelve con un sistema físico (hardware) + una plataforma digital (software/App).
+- **Segmentación:** Nuestros usuarios son agricultores tecnificados y cooperativas.
+- **Comportamientos:** El valor principal es la paz mental y la reducción de pérdidas.
+- **Beneficios:** Los usuarios obtendrán mayores rendimientos, ahorro en insumos y mano de obra, y datos valiosos para tomar mejores decisiones.
+- **Captación de clientes:** A través de ingenieros agrónomos influyentes, ferias agrícolas y demostraciones en campo.
+- **Modelo de ingresos:** Venta del hardware (kit) + suscripción anual por software, datos y soporte.
+- **Competencia:** Soluciones fragmentadas (estaciones meteorológicas simples, apps de monitoreo, servicios de fumigación manual).
+- **Ventaja competitiva:** La integración total automatización + visión artificial + fumigación precisa en un solo sistema.
+
+**Technical Assumptions (Suposiciones Técnicas)**
+
+- **Tecnología utilizada:** Podemos usar microcontroladores (ESP32), Raspberry Pi para visión artificial, sensores industriales, y desarrollar una Web en Angular y una app Mobil en Flutter.
+- **Escalabilidad:** El sistema debe ser escalable para fincas de diferentes tamaños.
+
+**Market Assumptions (Suposiciones de Mercado)**
+
+- **Tamaño del mercado:** El mercado de agricultura de precisión y IoT agrícola está creciendo rápidamente a nivel global y en Latinoamérica.
+- **Competencia:** Existen empresas grandes (como John Deere, Bosch) pero con soluciones mucho más caras y complejas. Nuestra competencia directa son soluciones locales menos integradas.
+- **Tendencias:** La agricultura de precisión es una tendencia imparable impulsada por la necesidad de eficiencia y sostenibilidad.
+
+**Design Assumptions (Suposiciones de Diseño)**
+
+- **Interacción del usuario:** La interacción debe ser mínima. El agricultor quiere "configurar y olvidar". Las alertas deben ser muy claras (notificaciones push, SMS).
+- **Experiencia del usuario:** Debe ser simple, confiable y visible en condiciones de luz solar intensa.
+- **Colores y la tipografía:** Colores que transmitan confianza (verdes, azules), tipografía grande y legible.
+- **Preferencias visuales:** Mapas de calor de la finca, gráficos simples de tendencias de temperatura, fotos de las detecciones de plagas.
+- **Prototipos y pruebas:** Es crucial probar el hardware en condiciones reales extremas (lluvia, polvo, calor) y la app con los usuarios reales en el campo.
+
 #### 1.2.2.3. Lean UX Hyphotesis Statements
+
+- **Hipótesis 01:** Creemos que los agricultores tecnificados necesitan automatizar la protección contra heladas. Sabremos que es correcto cuando el 70% de los agricultores probadores diga que la activación automática de la tela es la funcionalidad más valiosa.
+- **Hipótesis 02:** Creemos que la detección automática de plagas con IA reducirá el uso de insecticidas en al menos un 30%. Sabremos que es correcto midiendo el volumen de insecticida usado antes y después de instalar el sistema en una parcela de prueba.
+- **Hipótesis 03:** Creemos que los agricultores pagarán una suscripción anual por el software y los datos. Sabremos que es correcto si al menos el 60% de los que compran el hardware se suscriben al segundo año.
+- **Hipótesis 04:** Creemos que la app móvil es el canal principal de interacción. Sabremos que es correcto si el 90% de las alertas son visualizadas primero en el móvil frente a la web.
+- **Hipótesis 05:** Creemos que la confiabilidad del sistema es más importante que el precio. Sabremos que es correcto si las entrevistas revelan que el "que no falle" es la principal preocupación, por encima del costo.
+- **Hipótesis 06:** Creemos que las cooperativas son el canal de venta más efectivo. Sabremos que es correcto si el 50% de nuestras ventas del primer año provienen de este segmento.
 
 #### 1.2.2.4. Lean UX Canvas
 
 ## 1.3. Segmentos objetivo
+
+**Segmento Objetivo #1: Agricultores Tecnificados (Los Decisores y Beneficiarios Directos)**
+
+Este grupo está compuesto por productores agrícolas medianos y grandes, propietarios o administradores de fundos, que tienen la capacidad de inversión y la mentalidad para adoptar tecnología que mejore la productividad y reduzca riesgos. Son pragmáticos y buscan soluciones con un retorno de la inversión claro y tangible. Características clave:
+
+- **Edad:** 20 a 65 años
+- **Género:** Predominantemente masculino, aunque con una creciente participación femenina.
+- **Contexto:** Agricultura comercial de medianas a grandes escalas (de 5 a 500+ hectáreas). Su operación ya cuenta con cierto nivel de tecnificación (riego por goteo, uso de fertilizantes con precision, talvez drones para monitoreo).
+- **Ocupación:** Propietario de fundo, administrador agrícola, gerente de campo.
+- **Uso de tecnología:** Usuarios intermedios de smartphones; utilizan apps del banco, WhatsApp para negocios, y pueden estar familiarizados con software básico de gestión agrícola o estaciones meteorológicas simples. Valoran la funcionalidad por sobre la complejidad.
+- **Necesidades y Puntos de Dolor:**
+
+  - **Reducir el riesgo económico:** Evitar pérdidas catastróficas por heladas o plagas.
+  - **Optimizar costos:** Reducir el gasto en mano de obra para vigilancia nocturna y en aplicaciones preventivas de insecticidas.
+  - **Tomar decisiones basadas en datos:** Tener información en tiempo real para actuar de manera proactiva, no reactiva.
+  - **Escalabilidad:** Gestionar múltiples campos o parcelas de manera eficiente.
+  - **Paz mental:** Poder monitorear sus cultivos de forma remota y confiar en que el sistema responderá automáticamente a las amenazas.
+
+**Segmento Objetivo #2: Cooperativas Agrícolas (Los Multiplicadores, Facilitadores y Comunidades)**
+
+Corresponde a las juntas directivas y gerentes técnicos de asociaciones o cooperativas de productores de papa. Su objetivo es mejorar la productividad, calidad y rentabilidad de todos sus socios para fortalecer la posición competitiva del grupo en el mercado. Actúan como un canal de distribución y validación masiva. Características clave:
+
+- **Edad:** 20 a 65 años (integrantes de la junta directiva y gerencia).
+- **Género:** Ambos.
+- **Contexto:** Organizaciones que agrupan a decenas o cientos de pequeños y medianos agricultores para conseguir mejores precios, comprar insumos al por mayor y acceder a tecnología y financiamiento.
+- **Ocupación:** Presidente, gerente, ingeniero agrónomo jefe de la cooperativa.
+- **Uso de tecnología:** Buscan soluciones tecnológicas que puedan implementarse a escala en las parcelas de sus socios. Están abiertos a modelos de negocio B2B (empresa a empresa) y suelen tener acceso a programas de subsidio o crédito gubernamental.
+- **Necesidades y Puntos de Dolor:**
+
+  - **Beneficio colectivo:** Implementar soluciones que mejoren los resultados de todos sus asociados de manera homogénea.
+  - **Control de calidad y estandarización:** Asegurar que la producción de todos los socios cumpla con ciertos estándares (ej: libres de plagas, uso racional de agroquímicos) para acceder a mercados más exigentes.
+  - **Trazabilidad:** Generar data y historiales que certifiquen las buenas prácticas agrícolas del grupo.
+  - **Sostenibilidad del modelo:** Atraer y retener socios ofreciendo tecnología de punta como un beneficio tangible de pertenecer a la cooperativa.
+  - **Negociación:** Adquirir tecnología a un mejor precio mediante compras agrupadas.
 
 # Capítulo II: Requirements Elicitation & Analysis
 
