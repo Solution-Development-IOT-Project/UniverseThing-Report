@@ -303,13 +303,41 @@ Las User Stories son una herramienta fundamental para definir los requisitos del
 | US013               | Exportación de reportes                                   | Como usuario, quiero exportar reportes en PDF o Excel, para compartirlos con asesores técnicos o instituciones.                                   | El sistema debe permitir descargar reportes completos en formatos estándar (PDF, XLSX).                                                                       | EPIC005                       |
 | US014               | Integración vía API                                       | Como usuario avanzado, quiero integrar los datos con otros sistemas agrícolas, para unificar mis fuentes de información.                          | La plataforma debe exponer una API REST segura que permita acceder a datos históricos y en tiempo real.                                                       | EPIC005                                                                      
 
-## 3.3. Impact mapping
+## 3.3 Impact Mapping
 
 <p align="center">
-  <img src="img/Impact mapping.png" alt="Impact mapping" width="600">
+  <b>Impact Mapping – AgroPre</b><br>
+  <p>El siguiente diagrama representa la relación entre los objetivos de negocio, los impactos esperados, los entregables y las historias de usuario, segmentadas para los principales actores: Agricultores Tecnificados y Cooperativas Agrícolas. Esta representación permite visualizar cómo cada componente del sistema contribuye a la protección de los cultivos y optimización de recursos (UniverseThing, 2025).</p><br><br>
+  <img src="./img/Impact mapping.png" alt="Impact Mapping AgroPre" width="700">
 </p>
 
-## 3.4. Product Backlog
+## 3.4 Product Backlog
+
+<p align="center">
+  <b>Product Backlog – AgroPre</b><br>
+  <p>El siguiente backlog representa las historias de usuario priorizadas y estimadas en Story Points para guiar el desarrollo del sistema de monitoreo y protección de cultivos. Cada historia está vinculada a su épica correspondiente, asegurando trazabilidad entre objetivos de negocio y entregables tecnológicos (UniverseThing, 2025).</p>
+</p>
+
+<p align="center">
+
+| <b>ID</b>  | <b>Epic</b> | <b>User Story / Feature</b> | <b>Prioridad</b> | <b>Estimación (Story Points)</b> | <b>Estado</b> |
+|------------|-------------|----------------------------|-----------------|-------------------------------|--------------|
+| US001      | Instalación y Configuración Inteligente | Instalar dispositivo con guía visual | Alta  | 3 | Pendiente |
+| US002      | Instalación y Configuración Inteligente | Registro automático de sensores | Alta  | 2 | Pendiente |
+| US003      | Instalación y Configuración Inteligente | Registro de múltiples dispositivos | Media | 5 | Pendiente |
+| US004      | Monitoreo Climático | Notificaciones tempranas de helada | Alta  | 3 | Pendiente |
+| US005      | Monitoreo Climático | Visualizar condiciones actuales | Alta  | 3 | Pendiente |
+| US007      | Activación Automática de Protección | Activación automática de protección térmica | Alta  | 5 | Pendiente |
+| US008      | Activación Automática de Protección | Configuración de umbrales | Media | 3 | Pendiente |
+| US009      | Activación Automática de Protección | Confirmación de activación | Media | 2 | Pendiente |
+| US010      | Detección Inteligente de Plagas | Identificación automática de plagas | Alta  | 5 | Pendiente |
+| US011      | Detección Inteligente de Plagas | Consolidación de reportes de plagas | Media | 3 | Pendiente |
+| US012      | Plataforma de Datos y Reportes | Visualización gráfica de datos | Alta  | 4 | Pendiente |
+| US013      | Plataforma de Datos y Reportes | Exportación de reportes | Media | 3 | Pendiente |
+| US014      | Plataforma de Datos y Reportes | Integración vía API | Media | 5 | Pendiente |
+
+</p>
+
 
 # Capítulo IV: Solution Software Design
 
