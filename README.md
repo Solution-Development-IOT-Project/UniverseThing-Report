@@ -410,19 +410,20 @@ A continuación, se presenta un análisis competitivo que examina a las principa
 
 1. **Entrevista para el Agricultor Tecnificado** (Dueño o Encargado de Finca)
    Preguntas principales:
-1. ¿Podría contarme un poco sobre usted y su finca? (edad, tipo de cultivo principal, extensión de tierra, ubicación).
-1. ¿Cómo describiría su enfoque hacia la tecnología en su trabajo diario? ¿Se considera innovador, tradicional, o un poco de ambos?
-1. ¿Cuál es el mayor desafío que enfrenta actualmente en la producción? (Espontáneo, luego profundizar en heladas/plagas)
-   Preguntas:
-1. Para el control de heladas/plagas, ¿qué métodos utiliza actualmente? ¿Podría describirme el proceso paso a paso?
-1. ¿Ha probado alguna vez alguna tecnología o herramienta digital para ayudarse con estos problemas? (ej. una app del clima, algún sensor). ¿Cómo le fue?
-1. Imagine un sistema que le avise al celular en tiempo real cuando ocurre una helada y active automáticamente su sistema de proteccion. ¿Qué le parecería?
-1. ¿Qué tan importante es para usted el ahorro de agua y pesticidas? ¿Lleva un registro de estos costos?
-1. A la hora de invertir en su finca, ¿qué pesa más: el precio inicial de una herramienta o el retorno de la inversión a largo plazo?
-1. ¿Quién decide si usted se involucra en la decisión de comprar una tecnología nueva o un equipo costoso?
-1. ¿Qué es lo primero que mira o pregunta cuando un proveedor le ofrece una nueva tecnología para su cultivo?
 
-1. **Entrevista para el Representante de una Cooperativa Agrícola** (Gerente, Director Técnico, Líder de Proyectos u otro participante directo)
+   1. ¿Podría contarme un poco sobre usted y su finca? (edad, tipo de cultivo principal, extensión de tierra, ubicación).
+   2. ¿Cómo describiría su enfoque hacia la tecnología en su trabajo diario? ¿Se considera innovador, tradicional, o un poco de ambos?
+   3. ¿Cuál es el mayor desafío que enfrenta actualmente en la producción? (Espontáneo, luego profundizar en heladas/plagas)
+      Preguntas:
+   4. Para el control de heladas/plagas, ¿qué métodos utiliza actualmente? ¿Podría describirme el proceso paso a paso?
+   5. ¿Ha probado alguna vez alguna tecnología o herramienta digital para ayudarse con estos problemas? (ej. una app del clima, algún sensor). ¿Cómo le fue?
+   6. Imagine un sistema que le avise al celular en tiempo real cuando ocurre una helada y active automáticamente su sistema de proteccion. ¿Qué le parecería?
+   7. ¿Qué tan importante es para usted el ahorro de agua y pesticidas? ¿Lleva un registro de estos costos?
+   8. A la hora de invertir en su finca, ¿qué pesa más: el precio inicial de una herramienta o el retorno de la inversión a largo plazo?
+   9. ¿Quién decide si usted se involucra en la decisión de comprar una tecnología nueva o un equipo costoso?
+   10. ¿Qué es lo primero que mira o pregunta cuando un proveedor le ofrece una nueva tecnología para su cultivo?
+
+2. **Entrevista para el Representante de una Cooperativa Agrícola** (Gerente, Director Técnico, Líder de Proyectos u otro participante directo)
 
 Preguntas principales:
 
