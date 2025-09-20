@@ -367,6 +367,43 @@ A continuación, se presenta un análisis competitivo que examina a las principa
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
+1. **Estrategia de Diferenciación por Especialización Local y Sostenibilidad**
+
+**Objetivo:**Posicionar a AgroPre como la solución especializada en los problemas específicos del agricultor latinoamericano (heladas y plagas como áfidos en papa), con un fuerte enfoque en la sostenibilidad y el ahorro de recursos.
+
+**Tacticas:**
+
+- Desarrollar y promocionar algoritmos de IA entrenados específicamente con imágenes de plagas y datos climáticos de la región andina.
+- Enfocar el mensaje de marketing en el ahorro de agua y pesticidas gracias a la fumigación localizada automatizada, un beneficio tangible y de alto valor.
+- En comparación con Semios (muy genérico y costoso) y Sencrop (solo clima), enfatizar: **"Protección hecha a la medida de tu cultivo y tu bolsillo"**.
+
+2. **Estrategia de Enfoque en el Agricultor Mediano y Cooperativas**
+
+**Objetivo:**Dominar el segmento de agricultores medianos y cooperativas de papa en Latinoamérica, un mercado masivo históricamente ignorado por las soluciones empresariales.
+**Tacticas:**
+
+- Crear **kits modulares preempaquetados** asequibles: "Kit Básico Heladas", "Kit Completo Papa" (clima + plagas), para simplificar la decisión de compra.
+- Establecer alianzas estratégicas con **gremios agrícolas, cooperativas y ministerios de agricultura** para llegar directamente al cliente final con demostraciones y financiamiento.
+- Desarrollar funcionalidades colaborativas donde una cooperativa pueda monitorear múltiples parcelas de sus asociados en un solo dashboard.
+
+3. **Estrategia de Humanización, Confianza y Educación**
+
+**Objetivo:**Romper la barrera de desconfianza hacia la tecnología nueva mediante educación, soporte cercano y un lenguaje claro.
+**Tacticas:**
+
+- Ofrecer soporte técnico local en español y quechua/aymara (según la región), con agronomos que entiendan el negocio del cliente, no solo la tecnología.
+- Crear contenido educativo masivo y accesible: tutoriales en video desde el campo, podcasts con expertos agronómicos locales y guías prácticas para el manejo del cultivo.
+- Utilizar un lenguaje claro y evita tecnicismos complejos. A diferencia de Semios, AgroPre debe sentirse como "**un vecino que sabe de tecnología**" y no como una corporación fría.
+
+4. **Estrategia de Precio Ultra-Transparente y de Bajo Costo de Entrada**
+
+**Objetivo:**Eliminar la fricción financiera y generar confianza con un modelo de precios claro y accesible que no requiera contactar a ventas.
+**Tacticas:**
+
+- Publicar todos los precios directamente en la web: costo de cada sensor, kit y el precio de la suscripción mensual. Esto contrasta fuertemente con la opacidad de Semios y Trapview.
+- Ofrecer un plan de financiamiento o renting para el hardware, permitiendo pagos bajos mensuales que incluyan tanto el dispositivo como la suscripción.
+- Diseñar un plan gratuito que permita monitorizar una pequeña parcela de forma básica, para que el agricultor experimente el valor del dato antes de comprometerse financieramente.
+
 ## 2.2. Entrevistas
 
 ### 2.2.1. Diseño de entrevistas
