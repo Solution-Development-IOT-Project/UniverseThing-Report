@@ -306,7 +306,7 @@ Las User Stories son una herramienta fundamental para definir los requisitos del
 ## 3.3 Impact Mapping
 
 <p align="center">
-  <b>Impact Mapping</b><br>
+ 
   <p>El siguiente diagrama representa la relación entre los objetivos de negocio, los impactos esperados, los entregables y las historias de usuario, segmentadas para los principales actores: Agricultores Tecnificados y Cooperativas Agrícolas. Esta representación permite visualizar cómo cada componente del sistema contribuye a la protección de los cultivos y optimización de recursos (UniverseThing, 2025).</p><br><br>
   <img src="./img/Impact mapping.png" alt="Impact Mapping AgroPre" width="700"><br>
   <i>Figura 1. Impact Mapping de AgroPre (UniverseThing, 2025)</i>
