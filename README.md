@@ -262,6 +262,13 @@
 
 ### 4.1.1. EventStorming 
 
+
+Para llevar a cabo el EventStorming, se realizó una sesión de trabajo colaborativa en la que se recopilaron ideas sobre los temas, datos y funcionalidades requeridas para el desarrollo de la aplicación, dando como resultado el siguiente diagrama:
+
+![bounded](assets/img/bounded.jpg)
+
+#### 4.1.1.1. Candidate Context Discovery
+
 Se llevó a cabo un proceso de Event Storming para identificar los Bounded Contexts de nuestro sistema. Durante este proceso, se siguieron los pasos que se describen a continuación:
 
 <b>Collect Domain Events</b>
@@ -282,11 +289,8 @@ En este paso se resaltan con un diamante los eventos por aclarar o que requieren
 <b>Bounded Context</b>
 
 En este paso se resaltan los bounded context encontrados para el proyecto .
-s
+
 ![bounded](assets/img/bounded.jpg)
-
-
-#### 4.1.1.1. Candidate Context Discovery
 
 #### 4.1.1.2. Domain Message Flows Modeling
 
