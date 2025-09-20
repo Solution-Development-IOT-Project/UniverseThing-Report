@@ -297,14 +297,14 @@ A continuación, se presenta un análisis competitivo que examina a las principa
   <tr>
     <td rowspan="2">Perfil de Marketing</td>
     <td> Mercado Objetivo </td>
-    <td> ...  </td>
+    <td> <b>Agricultores medianos y cooperativas en Latinoamérica</b>, que cultivan tuberculo(papa), que buscan tecnología efectiva pero no pueden pagar soluciones empresariales.  </td>
     <td> Agricultores medianos y cooperativas en Europa (cereales, viñedos, frutales). </td>
     <td> Grandes empresas agroindustriales y productores de alto valor a nivel global. </td>
     <td> Productores de cultivos de alto valor (vid, cítricos, hortalizas) con problemas graves de plagas. </td>
   </tr>
   <tr>
     <td> Estrategias de Marketing </td>
-    <td> Marketing ... </td>
+    <td> Marketing digital localizado (redes sociales, seminarios), alianzas con asociaciones agrícolas y cooperativas, demostraciones en field days (días de campo), y un modelo de precios claro publicado en la web. </td>
     <td> Marketing de contenidos, demostraciones online, precios transparentes en la web y alianzas con distribuidores locales. </td>
     <td> Ventas directas B2B, asistencia a ferias globales, "request a demo" y casos de estudio de ROI para grandes clientes. </td>
     <td> Marketing de precisión, ventas directas especializadas, presencia en ferias técnicas y demostraciones en el sitio. </td>
@@ -315,21 +315,21 @@ A continuación, se presenta un análisis competitivo que examina a las principa
   <tr>
     <td rowspan="3">Perfil de Producto</td>
     <td> Productos & Servicios </td>
-    <td> App desktop (Windows/macOS/IOS/ANDROID) . </td>
+    <td> <b>Sistema modular:</b><ul><li><b>Módulo Clima:</b> Sensores de temperatura ambiental y luz.</li>   <li><b>Módulo Plagas:</b> Cámaras con IA para detección de áfidos/plagas.</li> <li><b>Actuadores:</b> Sistema de fumigación localizada. </li> <li><b>Suscripción</b> a la plataforma con alertas, dashboard y control remoto.</li></ul> </td>
     <td> Venta de sensores modulares (Raincrop, Windcrop) + suscripción a plataforma web/app con alertas. </td>
     <td> Venta/leasing de una red de sensores (clima, suelo, trampas) + plataforma SaaS de gestión y analytics. </td>
     <td> Venta de trampas inteligentes autónomas (Trapview) + suscripción a la plataforma de monitoreo y alertas. </td>
   </tr>
   <tr>
     <td> Precios & Costos </td>
-    <td> Freemium y suscripción premium. </td>
+    <td> <b>Modelo de negocio escalable y transparente:</b><ul> <li>Costo inicial por kit de hardware (módulo base + sensores).</li> <li>Suscripción mensual/anual asequible por plataforma y servicios de alertas. Precios públicos para generar confianza.</li> </ul></td>
     <td> <b>Modelo claro:</b> Costo inicial del hardware + suscripción anual/mensual. Precios públicos en la web. </td>
     <td> <b>Modelo enterprise:</b> Precios altos y personalizados. Requiere contacto con ventas. Costo significativo por hectárea. </td>
     <td> <b>Modelo premium:</b> Precios altos no publicados. Orientado a cultivos donde el ROI por evitar pérdidas es claro. </td>
   </tr>
   <tr> 
     <td>Canales de distribución (Web y/o Móvil)</td>
-    <td> Sitio web .... </td>
+    <td> Venta directa online, red de distribuidores técnicos agropecuarios locales y alianzas con cooperativas para llegar directamente al agricultor. </td>
     <td> Venta online directa y a través de una red de distribuidores y partners locales. </td>
     <td> Fuerza de ventas directa propia y canales enterprise. </td>
     <td> Venta directa y a través de partners especializados en protección de cultivos. </td>
@@ -337,28 +337,28 @@ A continuación, se presenta un análisis competitivo que examina a las principa
   <tr>
     <td rowspan="4"> Análisis SWOT </td>
     <td> Fortalezas </td>
-    <td> Precios accesibles, facilidad de uso y privacidad. </td>
+    <td>  <ul><li>Solución dual única (clima + plagas) en su segmento de precio.</li><li>Fácil instalación y usabilidad.</li><li>Modelo de precios transparente.</li><li>Enfoque en problemas específicos de la región (heladas, áfidos).</li> </ul></td>
     <td> Simplicidad, precio transparente, fácil instalación, fuerte comunidad de usuarios. </td>
     <td> Plataforma más completa del mercado, robusta tecnología, datos predictivos, escalable. </td>
     <td> Tecnología líder en IA para plagas, ahorro de mano de obra, datos extremadamente precisos. </td>
   </tr>
   <tr>
     <td> Debilidades </td>
-    <td> Depende de ... </td>
+    <td> <ul>    <li>Marca nueva y desconocida frente a competidores establecidos.</li>    <li>Capacidad limitada de Investigació y Desarrollo e inversión inicial comparado con grandes empresas del sector.</li>    <li>La necesidad de educación del mercado sobre los beneficios del IoT.</li></ul> </td>
     <td> Solución limitada solo al clima, no aborda plagas ni riego. Depende de la densidad de su red. </td>
     <td> Muy costosa para el agricultor medio. Compleja de implementar e integrar. </td>
     <td> Enfoque muy niche (solo plagas). No es una solución integral. Alto costo inicial. </td>
   </tr>
   <tr>
     <td> Oportunidades </td>
-    <td> Crecimiento .... </td>
+    <td> <ul><li>Gran mercado no atendido de agricultores medianos en Latam.</li> <li>Tendencia global hacia la agricultura sostenible y de precisión.</li> <li>Posibilidad de integración con financieras o aseguradoras para ofrecer descuentos por uso.</li>  </ul> </td>
     <td> Expandirse a nuevos mercados (ej. Latinoamérica) y agregar más tipos de sensores. </td>
     <td> Vender módulos por separado a mercados medianos y asociarse con grandes fabricantes. </td>
     <td> Integrarse como módulo especializado en plataformas más grandes. </td>
   </tr>
   <tr>
     <td> Amenazas </td>
-    <td> Competencia de soluciones gratuitas. </td>
+    <td> Competencia de soluciones gratuitas y  la desconfianza inicial del agricultor hacia la tecnología nueva. </td>
     <td> La llegada de competidores con precios más agresivos o funcionalidades integradas. </td>
     <td> La aparición de soluciones más baratas y simples que capturen el mercado medio. </td>
     <td> Avance de la visión artificial en smartphones que podría simplificar el monitoreo. </td>
