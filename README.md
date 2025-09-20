@@ -246,6 +246,31 @@
 
 ## 3.1. To-Be Scenario Mapping
 
+### Segmento: Agricultores Tecnificados
+
+Pequeña introducción: Este segmento está compuesto por productores medianos y grandes que buscan tecnología para optimizar sus cultivos y protegerlos de heladas y plagas. AgroPre les permite monitorear, automatizar y controlar su campo de manera remota.
+
+<p align="center">
+  <img src="img/image.png" alt="Segmento Agricultores Tecnificados" width="600">
+</p>
+
+*Figura 1. AgroPre para Agricultores Tecnificados. Elaboración propia.*
+
+---
+
+### Segmento: Cooperativas Agrícolas
+
+Pequeña introducción: Este segmento agrupa a pequeños y medianos agricultores que operan de manera colectiva. AgroPre les ofrece un sistema centralizado que permite proteger todas las parcelas de sus socios, mejorar la productividad y garantizar la calidad de la producción.
+
+<p align="center">
+  <img src="img/image-1.png" alt="Segmento Cooperativas Agrícolas" width="600">
+</p>
+
+*Figura 2. AgroPre para Cooperativas Agrícolas. Elaboración propia.*
+
+Para una mejor visualizacion del To-Be Scenario Mapping completo en:  
+[Acceder al tablero de Miro](https://miro.com/welcomeonboard/U3BNcDZpcm0zV015WWtDNmJYQ1VnUlpZUWZ2STVpREpKVjJsSUdYczNZU2tZVTRuRTZUQkh3MUZiTjZlcG9xVDB2K3NmbXhwZm9rR3FVY0dZb2o0T1JJQzYzaXJPUlNhYWkzcWRkUU10a2ZqNnFLSkdPWUVlaHlJUS80MXB0MmdyVmtkMG5hNDA3dVlncnBvRVB2ZXBnPT0hdjE=?share_link_id=810061349841)
+
 ## 3.2. User Stories
 
 Tabla de épicas establecidas para las historias de usuarios de UniverseThing
@@ -279,6 +304,10 @@ Las User Stories son una herramienta fundamental para definir los requisitos del
 | US014               | Integración vía API                                       | Como usuario avanzado, quiero integrar los datos con otros sistemas agrícolas, para unificar mis fuentes de información.                          | La plataforma debe exponer una API REST segura que permita acceder a datos históricos y en tiempo real.                                                       | EPIC005                                                                      
 
 ## 3.3. Impact mapping
+
+<p align="center">
+  <img src="img/Impact mapping.png" alt="Impact mapping" width="600">
+</p>
 
 ## 3.4. Product Backlog
 
