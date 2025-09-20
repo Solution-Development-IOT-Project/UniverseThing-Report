@@ -34,7 +34,7 @@
 | Member                              |    Code    |
 | :---------------------------------- | :--------: |
 | ##                                  |     ##     |
-| Del Carmen Zorrilla, Ray Alessandro | U202124061 |
+| Ruiz Torres Erick Hernn             | U202118946 |
 | ##                                  |     ##     |
 | ##                                  |     ##     |
 | ##                                  |     ##     |
@@ -252,11 +252,39 @@
 
 ## 3.4. Product Backlog
 
+
+
+
 # Capítulo IV: Solution Software Design
 
-## 4.1. Strategic-Level Domain-Driven Design
+## 4.1. Strategic-Level Domain-Driven Design <b>
+<p>En esta parte se describe el proceso de toma de decisiones estratégicas en el diseño de software a partir de Domain-Driven Design (DDD). El enfoque se centra en reconocer los subdominios esenciales y los contextos delimitados, garantizando que el diseño se mantenga alineado con las metas del negocio. A través de dinámicas colaborativas como EventStorming, se representaron los flujos de mensajes y se definieron los contextos junto con sus interacciones. Posteriormente, mediante Context Mapping, se establecieron relaciones y patrones de integración que sirvieron de base para la arquitectura. Se exponen aquí los pasos principales, desde la fase de descubrimiento hasta la definición de la arquitectura final, siempre sustentados en los principios de DDD. </p></b>
 
-### 4.1.1. EventStorming
+### 4.1.1. EventStorming 
+
+Se llevó a cabo un proceso de Event Storming para identificar los Bounded Contexts de nuestro sistema. Durante este proceso, se siguieron los pasos que se describen a continuación:
+
+<b>Collect Domain Events</b>
+
+Se plantean eventos importantes de todos los grupos funcionales en tiempo pasado.
+![collectdomainevents](assets/img/collects.jpg)
+
+<b>Timeline</b>
+
+Se ordenan todos los eventos y se empieza con un “happy path” es decir, eventos exitosos.
+![timelins](assets/img/timeline.jpg)
+
+<b>Pain and Pivotal Points</b>
+
+En este paso se resaltan con un diamante los eventos por aclarar o que requieren de más conocimientos de especialistas
+![pivotal](assets/img/pivotal.jpg)
+
+<b>Bounded Context</b>
+
+En este paso se resaltan los bounded context encontrados para el proyecto .
+s
+![bounded](assets/img/bounded.jpg)
+
 
 #### 4.1.1.1. Candidate Context Discovery
 
@@ -295,6 +323,11 @@
 #### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
 
 #### 4.2.X.6.2. Bounded Context Database Design Diagram
+
+
+
+
+
 
 # Capítulo V: Solutions UI/UX Design
 
