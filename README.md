@@ -8,11 +8,9 @@
 
 <h3 align="center">Ciclo 2025 - 2</h3>
 
-
 <div align="center">
   <img width=250 src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"/>
 </div>
-
 
 <h1 align="center"> TB1 Report </h1>
 
@@ -21,7 +19,6 @@
 <h3 align="center"> 1ASI0572 - Desarrollo de Soluciones IoT </h3>
 
 <h4 align="center"> NRC: 3355 </h4>
-
 
 <h3> Startup: ------ </h3>
 
@@ -216,7 +213,157 @@
 
 ## 2.1. Competidores
 
-### 2.1.1. Análisis competitivo
+A continuación, se presenta un análisis competitivo que examina a las principales empresas que rivalizan con nuestra startup. Hemos identificado tanto competidores directos, aquellos que ofrecen una solución de software centralizada en la monitoreo del clima para toma de deciciones, como indirectos que, si bien no son idénticos, compiten en áreas prevencion y medidas contra plagas. Este análisis se centra en aquellos que ofrecen soluciones que se superponen con las de **AgroPre**.
+
+1. **Sencrop**  
+   ![Logo de Sencrop](/images/cap-2/sencrop.png)  
+   **Descripción:**  
+   Una red de estaciones meteorológicas conectadas que proporciona datos hiperlocales y alertas para la gestión climática de cultivos.
+
+   **Características principales**
+
+   - Red de estaciones meteorológicas modulares (viento, lluvia, temperatura).
+   - Plataforma y app con datos en tiempo real y alertas personalizadas (heladas, lluvia).
+   - Modelo de suscripción claro y precios transparentes.
+   - Enfoque en la comunidad y el intercambio de datos entre agricultores.
+
+---
+
+2. **Semios**  
+   ![Logo de Semios](/images/cap-2/semios.png)  
+   **Descripción:**  
+   Una plataforma integral de gestión de riesgos que utiliza una extensa red de sensores IoT para el monitoreo de clima, plagas y agua.
+
+   **Características principales**
+
+   - Plataforma todo-en-uno (monitoreo de heladas, plagas, agua y nutrientes).
+   - Red de sensores propios y trampas de feromonas inteligentes para control de plagas.
+   - Modelos predictivos de enfermedades y alertas de riesgo.
+   - Enfoque enterprise para grandes productores y agroindustria.
+
+---
+
+3. **Trapview**  
+   ![Logo de Trapview](/images/cap-2/trapview.png)  
+   **Descripción:**  
+   Un sistema automatizado de monitoreo de plagas que utiliza trampas con visión artificial e IA para identificar y predecir infestaciones.
+
+   **Características principales**
+
+   - Trampas inteligentes con cámara e IA para identificación automática de insectos.
+   - Plataforma con alertas en tiempo real y mapas de calor de infestaciones.
+   - Especialización best-in-class en el monitoreo de plagas para cultivos de alto valor.
+   - Modelo de venta B2B con precios bajo consulta.
+
+### 2.1.1 Análisis competitivo
+
+<table> 
+  <tr>
+    <th colspan="6"> Competitive Analysis Landscape </th>
+  </tr>
+  <tr>
+    <td colspan="2" rowspan="2">¿Por qué llevar acabo este análisis? </td>
+    <td colspan="4"> Pregunta </td>
+  </tr>
+  <tr>
+    <td colspan="4"> Deberíamos llevar a cabo este análisis para conocer el entorno, la competencia, tomar decisiones de desarrollo y construir nuestra propuesta de valor. </td>
+  </tr>
+  <tr>
+    <td colspan="2"> Productos </td>
+    <td> AgroPre </td>
+    <td> Sencrop </td>
+    <td> Semios </td>
+    <td> Trapview </td>
+  </tr>
+  <tr>
+    <td rowspan="2">Perfil</td>
+    <td>Overview</td>
+    <td> Sistema integral de IoT asequible que combina el monitoreo de temperatura y la vision artificial para automatizar la protecciòn contra heladas y el control inteligente de plagas. </td>
+    <td> Red de estaciones meteorológicas conectadas para monitoreo hiperlocal del clima. </td>
+    <td> Plataforma integral de IoT para la gestión de riesgos climáticos, de plagas y recursos. </td>
+    <td> Trampas inteligentes con IA para el monitoreo automático y predicción de plagas. </td>
+  </tr>
+  <tr>
+    <td>Ventaja
+    competitiva
+    ¿Qué valor
+    ofrece a los
+    clientes?</td>
+    <td> <b>Solución integral y accesible.</b> Ofrece una plataforma todo-en-uno (temperatura + plagas) con automatización, dirigida a un mercado medio tradicionalmente desatendido por soluciones premium, con un fuerte enfoque en la sostenibilidad y el ahorro de recursos.   </td>
+    <td> <b>Simplicidad y comunidad.</b> Ofrece datos accesibles, precios transparentes y una red colaborativa de agricultores que comparten datos.	</td>
+    <td> <b>Integración total.</b> Solución todo-en-uno (clima, plagas, agua) con modelos predictivos propios para grandes extensiones. </td>
+    <td> <b>Precisión y automatización.</b> Tecnología best-in-class en identificación de plagas con IA, que elimina el monitoreo manual. </td>
+  </tr>
+  <tr>
+    <td rowspan="2">Perfil de Marketing</td>
+    <td> Mercado Objetivo </td>
+    <td> ...  </td>
+    <td> Agricultores medianos y cooperativas en Europa (cereales, viñedos, frutales). </td>
+    <td> Grandes empresas agroindustriales y productores de alto valor a nivel global. </td>
+    <td> Productores de cultivos de alto valor (vid, cítricos, hortalizas) con problemas graves de plagas. </td>
+  </tr>
+  <tr>
+    <td> Estrategias de Marketing </td>
+    <td> Marketing ... </td>
+    <td> Marketing de contenidos, demostraciones online, precios transparentes en la web y alianzas con distribuidores locales. </td>
+    <td> Ventas directas B2B, asistencia a ferias globales, "request a demo" y casos de estudio de ROI para grandes clientes. </td>
+    <td> Marketing de precisión, ventas directas especializadas, presencia en ferias técnicas y demostraciones en el sitio. </td>
+  </tr>
+  <tr>
+
+  </tr>
+  <tr>
+    <td rowspan="3">Perfil de Producto</td>
+    <td> Productos & Servicios </td>
+    <td> App desktop (Windows/macOS/IOS/ANDROID) . </td>
+    <td> Venta de sensores modulares (Raincrop, Windcrop) + suscripción a plataforma web/app con alertas. </td>
+    <td> Venta/leasing de una red de sensores (clima, suelo, trampas) + plataforma SaaS de gestión y analytics. </td>
+    <td> Venta de trampas inteligentes autónomas (Trapview) + suscripción a la plataforma de monitoreo y alertas. </td>
+  </tr>
+  <tr>
+    <td> Precios & Costos </td>
+    <td> Freemium y suscripción premium. </td>
+    <td> <b>Modelo claro:</b> Costo inicial del hardware + suscripción anual/mensual. Precios públicos en la web. </td>
+    <td> <b>Modelo enterprise:</b> Precios altos y personalizados. Requiere contacto con ventas. Costo significativo por hectárea. </td>
+    <td> <b>Modelo premium:</b> Precios altos no publicados. Orientado a cultivos donde el ROI por evitar pérdidas es claro. </td>
+  </tr>
+  <tr> 
+    <td>Canales de distribución (Web y/o Móvil)</td>
+    <td> Sitio web .... </td>
+    <td> Venta online directa y a través de una red de distribuidores y partners locales. </td>
+    <td> Fuerza de ventas directa propia y canales enterprise. </td>
+    <td> Venta directa y a través de partners especializados en protección de cultivos. </td>
+  </tr>
+  <tr>
+    <td rowspan="4"> Análisis SWOT </td>
+    <td> Fortalezas </td>
+    <td> Precios accesibles, facilidad de uso y privacidad. </td>
+    <td> Simplicidad, precio transparente, fácil instalación, fuerte comunidad de usuarios. </td>
+    <td> Plataforma más completa del mercado, robusta tecnología, datos predictivos, escalable. </td>
+    <td> Tecnología líder en IA para plagas, ahorro de mano de obra, datos extremadamente precisos. </td>
+  </tr>
+  <tr>
+    <td> Debilidades </td>
+    <td> Depende de ... </td>
+    <td> Solución limitada solo al clima, no aborda plagas ni riego. Depende de la densidad de su red. </td>
+    <td> Muy costosa para el agricultor medio. Compleja de implementar e integrar. </td>
+    <td> Enfoque muy niche (solo plagas). No es una solución integral. Alto costo inicial. </td>
+  </tr>
+  <tr>
+    <td> Oportunidades </td>
+    <td> Crecimiento .... </td>
+    <td> Expandirse a nuevos mercados (ej. Latinoamérica) y agregar más tipos de sensores. </td>
+    <td> Vender módulos por separado a mercados medianos y asociarse con grandes fabricantes. </td>
+    <td> Integrarse como módulo especializado en plataformas más grandes. </td>
+  </tr>
+  <tr>
+    <td> Amenazas </td>
+    <td> Competencia de soluciones gratuitas. </td>
+    <td> La llegada de competidores con precios más agresivos o funcionalidades integradas. </td>
+    <td> La aparición de soluciones más baratas y simples que capturen el mercado medio. </td>
+    <td> Avance de la visión artificial en smartphones que podría simplificar el monitoreo. </td>
+  </tr>
+</table>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
