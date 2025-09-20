@@ -275,18 +275,6 @@ Para una mejor visualizacion del To-Be Scenario Mapping completo en:
 
 Tabla de épicas establecidas para las historias de usuarios de UniverseThing
 
-| **Epic / Story ID** | **Título**                                   | **Descripción**                                                                                                                                  | 
-|---------------------|----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| EPIC001             | Instalación y Configuración Inteligente | Como agricultor/cooperativa, quiero instalar y configurar fácilmente el dispositivo (tela protectora, sensores y cámara), para que pueda empezar a proteger mis cultivos sin depender de técnicos especializados. | 
-| EPIC002             | Monitoreo Climático | Como agricultor, quiero recibir alertas tempranas de riesgo de helada basadas en datos IoT, para tomar decisiones preventivas antes de que la cosecha se dañe.              | 
-| EPIC003             | Activación Automática de Protección contra Heladas |Como agricultor, quiero que el dispositivo active la barrera térmica de forma automática al detectar condiciones críticas, para proteger mis cultivos incluso cuando no estoy en el campo.              |
-| EPIC004             | Detección Inteligente de Plagas        |Como agricultor, quiero que la cámara identifique y clasifique posibles plagas en tiempo real, para reducir inspecciones manuales y optimizar el uso de pesticidas.    |
-| EPIC005             | Plataforma de Datos y Reportes        | Como usuario, quiero visualizar en una aplicación centralizada los reportes de clima y plagas, para tener control total y tomar decisiones informadas.   |
-
-
-Las User Stories son una herramienta fundamental para definir los requisitos del proyecto. Cada User Story incluye criterios de aceptación que deben ser comprobables y redactados en tiempo presente, tercera persona, siguiendo la estructura de Gherkin (Given-When-Then). Además, se consideran User Stories para el sitio web estático (Landing Page) y Technical Stories para los features del RESTful API.
-
-
 | **Epic / Story ID** | **Título**                                                | **Descripción**                                                                                                                                  | **Criterios de Aceptación**                                                                                                                                  | **Relacionado con (Epic ID)** |
 |---------------------|-----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
 | US001               | Instalar dispositivo con guía visual                      | Como agricultor, quiero instalar el dispositivo con instrucciones paso a paso en la app, para configurarlo sin asistencia técnica especializada. | La app debe mostrar una guía interactiva o visual para la instalación, confirmando la conexión correcta de sensores y cámara.                                | EPIC001                       |
@@ -302,7 +290,18 @@ Las User Stories son una herramienta fundamental para definir los requisitos del
 | US012               | Visualización gráfica de datos                            | Como usuario, quiero ver gráficos de temperatura, heladas y plagas, para tomar decisiones informadas.                                             | La app debe mostrar gráficos de líneas, barras o mapas de calor basados en los datos recolectados.                                                            | EPIC005                       |
 | US013               | Exportación de reportes                                   | Como usuario, quiero exportar reportes en PDF o Excel, para compartirlos con asesores técnicos o instituciones.                                   | El sistema debe permitir descargar reportes completos en formatos estándar (PDF, XLSX).                                                                       | EPIC005                       |
 | US014               | Integración vía API                                       | Como usuario avanzado, quiero integrar los datos con otros sistemas agrícolas, para unificar mis fuentes de información.                          | La plataforma debe exponer una API REST segura que permita acceder a datos históricos y en tiempo real.                                                       | EPIC005                                                                      
-
+| US015               | Landing page: información del dispositivo                 | Como visitante, quiero ver en la landing page qué es el dispositivo IoT y cómo funciona, para entender sus beneficios.                            | La landing page debe mostrar un bloque con descripción clara, imágenes y beneficios principales del dispositivo.                                              | EPIC005                       |
+| US016               | Landing page: formulario de contacto                      | Como visitante, quiero enviar un mensaje o consulta desde la landing page, para recibir más información sobre el producto.                        | El sistema debe permitir enviar un formulario con nombre, email y mensaje, y notificar al administrador.                                                      | EPIC005                       |
+| US017               | Landing page: testimonios de agricultores                 | Como visitante, quiero leer testimonios de agricultores, para confiar en la efectividad de la solución.                                           | La landing page debe incluir una sección con al menos 3 testimonios con foto y nombre del agricultor/cooperativa.                                              | EPIC005                       |
+| US018               | Landing page: precios y planes                            | Como agricultor, quiero ver planes de precios claros en la landing page, para evaluar si puedo adquirir el dispositivo.                           | La landing page debe mostrar tabla de precios o paquetes de suscripción, diferenciados por tipo de usuario.                                                   | EPIC005                       |
+| US019               | Landing page: preguntas frecuentes (FAQ)                  | Como visitante, quiero acceder a un listado de preguntas frecuentes, para resolver dudas sin contactar soporte.                                   | La landing page debe tener un módulo de FAQ con al menos 10 preguntas y respuestas frecuentes.                                                                 | EPIC005                       |
+| US020               | Landing page: descarga de brochure                        | Como visitante, quiero descargar un brochure en PDF desde la landing page, para compartir la información del producto.                            | El sistema debe permitir la descarga de un PDF con información resumida del dispositivo y su uso.                                                             | EPIC005                      |
+| US021               | Ajuste de idioma en la app                                | Como usuario, quiero cambiar el idioma de la app (español/inglés), para usarla en mi idioma preferido.                                            | La app debe ofrecer un selector de idioma y traducir todos los textos de la interfaz.                                                                         | EPIC005                         |
+| US022               | Tema claro/oscuro en la app                               | Como usuario, quiero activar un tema oscuro, para usar la app cómodamente de noche.                                                               | La app debe ofrecer un selector de tema y recordar la preferencia del usuario.                                                                                | EPIC005                       |
+| US023               | Recuperar contraseña                                      | Como usuario, quiero recuperar mi contraseña por correo, para volver a acceder si la olvido.                                                       | El sistema debe enviar un enlace seguro al correo registrado del usuario.                                                                                      | EPIC005                       |
+| US024               | Notificaciones de mantenimiento                           | Como administrador, quiero recibir alertas de mantenimiento de los dispositivos, para dar soporte preventivo.                                     | El sistema debe enviar notificación cuando un sensor lleve más de X días sin reportar datos.                                                                  | EPIC005                       |
+| US025               | Historial de notificaciones                               | Como usuario, quiero ver un historial de todas mis notificaciones pasadas, para revisar eventos previos.                                          | La app debe mostrar un listado de notificaciones con fecha, hora y tipo de evento.                                                                            | EPIC005                       |
+| US026               | Perfil de usuario editable                                | Como usuario, quiero editar mis datos básicos (nombre, email, cooperativa), para mantener mi perfil actualizado.                                  | La app debe permitir editar y guardar cambios de perfil con validación de formato de email y datos obligatorios.          
 ## 3.3 Impact Mapping
 
 <p align="center">
@@ -321,21 +320,35 @@ Las User Stories son una herramienta fundamental para definir los requisitos del
 
 <p align="center">
 
-| <b>ID</b>  | <b>Epic</b> | <b>User Story / Feature</b> | <b>Prioridad</b> | <b>Estimación (Story Points)</b> | <b>Estado</b> |
-|------------|-------------|----------------------------|-----------------|-------------------------------|--------------|
-| US001      | Instalación y Configuración Inteligente | Instalar dispositivo con guía visual | Alta  | 3 | Pendiente |
-| US002      | Instalación y Configuración Inteligente | Registro automático de sensores | Alta  | 2 | Pendiente |
-| US003      | Instalación y Configuración Inteligente | Registro de múltiples dispositivos | Media | 5 | Pendiente |
-| US004      | Monitoreo Climático | Notificaciones tempranas de helada | Alta  | 3 | Pendiente |
-| US005      | Monitoreo Climático | Visualizar condiciones actuales | Alta  | 3 | Pendiente |
-| US007      | Activación Automática de Protección | Activación automática de protección térmica | Alta  | 5 | Pendiente |
-| US008      | Activación Automática de Protección | Configuración de umbrales | Media | 3 | Pendiente |
-| US009      | Activación Automática de Protección | Confirmación de activación | Media | 2 | Pendiente |
-| US010      | Detección Inteligente de Plagas | Identificación automática de plagas | Alta  | 5 | Pendiente |
-| US011      | Detección Inteligente de Plagas | Consolidación de reportes de plagas | Media | 3 | Pendiente |
-| US012      | Plataforma de Datos y Reportes | Visualización gráfica de datos | Alta  | 4 | Pendiente |
-| US013      | Plataforma de Datos y Reportes | Exportación de reportes | Media | 3 | Pendiente |
-| US014      | Plataforma de Datos y Reportes | Integración vía API | Media | 5 | Pendiente |
+| <b>ID</b>  | <b>Epic</b>                          | <b>User Story / Feature</b>                    | <b>Prioridad</b> | <b>Estimación (Story Points)</b> | <b>Estado</b> |
+|------------|--------------------------------------|-----------------------------------------------|-----------------|---------------------------------|--------------|
+| US001      | Instalación y Configuración Inteligente | Instalar dispositivo con guía visual          | Alta            | 3                               | Pendiente    |
+| US002      | Instalación y Configuración Inteligente | Registro automático de sensores               | Alta            | 2                               | Pendiente    |
+| US003      | Instalación y Configuración Inteligente | Registro de múltiples dispositivos            | Media           | 5                               | Pendiente    |
+| US004      | Monitoreo Climático                  | Notificaciones tempranas de helada            | Alta            | 3                               | Pendiente    |
+| US005      | Monitoreo Climático                  | Visualizar condiciones actuales               | Alta            | 3                               | Pendiente    |
+| US006      | Monitoreo Climático                  | Reporte histórico de clima                    | Media           | 4                               | Pendiente    |
+| US007      | Activación Automática de Protección  | Activación automática de protección térmica   | Alta            | 5                               | Pendiente    |
+| US008      | Activación Automática de Protección  | Configuración de umbrales                     | Media           | 3                               | Pendiente    |
+| US009      | Activación Automática de Protección  | Confirmación de activación                    | Media           | 2                               | Pendiente    |
+| US010      | Detección Inteligente de Plagas      | Identificación automática de plagas           | Alta            | 5                               | Pendiente    |
+| US011      | Detección Inteligente de Plagas      | Consolidación de reportes de plagas           | Media           | 3                               | Pendiente    |
+| US012      | Plataforma de Datos y Reportes       | Visualización gráfica de datos                | Alta            | 4                               | Pendiente    |
+| US013      | Plataforma de Datos y Reportes       | Exportación de reportes                       | Media           | 3                               | Pendiente    |
+| US014      | Plataforma de Datos y Reportes       | Integración vía API                           | Media           | 5                               | Pendiente    |
+| US015      | Plataforma de Datos y Reportes       | Landing page: información del dispositivo     | Alta            | 3                               | Pendiente    |
+| US016      | Plataforma de Datos y Reportes       | Landing page: formulario de contacto          | Alta            | 2                               | Pendiente    |
+| US017      | Plataforma de Datos y Reportes       | Landing page: testimonios de agricultores     | Media           | 2                               | Pendiente    |
+| US018      | Plataforma de Datos y Reportes       | Landing page: precios y planes                | Alta            | 3                               | Pendiente    |
+| US019      | Plataforma de Datos y Reportes       | Landing page: preguntas frecuentes (FAQ)      | Media           | 2                               | Pendiente    |
+| US020      | Plataforma de Datos y Reportes       | Landing page: descarga de brochure            | Media           | 2                               | Pendiente    |
+| US021      | Plataforma de Datos y Reportes       | Ajuste de idioma en la app                    | Media           | 3                               | Pendiente    |
+| US022      | Plataforma de Datos y Reportes       | Tema claro/oscuro en la app                   | Baja            | 2                               | Pendiente    |
+| US023      | Plataforma de Datos y Reportes       | Recuperar contraseña                          | Alta            | 2                               | Pendiente    |
+| US024      | Plataforma de Datos y Reportes       | Notificaciones de mantenimiento               | Media           | 3                               | Pendiente    |
+| US025      | Plataforma de Datos y Reportes       | Historial de notificaciones                   | Media           | 3                               | Pendiente    |
+| US026      | Plataforma de Datos y Reportes       | Perfil de usuario editable                    | Alta            | 3                               | Pendiente    |
+
 
 </p>
 
