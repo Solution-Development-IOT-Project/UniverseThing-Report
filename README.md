@@ -294,6 +294,13 @@ En este paso se resaltan los bounded context encontrados para el proyecto .
 
 #### 4.1.1.2. Domain Message Flows Modeling
 
+<b>Escenario 1: Registro de Agricultor y Activación de Suscripción</b>
+
+Descripción: Un agricultor crea su cuenta, agrega su finca y activa una suscripción mediante un método de pag
+
+![escenario1](assets/img/escenario1.jpg)
+
+
 #### 4.1.1.3. Bounded Context Canvases
 
 ### 4.1.2 Context mapping
