@@ -442,7 +442,29 @@ Preguntas principales:
 
 ### 2.2.2. Registro de entrevistas
 
+| **Entrevistador:** | José Miguel Riega |
+|---------------------|------------------|
+| **Entrevistado:**  | Antonio Chávez |
+| **Edad:**          | 31 años |
+| **Ocupación:**     | Agricultor |
+| **Imagen:**        | Entrevista 1.png |
+| **Descripción:**   | Agricultor responde las preguntas planteadas para el segmento 1                 |
+| **Inicio: Min**    | 00:00:01 |
+| **Finaliza: Min**  | 00:03:53 |
+| **Link del video:** | [Ver video](https://drive.google.com/drive/folders/1okh-RLcmiiJ_Hv2pB_4FqVP2Vx35tvwA) |
+
+
 ### 2.2.3. Análisis de entrevistas
+
+| **Segmento**  | **Descripción** |
+|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Segmento 1    | Agricultor tecnificado |
+| Entrevista    | El entrevistado es un productor de 31 años con más de tres décadas de experiencia en su finca de 12 hectáreas en Tunuyán, Mendoza, donde cultiva principalmente perales, ciruelos y algunos duraznos. Se define como alguien que combina lo tradicional con lo innovador: le interesa probar nuevas tecnologías, pero con cautela, siempre evaluando costos, resultados y referencias locales antes de arriesgarse. |
+| Desafíos      | Su mayor desafío son las heladas tardías, que pueden arruinar la producción en pocas noches, y actualmente las enfrenta con torres de viento, riego por aspersión y un control manual muy demandante. |
+| Recursos y visión | Considera clave el uso eficiente de agua y pesticidas, llevando registros manuales que le gustaría automatizar. Está abierto a herramientas digitales, como sensores o sistemas de alerta y respuesta automática contra heladas, siempre que sean confiables y ofrezcan un retorno claro de la inversión. |
+| Decisiones    | En la toma de decisiones, aunque consulta con ingenieros agrónomos o familiares, la última palabra la tiene él, priorizando la practicidad y la seguridad económica. Segmento 2: Cooperativas |
+
+
 
 ## 2.3. Needfinding
 
