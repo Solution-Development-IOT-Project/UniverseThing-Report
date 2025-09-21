@@ -37,7 +37,7 @@
 | Loarte Matos, Anthony Brahan   |            |
 | Cipriano Chumbes, Bruce Andres |            |
 | Quispe Tipo, Godofredo         | U202120772 |
-| Riegas Salas, Jose Miguel      |     ##     |
+| Riegas Salas, Jose Miguel      |     U202211254     |
 | Ruiz Torres Erick Hernan       | U202118946 |
 
 </div>
