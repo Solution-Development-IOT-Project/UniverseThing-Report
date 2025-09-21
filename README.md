@@ -296,9 +296,28 @@ En este paso se resaltan los bounded context encontrados para el proyecto .
 
 <b>Escenario 1: Registro de Agricultor y Activación de Suscripción</b>
 
-Descripción: Un agricultor crea su cuenta, agrega su finca y activa una suscripción mediante un método de pag
+Descripción: Un agricultor crea su cuenta, agrega su finca y activa una suscripción mediante un método de pago.
 
 ![escenario1](assets/img/escenario1.jpg)
+
+<b>Escenario 2: Monitoreo y Detección de Helada</b>
+
+Descripción: El sistema detecta temperaturas bajas y activa automáticamente la protección contra heladas.
+
+![escenario2](assets/img/escenario2.jpg)
+
+
+<b>Escenario 3: Detección y Control de Plaga</b>
+
+Descripción: La visión artificial detecta una plaga y se activa el sistema de fumigación localizada.
+
+![escenario3](assets/img/escenario3.jpg)
+
+<b>Escenario 4: Notificaciones y Reportes</b>
+
+Descripción: El agricultor recibe notificaciones y consulta reportes históricos.
+
+![escenario4](assets/img/escenario4.jpg)
 
 
 #### 4.1.1.3. Bounded Context Canvases
