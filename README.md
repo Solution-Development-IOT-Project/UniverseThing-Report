@@ -321,6 +321,20 @@ Descripción: El agricultor recibe notificaciones y consulta reportes histórico
 
 
 #### 4.1.1.3. Bounded Context Canvases
+Se elaboraron lienzos de Bounded Context para cada uno de los contextos definidos durante el EventStorming. Estos lienzos permiten delimitar con claridad el alcance de cada contexto, sus responsabilidades principales y la manera en que se relaciona con los demás.
+
+![canvase1](assets/img/canvase1.jpg)
+<b></b>
+
+![canvase2](assets/img/canvase2.jpg)
+<b></b>
+
+![canvase3](assets/img/canvase3.jpg)
+<b></b>
+
+![canvase4](assets/img/canvase4.jpg)
+<b></b>
+
 
 ### 4.1.2 Context mapping
 
