@@ -34,7 +34,7 @@
 | Member                              |    Code    |
 | :---------------------------------- | :--------: |
 | ##                                  |     ##     |
-| Ruiz Torres Erick Hernn             | U202118946 |
+| ##                                  |     ##     |
 | ##                                  |     ##     |
 | ##                                  |     ##     |
 | ##                                  |     ##     |
@@ -263,28 +263,57 @@
 ### 4.1.1. EventStorming 
 
 
-Para llevar a cabo el EventStorming, se realizó una sesión de trabajo colaborativa en la que se recopilaron ideas sobre los temas, datos y funcionalidades requeridas para el desarrollo de la aplicación, dando como resultado el siguiente diagrama:
+Para llevar a cabo el EventStorming, el equipo se coordinó con el objetivo de obtener una primera aproximación al modelado del dominio de nuestro proyecto. Para ello, seguimos una secuencia de nueve pasos.
 
-![bounded](assets/img/bounded.jpg)
+<b>Paso 1: Recolección de Eventos de Dominio</b>
+En esta primera fase, se identifican los eventos más relevantes del dominio que ocurren en el sistema. Estos eventos reflejan hechos significativos dentro del proceso de negocio, y se documentan utilizando notas adhesivas de color naranja.
+
+![collectdomainevents](assets/img/collects.jpg)
+
+<b>Paso 2: Línea de Tiempo</b>
+En esta etapa se ordenan todos los eventos previamente identificados dentro de una secuencia temporal. De esta manera, se colocan de forma cronológica para facilitar la visualización del flujo del proceso y comprender el orden natural en que ocurren las acciones dentro del sistema.
+
+![timelins](assets/img/timeline.jpg)
+
+<b>Paso 3: Puntos Problemáticos y Momentos Clave</b>
+En esta fase se detectan tanto las dificultades presentes en el proceso (pain points) como los momentos determinantes (pivotal points). Estos aspectos señalan áreas que necesitan especial atención o que resultan críticas para el correcto desempeño del sistema.
+
+![pivotal](assets/img/pivotal.jpg)
+
+
+<b> Paso 4: Comandos </b>
+En este paso se incorporan los comandos, representados con notas adhesivas de color azul, que dan origen a los eventos. Estos comandos corresponden a las acciones que realizan los usuarios o sistemas externos con el fin de generar cambios dentro del sistema.
+
+![commands](assets/img/commands.jpg)
+
+
+<b>Paso 5: Políticas</b>
+En esta etapa se establecen las políticas o reglas de negocio, representadas con notas adhesivas moradas. Estas reaccionan ante determinados eventos y, como consecuencia, generan nuevos eventos. Su función principal es automatizar decisiones en función de lo que haya ocurrido previamente.
+
+
+<b>Paso 6: Modelos de Lectura</b>
+En este paso se definen los modelos de lectura o vistas que requieren los usuarios para poder tomar decisiones. Estos modelos representan la información que debe estar accesible en momentos específicos dentro del proceso.
+
+
+<b>Paso 7: Sistemas Externos</b>
+En esta fase se señalan los sistemas externos, representados con notas adhesivas de color rosado, que interactúan con la solución. Se trata de componentes que no están bajo control directo, pero que influyen en el desarrollo del proceso.
+
+
+<b>Paso 8: Agregados</b>
+En esta etapa se organizan los comandos y eventos vinculados en unidades lógicas denominadas agregados, representadas con notas adhesivas de color amarillo. Cada agregado concentra y encapsula un conjunto coherente de funcionalidades.
+
+<b>Paso 9: Bounded Context</b>
+Finalmente, se reconocen los bounded contexts o contextos delimitados, que representan áreas de responsabilidad claramente definidas dentro del sistema.
+
+
 
 #### 4.1.1.1. Candidate Context Discovery
 
 Se llevó a cabo un proceso de Event Storming para identificar los Bounded Contexts de nuestro sistema. Durante este proceso, se siguieron los pasos que se describen a continuación:
 
-<b>Collect Domain Events</b>
 
-Se plantean eventos importantes de todos los grupos funcionales en tiempo pasado.
-![collectdomainevents](assets/img/collects.jpg)
 
-<b>Timeline</b>
 
-Se ordenan todos los eventos y se empieza con un “happy path” es decir, eventos exitosos.
-![timelins](assets/img/timeline.jpg)
-
-<b>Pain and Pivotal Points</b>
-
-En este paso se resaltan con un diamante los eventos por aclarar o que requieren de más conocimientos de especialistas
-![pivotal](assets/img/pivotal.jpg)
 
 <b>Bounded Context</b>
 
