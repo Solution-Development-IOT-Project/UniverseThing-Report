@@ -309,17 +309,34 @@ Finalmente, se reconocen los bounded contexts o contextos delimitados, que repre
 
 #### 4.1.1.1. Candidate Context Discovery
 
-Se llevó a cabo un proceso de Event Storming para identificar los Bounded Contexts de nuestro sistema. Durante este proceso, se siguieron los pasos que se describen a continuación:
+A partir del EventStorming desarrollado en Miro, nuestro equipo realizó una sesión de Candidate Context Discovery con el objetivo de identificar los bounded contexts de la solución. Durante esta dinámica se aplicó principalmente la técnica look-for-pivotal-events.
+
+Proceso de identificación
+El trabajo comenzó con una revisión detallada del modelo completo previamente construido, poniendo especial énfasis en los eventos pivote y en los agregados que habían sido definidos.
 
 
+ 
+![pivotal](assets/img/pivotal.jpg)
 
 
+Detección de agrupaciones naturales: Se identificaron patrones y conjuntos lógicos de comandos, eventos y políticas que interactuaban sobre las mismas entidades o procesos, lo que permitió reconocer relaciones coherentes dentro del sistema.
 
-<b>Bounded Context</b>
+![pivotal](assets/img/pivotal.jpg)
 
-En este paso se resaltan los bounded context encontrados para el proyecto .
+Nos centramos en eventos clave, como la configuración de notificaciones y alertas, los cuales señalaban con claridad las transiciones entre distintos contextos.
 
-![bounded](assets/img/bounded.jpg)
+
+Nos centramos en eventos clave, como la configuración de notificaciones y alertas, los cuales seña
+laban con claridad las transiciones entre distintos contextos.
+
+
+![pivotal](assets/img/pivotal.jpg)
+Definición de límites :Se delimitaron fronteras en torno a los grupos previamente identificados, con el fin de establecer los límites iniciales de los bounded contexts.
+
+
+Nomenclatura y validación
+Se asignó un nombre a cada bounded context de acuerdo con su responsabilidad principal, verificando además que mantuvieran coherencia interna y límites claramente definidos.
+
 
 #### 4.1.1.2. Domain Message Flows Modeling
 
