@@ -453,6 +453,16 @@ Preguntas principales:
 | **Finaliza: Min**  | 00:03:53 |
 | **Link del video:** | [Ver video](https://drive.google.com/drive/folders/1okh-RLcmiiJ_Hv2pB_4FqVP2Vx35tvwA) |
 
+| **Entrevistador:** | Erick Ruiz Torres |
+|---------------------|------------------|
+| **Entrevistado:**  | Alex Salazar |
+| **Edad:**          | 25 años |
+| **Ocupación:**     | Miembro de Cooperativa |
+| **Imagen:**        |  ![Logo de Semios](/images/cap-2/alexsalazar.png)   |
+| **Descripción:**   | Integrante de coopetiva responde las preguntas planteadas para el segmento 2                 |
+| **Inicio: Min**    | 00:00:01 |
+| **Finaliza: Min**  | 00:05:37 |
+| **Link del video:** | [Ver video](https://drive.google.com/file/d/1SRAPa4cC9q1jEgf0V4_538xNbMy3ZNGP/view?usp=drive_link ) |
 
 ### 2.2.3. Análisis de entrevistas
 
