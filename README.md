@@ -447,7 +447,7 @@ Preguntas principales:
 | **Entrevistado:**  | Antonio Chávez |
 | **Edad:**          | 31 años |
 | **Ocupación:**     | Agricultor |
-| **Imagen:**        | Entrevista 1.png |
+| **Imagen:**        | ![Logo de Semios](/images/cap-2/Entrevista1.png) |
 | **Descripción:**   | Agricultor responde las preguntas planteadas para el segmento 1                 |
 | **Inicio: Min**    | 00:00:01 |
 | **Finaliza: Min**  | 00:03:53 |
