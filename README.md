@@ -290,20 +290,28 @@ En este paso se incorporan los comandos, representados con notas adhesivas de co
 <b>Paso 5: Políticas</b>
 En esta etapa se establecen las políticas o reglas de negocio, representadas con notas adhesivas moradas. Estas reaccionan ante determinados eventos y, como consecuencia, generan nuevos eventos. Su función principal es automatizar decisiones en función de lo que haya ocurrido previamente.
 
+![policy](assets/img/policy.jpg)
 
 <b>Paso 6: Modelos de Lectura</b>
 En este paso se definen los modelos de lectura o vistas que requieren los usuarios para poder tomar decisiones. Estos modelos representan la información que debe estar accesible en momentos específicos dentro del proceso.
 
+![vista](assets/img/vista.jpg)
 
 <b>Paso 7: Sistemas Externos</b>
 En esta fase se señalan los sistemas externos, representados con notas adhesivas de color rosado, que interactúan con la solución. Se trata de componentes que no están bajo control directo, pero que influyen en el desarrollo del proceso.
 
 
+![externos](assets/img/externos.jpg)
+
 <b>Paso 8: Agregados</b>
 En esta etapa se organizan los comandos y eventos vinculados en unidades lógicas denominadas agregados, representadas con notas adhesivas de color amarillo. Cada agregado concentra y encapsula un conjunto coherente de funcionalidades.
 
+![agregados](assets/img/agregados.jpg)
+
 <b>Paso 9: Bounded Context</b>
 Finalmente, se reconocen los bounded contexts o contextos delimitados, que representan áreas de responsabilidad claramente definidas dentro del sistema.
+
+![bounded](assets/img/bounded.jpg)
 
 
 
@@ -321,21 +329,21 @@ El trabajo comenzó con una revisión detallada del modelo completo previamente 
 
 Detección de agrupaciones naturales: Se identificaron patrones y conjuntos lógicos de comandos, eventos y políticas que interactuaban sobre las mismas entidades o procesos, lo que permitió reconocer relaciones coherentes dentro del sistema.
 
-![pivotal](assets/img/pivotal.jpg)
+![externos](assets/img/externos.jpg)
 
 Nos centramos en eventos clave, como la configuración de notificaciones y alertas, los cuales señalaban con claridad las transiciones entre distintos contextos.
 
 
-Nos centramos en eventos clave, como la configuración de notificaciones y alertas, los cuales seña
-laban con claridad las transiciones entre distintos contextos.
+![agregados](assets/img/agregados.jpg)
 
-
-![pivotal](assets/img/pivotal.jpg)
 Definición de límites :Se delimitaron fronteras en torno a los grupos previamente identificados, con el fin de establecer los límites iniciales de los bounded contexts.
 
+![bounded](assets/img/bounded.jpg)
 
 Nomenclatura y validación
 Se asignó un nombre a cada bounded context de acuerdo con su responsabilidad principal, verificando además que mantuvieran coherencia interna y límites claramente definidos.
+
+![bounded](assets/img/bounded.jpg)
 
 
 #### 4.1.1.2. Domain Message Flows Modeling
