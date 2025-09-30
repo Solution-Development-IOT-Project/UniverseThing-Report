@@ -392,7 +392,64 @@ Se elaboraron lienzos de Bounded Context para cada uno de los contextos definido
 
 ### 4.1.2 Context mapping
 
+Luego de identificar los bounded contexts a través del EventStorming, pasamos a analizar cómo se relacionan entre sí con el fin de construir un context mapping claro y útil. Este ejercicio fue clave para entender las interacciones, responsabilidades y límites de cada contexto dentro de la solución.
 
+<b>Exploración de Alternativas de Diseño</b>
+Durante las sesiones de trabajo surgieron varias alternativas de diseño que nos ayudaron a evaluar diferentes enfoques.
+
+<b>Primera alternativa: Mapa inicial</b>
+- <b> Usuarios & Gestión </b>→ Todos los demás: funciona como Shared Kernel, dado que la información de usuarios, fincas, pagos y suscripciones es esencial para que el resto de contextos opere.
+- <b> Monitoreo Ambiental</b> → <b>Reportes & Notificaciones</b>: se establece una relación , ya que el monitoreo entrega datos de sensores y heladas que son usados por reportes para generar alertas.
+- <b>Monitoreo Ambiental</b> →<b> Automatización de Cultivo</b>: aquí se observa un patrón Upstream/Downstream, donde el monitoreo detecta condiciones y la automatización responde con acciones físicas.
+- <b>Automatización de Cultivo</b> → <b>Reportes & Notificaciones</b>: también bajo un esquema Customer/Supplier, porque las acciones de cultivo generan datos que se registran en reportes.
+- <b>Reportes & Notificaciones</b> → <b>Usuarios & Gestión</b>: se comporta como un Conformist, ya que los reportes deben alinearse con la estructura de usuarios, fincas y suscripciones.
+
+<b>Segunda alternativa: Fusión de Monitoreo y Automatización</b>
+
+Nos preguntamos si sería viable unificar Monitoreo Ambiental y Automatización de Cultivo en un único contexto.
+
+- Este nuevo contexto podría llamarse Control de Cultivo Inteligente.
+- El beneficio sería simplificar la integración entre datos ambientales y ejecución de acciones.
+- No obstante, notamos que las responsabilidades son distintas: mientras el monitoreo mide y calibra, la automatización ejecuta acciones concretas.
+
+<b>Tercera alternativa: Uso de un Anti-corruption Layer</b>
+
+También analizamos la posibilidad de aislar ciertos contextos para evitar que los cambios internos afecten a otros.
+
+- Incorporamos un Anti-corruption Layer entre Monitoreo Ambiental y Reportes & Notificaciones para proteger la lógica de reportes de variaciones en los modelos de sensores.
+- Se aplicó lo mismo entre Automatización de Cultivo y Reportes & Notificaciones, con el fin de mantener separados los procesos físicos de la generación de reportes.
+- Esto ofrece mayor independencia evolutiva para cada contexto.
+
+<b>Cuarta alternativa: Servicio compartido de notificaciones</b>
+
+Otra opción fue pensar en un servicio centralizado para gestionar todas las notificaciones.
+
+- Se propuso extraer la lógica de envío de alertas y notificaciones a un nuevo contexto llamado Notification Service.
+- Con esto se eliminaría la duplicación de código y se centralizaría la comunicación con los usuarios.
+- Los contextos de Monitoreo Ambiental, Automatización de Cultivo y Reportes & Notificaciones pasarían a ser consumidores de este servicio compartido.
+
+_____________________
+
+<b>Evaluación de Alternativas</b>
+
+Cada alternativa fue evaluada tomando en cuenta cuatro criterios principales:
+
+- Cohesión y acoplamiento: nivel de claridad y dependencia entre los contextos.
+- Alineación con el negocio: qué tanto se ajusta a las necesidades reales de los usuarios.
+- Facilidad de evolución: posibilidad de evolucionar cada contexto de manera autónoma.
+Complejidad técnica: grado de dificultad en la implementación.
+
+<b>Context Map Final</b>
+
+Después del análisis, la mejor opción resultó ser una combinación de la tercera y cuarta alternativa:
+
+- Usuarios & Gestión como Shared Kernel: sigue siendo el núcleo que provee datos de usuarios, fincas y pagos a todos los contextos.
+- Monitoreo Ambiental como proveedor principal (Upstream): entrega los datos de sensores con un Anti-corruption Layer para que no impacten directamente a otros contextos.
+- Automatización de Cultivo como Downstream de Monitoreo: recibe información del ambiente y ejecuta acciones, manteniendo un ACL hacia los reportes.
+- Notification Service como servicio compartido: concentra el manejo de notificaciones y alertas, consumido por los demás contextos.
+- Reportes & Notificaciones como Conformist: se adapta a la estructura de usuarios y a los datos provenientes de monitoreo y automatización para generar reportes y alertas.
+
+Este diseño final logra un balance adecuado entre cohesión, bajo acoplamiento y flexibilidad, permitiendo que cada contexto pueda evolucionar por separado, mientras se mantiene un marco claro de responsabilidades y relaciones.
 
 ### 4.1.3. Software Architecture
 En esta parte se presenta la Arquitectura de Software de la solución empleando el C4 Model como recurso de representación visual, mediante la herramienta Structurizr. Se expone la estructura global del sistema, iniciando con una vista de alto nivel (Context Level Diagram) y profundizando en las interacciones y componentes principales (Container Level Diagrams), con el fin de ofrecer una visión clara y entendible de la arquitectura propuesta.
@@ -402,12 +459,23 @@ En esta parte se presenta la Arquitectura de Software de la solución empleando 
 
 A continuación, se presenta el diagrama de contexto correspondiente a la arquitectura de software de la solución propuesta. En él se ilustran los actores externos que interactúan con el sistema, así como los sistemas externos con los que este mantiene comunicación.
 
-![canvase4](assets/img/canvase4.jpg)
+![canvase2](assets/img/diagramacontexto.png)
 <b></b>
 
 #### 4.1.3.2. Software Architecture Context Level Diagrams
 
+ En este diagrama se describe como AGROPRE  se relaciona con sus usuarios y con sistemas externos como IOT hub  y el dispositivo IOT.
+
+![canvase2](assets/img/diagramacontextolevel.png)
+
 #### 4.1.3.3. Software Architecture Container Level Diagrams
+
+Este diagrama muestra los principales componentes del sistema: la Aplicación Web, la Aplicación Móvil, las APIs REST, las Bases de Datos, el sistema IoT con sensores y el Servicio de Notificaciones.
+
+Se ilustran sus interacciones internas y cómo se conectan con los usuarios externos (administradores, supervisores y operadores). La arquitectura refleja la relación con los bounded contexts: Usuarios & Gestión, Monitoreo Ambiental, Automatización de Cultivo y Reportes & Notificaciones.
+
+
+![canvase2](assets/img/diagramacontenedor.png)
 
 #### 4.1.3.4. Software Architecture Deployment Diagrams
 
