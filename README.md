@@ -392,6 +392,8 @@ Se elaboraron lienzos de Bounded Context para cada uno de los contextos definido
 
 ### 4.1.2 Context mapping
 
+
+
 ### 4.1.3. Software Architecture
 En esta parte se presenta la Arquitectura de Software de la solución empleando el C4 Model como recurso de representación visual, mediante la herramienta Structurizr. Se expone la estructura global del sistema, iniciando con una vista de alto nivel (Context Level Diagram) y profundizando en las interacciones y componentes principales (Container Level Diagrams), con el fin de ofrecer una visión clara y entendible de la arquitectura propuesta.
 
