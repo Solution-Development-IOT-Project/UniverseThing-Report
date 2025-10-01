@@ -459,14 +459,14 @@ En esta parte se presenta la Arquitectura de Software de la solución empleando 
 
 A continuación, se presenta el diagrama de contexto correspondiente a la arquitectura de software de la solución propuesta. En él se ilustran los actores externos que interactúan con el sistema, así como los sistemas externos con los que este mantiene comunicación.
 
-![canvase2](assets/img/diagramacontexto.png)
+![diagramacontexto](assets/img/diagramacontexto.png)
 <b></b>
 
 #### 4.1.3.2. Software Architecture Context Level Diagrams
 
  En este diagrama se describe como AGROPRE  se relaciona con sus usuarios y con sistemas externos como IOT hub  y el dispositivo IOT.
 
-![canvase2](assets/img/diagramacontextolevel.png)
+![diagramacontextolevel](assets/img/diagramacontextolevel.png)
 
 #### 4.1.3.3. Software Architecture Container Level Diagrams
 
@@ -475,11 +475,13 @@ Este diagrama muestra los principales componentes del sistema: la Aplicación We
 Se ilustran sus interacciones internas y cómo se conectan con los usuarios externos (administradores, supervisores y operadores). La arquitectura refleja la relación con los bounded contexts: Usuarios & Gestión, Monitoreo Ambiental, Automatización de Cultivo y Reportes & Notificaciones.
 
 
-![canvase2](assets/img/diagramacontenedor.png)
+![diagramacontenedor](assets/img/diagramacontenedor.png)
 
 #### 4.1.3.4. Software Architecture Deployment Diagrams
 
+En esta parte se muestra cómo se despliegan físicamente los componentes del sistema AGROPRE dentro de su entorno de ejecución. El diagrama representa los dispositivos/servidores utilizados, los servicios desplegados en cada uno y los protocolos de comunicación que permiten la interacción.
 
+![arquitecturadespliegue](assets/img/arquitecturadespliegue.png)
 
 
 ## 4.2. Tactical-Level Domain-Driven Design
