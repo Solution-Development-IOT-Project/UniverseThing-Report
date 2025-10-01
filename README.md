@@ -486,23 +486,146 @@ En esta parte se muestra cómo se despliegan físicamente los componentes del si
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
-### 4.2.X. Bounded Context:
+### 4.2.1. Bounded Context:Usuarios & Gestión
+Este bounded context es el núcleo administrativo de la plataforma AGROPRE, ya que permite gestionar usuarios, fincas, pagos y suscripciones. Su propósito principal es centralizar la administración de identidades, accesos y relaciones comerciales entre agricultores, supervisores y el sistema, garantizando seguridad, control y trazabilidad de la información.
+#### 4.2.1.1. Domain Layer
 
-#### 4.2.X.1. Domain Layer
+En esta capa se encuentran los modelos y reglas de negocio que rigen la gestión de usuarios y la administración de fincas y pagos.
 
-#### 4.2.X.2. Interface Context
+<b>Entidades principales</b>
 
-#### 4.2.X.3. Application Context
+| Clase | Descripción |
+|-----------|----------|
+| User   | - Atributos: id (UUID), name, email, password_hash, role (enum: AGRICULTOR, ADMIN), phone, created_at, last_login <br> - Responsabilidad: identidad, credenciales, perfil, preferencias de notificación. <br> - Invariantes: email único; role válido; password_hash nunca nulo.   |
+| Farm  | - Atributos: id, owner_id (FK -> User), name, <br> - Responsabilidad: agrupar sensores/actuadores y configuraciones por finca. <br> - Invariantes: owner_id válido; una finca pertenece a un único usuario propietario. |
+| Subscription  | - Atributos: id, user_id, plan (enum: BASIC_ADVANCED_PREMIUM), started_at, expires_at, status (ACTIVE_PAUSED_CANCELLED). <br> - Responsabilidad: reglas de acceso a funcionalidades (p. ej. número de sensores permitidos, histórico retenido). |
+| Payment | - Atributos: id, user_id, amount (Money), currency, method, status, provider_txn_id, created_at. <br> - Responsabilidad: registrar cobros, conciliación y webhooks de pasarela. <br>   |
+| AuditLog| - Atributos: id, entity, entity_id, action, user_id, timestamp, detail.   |
 
-#### 4.2.X.4. Infrastructure Context
 
-#### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams
+<b>Value Objects</b>
 
-#### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
+Email, Money, Coordinates, Plan (encapsulan validaciones).
 
-#### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
+<b>Aggregates & Roots</b>
 
-#### 4.2.X.6.2. Bounded Context Database Design Diagram
+| Clase | Descripción |
+|-----------|----------|
+| User   | - Agrupa Subscription (podría ser referencia/entidad propia según tamaño del dominio).<br>   |
+| Farm  | - Contiene referencias a Sensor/Actuator (por integración; sensores pertenecen al contexto Monitoreo pero la propiedad pertenece a la finca). <br>|
+
+<b>Domain Events</b>
+
+- UserRegistered, SubscriptionActivated, PaymentReceived, FarmCreated, UserUpdated.
+
+<b>Reglas de negocio claves</b>
+
+- Un usuario no puede tener dos suscripciones activas del mismo tipo.
+- La capacidad de dispositivos o retención histórica depende del Subscription.plan.
+- Alta de finca requiere User validado.
+
+#### 4.2.1.2. Interface Context
+
+| Schemas / DTOs | Descripción |
+|-----------|----------|
+| UserCreateDTO  | { name, email, password, phone }  |
+| UserGetDTO | { id, name, email, role, registered_at }|
+| FarmCreateDTO | { name, latitude, longitude, area_m2, crop_type }|
+| SubscriptionDTO  | { id, plan, started_at, expires_at, status }|
+| PaymentDTO  | { id, amount, currency, method, status, created_at }|
+
+|REST endpoints (contratos)| Descripción |
+|-----------|----------|
+| POST /api/v1/users | crear usuario |
+| POST /api/v1/auth/login | obtener token (JWT)|
+| GET /api/v1/users/{id} | obtener perfil|
+| POST /api/v1/farms  | crear finca (auth required)|
+|GET /api/v1/farms/users/{user_id}  | listar fincas|
+|POST /api/v1/subscriptions  | contratar plan|
+|POST /api/v1/payments |iniciar pago / registrar webhook|
+|POST /api/v1/webhooks/payments  | webhook pasarela.|
+
+<b>Interfaz de usuario</b>
+
+- Dashboard de usuario (lista fincas, estado de suscripción).
+- Módulo de facturación (historial de pagos, descargar recibos).
+- Gestión de equipos (delegar acceso a técnicos).
+
+<b>Validaciones</b>
+
+- Email formato y unicidad.
+- Password strength.
+- Validación de coordenadas y límites de área.
+
+
+#### 4.2.1.3. Application Context
+
+|Servicios de aplicación (use-case layer)| Descripción |
+|-----------|----------|
+| UserService | registerUser(dto), authenticate(credentials), updateProfile(userId, dto), changePassword(...) |
+| FarmService | createFarm(userId, dto), getFarms(userId), updateFarm(farmId, dto)|
+|SubscriptionService | subscribe(userId, plan), cancelSubscription(userId), checkAccess(userId, feature)|
+|PaymentService  |createPaymentIntent(userId, amount), handleWebhook(payload)|
+|AuthService | issueJwt(user), validateToken(token), refreshToken(...)|
+|AuditService  | log(entity, action, userId, details)|
+
+
+|Flujos|
+|---------------------|
+| Registro + primer pago: registerUser → createSubscription → PaymentService.createPaymentIntent → espera webhook de confirmación → SubscriptionService.activate → emitir SubscriptionActivated event (Outbox).|
+| Cambio de plan: SubscriptionService.changePlan → pro-rata cálculo → PaymentService → Subscription status update.|
+|Acceso condicional: FeatureGate consulta SubscriptionService para permitir acciones (p. ej. número máximo de sensores).|
+
+<b>Patrones</b>
+
+- Outbox pattern para garantizar que eventos (ej. SubscriptionActivated) se publiquen de forma confiable a otros contextos (Notifications, Provisioning).
+- Idempotencia en endpoints de webhook.
+
+#### 4.2.1.4. Infrastructure Context
+
+
+|Repositorios| Descripción |
+|-----------|----------|
+| UserRepository (SQL) | CRUD usuarios, índices: email (unique) |
+| FarmRepository (SQL) | consulta por user_id, índices geoespaciales.|
+|SubscriptionRepository | consulta por subscripcion (suscriptionId)|
+|PaymentRepository.  |consulta por payment (paymentId)|
+
+
+
+|Adapters / Integraciones externas| Descripción |
+|-----------|----------|
+| Gateway de pagos |adaptador que expone createPaymentIntent, verifyWebhook |
+|Email Service | SMTP o servicio (SendGrid) para notificaciones de facturación.|
+|Storage | S3/GCS para recibos/PDF.|
+|Cache |Redis para sesiones y límite de requests.|
+
+
+<b>Seguridad y operación</b>
+
+- Almacenamiento de password_hash con Bcrypt/Argon2.
+
+- Tokenización de medios de pago (no almacenar PAN).
+
+- Backup y snapshot de BD, índices y políticas de retención.
+
+<b>Observabilidad</b>
+
+- Métricas (Prometheus) para registros por segundo, latencia de auth.
+
+- Logs estructurados y trazas (OpenTelemetry).
+
+
+#### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+
+
+
+#### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
+
+#### 4.2.1.6.2. Bounded Context Database Design Diagram
 
 
 
