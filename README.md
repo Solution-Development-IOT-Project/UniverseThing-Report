@@ -496,140 +496,321 @@ En esta capa se encuentran los modelos y reglas de negocio que rigen la gestión
 
 | Clase | Descripción |
 |-----------|----------|
-| User   | - Atributos: id (UUID), name, email, password_hash, role (enum: AGRICULTOR, ADMIN), phone, created_at, last_login <br> - Responsabilidad: identidad, credenciales, perfil, preferencias de notificación. <br> - Invariantes: email único; role válido; password_hash nunca nulo.   |
-| Farm  | - Atributos: id, owner_id (FK -> User), name, <br> - Responsabilidad: agrupar sensores/actuadores y configuraciones por finca. <br> - Invariantes: owner_id válido; una finca pertenece a un único usuario propietario. |
-| Subscription  | - Atributos: id, user_id, plan (enum: BASIC_ADVANCED_PREMIUM), started_at, expires_at, status (ACTIVE_PAUSED_CANCELLED). <br> - Responsabilidad: reglas de acceso a funcionalidades (p. ej. número de sensores permitidos, histórico retenido). |
-| Payment | - Atributos: id, user_id, amount (Money), currency, method, status, provider_txn_id, created_at. <br> - Responsabilidad: registrar cobros, conciliación y webhooks de pasarela. <br>   |
-| AuditLog| - Atributos: id, entity, entity_id, action, user_id, timestamp, detail.   |
-
+| User (Aggregate Root)  | - Atributos: id: UUID, email: VARCHAR, password_hash: VARCHAR, user_type: UserType, status: UserStatus, registered_at: TIMESTAMP, last_login: TIMESTAMP, profile_id: UUID. <br> - Responsabilidades: gestionar credenciales, estado, relaciones con FarmMember, emitir eventos de dominio UserCreated, UserDeactivated.  |
+|Profile (Entity / Value Object) | - Atributos: id: UUID, full_name, phone, avatar_url, address (JSON), preferred_language. <br> -Responsabilidades: contener datos personales y validaciones (email normalizado, teléfono E.164). |
+| Role (Entity)  | - Atributos: id, name, permissions: JSONB. <br> - Responsabilidades: definir conjuntos de permisos. |
+| Permission (Value)| - Atributos: name (string, ej. farm.create, device.onboard), description.   |
+| Farm (Aggregate Root)| - Atributos: id: UUID, name, geo: Geometry (Polygon), owner_id: UUID, metadata: JSONB, created_at.  <br> - Responsabilidades: geolocalización, límites, asociación de dispositivos y members.  |
+| FarmMember (Entity)| - Atributos: id, farm_id, user_id, role_in_farm (OWNER, MANAGER, WORKER), joined_at. <br> - Responsabilidades: permisos y ámbito de actuación dentro de una finca. |
+| Cooperative (Aggregate)| - Atributos: id, name, description, members: List[User ids], metadata.  |
+| Invite (Entity)| - Atributos: id, inviter_id, invitee_email, token, status: InviteStatus, expires_at. <br> - Responsabilidades: flujo de invitación y onboarding. |
+| Session (Entity)| - Atributos: id, user_id, device_info, refresh_token_hash, created_at, expires_at.|
+| AuditLog (Entity / Append-only)| - Atributos: id, user_id, action, metadata: JSONB, created_at.|
 
 <b>Value Objects</b>
 
-Email, Money, Coordinates, Plan (encapsulan validaciones).
+- Email (VO): validación y normalización.
 
-<b>Aggregates & Roots</b>
+- PhoneNumber (VO): E.164 validation.
 
-| Clase | Descripción |
-|-----------|----------|
-| User   | - Agrupa Subscription (podría ser referencia/entidad propia según tamaño del dominio).<br>   |
-| Farm  | - Contiene referencias a Sensor/Actuator (por integración; sensores pertenecen al contexto Monitoreo pero la propiedad pertenece a la finca). <br>|
+- PasswordHash (VO): encapsula algoritmo de hashing.
 
-<b>Domain Events</b>
+<b>Enums</b>
 
-- UserRegistered, SubscriptionActivated, PaymentReceived, FarmCreated, UserUpdated.
+- UserType = {FARMER, COOP_ADMIN, AGRONOMIST, TECH, ADMIN}
 
-<b>Reglas de negocio claves</b>
+- UserStatus = {ACTIVE, SUSPENDED, PENDING_VERIFICATION, DELETED}
 
-- Un usuario no puede tener dos suscripciones activas del mismo tipo.
-- La capacidad de dispositivos o retención histórica depende del Subscription.plan.
-- Alta de finca requiere User validado.
+- InviteStatus = {PENDING, ACCEPTED, REJECTED, EXPIRED}
+
+- RoleName = {OWNER, MANAGER, WORKER, VIEWER, COOP_ADMIN, SYSTEM_ADMIN}
+
+- AuthProvider = {LOCAL, GOOGLE, APPLE}
+
+<b>Reglas de negocio clave</b>
+
+- La creación de una Farm asigna automáticamente un FarmMember con role_in_farm = OWNER al user creador.
+
+- Para operaciones críticas (transferencia de ownership, eliminación masiva) se requiere verificación adicional (2FA) y registro de AuditLog.
+
+- Invites sólo expiran tras expires_at y sólo pueden ser aceptados una vez; al aceptarse si el email no está asociado se crea un User y se asocia el FarmMember.
+
+- Permisos se resuelven en tiempo de autorización combinando Role.permissions y FarmMember.role_in_farm.
+
+<b>Validadores</b>
+
+- SchemaValidator para entradas API.
+
+- PasswordPolicyValidator (largo mínimo, complejidad, check de contraseñas filtradas).
+
+- GeoFenceValidator (valida GeoJSON y superficie máxima permitida).
+
+
 
 #### 4.2.1.2. Interface Context
+Conjunto de contratos (REST/JSON y mensajes de eventos) que exponen la funcionalidad del bounded context. Versionado con /api/v1/.
 
+<b>Principios</b>
+- Usar HTTPs, JWT RS256 para access tokens.
+
+- Minimizar PII en payloads de eventos.
+
+- API REST para operaciones CRUD y RPC-ish endpoints para acciones (ej. accept_invite).
+
+<b>Esquemas (DTOs / JSON-Schema)</b>
 | Schemas / DTOs | Descripción |
 |-----------|----------|
-| UserCreateDTO  | { name, email, password, phone }  |
-| UserGetDTO | { id, name, email, role, registered_at }|
-| FarmCreateDTO | { name, latitude, longitude, area_m2, crop_type }|
-| SubscriptionDTO  | { id, plan, started_at, expires_at, status }|
-| PaymentDTO  | { id, amount, currency, method, status, created_at }|
+| LoginRequest: |{ email: string, password: string, device_info?: string } |
+|TokenResponse: |{ access_token: string, token_type: "bearer", expires_in: int, refresh_token?: string }|
+| UserCreate:| { email, password, full_name?, phone?, user_type? }|
+| UserGet: | { id, email, profile: { full_name, phone, avatar_url }, user_type, status, registered_at }|
+| ProfileUpdate: |{ full_name?, phone?, address? }|
+| FarmCreate: |{ name, geo: GeoJSON, metadata? }|
+| FarmGet: |{ id, name, geo, owner_id, metadata }|
+| InviteCreate: |{ inviter_id, invitee_email, farm_id, role_in_farm, expires_in_days }|
+|InviteAcceptRequest:|{ token, user_credentials?: {email, password} }|
+
+
+<b>Rutas REST recomendadas</b> 
+
 
 |REST endpoints (contratos)| Descripción |
 |-----------|----------|
-| POST /api/v1/users | crear usuario |
-| POST /api/v1/auth/login | obtener token (JWT)|
-| GET /api/v1/users/{id} | obtener perfil|
-| POST /api/v1/farms  | crear finca (auth required)|
-|GET /api/v1/farms/users/{user_id}  | listar fincas|
-|POST /api/v1/subscriptions  | contratar plan|
-|POST /api/v1/payments |iniciar pago / registrar webhook|
-|POST /api/v1/webhooks/payments  | webhook pasarela.|
+| POST /api/v1/auth/register | registrar usuario (o aceptar invite). |
+|POST /api/v1/auth/login| autenticar|
+|POST /api/v1/auth/refresh | renovar token|
+|POST /api/v1/auth/logout | cerrar sesión|
+|GET /api/v1/users  | listar (admin).|
+|GET /api/v1/users/{user_id}  | obtener perfil|
+|PUT /api/v1/users/{user_id} |actualizar.|
+|PUT /api/v1/users/{user_id}/profile |actualizar profile|
+|POST /api/v1/farms |crear finca|
+|GET /api/v1/farms/{farm_id} |obtener|
+|GET /api/v1/farms/{farm_id}/members |listar miembros|
+|POST /api/v1/farms/{farm_id}/members |agregar miembro|
+|DELETE /api/v1/farms/{farm_id}/members/{member_id} |remover|
+|POST /api/v1/invites|crear invite|
+|GET /api/v1/invites/{token} |estado invite|
+|POST /api/v1/invites/{token}/accept |aceptar invite|
+|GET /api/v1/roles |listar roles y permisos|
+|POST /api/v1/roles|crear roles personalizados (admin)|
 
-<b>Interfaz de usuario</b>
+<b>Eventos publicados (broker)</b>
 
-- Dashboard de usuario (lista fincas, estado de suscripción).
-- Módulo de facturación (historial de pagos, descargar recibos).
-- Gestión de equipos (delegar acceso a técnicos).
+- UserCreated { user_id, user_type, created_at }
 
-<b>Validaciones</b>
+- UserUpdated { user_id, changes }
 
-- Email formato y unicidad.
-- Password strength.
-- Validación de coordenadas y límites de área.
+- UserDeactivated { user_id, reason }
+
+- InviteCreated { invite_id, inviter_id, invitee_email, farm_id }
+
+- InviteAccepted { invite_id, user_id, farm_id }
+
+
 
 
 #### 4.2.1.3. Application Context
+Servicios de aplicación y casos de uso que implementan las reglas de negocio del dominio combinando repositorios, validadores y mappers.
 
 |Servicios de aplicación (use-case layer)| Descripción |
 |-----------|----------|
-| UserService | registerUser(dto), authenticate(credentials), updateProfile(userId, dto), changePassword(...) |
-| FarmService | createFarm(userId, dto), getFarms(userId), updateFarm(farmId, dto)|
-|SubscriptionService | subscribe(userId, plan), cancelSubscription(userId), checkAccess(userId, feature)|
-|PaymentService  |createPaymentIntent(userId, amount), handleWebhook(payload)|
-|AuthService | issueJwt(user), validateToken(token), refreshToken(...)|
-|AuditService  | log(entity, action, userId, details)|
+| AuthService | - register(user_data: UserCreate) -> UserGet.<br>- login(email: str, password: str, device_info: str) -> TokenResponse<br>- refresh_token(refresh_token: str) -> TokenResponse <br>- logout(user_id: UUID, session_id: UUID)<br>- password_reset_request(email: str) |
+| UserService| - get_user_by_id(user_id: UUID) -> UserGet <br>- update_profile(user_id: UUID, profile_update: ProfileUpdate)-> Profile <br>- list_users(filters, paging) -> List[UserGet] <br>- deactivate_user(user_id: UUID, reason: str) <br>- assign_role(user_id: UUID, role_name: str)|
+|FarmService | - Create_farm(owner_user_id: UUID, farm_data:FarmCreate) -> FarmGet <br>- get_farm(farm_id: UUID) ->FarmGet <br>- add_member(farm_id: UUID, inviter_id: UUID, invitee_identifier:str,role: str) <br>- remove_member(farm_id: UUID, member_id: UUID) <br>- transfer_ownership(farm_id: UUID, new_owner_user_id: UUID)|
+|InviteService |- create_invite(inviter_id: UUID, invitee_email: str, farm_id: UUID, role: str) <br>- accept_invite(token: str, user_credentials?: {email, password}) -> FarmMember|
+|RoleService|-  create_role(name: str, permissions: List[str]) <br>- get_role(name: str)|
+|AuditService | - log(user_id: UUID, action: str, metadata: dict)|
 
 
-|Flujos|
-|---------------------|
-| Registro + primer pago: registerUser → createSubscription → PaymentService.createPaymentIntent → espera webhook de confirmación → SubscriptionService.activate → emitir SubscriptionActivated event (Outbox).|
-| Cambio de plan: SubscriptionService.changePlan → pro-rata cálculo → PaymentService → Subscription status update.|
-|Acceso condicional: FeatureGate consulta SubscriptionService para permitir acciones (p. ej. número máximo de sensores).|
+<b>Casos de uso</b>
 
-<b>Patrones</b>
+Flujo: Crear finca y asignar owner
 
-- Outbox pattern para garantizar que eventos (ej. SubscriptionActivated) se publiquen de forma confiable a otros contextos (Notifications, Provisioning).
-- Idempotencia en endpoints de webhook.
+- User solicita creación de Farm.
+
+- FarmService.create_farm valida geo con GeoFenceValidator.
+
+- Persiste Farm y crea FarmMember con role_in_farm=OWNER.
+
+- Publica FarmCreated a broker.
+
+
+Flujo: Invitar miembro
+- inviter llama a InviteService.create_invite.
+
+- Genera Invite.token, persiste y envía notificación (NotificationService) y InviteCreated al broker.
+
+- Cuando accept_invite es llamado: valida token, crea User si no existe, crea FarmMember, cambia estado del invite y publica InviteAccepted.
+
+Flujo: Login y sesiones
+- AuthService.login valida credenciales.
+
+- Genera access_token (RS256) y refresh_token (rotativo, almacenado hashed en DB).
+
+- Crea Session y actualiza last_login en User.
+
+- AuditService.log registra intento de login exitoso o fallido.
 
 #### 4.2.1.4. Infrastructure Context
+Componentes técnicos que permiten persistencia, mensajería, almacenamiento y servicios externos. 
+
+<b>Repositorio - Interfases y Comportamiento</b>
 
 
 |Repositorios| Descripción |
 |-----------|----------|
-| UserRepository (SQL) | CRUD usuarios, índices: email (unique) |
-| FarmRepository (SQL) | consulta por user_id, índices geoespaciales.|
-|SubscriptionRepository | consulta por subscripcion (suscriptionId)|
-|PaymentRepository.  |consulta por payment (paymentId)|
+| IUserRepository: |- create(user: User) -> User<br>- find_by_id(id: UUID) -> User / None <br> - find_by_email(email: str) -> User / None <br> - update(user: User) -> User <br>- delete(id: UUID)|
+| IFarmRepository: | - create(farm: Farm), find_by_id, find_by_owner, find_nearby(geo, radius) (geospatial query)|
+|IInviteRepository: | - create, find_by_token, mark_accepted.|
+|ISessionRepository: |- store_refresh_token, revoke_session, list_sessions_by_user.|
 
 
 
-|Adapters / Integraciones externas| Descripción |
-|-----------|----------|
-| Gateway de pagos |adaptador que expone createPaymentIntent, verifyWebhook |
-|Email Service | SMTP o servicio (SendGrid) para notificaciones de facturación.|
-|Storage | S3/GCS para recibos/PDF.|
-|Cache |Redis para sesiones y límite de requests.|
+<b>Infraestructuras auxiliares</b>
 
+- DB: PostgreSQL + PostGIS.
 
-<b>Seguridad y operación</b>
+- Cache: Redis (rate limiting, ephemeral sessions).
 
-- Almacenamiento de password_hash con Bcrypt/Argon2.
+- Broker: RabbitMQ o Kafka (events pub/sub).
 
-- Tokenización de medios de pago (no almacenar PAN).
+- Object Storage: S3-compatible (avatars, documentos, backups).
 
-- Backup y snapshot de BD, índices y políticas de retención.
+- Key Management: KMS para claves JWT (RS256) y secretos.
 
-<b>Observabilidad</b>
+- Background Workers: Celery / Sidekiq para emails, limpieza de invites expirados.
 
-- Métricas (Prometheus) para registros por segundo, latencia de auth.
+- Monitoring: Prometheus + Grafana; Log Aggregation con ELK.
 
-- Logs estructurados y trazas (OpenTelemetry).
+<b>Rutas y handlers (ejemplo: FastAPI)</b>
+
+- Cada endpoint valida JWT y permissions con middleware Authorize(permission).
+
+- Persigned URLs para cargas a S3.
 
 
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
-
-
-
+![imagen1](assets/img/ContextSoftwareArchitectureComponentLevelDiagrams.png)
 
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
-
 #### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
+
+![imagen1](assets/img/BoundedContextDomainLayerClassDiagrams1.png)
+
 
 #### 4.2.1.6.2. Bounded Context Database Design Diagram
 
+![imagen1](assets/img/BoundedContextDatabaseDesignDiagram1.png)
+
+----
 
 
 
+
+### 4.2.2. Bounded Context: Monitoreo Ambiental
+El bounded context de Monitoreo Ambiental se encarga de la captura, almacenamiento, procesamiento y exposición de datos recolectados por los sensores IoT instalados en las viviendas. Estos sensores pueden medir variables como temperatura, humedad, calidad del aire, concentración de gases, ruido, entre otros. Su función principal es brindar información en tiempo real que alimente tanto al sistema de seguridad como a los módulos de gestión y reportes, permitiendo así una visión integral del entorno doméstico.
+
+#### 4.2.2.1. Domain Layer
+
+
+
+<b>Modelos</b>
+
+| Clase | Descripción |
+|-----------|----------|
+| Sensor| - Representa un dispositivo IoT físico capaz de recolectar información ambiental. <br> - Atributos: id, sensorType, location, status, installationDate. <br> - Relación con Measurement (uno a muchos).  |
+|Measurement | - Registra los datos capturados por los sensores. <br> -Atributos: id, sensorId, timestamp, value, unit.<br> - Relación con Sensor (muchos a uno). |
+| Alert  | - Entidad encargada de representar eventos críticos cuando una medición supera un umbral establecido. <br> - Atributos: id, sensorId, measurementId, threshold, alertType, createdAt, resolved. |
+| ThresholdConfig| - Define los umbrales máximos y mínimos aceptables para cada tipo de sensor. <br> - Atributos: id, sensorType, minValue, maxValue, unit.  |
+
+
+<b>Enums</b>
+
+- SensorType: Enum para clasificar los sensores: Temperature, Humidity, Gas, CO2, Noise, Motion.
+
+- AlertType: Enum para categorizar las alertas: Critical, Warning, Info.
+
+<b>Validators</b>
+
+- MeasurementValidator: Valida que los valores de mediciones cumplan con el formato correcto (unidades, rango, timestamp).
+
+- ThresholdValidator: Asegura que los umbrales sean coherentes (ejemplo: minValue < maxValue).
+
+#### 4.2.2.2. Interface Context
+Conjunto de contratos (REST/JSON y mensajes de eventos) que exponen la funcionalidad del bounded context. Versionado con /api/v1/.
+
+
+<b>Esquemas (DTOs / JSON-Schema)</b>
+| Schemas / DTOs | Descripción |
+|-----------|----------|
+| SensorSchemaPost| Creación de un nuevo sensor (location, sensorType, installationDate). |
+|SensorSchemaGet: |Respuesta con la información de un sensor registrado.|
+|MeasurementSchemaPost|Registro de una medición proveniente de un sensor.|
+| MeasurementSchemaGet | Respuesta detallada con los valores capturados.|
+| AlertSchemaGet |Respuesta con los datos de una alerta generada (sensor, valor, umbral, tipo de alerta).|
+
+<b>Rutas REST recomendadas</b> 
+
+
+|REST endpoints (contratos)| Descripción |
+|-----------|----------|
+| /sensors [POST] | Registro de un nuevo sensor. |
+|/sensors [GET]| Listado de sensores instalados.|
+|/measurements [POST] |Registrar mediciones de un sensor.|
+|/measurements/{sensorId} [GET] |Consultar mediciones históricas de un sensor.|
+|/alerts [GET] | Obtener todas las alertas activas|
+|/alerts/{id}/resolve [PUT] |Marcar una alerta como resuelta.|
+
+
+
+#### 4.2.2.3. Application Context
+Servicios de aplicación y casos de uso que implementan las reglas de negocio del dominio combinando repositorios, validadores y mappers.
+
+|Servicios de aplicación (use-case layer)| Descripción |
+|-----------|----------|
+| SensorService | - register_sensor(data, db): Registrar un sensor en la base de datos.<br>- get_sensors(db): Recuperar la lista de sensores activos.<br>|
+|MeasurementService| - record_measurement(sensorId, value, timestamp, db): Guardar una nueva medición. <br>- get_measurements(sensorId, startDate, endDate, db): Recuperar mediciones filtradas por fechas. <br>- validate_measurement(value, unit): Validar rango y unidad antes de registrar. |
+|AlertService | - generate_alert(sensorId, measurementId, db): Crear una alerta si se supera un umbral. <br>- get_active_alerts(db): Recuperar alertas activas. <br>- resolve_alert(alertId, db): Marcar alerta como atendida. |
+
+
+#### 4.2.2.4. Infrastructure Context
+Componentes técnicos que permiten persistencia, mensajería, almacenamiento y servicios externos. 
+
+<b>Repositorio - Interfases y Comportamiento</b>
+
+
+|Repositorios| Descripción |
+|-----------|----------|
+| SensorRepository|- Acceso a datos para registrar y obtener sensores. <br>|
+| MeasurementRepository| - Manejo de lecturas almacenadas en la base de datos.|
+|AlertRepository | - Operaciones de creación, consulta y actualización de alertas.|
+
+|Mappers| Descripción |
+|-----------|----------|
+| SensorMapper:|- Traduce la entidad Sensor a la tabla correspondiente. <br>|
+| MeasurementMapper| -Traduce la entidad Measurement con timestamp y valor.|
+|AlertMapper | -Traduce la entidad Alert a su tabla SQL.|
+
+|Integraciones| Descripción |
+|-----------|----------|
+|IoT Gateway Adapter|- Middleware encargado de recibir la información desde los dispositivos físicos (MQTT, HTTP, CoAP).|
+|Notification Adapter| -Permite enviar notificaciones al usuario (email, push, SMS) cuando se genera una alerta crítica.|
+
+
+
+#### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
+![imagen1](assets/img/ContextSoftwareArchitectureComponentLevelDiagrams.png)
+
+#### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
+#### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
+
+![imagen1](assets/img/BoundedContextDomainLayerClassDiagrams1.png)
+
+
+#### 4.2.2.6.2. Bounded Context Database Design Diagram
+
+![imagen1](assets/img/BoundedContextDatabaseDesignDiagram1.png)
 
 
 # Capítulo V: Solutions UI/UX Design
