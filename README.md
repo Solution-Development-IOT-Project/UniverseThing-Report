@@ -800,17 +800,172 @@ Componentes técnicos que permiten persistencia, mensajería, almacenamiento y s
 
 
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
-![imagen1](assets/img/ContextSoftwareArchitectureComponentLevelDiagrams.png)
+![imagen1](assets/img/ContextSoftwareArchitectureComponentLevelDiagrams2.png)
 
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
 #### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
 
-![imagen1](assets/img/BoundedContextDomainLayerClassDiagrams1.png)
+![imagen1](assets/img/BoundedContextDomainLayerClassDiagrams2.png)
 
 
 #### 4.2.2.6.2. Bounded Context Database Design Diagram
 
-![imagen1](assets/img/BoundedContextDatabaseDesignDiagram1.png)
+![imagen1](assets/img/BoundedContextDatabaseDesignDiagram2.png)
+
+
+
+-----
+
+
+
+
+
+### 4.2.3. Bounded Context: Automatización de Cultivo
+El bounded context de Automatización de Cultivo gestiona los procesos automáticos de riego, iluminación, ventilación y fertilización en las viviendas inteligentes con módulos agrícolas. Este subsistema conecta sensores ambientales y actuadores IoT (bombas, válvulas, ventiladores, luces, dosificadores), aplicando reglas predefinidas o configurables por el usuario.
+
+Su objetivo es garantizar condiciones óptimas para el cultivo, reduciendo consumo de agua y energía, y reaccionando en tiempo real ante variaciones ambientales.
+
+#### 4.2.3.1. Domain Layer
+
+
+
+<b>Modelos</b>
+
+| Clase | Descripción |
+|-----------|----------|
+|Actuator| - Representa un dispositivo IoT que ejecuta acciones en el cultivo (riego, ventilación, luz, fertilización). <br> - Atributos: id, type, location, status, installationDate. <br> - Relación con ActionLog.  |
+|ActionLog| - Registro histórico de acciones realizadas por actuadores. <br> -Atributos: id, actuatorId, command, executedAt, status.<br> - Relación con Actuator. |
+| AutomationRule | - Define reglas para activar actuadores de forma automática según condiciones ambientales <br> - Atributos: id, name, sensorType, condition, thresholdValue, actuatorType, action. |
+| Schedule| - Programa de ejecución periódica para los actuadores (ej. riego cada 8 horas). <br> - Atributos: id, actuatorId, frequency, startTime, endTime, enabled. |
+
+
+<b>Enums</b>
+
+- ActuatorType: IrrigationPump, VentilationFan, LEDLight, FertilizerDispenser.
+
+- ActionType: Start, Stop, Increase, Decrease.
+
+<b>Validators</b>
+
+- RuleValidator: valida la coherencia de las reglas (ejemplo: sensor y actuador compatibles).
+
+- ScheduleValidator: valida que los horarios no se solapen y sean viables.
+
+#### 4.2.3.2. Interface Context
+Conjunto de contratos (REST/JSON y mensajes de eventos) que exponen la funcionalidad del bounded context. Versionado con /api/v1/.
+
+
+<b>Esquemas (DTOs / JSON-Schema)</b>
+| Schemas / DTOs | Descripción |
+|-----------|----------|
+| ActuatorSchemaPost|Registro de un actuador.|
+|ActuatorSchemaGet |Respuesta con datos de actuador.|
+|ActionLogSchemaGet|Historial de acciones ejecutadas|
+| AutomationRuleSchemaPost| Creación de una nueva regla de automatización.|
+| AutomationRuleSchemaGet:|Consulta de reglas configuradas|
+| ScheduleSchemaPost:|Creación de un nuevo cronograma.|
+| ScheduleSchemaGet:|Consulta de cronogramas existentes.|
+
+<b>Rutas REST recomendadas</b> 
+
+
+|REST endpoints (contratos)| Descripción |
+|-----------|----------|
+| /actuators [POST/GET] | Registrar y consultar actuadores. |
+|/actuators/{id}/status [PUT]| Cambiar estado de un actuador|
+|/actions [GET] |Consultar historial de acciones.|
+|/rules [POST/GET/PUT/DELETE]|CRUD de reglas de automatización|
+|/schedules [POST/GET/PUT/DELETE] |CRUD de cronogramas de automatización.|
+
+
+
+
+#### 4.2.3.3. Application Context
+Servicios de aplicación y casos de uso que implementan las reglas de negocio del dominio combinando repositorios, validadores y mappers.
+
+|Servicios de aplicación (use-case layer)| Descripción |
+|-----------|----------|
+| ActuatorService | - register_actuator(data, db)<br>-get_actuators(db) <br>- update_status(actuatorId, status, db)|
+|ActionLogService| - record_action(actuatorId, command, status, db)<br>- get_action_logs(actuatorId, db) . |
+|AutomationRuleService | - create_rule(rule, db) <br>- evaluate_rules(sensorData, db) <br>- update_rule(ruleId, db) |
+|ScheduleService | - create_schedule(schedule, db) <br>- execute_schedules(db) <br>- disable_schedule(scheduleId, db) |
+
+
+#### 4.2.3.4. Infrastructure Context
+Componentes técnicos que permiten persistencia, mensajería, almacenamiento y servicios externos. 
+
+<b>Repositorio - Interfases y Comportamiento</b>
+
+
+|Repositorios| Descripción |
+|-----------|----------|
+| ActuatorRepository|- CRUD actuadores <br>|
+| ActionLogRepository| - CRUD historial de acciones|
+|AutomationRuleRepository | - CRUD reglas|
+|ScheduleRepository | - CRUD cronogramas.|
+
+
+|Mappers| Descripción |
+|-----------|----------|
+| ActuatorMapper|- Traducción Actuator ↔ tabla actuators.|
+| ActionLogMapper| -Traducción ActionLog ↔ tabla action_logs|
+|RuleMapper | -Traducción AutomationRule ↔ tabla automation_rules|
+|ScheduleMapper | -Traducción Schedule ↔ tabla schedules|
+
+|Integraciones| Descripción |
+|-----------|----------|
+|IoT Command Adapter|- puente con actuadores (MQTT, HTTP, CoAP).|
+|Event Scheduler Adapter| -gestiona cronogramas recurrentes.|
+
+
+
+#### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
+![imagen1](assets/img/ContextSoftwareArchitectureComponentLevelDiagrams3_.png)
+
+#### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
+#### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
+
+![imagen1](assets/img/BoundedContextDomainLayerClassDiagrams3.png)
+
+
+#### 4.2.3.6.2. Bounded Context Database Design Diagram
+
+![imagen1](assets/img/BoundedContextDatabaseDesignDiagram3.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # Capítulo V: Solutions UI/UX Design
