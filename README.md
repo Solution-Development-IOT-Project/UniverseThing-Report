@@ -442,6 +442,8 @@ Preguntas principales:
 
 ### 2.2.2. Registro de entrevistas
 
+#### Segmento 1 – Agricultor tecnificado
+
 | **Entrevistador:** | José Miguel Riega |
 |--------------------|-------------------|
 | **Entrevistado 1:**  | Antonio Chávez |
@@ -463,6 +465,11 @@ Preguntas principales:
 | **Inicio: Min**    | 00:00 |
 | **Finaliza: Min**  | ~08:30 (aprox.) |
 | **Link del video:** | [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211d640_upc_edu_pe/EW51pZIeuPhLvPUvYzMCgO0BEcdUzqcSBHBJlGp3ffVv5Q?e=SoDV1V ) |
+
+
+
+#### Segmento 2 – Representante de una Cooperativa Agrícola 
+
 
 | **Entrevistador:** | Erick Ruiz Torres |
 |---------------------|------------------|
