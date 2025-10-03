@@ -444,7 +444,7 @@ Preguntas principales:
 
 | **Entrevistador:** | José Miguel Riega |
 |--------------------|-------------------|
-| **Entrevistado:**  | Antonio Chávez |
+| **Entrevistado 1:**  | Antonio Chávez |
 | **Edad:**          | 31 años |
 | **Ocupación:**     | Agricultor |
 | **Imagen:**        | ![Logo de Semios](./images/cap-2/Entrevista1.png) |
@@ -455,7 +455,7 @@ Preguntas principales:
 
 | **Entrevistador:** | Bruce Cipriano |
 |---------------------|------------------|
-| **Entrevistado:**  | Agustino Alejandro Aguilar |
+| **Entrevistado 2:**  | Agustino Alejandro Aguilar |
 | **Edad:**          | 30 años |
 | **Ocupación:**     | Agricultor independiente |
 | **Imagen:**        | ![Logo de Semios](./images/cap-2/agustin.png) |
@@ -466,7 +466,7 @@ Preguntas principales:
 
 | **Entrevistador:** | Erick Ruiz Torres |
 |---------------------|------------------|
-| **Entrevistado:**  | Alex Salazar |
+| **Entrevistado 1:**  | Alex Salazar |
 | **Edad:**          | 25 años |
 | **Ocupación:**     | Miembro de Cooperativa |
 | **Imagen:**        |  ![Logo de Semios](./images/cap-2/alexsalazar.png)   |
@@ -477,7 +477,7 @@ Preguntas principales:
 
 | **Entrevistador:** | Bruce Cipriano |
 |---------------------|------------------|
-| **Entrevistado:**  | Ray Alessandro Carmen zorrillo |
+| **Entrevistado 2:**  | Ray Alessandro Carmen zorrillo |
 | **Edad:**          | 25 años |
 | **Ocupación:**     | Director técnico de cooperativa agrícola |
 | **Imagen:**        |  ![Logo de Semios](./images/cap-2/ray.png)   |
