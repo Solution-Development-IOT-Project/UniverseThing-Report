@@ -935,7 +935,123 @@ Componentes técnicos que permiten persistencia, mensajería, almacenamiento y s
 
 
 
+-------
+### 4.2.4. Bounded Context: Reportes y Notificaciones
+Este bounded context administra la consolidación de datos y eventos de los demás módulos (monitoreo, automatización, seguridad) para generar reportes analíticos y enviar notificaciones en tiempo real a los usuarios.
 
+#### 4.2.4.1. Domain Layer
+
+
+
+<b>Modelos</b>
+
+| Clase | Descripción |
+|-----------|----------|
+|Report| - Representa un informe consolidado generado periódicamente o bajo demanda. <br> -Atributos: id, type, generatedAt, data, format, requestedBy. <br> - Relación con User (quien solicita).  |
+|Notification| -Notificación enviada a un usuario (ej. alerta de intrusión, reporte disponible, condición anómala en sensores).<br> -Atributos: id, userId, title, message, priority, status, sentAt.|
+|NotificationPreference | - Configuración personalizada del usuario sobre cómo y cuándo recibir notificaciones. <br> - Atributos: id, userId, channel, enabled, schedule. |
+| Channe| - Define la vía de comunicación (ejemplo: Email, SMS, App Push). <br> - Atributos: id, type, config. |
+
+
+<b>Enums</b>
+
+- ReportType: Environmental, Automation, Security, SystemUsage.
+
+- NotificationChannel: Email, SMS, Push.
+
+- NotificationPriority: Low, Medium, High, Critical.
+
+- NotificationStatus: Pending, Sent, Failed, Read.
+
+<b>Validators</b>
+
+- ReportValidator: valida formato y completitud del reporte.
+
+- NotificationValidator: valida coherencia entre prioridad y canal disponible.
+
+#### 4.2.4.2. Interface Context
+Conjunto de contratos (REST/JSON y mensajes de eventos) que exponen la funcionalidad del bounded context. Versionado con /api/v1/.
+
+
+<b>Esquemas (DTOs / JSON-Schema)</b>
+| Schemas / DTOs | Descripción |
+|-----------|----------|
+| ReportSchemaPost|creación de reporte bajo demanda.|
+|ReportSchemaGet |consulta de reportes generados.|
+|NotificationSchemaPost|enviar notificación manual o programada.|
+| NotificationSchemaGet| historial de notificaciones recibidas.|
+| PreferenceSchemaPost|configuración de preferencias de usuario.|
+|PreferenceSchemaGet|consulta de preferencias activas.|
+
+
+<b>Rutas REST recomendadas</b> 
+
+
+|REST endpoints (contratos)| Descripción |
+|-----------|----------|
+|/reports [POST/GET] | CRUD de reportes. |
+|/notifications [POST/GET/PUT]| CRUD de notificaciones.|
+|/preferences [POST/GET/PUT/DELETE] |CRUD de preferencias de notificación.|
+
+
+
+
+#### 4.2.4.3. Application Context
+Servicios de aplicación y casos de uso que implementan las reglas de negocio del dominio combinando repositorios, validadores y mappers.
+
+|Servicios de aplicación (use-case layer)| Descripción |
+|-----------|----------|
+| ReportService | - generate_report(reportType, format, db)<br>- get_reports(userId, db)|
+|NotificationService| - send_notification(userId, message, channel, priority, db)<br>- get_notifications(userId, db) <br> - mark_as_read(notificationId, db)|
+|PreferenceService | - save_preferences(userId, data, db) <br>- get_preferences(userId, db) |
+
+<b>Casos de uso principales</b>
+- Generar reportes ambientales periódicos y notificar al usuario.
+
+- Emitir alertas críticas en tiempo real (ej. intrusión, humedad excesiva).
+
+- Enviar notificaciones de respaldo (ej. por Email cuando falla Push).
+
+
+#### 4.2.4.4. Infrastructure Context
+Componentes técnicos que permiten persistencia, mensajería, almacenamiento y servicios externos. 
+
+<b>Repositorio - Interfases y Comportamiento</b>
+
+
+|Repositorios| Descripción |
+|-----------|----------|
+|ReportRepository|- CRUD de reportes. <br>|
+|NotificationRepository| -CRUD de notificaciones|
+|PreferenceRepository | - CRUD de preferencias.|
+
+
+|Mappers| Descripción |
+|-----------|----------|
+|ReportMapper|- Traducción Report ↔ tabla reports|
+|NotificationMapper| -Traducción Notification ↔ tabla notifications|
+|PreferenceMapper | -Traducción NotificationPreference ↔ tabla preferences|
+
+|Integraciones| Descripción |
+|-----------|----------|
+|EmailAdapter|- (SMTP).|
+|SMSAdapter| -(proveedor Twilio o equivalente).|
+|PushNotificationAdapter| -(Firebase Cloud Messaging).|
+
+
+
+#### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
+![imagen1](assets/img/ContextSoftwareArchitectureComponentLevelDiagrams4.png)
+
+#### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
+#### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
+
+![imagen1](assets/img/BoundedContextDomainLayerClassDiagrams3.png)
+
+
+#### 4.2.4.6.2. Bounded Context Database Design Diagram
+
+![imagen1](assets/img/BoundedContextDatabaseDesignDiagram3.png)
 
 
 
@@ -987,6 +1103,13 @@ Componentes técnicos que permiten persistencia, mensajería, almacenamiento y s
 ### 5.2.4. Searching Systems
 
 ### 5.2.5. Navigation Systems
+
+
+
+
+
+
+-----
 
 ## 5.3. Landing Page UI Design
 
