@@ -28,13 +28,13 @@
 
 <div align="center">
 
-| Member                |    Code    |
-| :-------------------- | :--------: |
-| ##                    |     ##     |
-| Quispe Tipo Godofredo | U202120772 |
-| ##                    |     ##     |
-| ##                    |     ##     |
-| ##                    |     ##     |
+| Member                              |    Code    |
+| :---------------------------------- | :--------: |
+| Cipriano Chumbes, Bruce Andres      | U20211D640 |
+| Loarte Matos, Anthony Brahan        | U20211D563 |
+| Riegas Salas, Jose Miguel           | U202211254 |
+| Ruiz Torres, Erick Hernan           | U202118946 |
+| Quispe Tipo, Godofredo              | U202120772 |
 
 </div>
 
