@@ -1046,12 +1046,12 @@ Componentes técnicos que permiten persistencia, mensajería, almacenamiento y s
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
 #### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
 
-![imagen1](assets/img/BoundedContextDomainLayerClassDiagrams3.png)
+![imagen1](assets/img/BoundedContextDomainLayerClassDiagrams4.png)
 
 
 #### 4.2.4.6.2. Bounded Context Database Design Diagram
 
-![imagen1](assets/img/BoundedContextDatabaseDesignDiagram3.png)
+![imagen1](assets/img/BoundedContextDatabaseDesignDiagram4.png)
 
 
 
@@ -1087,10 +1087,122 @@ Componentes técnicos que permiten persistencia, mensajería, almacenamiento y s
 # Capítulo V: Solutions UI/UX Design
 
 ## 5.1. Style Guidelines
+En el marco del desarrollo de nuestra solución digital Agropre, enfocada en el monitoreo ambiental, gestión de cultivos, automatización agrícola y generación de reportes inteligentes, establecemos pautas de estilo que garantizarán una presentación coherente, usable y profesional en todos los productos: la aplicación móvil, la plataforma web y las integraciones con dispositivos IoT.
+
+Estas guías buscan mantener una identidad visual clara y homogénea, un lenguaje accesible para agricultores y profesionales, y una experiencia intuitiva en todos los puntos de interacción.
+
+Agropre adopta los principios de Material Design 3 y lineamientos de accesibilidad digital, asegurando que la aplicación sea clara, moderna y escalable, tanto en entornos web como móviles.
 
 ### 5.1.1. General Style Guidelines
 
+<b>Branding:</b>
+
+- Brand Overview:
+Agropre responde a la necesidad de los agricultores y cooperativas de contar con una plataforma integral para la gestión digital de fincas, control ambiental, automatización de procesos agrícolas y generación de reportes predictivos.
+El sistema conecta a los agricultores con sensores de campo, dispositivos de control (cubiertas, fumigación, riego) y herramientas de monitoreo en tiempo real, brindando información precisa para la toma de decisiones.
+El diseño visual de Agropre se basa en la naturaleza y la innovación tecnológica, con un enfoque en simplicidad, sostenibilidad y confianza.
+
+- Brand Name:
+El nombre Agropre proviene de la fusión de “Agro” (campo, agricultura) y “Pre” (prevención, predicción y precisión). Refleja el objetivo de la solución: predecir riesgos, prevenir pérdidas y ofrecer precisión en la gestión agrícola.
+
+- Logo:
+El logotipo de Agropre combina un escudo estilizado con una hoja verde, simbolizando protección, sostenibilidad y confianza en el campo. Este será el ícono principal de la marca en aplicaciones, landing pages y material corporativo.
+
+<b>Typography:</b>
+
+- Fuente Principal: Montserrat (limpia, moderna y legible en web y móvil).
+
+- Fuente Secundaria: Roboto (para interfaces de usuario, tablas y dashboards).
+
+<b>Usos principales:</b>
+
+- Encabezados: Montserrat Bold (24–32 pt).
+
+- Títulos secundarios: Montserrat SemiBold (18–24 pt).
+
+- Cuerpo de texto: Roboto Regular (14–16 pt).
+
+- Etiquetas y botones: Roboto Medium (12–14 pt).
+
+
+<b>Colors:</b>
+
+Paleta principal inspirada en la agricultura y la sostenibilidad:
+
+- Verde Agropre (#43A047): crecimiento, sostenibilidad.
+
+- Verde Claro (#8BC34A): frescura y vitalidad.
+
+- Amarillo Sol (#FBC02D): energía, innovación y alertas.
+
+- Gris Neutro (#F5F5F5 / #212121): legibilidad y contraste.
+
+Los colores se aplican con jerarquía visual: verde como identidad principal, amarillo para alertas/acciones críticas y gris para equilibrio.
+
+<b>Tono de comunicación y lenguaje:</b>
+
+El lenguaje de Agropre será:
+
+- Formal y profesional en reportes y documentación técnica.
+
+- Claro y cercano en la app móvil para agricultores, evitando tecnicismos innecesarios.
+
+- Orientado a la acción en notificaciones (ej. “Helada detectada: active sus cubiertas”).
+
+Se prioriza un tono confiable, proactivo y preventivo, que motive a los usuarios a actuar a tiempo en la gestión de sus cultivos.
+
 ### 5.1.2. Web, Mobile and IoT Style Guidelines
+
+La landing page de Agropre será el punto de entrada para agricultores, cooperativas y socios estratégicos.
+
+<b>Principios:</b>
+
+- Diseño responsivo y adaptable a escritorio, tablets y móviles.
+
+- Secciones claras: Inicio, Funcionalidades, Beneficios, Casos de Uso, Contacto.
+
+- Uso estratégico de call-to-action (CTA) como “Solicita una Demo” o “Conecta tus sensores”.
+
+<b>Elementos visuales:</b>
+
+- Cabecera fija: menú con logo + secciones principales.
+
+- Banners dinámicos: mostrando alertas climáticas y automatización agrícola.
+
+- Sección intermedia: beneficios en tarjetas con íconos agrícolas.
+
+- Footer: enlaces a contacto, soporte y políticas.
+
+
+La app móvil de Agropre será la herramienta principal para agricultores en campo.
+
+<b>Principios de diseño:</b>
+
+- Material Design 3 como base.
+
+- Paleta cromática definida (verde y amarillo como colores guía).
+
+- Interfaces modulares: dashboards, alertas en tiempo real, gráficas climáticas.
+
+- Componentes: botones flotantes, cards con métricas, menús desplegables.
+
+<b>Funciones clave en UI:</b>
+
+- Alertas en tiempo real: pop-ups y notificaciones push.
+
+- Control de dispositivos IoT: botones con iconografía clara (riego, fumigación, cubiertas).
+
+- Dashboards de monitoreo: gráficos de temperatura, humedad, viento.
+
+- Reportes: panel con visualización histórica.
+
+<b>Animaciones y transiciones:</b>
+
+- Animaciones suaves en el cambio de secciones.
+
+- Notificaciones con colores de alerta (amarillo/rojo).
+
+- Transiciones fluidas entre dashboards y control manual.
 
 ## 5.2. Information Architecture
 
