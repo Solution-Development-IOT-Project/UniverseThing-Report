@@ -443,37 +443,75 @@ Preguntas principales:
 ### 2.2.2. Registro de entrevistas
 
 | **Entrevistador:** | José Miguel Riega |
-|---------------------|------------------|
+|--------------------|-------------------|
 | **Entrevistado:**  | Antonio Chávez |
 | **Edad:**          | 31 años |
 | **Ocupación:**     | Agricultor |
-| **Imagen:**        | ![Logo de Semios](/images/cap-2/Entrevista1.png) |
+| **Imagen:**        | ![Logo de Semios](./images/cap-2/Entrevista1.png) |
 | **Descripción:**   | Agricultor responde las preguntas planteadas para el segmento 1                 |
 | **Inicio: Min**    | 00:00:01 |
 | **Finaliza: Min**  | 00:03:53 |
 | **Link del video:** | [Ver video](https://drive.google.com/drive/folders/1okh-RLcmiiJ_Hv2pB_4FqVP2Vx35tvwA) |
+
+| **Entrevistador:** | Bruce Cipriano |
+|---------------------|------------------|
+| **Entrevistado:**  | Agustino Alejandro Aguilar |
+| **Edad:**          | 30 años |
+| **Ocupación:**     | Agricultor independiente |
+| **Imagen:**        | ![Logo de Semios](./images/cap-2/agustin.png) |
+| **Descripción:**   | Agricultor con 5 hectáreas en Ica, dedicado al cultivo de papas, yucas y tubérculos. Su trabajo es principalmente manual, con escaso uso de tecnología. Afronta problemas frecuentes como plagas y heladas que afectan fuertemente su producción. No lleva un control digital de agua ni pesticidas, solo registros básicos en Excel. Considera importante la inversión a largo plazo y estaría interesado en tecnologías que den alertas tempranas y sistemas de protección automatizados.    |
+| **Inicio: Min**    | 00:00 |
+| **Finaliza: Min**  | ~08:30 (aprox.) |
+| **Link del video:** | [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211d640_upc_edu_pe/EW51pZIeuPhLvPUvYzMCgO0BEcdUzqcSBHBJlGp3ffVv5Q?e=SoDV1V ) |
 
 | **Entrevistador:** | Erick Ruiz Torres |
 |---------------------|------------------|
 | **Entrevistado:**  | Alex Salazar |
 | **Edad:**          | 25 años |
 | **Ocupación:**     | Miembro de Cooperativa |
-| **Imagen:**        |  ![Logo de Semios](/images/cap-2/alexsalazar.png)   |
+| **Imagen:**        |  ![Logo de Semios](./images/cap-2/alexsalazar.png)   |
 | **Descripción:**   | Integrante de coopetiva responde las preguntas planteadas para el segmento 2                 |
 | **Inicio: Min**    | 00:00:01 |
 | **Finaliza: Min**  | 00:05:37 |
 | **Link del video:** | [Ver video](https://drive.google.com/file/d/1SRAPa4cC9q1jEgf0V4_538xNbMy3ZNGP/view?usp=drive_link ) |
 
+| **Entrevistador:** | Bruce Cipriano |
+|---------------------|------------------|
+| **Entrevistado:**  | Ray Alessandro Carmen zorrillo |
+| **Edad:**          | 25 años |
+| **Ocupación:**     | Director técnico de cooperativa agrícola |
+| **Imagen:**        |  ![Logo de Semios](./images/cap-2/ray.png)   |
+| **Descripción:**   | Ingeniero agrícola y miembro de una cooperativa en Huánuco con más de 150 socios y 1,200 hectáreas en total. Se dedica a papa, yuca, camote y tubérculos. Su rol es acompañar a los socios en asistencia técnica, transferencia de tecnología, capacitaciones y gestión de proyectos. Reconoce como principales problemas las plagas y las condiciones climáticas extremas. La cooperativa brinda asistencia técnica, capacitaciones y compras conjuntas. Está abierto a implementar pilotos tecnológicos, valora modelos de suscripción accesibles y alianzas con empresas tecnológicas que brinden soporte y capacitación.  |
+| **Inicio: Min**    | 00:00 |
+| **Finaliza: Min**  | ~12:00 (aprox.) |
+| **Link del video:** | [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211d640_upc_edu_pe/EYRm1wt0RulFjRnAMsRu06UB5CcrEeWbirazb04fKiDNIQ?e=Y2d7AT ) |
+
 ### 2.2.3. Análisis de entrevistas
 
-| **Segmento**  | **Descripción** |
-|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Segmento 1    | Agricultor tecnificado |
-| Entrevista    | El entrevistado es un productor de 31 años con más de tres décadas de experiencia en su finca de 12 hectáreas en Tunuyán, Mendoza, donde cultiva principalmente perales, ciruelos y algunos duraznos. Se define como alguien que combina lo tradicional con lo innovador: le interesa probar nuevas tecnologías, pero con cautela, siempre evaluando costos, resultados y referencias locales antes de arriesgarse. |
-| Desafíos      | Su mayor desafío son las heladas tardías, que pueden arruinar la producción en pocas noches, y actualmente las enfrenta con torres de viento, riego por aspersión y un control manual muy demandante. |
-| Recursos y visión | Considera clave el uso eficiente de agua y pesticidas, llevando registros manuales que le gustaría automatizar. Está abierto a herramientas digitales, como sensores o sistemas de alerta y respuesta automática contra heladas, siempre que sean confiables y ofrezcan un retorno claro de la inversión. |
-| Decisiones    | En la toma de decisiones, aunque consulta con ingenieros agrónomos o familiares, la última palabra la tiene él, priorizando la practicidad y la seguridad económica. Segmento 2: Cooperativas |
+#### Segmento 1 – Agricultor tecnificado
 
+| **Campo**  | **Descripción** |
+|----------------------|-----------------|
+| **Entrevista 1**   | El entrevistado es un productor de 31 años con más de tres décadas de experiencia en su finca de 12 hectáreas en Tunuyán, Mendoza, donde cultiva principalmente perales, ciruelos y algunos duraznos. Se define como alguien que combina lo tradicional con lo innovador: le interesa probar nuevas tecnologías, pero con cautela, siempre evaluando costos, resultados y referencias locales antes de arriesgarse. |
+| **Desafíos**      | Su mayor desafío son las heladas tardías, que pueden arruinar la producción en pocas noches, y actualmente las enfrenta con torres de viento, riego por aspersión y un control manual muy demandante. |
+| **Recursos y visión** | Considera clave el uso eficiente de agua y pesticidas, llevando registros manuales que le gustaría automatizar. Está abierto a herramientas digitales, como sensores o sistemas de alerta y respuesta automática contra heladas, siempre que sean confiables y ofrezcan un retorno claro de la inversión. |
+| **Decisiones**     | En la toma de decisiones, aunque consulta con ingenieros agrónomos o familiares, la última palabra la tiene él, priorizando la practicidad y la seguridad económica. Segmento 2: Cooperativas |
+
+| **Campo**            | **Descripción** |
+|----------------------|-----------------|
+| **Entrevista 2**   | El entrevistado es un agricultor de 30 años con 5 hectáreas en Ica, donde cultiva papas, yucas y tubérculos. Su trabajo es principalmente manual, con escaso uso de tecnología. Registra datos básicos en Excel pero no tiene sistemas digitales avanzados de control. Está interesado en herramientas que le den mayor control sobre agua, pesticidas y especialmente sobre riesgos climáticos como heladas y plagas. |
+| **Desafíos**     | Los principales desafíos son las plagas y las heladas, que pueden afectar gravemente su producción y reducir sus ingresos. Además, la falta de herramientas tecnológicas hace que la reacción ante estos problemas sea lenta y dependiente del trabajo manual. |
+| **Recursos y visión** | Sus recursos son limitados y prioriza la inversión que garantice rentabilidad a largo plazo. Se muestra receptivo a tecnologías que brinden alertas tempranas y soluciones automatizadas, siempre que sean accesibles y fáciles de usar. |
+| **Decisiones**   | Las decisiones las toma él mismo, evaluando costos y beneficios. Aunque consulta ocasionalmente con otros agricultores, lo que más influye es la practicidad y la posibilidad de mantener sus cultivos sin gastos excesivos. |
+
+#### Segmento 2 – Representante de una Cooperativa Agrícola 
+
+| **Segmento**        | **Descripción** |
+|------------------|-----------------|
+| **Entrevista 2**   | El entrevistado es un ingeniero agrícola de 25 años, director técnico en una cooperativa de Huánuco con más de 150 socios y alrededor de 1,200 hectáreas de producción conjunta. La cooperativa cultiva papa, yuca, camote y tubérculos. Su rol principal es la asistencia técnica, capacitación, gestión de proyectos y transferencia de tecnología hacia los socios. |
+| **Desafíos**     | Los desafíos más relevantes son las plagas y los cambios climáticos extremos que afectan grandes volúmenes de producción. Otro reto es la heterogeneidad en el nivel tecnológico de los socios, lo que dificulta una adopción homogénea de nuevas soluciones. |
+| **Recursos y visión** | Cuentan con cierta capacidad de inversión conjunta y organizan compras colectivas para reducir costos. Valoran las herramientas digitales que mejoren la producción, especialmente aquellas que permitan prevenir problemas y optimizar recursos. Están abiertos a implementar pilotos tecnológicos, siempre que haya capacitación y soporte constante. |
+| **Decisiones**   | Las decisiones importantes se toman de manera colectiva en la cooperativa, pero dependen de la validación técnica del director y del consenso de los socios. Buscan soluciones que sean sostenibles, escalables y que puedan aplicarse de manera uniforme en la mayoría de las parcelas. |
 
 
 ## 2.3. Needfinding
