@@ -1118,15 +1118,6 @@ El logotipo de Agropre combina un escudo estilizado con una hoja verde, simboliz
 - Fuente Secundaria: Roboto (para interfaces de usuario, tablas y dashboards).
 ![logobrand](assets/img/tipografia.png){ width=100% }
 
-<b>Usos principales:</b>
-
-- Encabezados: Montserrat Bold (24–32 pt).
-
-- Títulos secundarios: Montserrat SemiBold (18–24 pt).
-
-- Cuerpo de texto: Roboto Regular (14–16 pt).
-
-- Etiquetas y botones: Roboto Medium (12–14 pt).
 
 
 <b>Colors:</b>
