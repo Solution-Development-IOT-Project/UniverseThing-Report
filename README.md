@@ -765,13 +765,142 @@ Esta sección tiene como propósito detallar las actualizaciones significativas 
 
 ## 6.1. Software Configuration Management
 
+En esta sección se establece el proceso de implementación, comprobación, despliegue y validación de nuestra solución compuesta por los productos digitales que forman parte del alcance nuestra solución. Este capítulo abarca secciones para la organización del proceso de trabajo en Sprints, la descripción de las prácticas asociadas, evidencias de implementación y la colaboración por Sprint.
+
 ### 6.1.1. Software Development Environment Configuration
+
+A continuación se especifica cada uno de los productos de software, que utilizamos para colaborar en el ciclo de vida y desarrollo de los productos para nuestra solución, considerandotodas las herramientas utilizadas en la documentación, especificación de nuestra solución y desarrollo de software, respetando las restricciones indicadas sobre los productos de software y herramientas que debemos utilizar.
+
+#### Project Management
+
+| Producto de Software | Descripción                                                                                                         | Ruta de referencia o de descarga      |
+|----------------------|---------------------------------------------------------------------------------------------------------------------|---------------------------------------|
+| Trello               | Para el control del proyecto, asignación de tareas y actividades de cada integrante del equipo en base a User Stories. | https://www.trello.com/               |
+| Google Meet          | Plataforma virtual para realizar reuniones del grupo para coordinar y asignar actividades.                          | https://meet.google.com               |
+
+#### Requirements Management
+
+| Producto de Software | Descripción                                                                 | Ruta de referencia o de descarga |
+|----------------------|-----------------------------------------------------------------------------|----------------------------------|
+| UXPressia            | Elaboración de User Personas, Empathy Maps, Journey Maps e Impact Maps.     | https://uxpressia.com/           |
+| Miro                 | Elaboración de As-Is y To-Be Scenario Maps.                                 | https://miro.com/                |
+
+#### Product UX/UI Design
+
+| Producto de Software | Descripción                                 | Ruta de referencia o de descarga |
+|----------------------|---------------------------------------------|----------------------------------|
+| Figma                | Elaboración de Wireframes, Mock-ups y Prototypes. | https://www.figma.com            |
+
+#### Software Development
+
+| Producto de Software | Descripción                                                                                           | Ruta de referencia o de descarga              |
+|----------------------|-------------------------------------------------------------------------------------------------------|-----------------------------------------------|
+| IntelliJ IDEA        | Entorno de Desarrollo Integrado (IDE) para codificación y desarrollo del lado Backend de la solución. | https://www.jetbrains.com/idea/               |
+| Android Studio       | Entorno de Desarrollo Integrado (IDE) para codificación y desarrollo de la aplicación móvil.          | https://developer.android.com/studio          |
+| GIT                  | Almacenamiento y control de versiones de código.                                                      | https://git-scm.com                           |
+| GitHub               | Gestión de GIT en un repositorio común.                                                               | https://github.com                            |
+
+---
 
 ### 6.1.2. Source Code Management
 
+Para el seguimiento de modificaciones en el desarrollo de nuestra solución, utilizamos la plataforma **GitHub** para alojar tanto la documentación como el código de nuestros productos de software. Esta plataforma nos permite realizar seguimiento de las modificaciones en cada parte de los productos desarrollados y también la utilizaremos como sistema de control de versiones. Para asegurar que todo el equipo pueda acceder a la plataforma y que los repositorios que alojarán diferentes partes de nuestra solución sean accesibles por una misma ruta, hemos creado una **organización** en GitHub con el nombre de nuestro producto.
+
+### Organización
+
+| Organización            | URL                                      |
+|-------------------------|-------------------------------------------|
+| 2510-356-AptitudePro    | [https://github.com/2510-356-AptitudePro ](https://github.com/Solution-Development-IOT-Project)  |
+
+Dentro de nuestra organización en GitHub se encuentran los **repositorios** correspondientes a cada uno de los productos a desarrollar.
+
+### Repositorios por Producto
+
+| Producto                       | URL del Repositorio                                                                 |
+|--------------------------------|--------------------------------------------------------------------------------------|
+| Landing Page                   | [https://github.com/2510-356-AptitudePro/AptitudePro-Landing-Page ](https://github.com/Solution-Development-IOT-Project/UniverseThings-LandingPage)                   |
+| Backend                        | [https://github.com/2510-356-AptitudePro/Backend  ](https://github.com/Solution-Development-IOT-Project/UniverseThings-Backend)                                   |
+| Mobile Application             | [https://github.com/2510-356-AptitudePro/AptitudePro-Application  ](https://github.com/Solution-Development-IOT-Project/UniverseThings-Mobile-App)                   |
+| Frontend                       | [https://github.com/2510-356-AptitudePro/AptitudePro-Application-Flutter](https://github.com/Solution-Development-IOT-Project/UniverseThings-Frontend)             |
+
+### Implementación de GitFlow
+
+Para el desarrollo del proyecto, implementaremos **GitFlow** propuesto por Vincent Driessen (“A successful Git branching model”) y lo aplicaremos en todos los repositorios que integran la solución. Para implementar GitFlow, crearemos las siguientes ramas de trabajo en cada repositorio:
+
+| Rama        | Propósito (resumen)                               |
+|-------------|----------------------------------------------------|
+| `main`      | Línea estable de producción                        |
+| `develop`   | Integración de nuevas funcionalidades              |
+| `feature/*` | Desarrollo de características aisladas             |
+| `release/*` | Preparación de versiones de lanzamiento            |
+| `hotfix/*`  | Correcciones críticas sobre producción             |
+
+
+### Convenciones de Mensajes de Commit (Conventional Commits)
+
+Aplicaremos **Conventional Commits** para los textos de cada commit en todas las ramas de los repositorios. Esto proporciona un conjunto de reglas para crear un historial de commits que describa de manera clara las características, correcciones y cambios importantes realizados.
+
+**Estructura general del mensaje de commit:**
+
+| Elemento | Descripción                                                                 |
+|----------|------------------------------------------------------------------------------|
+| `type`   | Tipo de cambio (por ejemplo: `feat`, `fix`, `docs`, `style`, `refactor`, …) |
+| `scope`  | (Opcional) Alcance del cambio                                               |
+| `subject`| Descripción breve del cambio                                                |
+
+**Tipos usados (ejemplos):**
+
+| Tipo       | Uso                                                                 |
+|------------|---------------------------------------------------------------------|
+| `fix`      | Indica una corrección en el código base                             |
+| `feat`     | Introduce una nueva característica                                  |
+| `build`    | Cambios que afectan el sistema de build                             |
+| `chore`    | Tareas varias (sin afectar código de producción)                    |
+| `ci`       | Cambios de configuración de integración continua                    |
+| `docs`     | Cambios en documentación                                            |
+| `style`    | Formato y estilos (sin cambiar comportamiento)                      |
+| `refactor` | Reestructuración sin cambios funcionales                            |
+| `perf`     | Mejoras de rendimiento                                              |
+| `test`     | Agrega o corrige pruebas                                            |
+
+ 
 ### 6.1.3. Source Code Style Guide & Conventions
 
+Para el desarrollo de nuestra propuesta de solución, el equipo utilizará las convenciones estándar para cada lenguaje durante todo el ciclo de vida del proyecto y en todos los repositorios de trabajo. A continuación, se presentan las referencias para la nomenclatura de los elementos en cada lenguaje, procurando utilizar nomenclatura en inglés y seguir buenas prácticas de programación.
+
+| Lenguaje   | Referencias y Convenciones |
+|------------|----------------------------|
+| **HTML**   | - Utilizar la estructura de documento propia de HTML, especificando el `<!DOCTYPE html>`.<br>- Cerrar siempre las etiquetas de autocierre con `/>`.<br>- Utilizar minúsculas (“lowercase”) para los nombres de las etiquetas y atributos.<br>- Incluir atributos `alt` en las imágenes para describir su contenido.<br>- Mantener una indentación consistente en el código. |
+| **CSS**    | - Utilizar unidades relativas para definir el tamaño de las imágenes.<br>- Separar las palabras con guiones en lugar de espacios o subrayados.<br>- Preferir el uso de propiedades abreviadas cuando sea posible.<br>- Emplear nombres descriptivos para las clases y los identificadores. |
+| **JavaScript** | - Documentar el código de manera descriptiva.<br>- Utilizar nombres descriptivos para variables y funciones.<br>- Organizar el código en módulos y componentes. |
+| **Java**   | - Las clases e interfaces deben nombrarse con sustantivos en *CamelCase*.<br>- Organizar el código en módulos y componentes.<br>- Limitar la longitud de los métodos para que realicen una única función clara.<br>- Manejar adecuadamente las excepciones con mensajes o acciones concretas. |
+| **Kotlin** | - Los nombres de funciones, propiedades y variables locales deben comenzar con una letra minúscula (salvo funciones de fábrica).<br>- Los nombres de las clases deben ser frases nominales que expliquen su contexto.<br>- Evitar la creación de objetos innecesarios.<br>- Utilizar `lazy` para posponer la inicialización de propiedades hasta que sea necesaria.<br>- Los nombres de los paquetes deben escribirse en minúsculas, sin guiones bajos ni concatenar palabras usando *CamelCase*. |
+| **Gherkin**| - Usar la estructura **Given / When / Then / And** para escribir casos de prueba.<br>- Uso de archivos `.feature` para cada caso de prueba.<br>- Utilizar un **Feature** por funcionalidad del sistema.<br>- Describir escenarios de forma clara. |
+
+
 ### 6.1.4. Software Deployment Configuration
+
+A continuación se detalla la configuración necesaria para el despliegue de cada producto digital desarrollado. Asimismo, se incluyen los pasos requeridos para llevar a cabo el despliegue y la publicación, partiendo desde los repositorios de código fuente alojados en nuestra organización en la plataforma GitHub.
+
+#### Landing Page
+
+**Requisitos para realizar el despliegue**
+- Repositorio en la plataforma GitHub  
+- Tener todos los permisos necesarios para modificar el repositorio  
+- Archivos con el código fuente de la Landing Page
+
+**Pasos realizados para publicar la Landing Page**
+1. Ingresamos a Firebase desde el navegador, iniciamos sesión y creamos un nuevo proyecto llamado **AptitudePro**.  
+2. Ejecutamos en la terminal:  
+   - `npm install -g firebase-tools`  
+   - `firebase login` (accedemos a la cuenta)  
+   - `ng build`  
+   - `firebase init`  
+   - `firebase deploy`
+
+**Resultado del despliegue**
+
+---
 
 ## 6.2. Landing Page, Services & Applications Implementation
 
