@@ -1093,14 +1093,14 @@ Estas guías buscan mantener una identidad visual clara y homogénea, un lenguaj
 
 Agropre adopta los principios de Material Design 3 y lineamientos de accesibilidad digital, asegurando que la aplicación sea clara, moderna y escalable, tanto en entornos web como móviles.
 
+
 ### 5.1.1. General Style Guidelines
 
-<b>Branding:</b>
-
-- Brand Overview:
-Agropre responde a la necesidad de los agricultores y cooperativas de contar con una plataforma integral para la gestión digital de fincas, control ambiental, automatización de procesos agrícolas y generación de reportes predictivos.
+Nuestra solución Agropre responde a la necesidad de los agricultores y cooperativas de contar con una plataforma integral para la gestión digital de fincas, control ambiental, automatización de procesos agrícolas y generación de reportes predictivos.
 El sistema conecta a los agricultores con sensores de campo, dispositivos de control (cubiertas, fumigación, riego) y herramientas de monitoreo en tiempo real, brindando información precisa para la toma de decisiones.
 El diseño visual de Agropre se basa en la naturaleza y la innovación tecnológica, con un enfoque en simplicidad, sostenibilidad y confianza.
+
+<b>Branding:</b>
 
 - Brand Name:
 El nombre Agropre proviene de la fusión de “Agro” (campo, agricultura) y “Pre” (prevención, predicción y precisión). Refleja el objetivo de la solución: predecir riesgos, prevenir pérdidas y ofrecer precisión en la gestión agrícola.
@@ -1108,11 +1108,15 @@ El nombre Agropre proviene de la fusión de “Agro” (campo, agricultura) y �
 - Logo:
 El logotipo de Agropre combina un escudo estilizado con una hoja verde, simbolizando protección, sostenibilidad y confianza en el campo. Este será el ícono principal de la marca en aplicaciones, landing pages y material corporativo.
 
+![logobrand](assets/img/logobrand.png){ width=100% }
+
+
 <b>Typography:</b>
 
 - Fuente Principal: Montserrat (limpia, moderna y legible en web y móvil).
 
 - Fuente Secundaria: Roboto (para interfaces de usuario, tablas y dashboards).
+![logobrand](assets/img/tipografia.png){ width=100% }
 
 <b>Usos principales:</b>
 
@@ -1129,15 +1133,17 @@ El logotipo de Agropre combina un escudo estilizado con una hoja verde, simboliz
 
 Paleta principal inspirada en la agricultura y la sostenibilidad:
 
-- Verde Agropre (#43A047): crecimiento, sostenibilidad.
+- Verde Agropre (#30B320): crecimiento, sostenibilidad.
 
-- Verde Claro (#8BC34A): frescura y vitalidad.
+- Verde Claro (#53D20D): frescura y vitalidad.
 
-- Amarillo Sol (#FBC02D): energía, innovación y alertas.
+- Verde SemiClaro (#93D40F): frescura y vitalidad.
 
-- Gris Neutro (#F5F5F5 / #212121): legibilidad y contraste.
+- Gris Neutro (#00000/ #212121): legibilidad y contraste.
 
 Los colores se aplican con jerarquía visual: verde como identidad principal, amarillo para alertas/acciones críticas y gris para equilibrio.
+
+![logobrand](assets/img/colores.png){ width=100% }
 
 <b>Tono de comunicación y lenguaje:</b>
 
@@ -1153,70 +1159,207 @@ Se prioriza un tono confiable, proactivo y preventivo, que motive a los usuarios
 
 ### 5.1.2. Web, Mobile and IoT Style Guidelines
 
-La landing page de Agropre será el punto de entrada para agricultores, cooperativas y socios estratégicos.
+La página web de AgroPre ha sido creada para que se vea apropiadamente en cualquier dispositivo, incluyendo computadores, tablets y teléfonos móviles, lo que asegura un diseño completamente adaptable.  Esto posibilita que, sin tener en cuenta el tamaño o la clase de pantalla, los usuarios en especial técnicos, agricultores o administradores de cultivos tengan acceso a la plataforma.
+ El sitio web estará disponible en computadoras de escritorio y en dispositivos móviles para ofrecer una experiencia fluida, accesible y actualizada.
 
-<b>Principios:</b>
+ El diseño web seleccionado es Flat Design para proporcionar una interfaz clara, intuitiva y libre de elementos decorativos superfluos.  Esta selección favorece un entendimiento más acertado de la información presentada (como reportes de cultivo, estado de los sensores o métricas medioambientales) y disminuye las distracciones visuales.
+ Igualmente, se utiliza el patrón Z de lectura visual, que dirige la colocación de los componentes esenciales (gráficos, botones de acción, menús y logo) de acuerdo con el movimiento natural ocular del usuario.  Así, la información prioritaria se enfoca sin que se pierda la coherencia visual.
 
-- Diseño responsivo y adaptable a escritorio, tablets y móviles.
+ Asimismo, se han establecido directrices concretas para las interfaces web responsivas, entre las cuales sobresalen:
+ 
+- Grid System: Se utiliza un sistema de 12 columnas, lo cual permite que los componentes se ajusten proporcionalmente a diferentes tamaños de pantalla, garantizando una estructura ordenada y adaptable.
 
-- Secciones claras: Inicio, Funcionalidades, Beneficios, Casos de Uso, Contacto.
+- Breakpoints: Se establecen puntos de quiebre en 320px, 768px y 1200px, que permiten adaptar la disposición de los elementos para dispositivos móviles, tablets y escritorios respectivamente.
 
-- Uso estratégico de call-to-action (CTA) como “Solicita una Demo” o “Conecta tus sensores”.
+- Escalado tipográfico: Los textos mantienen un tamaño mínimo de 16px en pantallas móviles, priorizando la legibilidad en entornos de campo, donde las condiciones de luz pueden variar.
 
-<b>Elementos visuales:</b>
+- Consistencia de color: La paleta de colores (verde naturaleza, gris claro) se mantiene constante en todos los estados interactivos (hover, focus, active).
 
-- Cabecera fija: menú con logo + secciones principales.
+- Botones y enlaces: Los elementos táctiles poseen un tamaño mínimo de 44px de alto, lo que facilita la interacción en pantallas pequeñas o con guantes de trabajo.
 
-- Banners dinámicos: mostrando alertas climáticas y automatización agrícola.
-
-- Sección intermedia: beneficios en tarjetas con íconos agrícolas.
-
-- Footer: enlaces a contacto, soporte y políticas.
+- Iconografía: Se emplean íconos universales y de alto contraste que representan acciones como monitorear, agregar sensor, enviar alerta o generar reporte.
 
 
-La app móvil de Agropre será la herramienta principal para agricultores en campo.
+<b>Diseño de la Aplicación Móvil</b>
 
-<b>Principios de diseño:</b>
+La aplicación móvil de AgroPre se ha pensado principalmente para los agricultores que necesitan consultar información del campo en tiempo real. Por ello, su diseño se basa en la simplicidad y en la rapidez de acceso a los datos críticos.
 
-- Material Design 3 como base.
+Los principales lineamientos considerados son:
 
-- Paleta cromática definida (verde y amarillo como colores guía).
+- Single Column Layout: La disposición de los elementos se realiza en una sola columna vertical, ideal para visualizar datos de sensores, gráficos o formularios breves.
 
-- Interfaces modulares: dashboards, alertas en tiempo real, gráficas climáticas.
+- Bottom Navigation Bar: Se incluye una barra inferior de navegación que agrupa las principales secciones: “Inicio”, “Monitoreo”, “Alertas”, “Reportes” y “Perfil”. Esta ubicación permite un fácil acceso con el pulgar, incluso en dispositivos de gran tamaño.
 
-- Componentes: botones flotantes, cards con métricas, menús desplegables.
+- Overlays: Se utilizan capas superpuestas para mostrar información complementaria sin abandonar la pantalla principal. Por ejemplo, un overlay puede desplegar detalles del sensor de temperatura o permitir calibrar el umbral de humedad.
 
-<b>Funciones clave en UI:</b>
+- Floating Action Button (FAB): Un botón flotante, ubicado en la esquina inferior derecha, ofrece acceso rápido a acciones frecuentes como “Agregar sensor”, “Registrar cultivo” o “Sincronizar datos”.
 
-- Alertas en tiempo real: pop-ups y notificaciones push.
+- Notificaciones inteligentes: Los usuarios recibirán alertas de heladas o niveles críticos de humedad a través de notificaciones push, acompañadas de íconos y colores distintivos.
 
-- Control de dispositivos IoT: botones con iconografía clara (riego, fumigación, cubiertas).
 
-- Dashboards de monitoreo: gráficos de temperatura, humedad, viento.
+<b>Interfaces IoT</b>
 
-- Reportes: panel con visualización histórica.
+En cuanto a las interfaces IoT embebidas, estas se implementan principalmente en los dispositivos de monitoreo y control (sensores de temperatura, cámaras 4K, actuadores de riego o control de cubiertas).
+Dado que su propósito es puramente funcional, no se contempla un diseño gráfico complejo. Las pantallas, si existen, se limitan a mostrar valores numéricos o indicadores simples.
 
-<b>Animaciones y transiciones:</b>
+Los lineamientos definidos son:
 
-- Animaciones suaves en el cambio de secciones.
+- Indicadores LED: Verde para funcionamiento correcto, rojo para error o desconexión, y azul para conexión activa a la red.
 
-- Notificaciones con colores de alerta (amarillo/rojo).
+- Pantalla simplificada: En dispositivos con display, solo se muestran datos relevantes (por ejemplo: “Temp: 18.2°C / Hum: 62%”).
 
-- Transiciones fluidas entre dashboards y control manual.
+- Menú jerárquico básico: Los dispositivos que requieren configuración local presentan menús textuales de una sola capa, manejados con botones físicos o perillas.
+
+- Sincronización visual: Cada sensor indica con un parpadeo azul cuando se está sincronizando con el servidor central de AgroPre.
 
 ## 5.2. Information Architecture
 
+La arquitectura de información de AgroPre asegura que los usuarios tengan un acceso rápido a las funciones básicas, una comprensión fácil de la estructura del sistema y la posibilidad de navegar con eficacia gracias a la disposición organizada de todos los módulos y componentes.
+Esta arquitectura tiene en cuenta la aplicación móvil, la plataforma web y los aparatos IoT para garantizar uniformidad visual, semántica y funcional a lo largo de toda la experiencia del usuario.
+
 ### 5.2.1. Organization Systems
+A continuación, se describen los sistemas de organización de la información, diferenciando los principales segmentos de usuario que utiliza AgroPre.
+
+<b>Segmento: Agricultores o Técnicos de Campo</b>
+
+
+Jerárquica:
+
+- Panel de Sensores: Los agricultores podrán visualizar una lista ordenada de sensores activos (temperatura, humedad, radiación solar, CO₂).
+
+- Gestión de Cultivos: Cada cultivo se presenta jerárquicamente con su información detallada: ubicación, estado de crecimiento, alertas activas y rendimiento.
+
+- Planes de Riego: Se muestran de manera organizada según prioridad o fecha programada.
+
+Secuencial:
+
+- Calibración de Sensores: El proceso de calibración guía paso a paso al usuario desde la detección del sensor hasta su validación final.
+
+- Registro de Cultivos: El usuario debe seguir una secuencia lógica: seleccionar el tipo de cultivo → asignar parcela → definir sensores asociados → confirmar registro.
+
+Matricial:
+
+- Cruce de Datos: El sistema permite comparar métricas de diferentes sensores para analizar correlaciones (por ejemplo, humedad del suelo vs. temperatura ambiental).
+
+- Planes de Fertilización: Se visualizan matrices de fechas y acciones recomendadas según el tipo de cultivo.
+
+
+<b>Segmento: Administradores o Empresas Agrícolas</b>
+
+Jerárquica:
+
+- Gestión de Usuarios: Listado estructurado de usuarios, roles y permisos dentro del sistema.
+
+- Reportes Históricos: Clasificados por finca, rango de fechas y tipo de sensor.
+
+- Alertas Globales: Organización jerárquica por prioridad (crítica, moderada, informativa).
+
+Secuencial:
+
+- Configuración de Políticas de Alerta: Proceso paso a paso para definir umbrales de temperatura, humedad o luz que activan notificaciones automáticas.
+
+- Revisión de Incidentes: Flujo desde la detección hasta la confirmación y cierre de cada evento.
+
+Matricial:
+
+- Dashboard Comparativo: Vista cruzada de rendimiento entre diferentes fincas o cultivos.
+
+- Control de Energía IoT: Relación entre consumo energético de los sensores y eficiencia operativa.
+
 
 ### 5.2.2. Labeling Systems
 
+El sistema de etiquetado de AgroPre se diseñó para ser claro, breve y orientado a la acción, permitiendo que los usuarios identifiquen rápidamente las funciones.
+
+Etiquetas del sitio web:
+
+- Inicio / Tablero:  Interfaz principal que presenta indicadores generales y la situación presente del campo.
+
+- Vigilancia del medio ambiente:  Panel que muestra los valores más recientes de CO₂, viento, luz, humedad y temperatura.
+
+- Control sobre las cosechas:  Sección para administrar las acciones automatizadas, los cultivos y los sensores.
+
+- Notificaciones y alertas:  Catálogo de sucesos recientes (desconexiones, heladas, niveles bajos).
+
+- Informes y análisis:  Visualización de datos históricos utilizando filtros según la fecha o el tipo de cultivo.
+
+- Ajustes:  Lugar donde se adaptan los umbrales, los usuarios y las preferencias del sistema.
+
+
+Etiquetas de la aplicación móvil:
+
+- Comienzo:  Ejemplo de un resumen que incluye métricas del campo y alertas recientes.
+
+- Mis cosechas:  Lista interactiva de cultivos registrados, que incluye botones para añadir o modificar los datos.
+
+- Mis sensores:  Panel para examinar los sensores IoT en cuanto a su estado, batería y conexión.
+
+- Avisos:  Notificaciones organizadas según su tipo y su prioridad.
+
+- Perfil:  Sincronización, cierre de sesión, idioma y opciones del usuario.
+
+
+
 ### 5.2.3. SEO Tags and Meta Tags
+
+
+Sitio Web Principal:
+
+- Title: AgroPre – Plataforma de Monitoreo y Automatización Agrícola Inteligente
+
+- Description: AgroPre es una solución IoT que integra sensores, análisis de datos y control automático para optimizar la producción agrícola.
+
+- Keywords: agricultura inteligente, monitoreo IoT, sensores agrícolas, control climático, automatización de cultivos
+
+- Author: Equipo UniverseThing
+
+Aplicación Web:
+
+- Title: AgroPre Web Dashboard
+
+- Description: Plataforma para gestionar sensores, visualizar métricas en tiempo real y recibir alertas predictivas sobre el estado del cultivo.
+
+- Keywords: monitoreo agrícola, dashboard IoT, alertas de heladas, sensores de humedad, control ambiental
+
+- Aplicación Móvil:
+
+- Title: AgroPre App – Control Agrícola Móvil
+
+- Description: Supervisa tus cultivos desde cualquier lugar con la app AgroPre. Recibe alertas, consulta métricas y administra tu producción fácilmente.
+- Keywords: aplicación agrícola, IoT móvil, monitoreo remoto, gestión de cultivos, alertas agrícolas
 
 ### 5.2.4. Searching Systems
 
+El sistema de búsqueda en AgroPre está diseñado para mejorar la eficiencia de consulta dentro de los módulos web y móvil.
+
+- Búsqueda Global: Barra superior disponible en todo el sistema que permite localizar sensores, cultivos o reportes.
+
+- Filtros Contextuales: Permiten filtrar datos por finca, tipo de sensor, rango de fechas o estado (activo/inactivo).
+
+- Búsqueda Predictiva: Autocompletado que sugiere coincidencias a medida que el usuario escribe.
+
+- Historial de Consultas: Permite revisar las últimas búsquedas realizadas.
+
+- Índices Prioritarios: Los datos más relevantes (por ejemplo, alertas recientes) se muestran primero.
 ### 5.2.5. Navigation Systems
 
+La navegación de AgroPre se ha diseñado bajo principios de usabilidad, consistencia y fluidez, con variaciones según el tipo de plataforma:
 
+Landing Page:
+- Incluye un menú superior fijo con las secciones “Inicio”, “Características”, “Cómo Funciona”, “Soporte” y “Contacto”.
+- El desplazamiento entre secciones se realiza mediante anclas suaves, facilitando una navegación intuitiva sin recargar la página.
+
+Aplicación Web:
+- El menú lateral (sidebar) agrupa las funciones principales, adaptándose al perfil del usuario. Por ejemplo, los agricultores verán “Monitoreo”, “Cultivos”, “Sensores”, “Alertas” y “Reportes”.
+- El diseño prioriza los atajos visuales y la navegación contextual dentro de dashboards.
+
+Aplicación Móvil:
+- Navegación asistida mediante bottom navigation bar con iconos reconocibles.
+- Las vistas verticales permiten desplazamiento tipo scroll limitado, con carruseles de métricas o productos.
+- Los accesos rápidos mediante FAB permiten interactuar sin abandonar la pantalla principal.
+
+Dispositivos IoT:
+- La navegación física se limita a menús lineales o secuenciales mediante botones físicos, pensados para técnicos en campo.
 
 
 
