@@ -889,38 +889,112 @@ A continuación se detalla la configuración necesaria para el despliegue de cad
 - Tener todos los permisos necesarios para modificar el repositorio  
 - Archivos con el código fuente de la Landing Page
 
-**Pasos realizados para publicar la Landing Page**
-1. Ingresamos a Firebase desde el navegador, iniciamos sesión y creamos un nuevo proyecto llamado **AptitudePro**.  
-2. Ejecutamos en la terminal:  
-   - `npm install -g firebase-tools`  
-   - `firebase login` (accedemos a la cuenta)  
-   - `ng build`  
-   - `firebase init`  
-   - `firebase deploy`
-
 **Resultado del despliegue**
+
+![Evidencias despliegue 1](assets/image/DeployEvidence.png)
 
 ---
 
 ## 6.2. Landing Page, Services & Applications Implementation
 
-### 6.2.X. Sprint n
+### 6.2.X. Sprint 1
 
-#### 6.2.X.1. Sprint Planning n.
+Se presenta la planificación del primer Sprint realizado por el equipo para el inicio del desarrollo de la solución UniverseThings. 
 
-#### 6.2.X.2. Sprint Backlog n.
+| Campo                         | Valor                                                                                                   |
+|------------------------------|---------------------------------------------------------------------------------------------------------|
+| Sprint #                     | Sprint 1                                                                                                |
+| Sprint Planning Background   | Primer Sprint; no hay información previa.                                                               |
+| Date                         | 2025-05-12                                                                                              |
+| Time                         | 08:00 PM                                                                                                |
+| Location                     | Reunión virtual (Meet)                                                                                  |
+| Prepared By                  | Quispe Tipo, Godofredo / Riega Salas Jose Miguel/ Loarte Matos, Anthony Brahan/ Ruiz Torres, Erick Hernan/ Cipriano Chumbes, Bruce Andres|
+| Attendees                    | Quispe Tipo, Godofredo / Riega Salas Jose Miguel/ Loarte Matos, Anthony Brahan/ Ruiz Torres, Erick Hernan/ Cipriano Chumbes, Bruce Andres|
+| Sprint 1-1 Review Summary    | No se dispone de resúmenes ni resultados previos.                                                       |
+| Sprint 1-1 Retrospective     | Se destaca trabajo en equipo, organización y necesidad de investigar desarrollo en Android.             |
+| Sprint 1 Goal                | Creación de primera version de la landing page                                                          |
+| Hipótesis de Valor           | Generará confianza en los estudiantes sobre la solución.                                                |
+| Criterio de Confirmación     | Pueden acceder a tests y usar funciones de orientación vocacional.                                      |
+| Sprint 1 Velocity            | 35 (Story Points aceptados)                                                                             |
+| Sum of Story Points          | 35                                                                                                      |
 
-#### 6.2.X.3. Development Evidence for Sprint Review
 
-#### 6.2.X.4. Testing Suite Evidence for Sprint Review.
+---
 
-#### 6.2.X.5. Execution Evidence for Sprint Review.
+### 6.2.1.2. Sprint Backlog 1
+| User Story | Work-Item / Task | Título / Descripción (extracto)                                                                                                   | Estimación (h) | Assigned To        | Status     |
+|------------|-------------------|----------------------------------------------------------------------------------------------------------------------------------|----------------|--------------------|------------|
+| US027       | T01               | Crear barra de navegación — Diseñar e implementar barra con logo y enlaces a secciones clave                                    | 2              | Bruce Cipriano  | Done       |
+| US028       | T01               | Agregar información destacada — Misión, objetivo y beneficios en la landing                                                     | 3              | Jose Miguel      | Done       |
+| US029       | T01               | Crear footer informativo — Contacto, redes sociales y enlaces legales                                                           | 2              | Fiorella Vilca     | Done       |
+| US016       | T01               | Enviar un mensaje o consulta desde la landing page, para recibir más información sobre el producto.                             | 2              | Godofredo Quispe   | Done       |
+| US017       | T01               | La landing page debe incluir una sección con al menos 3 testimonios con foto y nombre del agricultor/cooperativa.               | 6              | Godofredo Quispe   | Done       |
+| US018       | T01               | La landing page debe mostrar tabla de precios o paquetes de suscripción, diferenciados por tipo de usuario.                     | 2              | Godofredo Quispe   | Done       |
+| US020       | T01               | El sistema debe permitir la descarga de un PDF con información resumida del dispositivo y su uso.                               | 2              | Diego Soriano      | Done       |
+| US20        | T01               | Página “Psicólogos” — Crear vista; configurar barra; cartas por psicólogo                                                       | 3              | Diego Soriano      | Done       |
+| US21        | T01               | Agendar orientación vocacional — Crear vista; configurar info; campos de texto; opciones                                        | 3              | Diego Soriano      | To-Review  |
+| US22        | T01               | Recepción de solicitudes — Crear vista; mostrar solicitudes; configurar opciones; programar funciones                           | 2              | Diego Soriano      | In-Process |
 
-#### 6.2.X.6. Services Documentation Evidence for Sprint Review.
 
-#### 6.2.X.7. Software Deployment Evidence for Sprint Review.
+---
+
+### 6.2.1.3. Development Evidence for Sprint Review
+| Repository                                     | Branch       | Commit Id | Commit Message                               | Committed on |
+|-----------------------------------------------|--------------|-----------|----------------------------------------------|--------------|
+| 2510-356-AptitudePro/AptitudePro-Landing-Page | main         | 1cc1d96  | initial commit                                | 19/7/2025   |
+| 2510-356-AptitudePro/AptitudePro-Application  | develop      | 135ccf8   | feat: tus cambios aquí                       | 1/10/2025   |
+| 2510-356-AptitudePro/AptitudePro-Application  | develop      | 403a699   | feat: tus cambios aquí                     | 1/10/2025   |
+| 2510-356-AptitudePro/AptitudePro-Application  | develop      | 90089b1   | fix: descripción corta de lo que cambiaste   | 1/10/2025   |
+
+
+---
+
+### 6.2.1.5. Execution Evidence for Sprint Review
+
+En esta sección presentamos el resumen de lo alcanzado en este Sprint describiendo la visualización y navegación de las principales vistas implementadas para nuestra solución siendo el primer Sprint y nuestro Producto Backlog y el desarrollo descrito en nuestro Sprint Backlog.
+
+Landing Page:
+
+![Evidencias Sprint 1](assets/image/EvidenceN1.png)
+
+![Evidencias Sprint 1](assets/image/EvidenceN2.png)
+
+![Evidencias Sprint 1](assets/image/EvidenceN3.png)
+
+#### 6.2.1.6. Services Documentation Evidence for Sprint Review.
+
+#### 6.2.1.7. Software Deployment Evidence for Sprint Review.
+
+Durante este Sprint se realizaron procesos de despliegue para los productos correspondientes a nuestra solución como son Landing Page.
+
+Landing Page:
+
+luego de tener la configuración terminada el proyecto deberia aparecer en github pages:
+
+![Evidencias despliegue 1](assets/image/DeployEvidence.png)
+
+![Evidencias despliegue 1](assets/image/DeployEvidence.png)
+
+Deployment:
+
+![Evidencias Sprint 1](assets/image/EvidenceN1.png)
+
 
 #### 6.2.X.8. Team Collaboration Insights during Sprint.
+
+Analíticos de colaboración y commits realizados en la plataforma GitHub, realizados por los
+miembros del equipo en desarrollo de cada producto asociado a nuestra solución:  
+
+Report:
+
+![Evidencias Sprint 1](assets/image/EvidenceR.png)
+
+![Evidencias Sprint 1](assets/image/EvidenceR2.png)
+
+Landing Page:
+
+![Evidencias Sprint 1](assets/image/EvidenceLanding.png)
+![Evidencias Sprint 1](assets/image/EvidenceLanding2.png)
 
 ## 6.3. Validation Interviews.
 
