@@ -717,6 +717,8 @@ Los tasks que tienen mayor relevancia para este segmento son aquellos que permit
 
 * **Segmento 2** – Representante de una Cooperativa Agrícola
 
+<img src="images/cap-2/seg2empathymap.png" alt="Jorge Empathy Map"/>
+
 ### 2.3.5. As-Is Scenario Mapping
 
 ## 2.4. Ubiquitous Language
