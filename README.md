@@ -702,10 +702,20 @@ Los tasks que tienen mayor relevancia para este segmento son aquellos que permit
 ### 2.3.3. User Journey Mapping
 
 * **Segmento 1** – Agricultor tecnificado
+
 <img src="images/cap-2/seg1journeymap.png" alt="Antonio User Journey"/>
+
 * **Segmento 2** – Representante de una Cooperativa Agrícola
+
 <img src="images/cap-2/seg2journeymap.png" alt="Jorge User Journey"/>
+
 ### 2.3.4. Empathy Mapping
+
+* **Segmento 1** – Agricultor tecnificado
+
+<img src="images/cap-2/seg1empathymap.png" alt="Antonio Empathy Map"/>
+
+* **Segmento 2** – Representante de una Cooperativa Agrícola
 
 ### 2.3.5. As-Is Scenario Mapping
 
