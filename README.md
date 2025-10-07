@@ -549,6 +549,12 @@ Preguntas principales:
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
+ * **Segmento 1** – Agricultor tecnificado
+
+ <img src="images/cap-2/userPersonSeg1.png" alt="Antonio User Persona"/>
+
+ * **Segmento 2** – Representante de una Cooperativa Agrícola
+  
 
 ### 2.3.2. User Task Matrix
 
