@@ -560,6 +560,145 @@ Preguntas principales:
 
 ### 2.3.2. User Task Matrix
 
+* **Segmento 1** – Agricultor tecnificado
+  Para la elaboración de esta sección hemos considerado como segmento objetivo a los agricultores tecnificados, propietarios o administradores de fincas medianas y grandes, quienes se encuentran en una etapa de modernización de sus operaciones y buscan soluciones confiables que optimicen su productividad y reduzcan riesgos climáticos.
+
+
+
+<table border="1">
+  <tr>
+    <td rowspan="2">Task Matrix</td>
+    <td colspan="2">Antonio, Chávez Fuente</td>
+  </tr>
+  <tr>
+    <td>Frecuencia</td>
+    <td>Importancia</td>
+  </tr>
+  <tr>
+    <td>Monitorear condiciones climáticas en sus cultivos</td>
+    <td>Alta</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Verificar riesgo de heladas durante la noche</td>
+    <td>Alta (en temporada)</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Controlar manualmente sistemas de protección contra heladas</td>
+    <td>Media</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Aplicar pesticidas de forma preventiva</td>
+    <td>Media</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Calcular costos de mano de obra para vigilancia</td>
+    <td>Media</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Revisar estado de plagas en campo</td>
+    <td>Media</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Consultar aplicaciones meteorológicas</td>
+    <td>Alta</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Llevar registros manuales de temperaturas y plagas</td>
+    <td>Baja</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Evaluar nuevas tecnologías agrícolas</td>
+    <td>Baja</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Coordinar con trabajadores para tareas de protección</td>
+    <td>Media</td>
+    <td>Media</td>
+  </tr>
+</table>
+
+En relación con el User Task Matrix, y la necesidad de proteger sus cultivos de manera eficiente y confiable, podemos concluir lo siguiente:
+
+Los tasks que tienen mayor relevancia para este segmento son aquellos que requieren monitoreo constante y respuesta inmediata a amenazas climáticas, como verificar condiciones de heladas, controlar sistemas de protección y aplicar pesticidas preventivos. Se identifica una alta dependencia de métodos manuales y vigilancia personal, especialmente durante las noches de temporada de heladas, y al mismo tiempo, una falta de herramientas automatizadas que permitan una respuesta rápida y precisa sin requerir intervención constante del agricultor.
+
+* **Segmento 2** – Representante de una Cooperativa Agrícola
+  
+Para la elaboración de esta sección hemos considerado como segmento objetivo a los directores técnicos y gerentes de cooperativas agrícolas, quienes buscan implementar soluciones tecnológicas que beneficien de manera colectiva a todos sus socios, mejorando la productividad homogénea y el acceso a mercados más exigentes.
+
+<table border="1">
+  <tr>
+    <td rowspan="2">Task Matrix</td>
+    <td colspan="2">Jorge, Herrera Villa</td>
+  </tr>
+  <tr>
+    <td>Frecuencia</td>
+    <td>Importancia</td>
+  </tr>
+  <tr>
+    <td>Evaluar tecnologías para implementación grupal</td>
+    <td>Media</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Gestionar procesos de aprobación en asambleas</td>
+    <td>Media</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Buscar financiamiento para tecnologías agrícolas</td>
+    <td>Alta</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Capacitar a socios en nuevas herramientas</td>
+    <td>Media</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Establecer estándares de calidad homogéneos</td>
+    <td>Alta</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Coordinar compras colectivas de insumos</td>
+    <td>Media</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Monitorear resultados de pilotos tecnológicos</td>
+    <td>Media</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Elaborar reportes para instituciones y financiadores</td>
+    <td>Media</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Negociar con proveedores de tecnología</td>
+    <td>Baja</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Visitar parcelas de socios para evaluación</td>
+    <td>Media</td>
+    <td>Media</td>
+  </tr>
+</table>
+
+En relación con el User Task Matrix, y la necesidad de implementar soluciones escalables que beneficien a toda la comunidad de socios, podemos concluir lo siguiente:
+
+Los tasks que tienen mayor relevancia para este segmento son aquellos que permiten evaluar, financiar e implementar tecnologías de manera colectiva, como gestionar procesos de aprobación, buscar financiamiento y establecer estándares de calidad uniformes. Se identifica una alta dependencia de procesos democráticos y validación grupal para la toma de decisiones, y al mismo tiempo, una falta de modelos de negocio flexibles que se adapten a las realidades económicas y operativas de las cooperativas agrícolas.
+
 ### 2.3.3. User Journey Mapping
 
 ### 2.3.4. Empathy Mapping
