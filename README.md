@@ -313,7 +313,7 @@ Finalmente, se reconocen los bounded contexts o contextos delimitados, que repre
 
 ![bounded](assets/img/bounded.jpg)
 
-
+Link de Miro: https://miro.com/app/board/uXjVO-qMV2o=/?share_link_id=889158007938 
 
 #### 4.1.1.1. Candidate Context Discovery
 
@@ -373,6 +373,8 @@ Descripción: El agricultor recibe notificaciones y consulta reportes histórico
 
 ![escenario4](assets/img/escenario4.jpg)
 
+Link en Miro: https://miro.com/app/board/uXjVJ93mG54=/?share_link_id=572383765696
+
 
 #### 4.1.1.3. Bounded Context Canvases
 Se elaboraron lienzos de Bounded Context para cada uno de los contextos definidos durante el EventStorming. Estos lienzos permiten delimitar con claridad el alcance de cada contexto, sus responsabilidades principales y la manera en que se relaciona con los demás.
@@ -389,6 +391,7 @@ Se elaboraron lienzos de Bounded Context para cada uno de los contextos definido
 ![canvase4](assets/img/canvase4.jpg)
 <b></b>
 
+Link en Miro:  https://miro.com/app/board/uXjVJ94Zc2k=/?share_link_id=473917165758 
 
 ### 4.1.2 Context mapping
 
@@ -1426,3 +1429,8 @@ Dispositivos IoT:
 # Bibliografía
 
 # Anexos
+
+- Miro de EventStorming:  https://miro.com/app/board/uXjVO-qMV2o=/?share_link_id=889158007938
+- Miro de Domain Message Flows Modeling:  https://miro.com/app/board/uXjVJ93mG54=/?share_link_id=817613181253
+- Miro de Bounded Context Canvases:  https://miro.com/app/board/uXjVJ94Zc2k=/?share_link_id=289906462401 
+
