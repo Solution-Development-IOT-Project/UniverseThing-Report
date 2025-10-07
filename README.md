@@ -258,7 +258,7 @@
 # Capítulo IV: Solution Software Design
 
 ## 4.1. Strategic-Level Domain-Driven Design <b>
-<p>En esta parte se describe el proceso de toma de decisiones estratégicas en el diseño de software a partir de Domain-Driven Design (DDD). El enfoque se centra en reconocer los subdominios esenciales y los contextos delimitados, garantizando que el diseño se mantenga alineado con las metas del negocio. A través de dinámicas colaborativas como EventStorming, se representaron los flujos de mensajes y se definieron los contextos junto con sus interacciones. Posteriormente, mediante Context Mapping, se establecieron relaciones y patrones de integración que sirvieron de base para la arquitectura. Se exponen aquí los pasos principales, desde la fase de descubrimiento hasta la definición de la arquitectura final, siempre sustentados en los principios de DDD. </p></b>
+<p>En esta sección se explica el proceso de tomar decisiones estratégicas en la concepción del software, basándose en Domain-Driven Design (DDD).  El enfoque se enfoca en identificar los subdominios fundamentales y los contextos delimitados, asegurando que el diseño siga alineado con las metas del negocio.  Se delinearon los contextos y sus interacciones, y se ilustraron los flujos de mensajes mediante dinámicas de colaboración como EventStorming.  Más tarde, por medio del Context Mapping, se definieron relaciones y patrones de integración que se utilizaron como fundamento para la arquitectura.  Aquí se presentan las etapas fundamentales, desde la fase de descubrimiento hasta la determinación de la arquitectura definitiva, siempre respaldadas por los principios de DDD. </p></b>
 
 ### 4.1.1. EventStorming 
 
@@ -266,39 +266,39 @@
 Para llevar a cabo el EventStorming, el equipo se coordinó con el objetivo de obtener una primera aproximación al modelado del dominio de nuestro proyecto. Para ello, seguimos una secuencia de nueve pasos.
 
 <b>Paso 1: Recolección de Eventos de Dominio</b>
-En esta primera fase, se identifican los eventos más relevantes del dominio que ocurren en el sistema. Estos eventos reflejan hechos significativos dentro del proceso de negocio, y se documentan utilizando notas adhesivas de color naranja.
+Se determina en esta etapa inicial los sucesos más significativos del dominio que tienen lugar en el sistema.  Estos acontecimientos se documentan con notas adhesivas de color naranja y representan sucesos importantes dentro del proceso de negocio.
 
 ![collectdomainevents](assets/img/collects.jpg)
 
 <b>Paso 2: Línea de Tiempo</b>
-En esta etapa se ordenan todos los eventos previamente identificados dentro de una secuencia temporal. De esta manera, se colocan de forma cronológica para facilitar la visualización del flujo del proceso y comprender el orden natural en que ocurren las acciones dentro del sistema.
+En esta fase, todos los sucesos que se han identificado con anterioridad se organizan en una secuencia temporal.  Así, se ubican en orden cronológico para que sea más fácil ver el flujo del proceso y entender la secuencia natural de las acciones dentro del sistema.
 
 ![timelins](assets/img/timeline.jpg)
 
 <b>Paso 3: Puntos Problemáticos y Momentos Clave</b>
-En esta fase se detectan tanto las dificultades presentes en el proceso (pain points) como los momentos determinantes (pivotal points). Estos aspectos señalan áreas que necesitan especial atención o que resultan críticas para el correcto desempeño del sistema.
+En esta etapa se identifican tanto los puntos de dolor como los momentos cruciales.  Estas características indican campos que requieren atención especial o que son cruciales para el adecuado funcionamiento del sistema.
 
 ![pivotal](assets/img/pivotal.jpg)
 
 
 <b> Paso 4: Comandos </b>
-En este paso se incorporan los comandos, representados con notas adhesivas de color azul, que dan origen a los eventos. Estos comandos corresponden a las acciones que realizan los usuarios o sistemas externos con el fin de generar cambios dentro del sistema.
+En este paso se añaden los comandos, que son representados con notas adhesivas azules y que dan lugar a los eventos.  Estas instrucciones son las que los usuarios o sistemas externos ejecutan para provocar modificaciones dentro del sistema.
 
 ![commands](assets/img/commands.jpg)
 
 
 <b>Paso 5: Políticas</b>
-En esta etapa se establecen las políticas o reglas de negocio, representadas con notas adhesivas moradas. Estas reaccionan ante determinados eventos y, como consecuencia, generan nuevos eventos. Su función principal es automatizar decisiones en función de lo que haya ocurrido previamente.
+En esta fase, se definen las políticas o normas de negocio, presentadas mediante notas adhesivas de color morado.  Estas reaccionan a ciertos acontecimientos y, por lo tanto, producen otros nuevos.  Su propósito fundamental es automatizar decisiones basándose en lo que haya sucedido anteriormente.
 
 ![policy](assets/img/policy.jpg)
 
 <b>Paso 6: Modelos de Lectura</b>
-En este paso se definen los modelos de lectura o vistas que requieren los usuarios para poder tomar decisiones. Estos modelos representan la información que debe estar accesible en momentos específicos dentro del proceso.
+En esta etapa, se determinan los modelos de lectura o las vistas que necesitan los usuarios para tomar decisiones.  Estos modelos muestran los datos que tienen que estar disponibles en instantes concretos del proceso.
 
 ![vista](assets/img/vista.jpg)
 
 <b>Paso 7: Sistemas Externos</b>
-En esta fase se señalan los sistemas externos, representados con notas adhesivas de color rosado, que interactúan con la solución. Se trata de componentes que no están bajo control directo, pero que influyen en el desarrollo del proceso.
+Se indican en esta etapa los sistemas externos, que están representados con notas adhesivas de color rosa y que interactúan con la solución.  Son elementos que no se controlan de manera directa, pero que tienen un impacto en la evolución del proceso.
 
 
 ![externos](assets/img/externos.jpg)
@@ -331,12 +331,12 @@ Detección de agrupaciones naturales: Se identificaron patrones y conjuntos lóg
 
 ![externos](assets/img/externos.jpg)
 
-Nos centramos en eventos clave, como la configuración de notificaciones y alertas, los cuales señalaban con claridad las transiciones entre distintos contextos.
+Nos enfocamos en eventos importantes, como la configuración de alertas y notificaciones, que indicaban sin ambigüedades los cambios de un contexto a otro.
 
 
 ![agregados](assets/img/agregados.jpg)
 
-Definición de límites :Se delimitaron fronteras en torno a los grupos previamente identificados, con el fin de establecer los límites iniciales de los bounded contexts.
+Definición de límites: Se definieron fronteras alrededor de los grupos previamente detectados, para determinar así los límites preliminares de los bounded contexts.
 
 ![bounded](assets/img/bounded.jpg)
 
@@ -395,41 +395,41 @@ Link en Miro:  https://miro.com/app/board/uXjVJ94Zc2k=/?share_link_id=4739171657
 
 ### 4.1.2 Context mapping
 
-Luego de identificar los bounded contexts a través del EventStorming, pasamos a analizar cómo se relacionan entre sí con el fin de construir un context mapping claro y útil. Este ejercicio fue clave para entender las interacciones, responsabilidades y límites de cada contexto dentro de la solución.
+Después de determinar los bounded contexts mediante el EventStorming, procedemos a examinar la forma en que se interrelacionan entre sí con el objetivo de desarrollar un context mapping claro y beneficioso.  Para comprender las interacciones, responsabilidades y límites de cada contexto en la solución, este ejercicio fue fundamental.
 
 <b>Exploración de Alternativas de Diseño</b>
 Durante las sesiones de trabajo surgieron varias alternativas de diseño que nos ayudaron a evaluar diferentes enfoques.
 
-<b>Primera alternativa: Mapa inicial</b>
-- <b> Usuarios & Gestión </b>→ Todos los demás: funciona como Shared Kernel, dado que la información de usuarios, fincas, pagos y suscripciones es esencial para que el resto de contextos opere.
-- <b> Monitoreo Ambiental</b> → <b>Reportes & Notificaciones</b>: se establece una relación , ya que el monitoreo entrega datos de sensores y heladas que son usados por reportes para generar alertas.
-- <b>Monitoreo Ambiental</b> →<b> Automatización de Cultivo</b>: aquí se observa un patrón Upstream/Downstream, donde el monitoreo detecta condiciones y la automatización responde con acciones físicas.
-- <b>Automatización de Cultivo</b> → <b>Reportes & Notificaciones</b>: también bajo un esquema Customer/Supplier, porque las acciones de cultivo generan datos que se registran en reportes.
-- <b>Reportes & Notificaciones</b> → <b>Usuarios & Gestión</b>: se comporta como un Conformist, ya que los reportes deben alinearse con la estructura de usuarios, fincas y suscripciones.
+<b>Primera opción:</b>  Mapa inicial
+ - <b>Usuarios y gestión </b>→ El resto: actúa como Shared Kernel, ya que la información de los usuarios, las fincas, las suscripciones y los pagos es fundamental para el funcionamiento de los demás contextos.
+ - <b> Monitoreo medioambiental </b> → <b> Reportes y notificaciones </b>: Se determina una conexión, puesto que el monitoreo proporciona información de heladas y sensores, la cual es utilizada por los reportes para crear advertencias.
+ - <b>Supervisión medioambiental</b> → <b>Automatización de cultivos</b>: En este caso, se puede ver un patrón de upstream/downstream, en el que la supervisión identifica las condiciones y la automatización reacciona con acciones físicas.
+- <b>Automatización de Cultivo</b> → <b>Reportes y notificaciones</b>: bajo un esquema de cliente/proveedor, ya que las actividades de cultivo producen datos que se documentan en informes.
+ - <b>Reportes y Notificaciones</b> → <b>Usuarios y Gestión</b>: actúa como un conformista, porque los informes tienen que ajustarse a la estructura de usuarios, fincas y suscripciones.
 
 <b>Segunda alternativa: Fusión de Monitoreo y Automatización</b>
 
 Nos preguntamos si sería viable unificar Monitoreo Ambiental y Automatización de Cultivo en un único contexto.
 
-- Este nuevo contexto podría llamarse Control de Cultivo Inteligente.
-- El beneficio sería simplificar la integración entre datos ambientales y ejecución de acciones.
-- No obstante, notamos que las responsabilidades son distintas: mientras el monitoreo mide y calibra, la automatización ejecuta acciones concretas.
+- Este nuevo escenario se podría denominar Control Inteligente de Cultivo.
+ - La ventaja sería facilitar la implementación de acciones y la integración de datos ambientales.
+ - Sin embargo, observamos que las responsabilidades son diferentes: el monitoreo calibra y mide, mientras que la automatización lleva a cabo acciones específicas.
 
 <b>Tercera alternativa: Uso de un Anti-corruption Layer</b>
 
 También analizamos la posibilidad de aislar ciertos contextos para evitar que los cambios internos afecten a otros.
 
-- Incorporamos un Anti-corruption Layer entre Monitoreo Ambiental y Reportes & Notificaciones para proteger la lógica de reportes de variaciones en los modelos de sensores.
-- Se aplicó lo mismo entre Automatización de Cultivo y Reportes & Notificaciones, con el fin de mantener separados los procesos físicos de la generación de reportes.
-- Esto ofrece mayor independencia evolutiva para cada contexto.
+- Añadimos una Capa Anticorrupción entre el Monitoreo Ambiental y los Reportes & Notificaciones con el fin de salvaguardar la lógica que rige los reportes de alteraciones en las configuraciones de los sensores.
+ - Se realizó lo mismo entre Reportes & Notificaciones y Automatización de Cultivo, para que los procedimientos físicos de la creación de reportes permanecieran separados.
+ - Esto brinda más autonomía evolutiva a cada contexto.
 
 <b>Cuarta alternativa: Servicio compartido de notificaciones</b>
 
 Otra opción fue pensar en un servicio centralizado para gestionar todas las notificaciones.
 
-- Se propuso extraer la lógica de envío de alertas y notificaciones a un nuevo contexto llamado Notification Service.
-- Con esto se eliminaría la duplicación de código y se centralizaría la comunicación con los usuarios.
-- Los contextos de Monitoreo Ambiental, Automatización de Cultivo y Reportes & Notificaciones pasarían a ser consumidores de este servicio compartido.
+- Se planteó la idea de trasladar la lógica para enviar alertas y notificaciones a un nuevo escenario, conocido como Notification Service.
+ - Esto eliminaría la redundancia de código y concentraría la comunicación con los usuarios en un solo lugar.
+ - Los contextos de reportes y notificaciones, así como los de monitoreo ambiental y automatización de cultivos, se convertirían en usuarios de este servicio compartido.
 
 _____________________
 
@@ -446,21 +446,21 @@ Complejidad técnica: grado de dificultad en la implementación.
 
 Después del análisis, la mejor opción resultó ser una combinación de la tercera y cuarta alternativa:
 
-- Usuarios & Gestión como Shared Kernel: sigue siendo el núcleo que provee datos de usuarios, fincas y pagos a todos los contextos.
-- Monitoreo Ambiental como proveedor principal (Upstream): entrega los datos de sensores con un Anti-corruption Layer para que no impacten directamente a otros contextos.
-- Automatización de Cultivo como Downstream de Monitoreo: recibe información del ambiente y ejecuta acciones, manteniendo un ACL hacia los reportes.
-- Notification Service como servicio compartido: concentra el manejo de notificaciones y alertas, consumido por los demás contextos.
-- Reportes & Notificaciones como Conformist: se adapta a la estructura de usuarios y a los datos provenientes de monitoreo y automatización para generar reportes y alertas.
+- Usuarios y Gestión como núcleo compartido: continúa siendo el centro que abastece a todos los contextos con información sobre usuarios, fincas y pagos.
+ - Monitoreo ambiental como proveedor principal (Upstream): proporciona los datos de los sensores con una capa anticorrupción para evitar que tengan un efecto directo en otros ámbitos.
+ - Automatización del cultivo como downstream de monitoreo: obtiene información sobre el entorno y lleva a cabo acciones, manteniendo un ACL hacia los informes.
+ - Servicio de notificaciones como servicio compartido: se encarga de la gestión de alertas y notificaciones, las cuales son utilizadas por los demás contextos.
+ - Reportes y notificaciones como Conformist: se ajusta a la estructura de los usuarios y a la información que llega del monitoreo y la automatización con el fin de crear reportes y advertencias.
 
-Este diseño final logra un balance adecuado entre cohesión, bajo acoplamiento y flexibilidad, permitiendo que cada contexto pueda evolucionar por separado, mientras se mantiene un marco claro de responsabilidades y relaciones.
+Este diseño final consigue un equilibrio apropiado entre flexibilidad, cohesión y acoplamiento bajo, lo que posibilita que cada contexto progrese de manera independiente, al tiempo que se sostiene un marco claro de relaciones y obligaciones.
 
 ### 4.1.3. Software Architecture
-En esta parte se presenta la Arquitectura de Software de la solución empleando el C4 Model como recurso de representación visual, mediante la herramienta Structurizr. Se expone la estructura global del sistema, iniciando con una vista de alto nivel (Context Level Diagram) y profundizando en las interacciones y componentes principales (Container Level Diagrams), con el fin de ofrecer una visión clara y entendible de la arquitectura propuesta.
+En este segmento se expone la arquitectura de software de la solución utilizando el C4 Model como recurso visual, a través de la herramienta Structurizr.  Se presenta la estructura general del sistema, comenzando con una perspectiva de alto nivel (diagrama de nivel de contexto) y ahondando en las interacciones y los elementos fundamentales (diagramas de nivel contenedor), para brindar una visión comprensible y nítida de la arquitectura sugerida.
 
 
 #### 4.1.3.1. Software Architecture System Landscape Diagram
 
-A continuación, se presenta el diagrama de contexto correspondiente a la arquitectura de software de la solución propuesta. En él se ilustran los actores externos que interactúan con el sistema, así como los sistemas externos con los que este mantiene comunicación.
+El diagrama de contexto relacionado con la arquitectura de software de la solución propuesta se muestra a continuación.  Se muestran en él los actores externos que se relacionan con el sistema y los sistemas externos con los que está en comunicación.
 
 ![diagramacontexto](assets/img/diagramacontexto.png)
 <b></b>
@@ -473,9 +473,9 @@ A continuación, se presenta el diagrama de contexto correspondiente a la arquit
 
 #### 4.1.3.3. Software Architecture Container Level Diagrams
 
-Este diagrama muestra los principales componentes del sistema: la Aplicación Web, la Aplicación Móvil, las APIs REST, las Bases de Datos, el sistema IoT con sensores y el Servicio de Notificaciones.
+La aplicación móvil, la aplicación web, las APIs REST, las bases de datos, el sistema IoT con sensores y el servicio de notificaciones son los elementos centrales que se ilustran en este diagrama.
 
-Se ilustran sus interacciones internas y cómo se conectan con los usuarios externos (administradores, supervisores y operadores). La arquitectura refleja la relación con los bounded contexts: Usuarios & Gestión, Monitoreo Ambiental, Automatización de Cultivo y Reportes & Notificaciones.
+ Se representan sus interacciones internas y la manera en que se conectan con los usuarios externos (como los supervisores, operadores y administradores).  La relación con los bounded contexts se manifiesta en la arquitectura:  Gestión de usuarios, supervisión del medio ambiente, automatización del cultivo y notificaciones e informes.
 
 
 ![diagramacontenedor](assets/img/diagramacontenedor.png)
@@ -490,7 +490,10 @@ En esta parte se muestra cómo se despliegan físicamente los componentes del si
 ## 4.2. Tactical-Level Domain-Driven Design
 
 ### 4.2.1. Bounded Context:Usuarios & Gestión
-Este bounded context es el núcleo administrativo de la plataforma AGROPRE, ya que permite gestionar usuarios, fincas, pagos y suscripciones. Su propósito principal es centralizar la administración de identidades, accesos y relaciones comerciales entre agricultores, supervisores y el sistema, garantizando seguridad, control y trazabilidad de la información.
+Este bounded context es el centro de administración de la plataforma AGROPRE, dado que posibilita el manejo de pagos, suscripciones, usuarios y fincas.  Su objetivo principal es consolidar la gestión de identidades, accesos y conexiones comerciales entre los campesinos, supervisores y el sistema, asegurando así la seguridad, el control y la trazabilidad de los datos.
+
+
+
 #### 4.2.1.1. Domain Layer
 
 En esta capa se encuentran los modelos y reglas de negocio que rigen la gestión de usuarios y la administración de fincas y pagos.
@@ -712,7 +715,7 @@ Componentes técnicos que permiten persistencia, mensajería, almacenamiento y s
 
 
 ### 4.2.2. Bounded Context: Monitoreo Ambiental
-El bounded context de Monitoreo Ambiental se encarga de la captura, almacenamiento, procesamiento y exposición de datos recolectados por los sensores IoT instalados en las viviendas. Estos sensores pueden medir variables como temperatura, humedad, calidad del aire, concentración de gases, ruido, entre otros. Su función principal es brindar información en tiempo real que alimente tanto al sistema de seguridad como a los módulos de gestión y reportes, permitiendo así una visión integral del entorno doméstico.
+El bounded context de Monitoreo Ambiental se ocupa de la captura, almacenamiento, tratamiento y presentación de información obtenida a través de los sensores IoT que están ubicados en las viviendas.  Estos sensores son capaces de medir variables como la calidad del aire, la temperatura, la humedad, el ruido y la concentración de gases, entre otras.  Su principal función es proporcionar información en tiempo real que nutra el sistema de seguridad y los módulos de gestión y reportes, lo que posibilita una visión completa del entorno del hogar.
 
 #### 4.2.2.1. Domain Layer
 
@@ -824,10 +827,9 @@ Componentes técnicos que permiten persistencia, mensajería, almacenamiento y s
 
 
 ### 4.2.3. Bounded Context: Automatización de Cultivo
-El bounded context de Automatización de Cultivo gestiona los procesos automáticos de riego, iluminación, ventilación y fertilización en las viviendas inteligentes con módulos agrícolas. Este subsistema conecta sensores ambientales y actuadores IoT (bombas, válvulas, ventiladores, luces, dosificadores), aplicando reglas predefinidas o configurables por el usuario.
+El bounded Context  de la Automatización de cultivos se encarga de las funciones automáticas relacionados con el riego, la ventilación, la iluminación y la fertilización en los hogares inteligentes que tienen módulos agrícolas.  Este subsistema vincula sensores ambientales y actuadores IoT (ventiladores, luces, bombas, válvulas, dosificadores) por medio de reglas que el usuario puede configurar o que ya están establecidas.
 
-Su objetivo es garantizar condiciones óptimas para el cultivo, reduciendo consumo de agua y energía, y reaccionando en tiempo real ante variaciones ambientales.
-
+ Su meta es asegurar las mejores condiciones para el cultivo, disminuyendo el uso de agua y energía y respondiendo en tiempo real a los cambios en el ambiente.
 #### 4.2.3.1. Domain Layer
 
 
@@ -1099,15 +1101,14 @@ Agropre adopta los principios de Material Design 3 y lineamientos de accesibilid
 
 ### 5.1.1. General Style Guidelines
 
-Nuestra solución Agropre responde a la necesidad de los agricultores y cooperativas de contar con una plataforma integral para la gestión digital de fincas, control ambiental, automatización de procesos agrícolas y generación de reportes predictivos.
-El sistema conecta a los agricultores con sensores de campo, dispositivos de control (cubiertas, fumigación, riego) y herramientas de monitoreo en tiempo real, brindando información precisa para la toma de decisiones.
-El diseño visual de Agropre se basa en la naturaleza y la innovación tecnológica, con un enfoque en simplicidad, sostenibilidad y confianza.
+Agropre, nuestra solución, satisface la demanda de los agricultores y las cooperativas de disponer de una plataforma completa para el manejo digital de fincas, el control ambiental, la automatización de procedimientos agrícolas y la producción de informes predictivos.
+ El sistema proporciona información precisa para la toma de decisiones al enlazar a los agricultores con sensores de campo, aparatos de control (cubiertas, fumigación, riego) y herramientas de monitoreo en tiempo real.
+ El diseño visual de Agropre se centra en la naturaleza y en la innovación tecnológica, poniendo énfasis en la confianza, la sencillez y la sostenibilidad.
 
 <b>Branding:</b>
 
 - Brand Name:
-El nombre Agropre proviene de la fusión de “Agro” (campo, agricultura) y “Pre” (prevención, predicción y precisión). Refleja el objetivo de la solución: predecir riesgos, prevenir pérdidas y ofrecer precisión en la gestión agrícola.
-
+Agropre es un término que resulta de combinar "Pre" (de precisión, predicción y prevención) con "Agro" (del campo, la agricultura).  Muestra la finalidad de la solución: anticipar riesgos, evitar pérdidas y proporcionar precisión en el manejo agrícola.
 - Logo:
 El logotipo de Agropre combina un escudo estilizado con una hoja verde, simbolizando protección, sostenibilidad y confianza en el campo. Este será el ícono principal de la marca en aplicaciones, landing pages y material corporativo.
 
@@ -1153,30 +1154,31 @@ Se prioriza un tono confiable, proactivo y preventivo, que motive a los usuarios
 
 ### 5.1.2. Web, Mobile and IoT Style Guidelines
 
-La página web de AgroPre ha sido creada para que se vea apropiadamente en cualquier dispositivo, incluyendo computadores, tablets y teléfonos móviles, lo que asegura un diseño completamente adaptable.  Esto posibilita que, sin tener en cuenta el tamaño o la clase de pantalla, los usuarios en especial técnicos, agricultores o administradores de cultivos tengan acceso a la plataforma.
- El sitio web estará disponible en computadoras de escritorio y en dispositivos móviles para ofrecer una experiencia fluida, accesible y actualizada.
+La página web de AgroPre se ha diseñado para que sea apropiada en cualquier dispositivo, incluyendo teléfonos celulares, computadoras y tabletas, garantizando así un diseño totalmente adaptable.   Esto hace posible que los usuarios, especialmente los técnicos, agricultores o administradores de cultivos, puedan acceder a la plataforma independientemente del tamaño o tipo de pantalla.
+  Para brindar una experiencia actualizada, accesible y sin interrupciones, el sitio web estará disponible en dispositivos móviles y ordenadores de escritorio.
 
- El diseño web seleccionado es Flat Design para proporcionar una interfaz clara, intuitiva y libre de elementos decorativos superfluos.  Esta selección favorece un entendimiento más acertado de la información presentada (como reportes de cultivo, estado de los sensores o métricas medioambientales) y disminuye las distracciones visuales.
- Igualmente, se utiliza el patrón Z de lectura visual, que dirige la colocación de los componentes esenciales (gráficos, botones de acción, menús y logo) de acuerdo con el movimiento natural ocular del usuario.  Así, la información prioritaria se enfoca sin que se pierda la coherencia visual.
+La interfaz que se ha elegido es Flat Design para ofrecer una interfaz clara, intuitiva y sin elementos decorativos innecesarios.   Esta selección, al reducir las distracciones visuales, mejora la comprensión de la información presentada (por ejemplo, reportes de cultivos, estado de los sensores o métricas medioambientales).
+  Asimismo, se emplea el modelo Z de lectura visual, que guía la disposición de los elementos esenciales (gráficos, botones de acción, menús y logotipo) en función del movimiento natural de los ojos del usuario.   Por lo tanto, la información prioritaria se centra sin que la coherencia visual se vea afectada.
 
- Asimismo, se han establecido directrices concretas para las interfaces web responsivas, entre las cuales sobresalen:
+
+Además, se han definido pautas específicas para las interfaces web responsivas, entre las cuales destacan:
  
-- Grid System: Se utiliza un sistema de 12 columnas, lo cual permite que los componentes se ajusten proporcionalmente a diferentes tamaños de pantalla, garantizando una estructura ordenada y adaptable.
+ - Sistema de rejillas:  Un sistema de 12 columnas hace posible que los elementos se adapten a distintas dimensiones de pantalla, lo que asegura una estructura organizada y flexible.
 
-- Breakpoints: Se establecen puntos de quiebre en 320px, 768px y 1200px, que permiten adaptar la disposición de los elementos para dispositivos móviles, tablets y escritorios respectivamente.
+ - Puntos de interrupción:  Para adecuar la disposición de los elementos a dispositivos móviles, tablets y escritorios, respectivamente, se definen puntos de quiebre en 320px, 768px y 1200px.
 
-- Escalado tipográfico: Los textos mantienen un tamaño mínimo de 16px en pantallas móviles, priorizando la legibilidad en entornos de campo, donde las condiciones de luz pueden variar.
+ - Escalado de la tipografía:  En dispositivos móviles, los textos tienen un tamaño mínimo de 16px para asegurar que sean legibles en situaciones de campo, donde las condiciones de luz pueden cambiar.
 
-- Consistencia de color: La paleta de colores (verde naturaleza, gris claro) se mantiene constante en todos los estados interactivos (hover, focus, active).
+ - Uniformidad de color:  En todos los estados interactivos (hover, focus, active), la paleta de colores (verde naturaleza y gris claro) permanece igual.
 
-- Botones y enlaces: Los elementos táctiles poseen un tamaño mínimo de 44px de alto, lo que facilita la interacción en pantallas pequeñas o con guantes de trabajo.
+ - Hiperenlaces y botones:  La interacción en pantallas pequeñas o con guantes de trabajo se vuelve más sencilla porque los componentes táctiles tienen una altura mínima de 44px.
 
-- Iconografía: Se emplean íconos universales y de alto contraste que representan acciones como monitorear, agregar sensor, enviar alerta o generar reporte.
+ - Iconografía:  Se utilizan íconos de alto contraste y universales que simbolizan acciones como la creación de informes, la generación de alertas, el monitoreo o la adición de sensores.
 
 
 <b>Diseño de la Aplicación Móvil</b>
 
-La aplicación móvil de AgroPre se ha pensado principalmente para los agricultores que necesitan consultar información del campo en tiempo real. Por ello, su diseño se basa en la simplicidad y en la rapidez de acceso a los datos críticos.
+La app de AgroPre fue diseñada especialmente para aquellos agricultores que requieren acceder a información agrícola en tiempo real.  Por esta razón, su diseño se fundamenta en la sencillez y en el acceso rápido a la información crucial.
 
 Los principales lineamientos considerados son:
 
@@ -1192,24 +1194,23 @@ Los principales lineamientos considerados son:
 
 
 <b>Interfaces IoT</b>
-
-En cuanto a las interfaces IoT embebidas, estas se implementan principalmente en los dispositivos de monitoreo y control (sensores de temperatura, cámaras 4K, actuadores de riego o control de cubiertas).
-Dado que su propósito es puramente funcional, no se contempla un diseño gráfico complejo. Las pantallas, si existen, se limitan a mostrar valores numéricos o indicadores simples.
+Respecto a las interfaces IoT embebidas, su implementación se da sobre todo en los dispositivos de control y monitoreo (como cámaras 4K, sensores de temperatura o actuadores de riego o de cubiertas).
+ Como su objetivo es únicamente funcional, no se prevé un diseño gráfico sofisticado.  Si hay pantallas, estas solo muestran indicadores simples o valores numéricos.
 
 Los lineamientos definidos son:
 
-- Indicadores LED: Verde para funcionamiento correcto, rojo para error o desconexión, y azul para conexión activa a la red.
+- Luces indicadoras LED:  Rojo para desconexión o error, azul para conexión a la red activa y verde para un funcionamiento adecuado.
 
-- Pantalla simplificada: En dispositivos con display, solo se muestran datos relevantes (por ejemplo: “Temp: 18.2°C / Hum: 62%”).
+ - Pantalla simplificada:  Los dispositivos con pantalla solo exhiben información importante (como por ejemplo: "Temp: 18.2 °C / Hum: 62 %").
 
-- Menú jerárquico básico: Los dispositivos que requieren configuración local presentan menús textuales de una sola capa, manejados con botones físicos o perillas.
+ - Menú jerárquico fundamental:  Los dispositivos que necesitan configuración local tienen menús de texto en una única capa, los cuales se controlan mediante botones físicos o perillas.
 
-- Sincronización visual: Cada sensor indica con un parpadeo azul cuando se está sincronizando con el servidor central de AgroPre.
+ - Sincronización visual:  Cuando un sensor está sincronizándose con el servidor central de AgroPre, parpadea en azul.
 
 ## 5.2. Information Architecture
 
-La arquitectura de información de AgroPre asegura que los usuarios tengan un acceso rápido a las funciones básicas, una comprensión fácil de la estructura del sistema y la posibilidad de navegar con eficacia gracias a la disposición organizada de todos los módulos y componentes.
-Esta arquitectura tiene en cuenta la aplicación móvil, la plataforma web y los aparatos IoT para garantizar uniformidad visual, semántica y funcional a lo largo de toda la experiencia del usuario.
+La arquitectura de información de AgroPre garantiza que los usuarios puedan acceder rápidamente a las funciones fundamentales, entender con facilidad la estructura del sistema y navegar eficientemente debido a la disposición ordenada de todos los componentes y módulos.
+ Esta arquitectura considera la plataforma web, la aplicación móvil y los dispositivos IoT para asegurar una consistencia visual, semántica y funcional durante toda la experiencia del usuario.
 
 ### 5.2.1. Organization Systems
 A continuación, se describen los sistemas de organización de la información, diferenciando los principales segmentos de usuario que utiliza AgroPre.
