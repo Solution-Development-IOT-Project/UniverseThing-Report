@@ -554,7 +554,9 @@ Preguntas principales:
  <img src="images/cap-2/userPersonSeg1.png" alt="Antonio User Persona"/>
 
  * **Segmento 2** – Representante de una Cooperativa Agrícola
-  
+   
+<img src="images/cap-2/userpersonSeg2.png" alt="Jorge User Persona"/>
+
 
 ### 2.3.2. User Task Matrix
 
