@@ -181,9 +181,18 @@
 
 # Student Outcome
 
-<b>ABET – EAC - Student Outcome 5:</b> La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
+<b>El curso contribuye al cumplimiento del Student Outcome ABET:
+ABET – EAC - Student Outcome 5
+Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
 
 <br><br>
+
+| Criterio específico                          |  Acciones realizadas   |  Conclusiones   |
+| :---------------------------------- | :--------: |:--------: |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta    |  <b>TB1 </b> <br><br> Erick Hernan Ruiz Torres <br><br> Elabore el EventStorming, asignando roles para identificar eventos de dominio, comandos, reglas de negocio y vistas. Además, se promovió la participación equitativa del equipo en la definición de los Bounded Contexts y en la construcción de los diagramas C4, distribuyendo responsabilidades de acuerdo con las fortalezas de cada integrante. <br><br>xxxx <br><br> xxxxx <br><br> xxxx  <br><br> xxxx  <br><br>   <b>TP1 </b> <br><br> Erick Hernan Ruiz Torres <br><br>  Se distribuyeron responsabilidades para el desarrollo de las secciones del capítulo, donde cada integrante lideró la creación de partes específicas del diseño, en mi caso realice (Style Guidelines, Information Architecture, Navigation Systems). Se promovió la revisión cruzada entre los miembros para garantizar coherencia visual y conceptual.  <br><br>xxxx <br><br> xxxxx <br><br> xxxx  <br><br> xxxx  <br><br>|   <b>TB1 </b>  <br><br> - El trabajo permitió desarrollar habilidades de liderazgo compartido y comunicación efectiva, garantizando la coherencia entre los modelos generados y los objetivos del proyecto.  <br><br>  <b>TP1 </b> <br><br> - Se reforzaron las competencias de liderazgo compartido y pensamiento crítico en el diseño de interfaces, logrando un resultado unificado y alineado con la experiencia de usuario esperada. | 
+|Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.  |   <b>TB1 </b> <br><br> Erick Hernan Ruiz Torres <br><br>  Se establecieron reuniones semanales para revisar avances y definir metas alcanzables. Se usaron herramientas colaborativas como Miro y Structurizr para fomentar la participación activa y el consenso en decisiones de arquitectura.  <br><br>xxxx <br><br> xxxxx <br><br> xxxx  <br><br> xxxx  <br><br>   <b>TP1 </b> <br><br> Erick Hernan Ruiz Torres <br><br>  El equipo planificó un cronograma de entregas intermedias para validar cada subcomponente del diseño UI/UX. Se fomentó la participación equitativa, la retroalimentación constante y la adaptación de ideas.  <br><br>xxxx <br><br> xxxxx <br><br> xxxx  <br><br> xxxx  <br><br>|   <b>TB1 </b>  <br><br> - El equipo logró cumplir los plazos establecidos con un alto nivel de organización y sinergia, fortaleciendo la capacidad de trabajo conjunto y la integración de ideas diversas. <br><br>  <b>TP1 </b> <br><br> - Se cumplió con los objetivos del capítulo de manera eficiente, evidenciando la capacidad del grupo para planificar, colaborar e integrar distintas perspectivas dentro de un entorno de trabajo inclusivo.|
+
 
 # Capítulo I: Introducción
 
