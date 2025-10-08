@@ -928,12 +928,11 @@ Se presenta la planificación del primer Sprint realizado por el equipo para el 
 | US028       | T01               | Agregar información destacada — Misión, objetivo y beneficios en la landing                                                     | 3              | Jose Miguel      | Done       |
 | US029       | T01               | Crear footer informativo — Contacto, redes sociales y enlaces legales                                                           | 2              | Fiorella Vilca     | Done       |
 | US016       | T01               | Enviar un mensaje o consulta desde la landing page, para recibir más información sobre el producto.                             | 2              | Godofredo Quispe   | Done       |
-| US017       | T01               | La landing page debe incluir una sección con al menos 3 testimonios con foto y nombre del agricultor/cooperativa.               | 6              | Godofredo Quispe   | Done       |
-| US018       | T01               | La landing page debe mostrar tabla de precios o paquetes de suscripción, diferenciados por tipo de usuario.                     | 2              | Godofredo Quispe   | Done       |
-| US020       | T01               | El sistema debe permitir la descarga de un PDF con información resumida del dispositivo y su uso.                               | 2              | Diego Soriano      | Done       |
-| US20        | T01               | Página “Psicólogos” — Crear vista; configurar barra; cartas por psicólogo                                                       | 3              | Diego Soriano      | Done       |
-| US21        | T01               | Agendar orientación vocacional — Crear vista; configurar info; campos de texto; opciones                                        | 3              | Diego Soriano      | To-Review  |
-| US22        | T01               | Recepción de solicitudes — Crear vista; mostrar solicitudes; configurar opciones; programar funciones                           | 2              | Diego Soriano      | In-Process |
+| US017       | T01               | La landing page debe incluir una sección con al menos 3 testimonios con foto y nombre del agricultor/cooperativa.               | 2              | Godofredo Quispe   | To - do    |
+| US018       | T01               | La landing page debe mostrar tabla de precios o paquetes de suscripción, diferenciados por tipo de usuario.                     | 2              | Godofredo Quispe   | In-Process |
+| US020       | T01               | El sistema debe permitir la descarga de un PDF con información resumida del dispositivo y su uso.                               | 2              | Anthony loarte     | To - do    |
+| US21        | T01               | ofrecer un selector de idioma y traducir todos los textos de la interfaz.                                                       | 3              | Anthony loarte     | To-Review  |
+| US22        | T01               | ofrecer un selector de tema y recordar la preferencia del usuario.                                                              | 2              | Erick Ruiz         | Done       |
 
 
 ---
