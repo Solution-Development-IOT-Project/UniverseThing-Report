@@ -720,6 +720,13 @@ Los tasks que tienen mayor relevancia para este segmento son aquellos que permit
 <img src="images/cap-2/seg2empathymap.png" alt="Jorge Empathy Map"/>
 
 ### 2.3.5. As-Is Scenario Mapping
+<p align="justify">
+El As-Is Scenario Mapping describe la situación actual sin AgroPre: el proceso manual, ineficiente y estresante que enfrentan los agricultores para monitorear y proteger sus cultivos de las heladas y plagas, y cómo esta falta de estandarización afecta negativamente a las cooperativas en términos de calidad y gestión de riesgos.
+</p>
+
+**Segmento 1: Agricultor tecnificado**
+<img src="./assets/chapter-2/As-Is-Scenario-Mapping/As-Is-Scenario-Mapping-Agricultor-Tecnificado.jpg" alt="As Is Scenario Mapping de Agricultor Tecnificado">
+<br>
 
 ## 2.4. Ubiquitous Language
 
