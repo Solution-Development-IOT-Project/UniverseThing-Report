@@ -1201,7 +1201,7 @@ Los lineamientos definidos son:
 
 - Luces indicadoras LED:  Rojo para desconexión o error, azul para conexión a la red activa y verde para un funcionamiento adecuado.
 
- - Pantalla simplificada:  Los dispositivos con pantalla solo exhiben información importante (como por ejemplo: "Temp: 18.2 °C / Hum: 62 %").
+ - Pantalla simplificada:  Los dispositivos con pantalla solo exhiben información importante (como por ejemplo: "Temp: 18.2 °C ").
 
  - Menú jerárquico fundamental:  Los dispositivos que necesitan configuración local tienen menús de texto en una única capa, los cuales se controlan mediante botones físicos o perillas.
 
