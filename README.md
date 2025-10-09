@@ -734,6 +734,79 @@ El As-Is Scenario Mapping describe la situación actual sin AgroPre: el proceso 
 
 ## 2.4. Ubiquitous Language
 
+<table>
+    <thead>
+        <tr>
+            <th>Categoría</th>
+            <th>Término</th>
+            <th>Definición</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Usuarios</strong></td>
+            <td>Agricultor Tecnificado</td>
+            <td>Usuario final, dueño de la finca que usa el dashboard y el sistema de alerta para protección.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Gerente de Cooperativa</td>
+            <td>Usuario estratégico, el cliente que busca estandarización y revisa datos agregados para múltiples fincas.</td>
+        </tr>
+        <tr>
+            <td><strong>Problema</strong></td>
+            <td>Helada Crítica</td>
+            <td>Evento climático que dispara una alerta y la necesidad de una acción protectora (puede ser automática o manual).</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Riesgo de Plaga</td>
+            <td>Detección temprana de insectos que requiere fumigación o acción preventiva.</td>
+        </tr>
+        <tr>
+            <td><strong>Solución</strong></td>
+            <td>AgroPre</td>
+            <td>El producto, un sistema integral de IoT para la agricultura.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Módulo de Clima</td>
+            <td>Sensores IoT que miden temperatura, humedad y otros datos ambientales clave.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Módulo de Plagas</td>
+            <td>Sensores o cámaras con visión artificial para la detección de insectos en el cultivo.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Dashboard (Móvil/Web)</td>
+            <td>La interfaz central donde el usuario visualiza, recibe alertas y configura el sistema.</td>
+        </tr>
+        <tr>
+            <td><strong>Acción</strong></td>
+            <td>Activación Automática</td>
+            <td>La función clave donde el sistema AgroPre inicia los mecanismos de protección, sin intervención humana.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Alerta Crítica</td>
+            <td>Notificación push que exige atención inmediata del usuario temperatura &lt; umbral de helada.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Trazabilidad</td>
+            <td>La capacidad de la Cooperativa de rastrear el origen de los datos de cultivo de una finca específica para garantizar la calidad y obtener certificaciones.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Umbral de Alerta</td>
+            <td>El valor de temperatura o la densidad de plagas que, una vez alcanzado, dispara la Alerta Crítica.</td>
+        </tr>
+    </tbody>
+</table>
+<br>
+
 # Capítulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping
