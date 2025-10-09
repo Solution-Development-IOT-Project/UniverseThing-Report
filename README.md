@@ -810,7 +810,7 @@ Para el seguimiento de modificaciones en el desarrollo de nuestra solución, uti
 
 | Organización            | URL                                      |
 |-------------------------|-------------------------------------------|
-| 2510-356-AptitudePro    | [https://github.com/2510-356-AptitudePro ](https://github.com/Solution-Development-IOT-Project)  |
+| Solution-Development-IOT-Project   | [Solution-Development-IOT-Project ](https://github.com/Solution-Development-IOT-Project)  |
 
 Dentro de nuestra organización en GitHub se encuentran los **repositorios** correspondientes a cada uno de los productos a desarrollar.
 
@@ -818,10 +818,10 @@ Dentro de nuestra organización en GitHub se encuentran los **repositorios** cor
 
 | Producto                       | URL del Repositorio                                                                 |
 |--------------------------------|--------------------------------------------------------------------------------------|
-| Landing Page                   | [https://github.com/2510-356-AptitudePro/AptitudePro-Landing-Page ](https://github.com/Solution-Development-IOT-Project/UniverseThings-LandingPage)                   |
-| Backend                        | [https://github.com/2510-356-AptitudePro/Backend  ](https://github.com/Solution-Development-IOT-Project/UniverseThings-Backend)                                   |
-| Mobile Application             | [https://github.com/2510-356-AptitudePro/AptitudePro-Application  ](https://github.com/Solution-Development-IOT-Project/UniverseThings-Mobile-App)                   |
-| Frontend                       | [https://github.com/2510-356-AptitudePro/AptitudePro-Application-Flutter](https://github.com/Solution-Development-IOT-Project/UniverseThings-Frontend)             |
+| Landing Page                   | [Solution-Development-IOT-Project-Landing-Page ](https://github.com/Solution-Development-IOT-Project/UniverseThings-LandingPage)                   |
+| Backend                        | [Solution-Development-IOT-Project/Backend  ](https://github.com/Solution-Development-IOT-Project/UniverseThings-Backend)                                   |
+| Mobile Application             | [hSolution-Development-IOT-Project/mobile  ](https://github.com/Solution-Development-IOT-Project/UniverseThings-Mobile-App)                   |
+| Frontend                       | [Solution-Development-IOT-Project-Application-Frontend](https://github.com/Solution-Development-IOT-Project/UniverseThings-Frontend)             |
 
 ### Implementación de GitFlow
 
@@ -924,15 +924,22 @@ Se presenta la planificación del primer Sprint realizado por el equipo para el 
 ### 6.2.1.2. Sprint Backlog 1
 | User Story | Work-Item / Task | Título / Descripción (extracto)                                                                                                   | Estimación (h) | Assigned To        | Status     |
 |------------|-------------------|----------------------------------------------------------------------------------------------------------------------------------|----------------|--------------------|------------|
-| US027       | T01               | Crear barra de navegación — Diseñar e implementar barra con logo y enlaces a secciones clave                                    | 2              | Bruce Cipriano  | Done       |
-| US028       | T01               | Agregar información destacada — Misión, objetivo y beneficios en la landing                                                     | 3              | Jose Miguel      | Done       |
-| US029       | T01               | Crear footer informativo — Contacto, redes sociales y enlaces legales                                                           | 2              | Fiorella Vilca     | Done       |
-| US016       | T01               | Enviar un mensaje o consulta desde la landing page, para recibir más información sobre el producto.                             | 2              | Godofredo Quispe   | Done       |
+| US027       | T01               | Crear barra de navegación — Diseñar e implementar barra con logo y enlaces a secciones clave                                    | 2              | Bruce Cipriano     | Done       |
+| US028       | T01               | Agregar información destacada — Misión, objetivo y beneficios en la landing                                                     | 3              | Jose Miguel        | Done       |
+| US029       | T01               | Crear footer informativo — Contacto, redes sociales y enlaces legales                                                           | 2              | Jose Miguel        | Done       |
+| US016       | T01               | Enviar un mensaje o consulta desde la landing page, para recibir más información sobre el producto.                             | 2              | Brice Cipriano     | Done       |
 | US017       | T01               | La landing page debe incluir una sección con al menos 3 testimonios con foto y nombre del agricultor/cooperativa.               | 2              | Godofredo Quispe   | To - do    |
 | US018       | T01               | La landing page debe mostrar tabla de precios o paquetes de suscripción, diferenciados por tipo de usuario.                     | 2              | Godofredo Quispe   | In-Process |
 | US020       | T01               | El sistema debe permitir la descarga de un PDF con información resumida del dispositivo y su uso.                               | 2              | Anthony loarte     | To - do    |
-| US21        | T01               | ofrecer un selector de idioma y traducir todos los textos de la interfaz.                                                       | 3              | Anthony loarte     | To-Review  |
+| US21        | T01               | ofrecer un selector de idioma y traducir todos los textos de la interfaz.                                                       | 3              | Anthony loarte     | Done       |
 | US22        | T01               | ofrecer un selector de tema y recordar la preferencia del usuario.                                                              | 2              | Erick Ruiz         | Done       |
+| US012       | T01               | Visualización gráfica de datos — Página de gráficos (líneas, barras, calor) con filtros por rango y dispositivo                 | 6              | Erick Ruiz         | To - review    |
+| US013       | T01               | Exportación de reportes — Generar y descargar reportes en PDF/XLSX desde la Web App                                             | 4              | Anthony loarte     | To - review   |
+| US014       | T01               | Integración vía API — Endpoints seguros para datos históricos y en tiempo real                                                  | 6              | Godofredo Quispe   | In-Process |
+| US023       | T01               | Recuperar contraseña — Flujo de “olvidé mi contraseña” vía correo con enlace seguro                                             | 3              | Bruce Cipriano     | Done       |
+| US024       | T01               | Notificaciones de mantenimiento — Alerta cuando un sensor no reporta por X días                                                 | 3              | Godofredo Quispe   | To - do |
+| US025       | T01               | Historial de notificaciones — Listado con fecha, hora y tipo de evento                                                          | 2              | Jose Miguel        | To - review |
+| US026       | T01               | Perfil de usuario editable — Editar nombre, email y organización con validaciones                                               | 3              | Brice Cipriano     | Done       |
 
 
 ---
@@ -940,10 +947,10 @@ Se presenta la planificación del primer Sprint realizado por el equipo para el 
 ### 6.2.1.3. Development Evidence for Sprint Review
 | Repository                                     | Branch       | Commit Id | Commit Message                               | Committed on |
 |-----------------------------------------------|--------------|-----------|----------------------------------------------|--------------|
-| 2510-356-AptitudePro/AptitudePro-Landing-Page | main         | 1cc1d96  | initial commit                                | 19/7/2025   |
-| 2510-356-AptitudePro/AptitudePro-Application  | develop      | 135ccf8   | feat: tus cambios aquí                       | 1/10/2025   |
-| 2510-356-AptitudePro/AptitudePro-Application  | develop      | 403a699   | feat: tus cambios aquí                     | 1/10/2025   |
-| 2510-356-AptitudePro/AptitudePro-Application  | develop      | 90089b1   | fix: descripción corta de lo que cambiaste   | 1/10/2025   |
+| 2510-356-Solution-Development-IOT-Project-Landing-Page | main         | 1cc1d96  | initial commit                                | 19/7/2025   |
+| 2510-356-Solution-Development-IOT-Projecto-Landing-Page  | develop      | 135ccf8   | feat: tus cambios aquí                       | 1/10/2025   |
+| 2510-356-Solution-Development-IOT-Project-Landing-Page  | develop      | 403a699   | feat: tus cambios aquí                     | 1/10/2025   |
+| 2510-356-Solution-Development-IOT-Project-Landing-Page | develop      | 90089b1   | fix: descripción corta de lo que cambiaste   | 1/10/2025   |
 
 
 ---
