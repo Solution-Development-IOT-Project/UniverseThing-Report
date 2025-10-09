@@ -728,6 +728,10 @@ El As-Is Scenario Mapping describe la situación actual sin AgroPre: el proceso 
 <img src="./assets/chapter-2/As-Is-Scenario-Mapping/As-Is-Scenario-Mapping-Agricultor-Tecnificado.jpg" alt="As Is Scenario Mapping de Agricultor Tecnificado">
 <br>
 
+**Segmento 2: Cooperativa Agrícola**
+<img src="./assets/chapter-2/As-Is-Scenario-Mapping/As-Is-Scenario-Mapping-Gerentes-de-Cooperativas.jpg" alt="As Is Scenario Mapping de Gerentes de Cooperativas">
+<br
+
 ## 2.4. Ubiquitous Language
 
 # Capítulo III: Requirements Specification
