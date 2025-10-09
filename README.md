@@ -1366,9 +1366,31 @@ Dispositivos IoT:
 
 ## 5.3. Landing Page UI Design
 
+En esta sección se mostrará el desarrollo visual del Landing Page. Para ello, se usuará la herramienta de diseño web Figma, debido a sus funciones y plugins que nos permite desarrollar el prototipo sin dificultades. Asimismo se evidenciará el uso de los Style Guidelines e Information architecture.
+
 ### 5.3.1. Landing Page Wireframe
 
+<img src="./assets/img/wireframerLanding.png" alt="WireFrame Landing Page" width="500" />
+
+Link de figma lading page: <a href="https://www.figma.com/design/EHi82ICkHRBIJbRcUAo2fF/IoT-Figma?node-id=0-1&t=mBL4zOuR51tJplyB-1">https://www.figma.com/design/EHi82ICkHRBIJbRcUAo2fF/IoT-Figma?node-id=0-1&t=mBL4zOuR51tJplyB-1</a>
+
+
+
 ### 5.3.2. Landing Page Mock-up
+
+Trabajando con los wireframes anteriormente mostrados, luego se aplicó los Style Guidelines para el uso de los colores. Como se aprecia, estos tienen un contraste llamativo en cada sección de la landing page
+
+
+<img src="./assets/img/moockupLanding.png" alt="Mock-up Landing Page" width="500" />
+
+
+Vista general de ambos diseños:
+
+<img src="./assets/img/wireframerLanding.png" alt="WireFrame Landing Page" width="300" /> <img src="./assets/img/moockupLanding.png" alt="Mock-up Landing Page" width="300" />
+
+Link de figma lading page: <a href="https://www.figma.com/design/EHi82ICkHRBIJbRcUAo2fF/IoT-Figma?node-id=0-1&t=mBL4zOuR51tJplyB-1">https://www.figma.com/design/EHi82ICkHRBIJbRcUAo2fF/IoT-Figma?node-id=0-1&t=mBL4zOuR51tJplyB-1</a>
+
+
 
 ## 5.4. Application UX/UI Design
 
