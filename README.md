@@ -478,7 +478,10 @@ La aplicación móvil, la aplicación web, las APIs REST, las bases de datos, el
  Se representan sus interacciones internas y la manera en que se conectan con los usuarios externos (como los supervisores, operadores y administradores).  La relación con los bounded contexts se manifiesta en la arquitectura:  Gestión de usuarios, supervisión del medio ambiente, automatización del cultivo y notificaciones e informes.
 
 
-![diagramacontenedor](assets/img/diagramacontenedor.png)
+![diagramacontenedor](assets/img/diagramacontenedor.jpg)
+
+
+
 
 #### 4.1.3.4. Software Architecture Deployment Diagrams
 
