@@ -16,11 +16,11 @@
 
 <h1 align="center"> TB1 Report </h1>
 
-<h3 align="center"> Docente: Leon Baca, Marco Antonio </h3>
+<h3 align="center"> Docente: Vera Olivera, David Carlos </h3>
 
 <h3 align="center"> 1ASI0572 - Desarrollo de Soluciones IoT </h3>
 
-<h4 align="center"> NRC: 3414 </h4>
+<h4 align="center"> NRC: 3355 </h4>
 
 
 <h3> Startup: UniverseThing </h3>
@@ -489,31 +489,599 @@ Corresponde a las juntas directivas y gerentes técnicos de asociaciones o coope
 
 ## 2.1. Competidores
 
-### 2.1.1. Análisis competitivo
+A continuación, se presenta un análisis competitivo que examina a las principales empresas que rivalizan con nuestra startup. Hemos identificado tanto competidores directos, aquellos que ofrecen una solución de software centralizada en la monitoreo del clima para toma de deciciones, como indirectos que, si bien no son idénticos, compiten en áreas prevencion y medidas contra plagas. Este análisis se centra en aquellos que ofrecen soluciones que se superponen con las de **AgroPre**.
+
+1. **Sencrop**  
+   ![Logo de Sencrop](/images/cap-2/sencrop.png)  
+   **Descripción:**  
+   Una red de estaciones meteorológicas conectadas que proporciona datos hiperlocales y alertas para la gestión climática de cultivos.
+
+   **Características principales**
+
+   - Red de estaciones meteorológicas modulares (viento, lluvia, temperatura).
+   - Plataforma y app con datos en tiempo real y alertas personalizadas (heladas, lluvia).
+   - Modelo de suscripción claro y precios transparentes.
+   - Enfoque en la comunidad y el intercambio de datos entre agricultores.
+
+---
+
+2. **Semios**  
+   ![Logo de Semios](/images/cap-2/semios.png)  
+   **Descripción:**  
+   Una plataforma integral de gestión de riesgos que utiliza una extensa red de sensores IoT para el monitoreo de clima, plagas y agua.
+
+   **Características principales**
+
+   - Plataforma todo-en-uno (monitoreo de heladas, plagas, agua y nutrientes).
+   - Red de sensores propios y trampas de feromonas inteligentes para control de plagas.
+   - Modelos predictivos de enfermedades y alertas de riesgo.
+   - Enfoque enterprise para grandes productores y agroindustria.
+
+---
+
+3. **Trapview**  
+   ![Logo de Trapview](/images/cap-2/trapview.png)  
+   **Descripción:**  
+   Un sistema automatizado de monitoreo de plagas que utiliza trampas con visión artificial e IA para identificar y predecir infestaciones.
+
+   **Características principales**
+
+   - Trampas inteligentes con cámara e IA para identificación automática de insectos.
+   - Plataforma con alertas en tiempo real y mapas de calor de infestaciones.
+   - Especialización best-in-class en el monitoreo de plagas para cultivos de alto valor.
+   - Modelo de venta B2B con precios bajo consulta.
+
+### 2.1.1 Análisis competitivo
+
+<table> 
+  <tr>
+    <th colspan="6"> Competitive Analysis Landscape </th>
+  </tr>
+  <tr>
+    <td colspan="2" rowspan="2">¿Por qué llevar acabo este análisis? </td>
+    <td colspan="4"> Pregunta </td>
+  </tr>
+  <tr>
+    <td colspan="4"> Deberíamos llevar a cabo este análisis para conocer el entorno, la competencia, tomar decisiones de desarrollo y construir nuestra propuesta de valor. </td>
+  </tr>
+  <tr>
+    <td colspan="2"> Productos </td>
+    <td> AgroPre </td>
+    <td> Sencrop </td>
+    <td> Semios </td>
+    <td> Trapview </td>
+  </tr>
+  <tr>
+    <td rowspan="2">Perfil</td>
+    <td>Overview</td>
+    <td> Sistema integral de IoT asequible que combina el monitoreo de temperatura y la vision artificial para automatizar la protecciòn contra heladas y el control inteligente de plagas. </td>
+    <td> Red de estaciones meteorológicas conectadas para monitoreo hiperlocal del clima. </td>
+    <td> Plataforma integral de IoT para la gestión de riesgos climáticos, de plagas y recursos. </td>
+    <td> Trampas inteligentes con IA para el monitoreo automático y predicción de plagas. </td>
+  </tr>
+  <tr>
+    <td>Ventaja
+    competitiva
+    ¿Qué valor
+    ofrece a los
+    clientes?</td>
+    <td> <b>Solución integral y accesible.</b> Ofrece una plataforma todo-en-uno (temperatura + plagas) con automatización, dirigida a un mercado medio tradicionalmente desatendido por soluciones premium, con un fuerte enfoque en la sostenibilidad y el ahorro de recursos.   </td>
+    <td> <b>Simplicidad y comunidad.</b> Ofrece datos accesibles, precios transparentes y una red colaborativa de agricultores que comparten datos.	</td>
+    <td> <b>Integración total.</b> Solución todo-en-uno (clima, plagas, agua) con modelos predictivos propios para grandes extensiones. </td>
+    <td> <b>Precisión y automatización.</b> Tecnología best-in-class en identificación de plagas con IA, que elimina el monitoreo manual. </td>
+  </tr>
+  <tr>
+    <td rowspan="2">Perfil de Marketing</td>
+    <td> Mercado Objetivo </td>
+    <td> <b>Agricultores medianos y cooperativas en Latinoamérica</b>, que cultivan tuberculo(papa), que buscan tecnología efectiva pero no pueden pagar soluciones empresariales.  </td>
+    <td> Agricultores medianos y cooperativas en Europa (cereales, viñedos, frutales). </td>
+    <td> Grandes empresas agroindustriales y productores de alto valor a nivel global. </td>
+    <td> Productores de cultivos de alto valor (vid, cítricos, hortalizas) con problemas graves de plagas. </td>
+  </tr>
+  <tr>
+    <td> Estrategias de Marketing </td>
+    <td> Marketing digital localizado (redes sociales, seminarios), alianzas con asociaciones agrícolas y cooperativas, demostraciones en field days (días de campo), y un modelo de precios claro publicado en la web. </td>
+    <td> Marketing de contenidos, demostraciones online, precios transparentes en la web y alianzas con distribuidores locales. </td>
+    <td> Ventas directas B2B, asistencia a ferias globales, "request a demo" y casos de estudio de ROI para grandes clientes. </td>
+    <td> Marketing de precisión, ventas directas especializadas, presencia en ferias técnicas y demostraciones en el sitio. </td>
+  </tr>
+  <tr>
+
+  </tr>
+  <tr>
+    <td rowspan="3">Perfil de Producto</td>
+    <td> Productos & Servicios </td>
+    <td> <b>Sistema modular:</b><ul><li><b>Módulo Clima:</b> Sensores de temperatura ambiental y luz.</li>   <li><b>Módulo Plagas:</b> Cámaras con IA para detección de áfidos/plagas.</li> <li><b>Actuadores:</b> Sistema de fumigación localizada. </li> <li><b>Suscripción</b> a la plataforma con alertas, dashboard y control remoto.</li></ul> </td>
+    <td> Venta de sensores modulares (Raincrop, Windcrop) + suscripción a plataforma web/app con alertas. </td>
+    <td> Venta/leasing de una red de sensores (clima, suelo, trampas) + plataforma SaaS de gestión y analytics. </td>
+    <td> Venta de trampas inteligentes autónomas (Trapview) + suscripción a la plataforma de monitoreo y alertas. </td>
+  </tr>
+  <tr>
+    <td> Precios & Costos </td>
+    <td> <b>Modelo de negocio escalable y transparente:</b><ul> <li>Costo inicial por kit de hardware (módulo base + sensores).</li> <li>Suscripción mensual/anual asequible por plataforma y servicios de alertas. Precios públicos para generar confianza.</li> </ul></td>
+    <td> <b>Modelo claro:</b> Costo inicial del hardware + suscripción anual/mensual. Precios públicos en la web. </td>
+    <td> <b>Modelo enterprise:</b> Precios altos y personalizados. Requiere contacto con ventas. Costo significativo por hectárea. </td>
+    <td> <b>Modelo premium:</b> Precios altos no publicados. Orientado a cultivos donde el ROI por evitar pérdidas es claro. </td>
+  </tr>
+  <tr> 
+    <td>Canales de distribución (Web y/o Móvil)</td>
+    <td> Venta directa online, red de distribuidores técnicos agropecuarios locales y alianzas con cooperativas para llegar directamente al agricultor. </td>
+    <td> Venta online directa y a través de una red de distribuidores y partners locales. </td>
+    <td> Fuerza de ventas directa propia y canales enterprise. </td>
+    <td> Venta directa y a través de partners especializados en protección de cultivos. </td>
+  </tr>
+  <tr>
+    <td rowspan="4"> Análisis SWOT </td>
+    <td> Fortalezas </td>
+    <td>  <ul><li>Solución dual única (clima + plagas) en su segmento de precio.</li><li>Fácil instalación y usabilidad.</li><li>Modelo de precios transparente.</li><li>Enfoque en problemas específicos de la región (heladas, áfidos).</li> </ul></td>
+    <td> Simplicidad, precio transparente, fácil instalación, fuerte comunidad de usuarios. </td>
+    <td> Plataforma más completa del mercado, robusta tecnología, datos predictivos, escalable. </td>
+    <td> Tecnología líder en IA para plagas, ahorro de mano de obra, datos extremadamente precisos. </td>
+  </tr>
+  <tr>
+    <td> Debilidades </td>
+    <td> <ul>    <li>Marca nueva y desconocida frente a competidores establecidos.</li>    <li>Capacidad limitada de Investigació y Desarrollo e inversión inicial comparado con grandes empresas del sector.</li>    <li>La necesidad de educación del mercado sobre los beneficios del IoT.</li></ul> </td>
+    <td> Solución limitada solo al clima, no aborda plagas ni riego. Depende de la densidad de su red. </td>
+    <td> Muy costosa para el agricultor medio. Compleja de implementar e integrar. </td>
+    <td> Enfoque muy niche (solo plagas). No es una solución integral. Alto costo inicial. </td>
+  </tr>
+  <tr>
+    <td> Oportunidades </td>
+    <td> <ul><li>Gran mercado no atendido de agricultores medianos en Latam.</li> <li>Tendencia global hacia la agricultura sostenible y de precisión.</li> <li>Posibilidad de integración con financieras o aseguradoras para ofrecer descuentos por uso.</li>  </ul> </td>
+    <td> Expandirse a nuevos mercados (ej. Latinoamérica) y agregar más tipos de sensores. </td>
+    <td> Vender módulos por separado a mercados medianos y asociarse con grandes fabricantes. </td>
+    <td> Integrarse como módulo especializado en plataformas más grandes. </td>
+  </tr>
+  <tr>
+    <td> Amenazas </td>
+    <td> Competencia de soluciones gratuitas y  la desconfianza inicial del agricultor hacia la tecnología nueva. </td>
+    <td> La llegada de competidores con precios más agresivos o funcionalidades integradas. </td>
+    <td> La aparición de soluciones más baratas y simples que capturen el mercado medio. </td>
+    <td> Avance de la visión artificial en smartphones que podría simplificar el monitoreo. </td>
+  </tr>
+</table>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
+
+1. **Estrategia de Diferenciación por Especialización Local y Sostenibilidad**
+
+**Objetivo:**Posicionar a AgroPre como la solución especializada en los problemas específicos del agricultor latinoamericano (heladas y plagas como áfidos en papa), con un fuerte enfoque en la sostenibilidad y el ahorro de recursos.
+
+**Tacticas:**
+
+- Desarrollar y promocionar algoritmos de IA entrenados específicamente con imágenes de plagas y datos climáticos de la región andina.
+- Enfocar el mensaje de marketing en el ahorro de agua y pesticidas gracias a la fumigación localizada automatizada, un beneficio tangible y de alto valor.
+- En comparación con Semios (muy genérico y costoso) y Sencrop (solo clima), enfatizar: **"Protección hecha a la medida de tu cultivo y tu bolsillo"**.
+
+2. **Estrategia de Enfoque en el Agricultor Mediano y Cooperativas**
+
+**Objetivo:**Dominar el segmento de agricultores medianos y cooperativas de papa en Latinoamérica, un mercado masivo históricamente ignorado por las soluciones empresariales.
+**Tacticas:**
+
+- Crear **kits modulares preempaquetados** asequibles: "Kit Básico Heladas", "Kit Completo Papa" (clima + plagas), para simplificar la decisión de compra.
+- Establecer alianzas estratégicas con **gremios agrícolas, cooperativas y ministerios de agricultura** para llegar directamente al cliente final con demostraciones y financiamiento.
+- Desarrollar funcionalidades colaborativas donde una cooperativa pueda monitorear múltiples parcelas de sus asociados en un solo dashboard.
+
+3. **Estrategia de Humanización, Confianza y Educación**
+
+**Objetivo:**Romper la barrera de desconfianza hacia la tecnología nueva mediante educación, soporte cercano y un lenguaje claro.
+**Tacticas:**
+
+- Ofrecer soporte técnico local en español y quechua/aymara (según la región), con agronomos que entiendan el negocio del cliente, no solo la tecnología.
+- Crear contenido educativo masivo y accesible: tutoriales en video desde el campo, podcasts con expertos agronómicos locales y guías prácticas para el manejo del cultivo.
+- Utilizar un lenguaje claro y evita tecnicismos complejos. A diferencia de Semios, AgroPre debe sentirse como "**un vecino que sabe de tecnología**" y no como una corporación fría.
+
+4. **Estrategia de Precio Ultra-Transparente y de Bajo Costo de Entrada**
+
+**Objetivo:**Eliminar la fricción financiera y generar confianza con un modelo de precios claro y accesible que no requiera contactar a ventas.
+**Tacticas:**
+
+- Publicar todos los precios directamente en la web: costo de cada sensor, kit y el precio de la suscripción mensual. Esto contrasta fuertemente con la opacidad de Semios y Trapview.
+- Ofrecer un plan de financiamiento o renting para el hardware, permitiendo pagos bajos mensuales que incluyan tanto el dispositivo como la suscripción.
+- Diseñar un plan gratuito que permita monitorizar una pequeña parcela de forma básica, para que el agricultor experimente el valor del dato antes de comprometerse financieramente.
 
 ## 2.2. Entrevistas
 
 ### 2.2.1. Diseño de entrevistas
 
+1. **Entrevista para el Agricultor Tecnificado** (Dueño o Encargado de Finca)
+   Preguntas principales:
+
+   1. ¿Podría contarme un poco sobre usted y su finca? (edad, tipo de cultivo principal, extensión de tierra, ubicación).
+   2. ¿Cómo describiría su enfoque hacia la tecnología en su trabajo diario? ¿Se considera innovador, tradicional, o un poco de ambos?
+   3. ¿Cuál es el mayor desafío que enfrenta actualmente en la producción? (Espontáneo, luego profundizar en heladas/plagas)
+      Preguntas:
+   4. Para el control de heladas/plagas, ¿qué métodos utiliza actualmente? ¿Podría describirme el proceso paso a paso?
+   5. ¿Ha probado alguna vez alguna tecnología o herramienta digital para ayudarse con estos problemas? (ej. una app del clima, algún sensor). ¿Cómo le fue?
+   6. Imagine un sistema que le avise al celular en tiempo real cuando ocurre una helada y active automáticamente su sistema de proteccion. ¿Qué le parecería?
+   7. ¿Qué tan importante es para usted el ahorro de agua y pesticidas? ¿Lleva un registro de estos costos?
+   8. A la hora de invertir en su finca, ¿qué pesa más: el precio inicial de una herramienta o el retorno de la inversión a largo plazo?
+   9. ¿Quién decide si usted se involucra en la decisión de comprar una tecnología nueva o un equipo costoso?
+   10. ¿Qué es lo primero que mira o pregunta cuando un proveedor le ofrece una nueva tecnología para su cultivo?
+
+2. **Entrevista para el Representante de una Cooperativa Agrícola** (Gerente, Director Técnico, Líder de Proyectos u otro participante directo)
+
+Preguntas principales:
+
+1.  ¿Podría contarme sobre el rol de la cooperativa y su participación en ella? (número de socios, cultivos principales, zona de influencia).
+2.  Desde su perspectiva, ¿cuáles son los dos problemas técnicos más recurrentes que afectan la productividad de sus socios?
+3.  ¿Qué tipo de programas o servicios ofrece actualmente la cooperativa para ayudar a sus socios a mitigar estos problemas? (ej. asistencia técnica, compra conjunta de insumos).
+    Preguntas complementarias:
+
+4.  ¿Cómo es el proceso típico para evaluar y adoptar una nueva tecnología que beneficie a los socios? ¿Quiénes están involucrados en esa decisión?
+5.  El costo de la tecnología, ¿suele ser una barrera infranqueable para sus socios? ¿Han explorado modelos de financiamiento o subsidios para ello?
+6.  ¿Qué tan valuable sería para la cooperativa tener datos agregados y en tiempo real sobre las alertas de heladas o plagas en las parcelas de sus socios? ¿Cómo usarían esa información?
+7.  Además del precio, ¿qué otros factores son críticos para que la cooperativa confíe en un proveedor? (soporte técnico, garantías, capacitación, etc.).
+8.  ¿Ven más viable un modelo de negocio donde los socios paguen una suscripción mensual baja en lugar de una gran inversión inicial?
+9.  ¿Qué tipo de alianza o colaboración le resultaría más atractiva con una empresa como la nuestra? (ej. ser un punto de demostración, un canal de distribución, etc.).
+10. Si pudiéramos implementar un piloto gratuito con 5 de sus socios, ¿estaría interesado en colaborar? ¿Qué necesitaría para que esto suceda?
+
 ### 2.2.2. Registro de entrevistas
 
+#### Segmento 1 – Agricultor tecnificado
+
+| **Entrevistador:**  | José Miguel Riega                                                                     |
+|---------------------|---------------------------------------------------------------------------------------|
+| **Entrevistado 1:** | Antonio Chávez                                                                        |
+| **Edad:**           | 31 años                                                                               |
+| **Ocupación:**      | Agricultor                                                                            |
+| **Imagen:**         | ![Logo de Semios](./images/cap-2/Entrevista1.png)                                     |
+| **Descripción:**    | El entrevistado, productor frutícola en Tunuyán (Mendoza) con 12 ha de perales, ciruelos y algo de duraznos, combina una actitud pragmática hacia la tecnología (prueba lo nuevo si ve ROI) con un manejo actual manual de heladas (torres de viento y aspersión activadas a las 3–4 a.m. según termómetro), donde su mayor dolor son las heladas tardías —por encima de plagas como la carpocapsa— y su “producto ideal” sería un sistema que avise en tiempo real y active automáticamente la protección; además, le preocupan el ahorro de agua y fitosanitarios, hoy lleva registros manuales, valora automatizarlos, decide inversiones priorizando confiabilidad y retorno y exige casos reales y costos de operación claros antes de adoptar.                    |
+| **Inicio: Min**     | 00:00:01                                                                              |
+| **Finaliza: Min**   | 00:03:53                                                                              |
+| **Link del video:** | [Ver video](https://drive.google.com/drive/folders/1okh-RLcmiiJ_Hv2pB_4FqVP2Vx35tvwA) |
+
+| **Entrevistador:**  | Bruce Cipriano                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|---------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Entrevistado 2:** | Agustino Alejandro Aguilar                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Edad:**           | 30 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Ocupación:**      | Agricultor independiente                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Imagen:**         | ![Logo de Semios](./images/cap-2/agustin.png)                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Descripción:**    | Agricultor con 5 hectáreas en Ica, dedicado al cultivo de papas, yucas y tubérculos. Su trabajo es principalmente manual, con escaso uso de tecnología. Afronta problemas frecuentes como plagas y heladas que afectan fuertemente su producción. No lleva un control digital de agua ni pesticidas, solo registros básicos en Excel. Considera importante la inversión a largo plazo y estaría interesado en tecnologías que den alertas tempranas y sistemas de protección automatizados. |
+| **Inicio: Min**     | 00:00                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Finaliza: Min**   | ~08:30 (aprox.)                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Link del video:** | [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211d640_upc_edu_pe/EW51pZIeuPhLvPUvYzMCgO0BEcdUzqcSBHBJlGp3ffVv5Q?e=SoDV1V )                                                                                                                                                                                                                                                                                                                                               |
+
+| **Entrevistador:**   | Godofredo Quispe Tipo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Entrevistado:**    | Huber René, Calizaya Juanillo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| **Edad:**            | 22 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Ocupación:**       | Ingeniero Agrónomo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Imagen:**          | ![Logo de Semios](./images/cap-2/huber.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Descripción:**     | Huber administra la finca familiar en Ica, enfocada en el cultivo de uva. Aunque su padre prefiere métodos tradicionales, Huber, un recién egresado, busca integrar tecnología a su trabajo. Su principal desafío es el control de plagas, que pueden infectar toda la cosecha y requieren monitoreo diario, seguido ocasionalmente por las heladas. Actualmente, combate las plagas con la compra de insecticidas y gestiona las heladas absteniéndose de cosechar en esos periodos, utilizando solo aplicaciones digitales para el clima y sin implementar soluciones físicas. Huber vería con agrado un sistema para activar insecticidas automáticamente y una capa para proteger contra heladas, lo que reduciría la complejidad de sus procesos. Destaca la importancia crítica del ahorro de agua y pesticidas, ya que el agua es racionada por día entre socios y el uso excesivo de insecticidas representa un gasto económico innecesario. Para realizar inversiones en la finca, el factor más importante es el retorno de inversión a largo plazo y la seguridad de que la tecnología será efectiva y sostenible, siendo la familia en conjunto quien toma las decisiones sobre compras costosas. Al evaluar a un proveedor, Huber prioriza la efectividad demostrada de la solución, especialmente si está enfocada específicamente en el sector agrícola. |
+| **Inicio: Min**      | 00:00:01                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Finaliza: Min**    | 00:03:53                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Link del video:**  | [Ver video](https://drive.google.com/file/d/1Pg0Q6OzwZXZFl8FnqABUqNqWngHDVyKM/view?usp=drive_link)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+
+
+
+#### Segmento 2 – Representante de una Cooperativa Agrícola 
+
+
+| **Entrevistador:**  | Erick Ruiz Torres                                                                                   |
+|---------------------|-----------------------------------------------------------------------------------------------------|
+| **Entrevistado 1:** | Alex Salazar                                                                                        |
+| **Edad:**           | 25 años                                                                                             |
+| **Ocupación:**      | Miembro de Cooperativa                                                                              |
+| **Imagen:**         | ![imagen del entrevistado alex](./images/cap-2/alexsalazar.png)                                     |
+| **Descripción:**    | Alex Salazar, joven ingeniero agrícola de 25 años y miembro de una cooperativa agrícola ubicada en la costa del Perú, conformada por 40 socios. La cooperativa maneja cultivos de vid, palta, maíz y hortalizas, abarcando una extensión significativa de terreno productivo en la región. Alex cumple un rol activo en la coordinación técnica, apoyando a los socios en temas de buenas prácticas agrícolas, uso eficiente del riego, control de plagas y gestión sostenible del suelo. Entre los principales desafíos que identifica se encuentran la escasez de agua, las variaciones climáticas y el incremento de los costos de insumos agrícolas. La cooperativa ofrece servicios de asistencia técnica, capacitación continua y gestión de compras conjuntas para optimizar recursos. Alex se muestra abierto a la adopción de tecnologías agrícolas, especialmente aquellas relacionadas con sensores de humedad, monitoreo remoto y plataformas digitales de gestión de cultivos. Además, valora los modelos de suscripción accesibles y las alianzas con empresas tecnológicas que puedan brindar soporte técnico y formación práctica a los productores.                      |
+| **Inicio: Min**     | 00:00:01                                                                                            |
+| **Finaliza: Min**   | 00:05:37                                                                                            |
+| **Link del video:** | [Ver video](https://drive.google.com/file/d/1SRAPa4cC9q1jEgf0V4_538xNbMy3ZNGP/view?usp=drive_link ) |
+
+| **Entrevistador:**  | Bruce Cipriano                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Entrevistado 2:** | Ray Alessandro Carmen zorrillo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Edad:**           | 25 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Ocupación:**      | Director técnico de cooperativa agrícola                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Imagen:**         | ![imagen del entrevistado ray](./images/cap-2/ray.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Descripción:**    | Ingeniero agrícola y miembro de una cooperativa en Huánuco con más de 150 socios y 1,200 hectáreas en total. Se dedica a papa, yuca, camote y tubérculos. Su rol es acompañar a los socios en asistencia técnica, transferencia de tecnología, capacitaciones y gestión de proyectos. Reconoce como principales problemas las plagas y las condiciones climáticas extremas. La cooperativa brinda asistencia técnica, capacitaciones y compras conjuntas. Está abierto a implementar pilotos tecnológicos, valora modelos de suscripción accesibles y alianzas con empresas tecnológicas que brinden soporte y capacitación. |
+| **Inicio: Min**     | 00:00                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Finaliza: Min**   | ~12:00 (aprox.)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Link del video:** | [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211d640_upc_edu_pe/EYRm1wt0RulFjRnAMsRu06UB5CcrEeWbirazb04fKiDNIQ?e=Y2d7AT )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+
+| **Entrevistador:**  | Godofredo Quispe Tipo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|---------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Entrevistado 3:** | Brayan Quichca Licapa                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Edad:**           | 25 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| **Ocupación:**      | Director técnico de cooperativa agrícola Andina SumacPallpa                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Imagen:**         | ![imagen del entrevistado brayan](./images/cap-2/brayan.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Descripción:**    | El agrónomo Brayan se desempeña como director técnico de la agraria Sumac-Jallpa, una cooperativa en Ayacucho,Apurímac, Huancavelica y Junin con 50 socios principales que se enfoca en la cosecha de papa, maíz y quinua para programas locales y su exportación. Su rol principal es organizar y mejorar la productividad mediante asistencia técnica y gestión de proyectos, enfrentando desafíos significativos como plagas y heladas, además de pérdidas por la falta de riego tecnificado en épocas secas. La cooperativa ofrece asistencia técnica a los socios agricultores, gestiona la compra de fertilizantes orgánicos y semillas mejoradas, y mantiene convenios con SENASA y universidades para capacitaciones sobre manejo de plagas, así como la administración de un fondo rotatorio de créditos. El proceso para adoptar una nueva tecnología incluye la evaluación de viabilidad por el equipo técnico, una prueba piloto con 5 a 10 productores, y la aprobación final de la cooperativa, el director y la asamblea de socios, buscando activamente financiación con municipalidades y ONGs para superar la barrera del alto costo inicial. Brayan subraya la importancia de las alertas de plagas y heladas y la necesidad de proveedores confiables que ofrezcan soporte técnico continuo, garantías, pruebas de campo y prefieran modelos de suscripción baja sobre grandes inversiones iniciales. Finalmente, muestra interés en realizar una prueba piloto de una tecnología con 5 de sus socios, solicitando un convenio formal, capacitación y acompañamiento técnico. |
+| **Inicio: Min**     | 00:00                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Finaliza: Min**   | ~12:00 (aprox.)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Link del video:** | [Ver video](https://drive.google.com/file/d/1Pg0Q6OzwZXZFl8FnqABUqNqWngHDVyKM/view )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+
+
+
+
 ### 2.2.3. Análisis de entrevistas
+
+#### Segmento 1 – Agricultor tecnificado
+
+| **Campo**             | **Descripción**                                                                                                                                                                                                                                                                                                                                                                                                     |
+|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Entrevista 1**      | El entrevistado es un productor de 31 años con más de tres décadas de experiencia en su finca de 12 hectáreas en Tunuyán, Mendoza, donde cultiva principalmente perales, ciruelos y algunos duraznos. Se define como alguien que combina lo tradicional con lo innovador: le interesa probar nuevas tecnologías, pero con cautela, siempre evaluando costos, resultados y referencias locales antes de arriesgarse. |
+| **Desafíos**          | Su mayor desafío son las heladas tardías, que pueden arruinar la producción en pocas noches, y actualmente las enfrenta con torres de viento, riego por aspersión y un control manual muy demandante.                                                                                                                                                                                                               |
+| **Recursos y visión** | Considera clave el uso eficiente de agua y pesticidas, llevando registros manuales que le gustaría automatizar. Está abierto a herramientas digitales, como sensores o sistemas de alerta y respuesta automática contra heladas, siempre que sean confiables y ofrezcan un retorno claro de la inversión.                                                                                                           |
+| **Decisiones**        | En la toma de decisiones, aunque consulta con ingenieros agrónomos o familiares, la última palabra la tiene él, priorizando la practicidad y la seguridad económica. Segmento 2: Cooperativas                                                                                                                                                                                                                       |
+
+| **Campo**             | **Descripción**                                                                                                                                                                                                                                                                                                                                                                                                        |
+|-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Entrevista 2**      | El entrevistado es un agricultor de 30 años con 5 hectáreas en Ica, donde cultiva papas, yucas y tubérculos. Su trabajo es principalmente manual, con escaso uso de tecnología. Registra datos básicos en Excel pero no tiene sistemas digitales avanzados de control. Está interesado en herramientas que le den mayor control sobre agua, pesticidas y especialmente sobre riesgos climáticos como heladas y plagas. |
+| **Desafíos**          | Los principales desafíos son las plagas y las heladas, que pueden afectar gravemente su producción y reducir sus ingresos. Además, la falta de herramientas tecnológicas hace que la reacción ante estos problemas sea lenta y dependiente del trabajo manual.                                                                                                                                                         |
+| **Recursos y visión** | Sus recursos son limitados y prioriza la inversión que garantice rentabilidad a largo plazo. Se muestra receptivo a tecnologías que brinden alertas tempranas y soluciones automatizadas, siempre que sean accesibles y fáciles de usar.                                                                                                                                                                               |
+| **Decisiones**        | Las decisiones las toma él mismo, evaluando costos y beneficios. Aunque consulta ocasionalmente con otros agricultores, lo que más influye es la practicidad y la posibilidad de mantener sus cultivos sin gastos excesivos.                                                                                                                                                                                           |
+
+#### Segmento 2 – Representante de una Cooperativa Agrícola 
+
+| **Segmento**          | **Descripción**                                                                                                                                                                                                                                                                                                                                                        |
+|-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Entrevista 2**      | El entrevistado es un ingeniero agrícola de 25 años, director técnico en una cooperativa de Huánuco con más de 150 socios y alrededor de 1,200 hectáreas de producción conjunta. La cooperativa cultiva papa, yuca, camote y tubérculos. Su rol principal es la asistencia técnica, capacitación, gestión de proyectos y transferencia de tecnología hacia los socios. |
+| **Desafíos**          | Los desafíos más relevantes son las plagas y los cambios climáticos extremos que afectan grandes volúmenes de producción. Otro reto es la heterogeneidad en el nivel tecnológico de los socios, lo que dificulta una adopción homogénea de nuevas soluciones.                                                                                                          |
+| **Recursos y visión** | Cuentan con cierta capacidad de inversión conjunta y organizan compras colectivas para reducir costos. Valoran las herramientas digitales que mejoren la producción, especialmente aquellas que permitan prevenir problemas y optimizar recursos. Están abiertos a implementar pilotos tecnológicos, siempre que haya capacitación y soporte constante.                |
+| **Decisiones**        | Las decisiones importantes se toman de manera colectiva en la cooperativa, pero dependen de la validación técnica del director y del consenso de los socios. Buscan soluciones que sean sostenibles, escalables y que puedan aplicarse de manera uniforme en la mayoría de las parcelas.                                                                               |
+
 
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
+ * **Segmento 1** – Agricultor tecnificado
+
+ <img src="images/cap-2/userPersonSeg1.png" alt="Antonio User Persona"/>
+
+ * **Segmento 2** – Representante de una Cooperativa Agrícola
+   
+<img src="images/cap-2/userpersonSeg2.png" alt="Jorge User Persona"/>
+
 
 ### 2.3.2. User Task Matrix
 
+* **Segmento 1** – Agricultor tecnificado
+  Para la elaboración de esta sección hemos considerado como segmento objetivo a los agricultores tecnificados, propietarios o administradores de fincas medianas y grandes, quienes se encuentran en una etapa de modernización de sus operaciones y buscan soluciones confiables que optimicen su productividad y reduzcan riesgos climáticos.
+
+
+
+<table border="1">
+  <tr>
+    <td rowspan="2">Task Matrix</td>
+    <td colspan="2">Antonio, Chávez Fuente</td>
+  </tr>
+  <tr>
+    <td>Frecuencia</td>
+    <td>Importancia</td>
+  </tr>
+  <tr>
+    <td>Monitorear condiciones climáticas en sus cultivos</td>
+    <td>Alta</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Verificar riesgo de heladas durante la noche</td>
+    <td>Alta (en temporada)</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Controlar manualmente sistemas de protección contra heladas</td>
+    <td>Media</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Aplicar pesticidas de forma preventiva</td>
+    <td>Media</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Calcular costos de mano de obra para vigilancia</td>
+    <td>Media</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Revisar estado de plagas en campo</td>
+    <td>Media</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Consultar aplicaciones meteorológicas</td>
+    <td>Alta</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Llevar registros manuales de temperaturas y plagas</td>
+    <td>Baja</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Evaluar nuevas tecnologías agrícolas</td>
+    <td>Baja</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Coordinar con trabajadores para tareas de protección</td>
+    <td>Media</td>
+    <td>Media</td>
+  </tr>
+</table>
+
+En relación con el User Task Matrix, y la necesidad de proteger sus cultivos de manera eficiente y confiable, podemos concluir lo siguiente:
+
+Los tasks que tienen mayor relevancia para este segmento son aquellos que requieren monitoreo constante y respuesta inmediata a amenazas climáticas, como verificar condiciones de heladas, controlar sistemas de protección y aplicar pesticidas preventivos. Se identifica una alta dependencia de métodos manuales y vigilancia personal, especialmente durante las noches de temporada de heladas, y al mismo tiempo, una falta de herramientas automatizadas que permitan una respuesta rápida y precisa sin requerir intervención constante del agricultor.
+
+* **Segmento 2** – Representante de una Cooperativa Agrícola
+  
+Para la elaboración de esta sección hemos considerado como segmento objetivo a los directores técnicos y gerentes de cooperativas agrícolas, quienes buscan implementar soluciones tecnológicas que beneficien de manera colectiva a todos sus socios, mejorando la productividad homogénea y el acceso a mercados más exigentes.
+
+<table border="1">
+  <tr>
+    <td rowspan="2">Task Matrix</td>
+    <td colspan="2">Jorge, Herrera Villa</td>
+  </tr>
+  <tr>
+    <td>Frecuencia</td>
+    <td>Importancia</td>
+  </tr>
+  <tr>
+    <td>Evaluar tecnologías para implementación grupal</td>
+    <td>Media</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Gestionar procesos de aprobación en asambleas</td>
+    <td>Media</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Buscar financiamiento para tecnologías agrícolas</td>
+    <td>Alta</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Capacitar a socios en nuevas herramientas</td>
+    <td>Media</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Establecer estándares de calidad homogéneos</td>
+    <td>Alta</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Coordinar compras colectivas de insumos</td>
+    <td>Media</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Monitorear resultados de pilotos tecnológicos</td>
+    <td>Media</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Elaborar reportes para instituciones y financiadores</td>
+    <td>Media</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Negociar con proveedores de tecnología</td>
+    <td>Baja</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Visitar parcelas de socios para evaluación</td>
+    <td>Media</td>
+    <td>Media</td>
+  </tr>
+</table>
+
+En relación con el User Task Matrix, y la necesidad de implementar soluciones escalables que beneficien a toda la comunidad de socios, podemos concluir lo siguiente:
+
+Los tasks que tienen mayor relevancia para este segmento son aquellos que permiten evaluar, financiar e implementar tecnologías de manera colectiva, como gestionar procesos de aprobación, buscar financiamiento y establecer estándares de calidad uniformes. Se identifica una alta dependencia de procesos democráticos y validación grupal para la toma de decisiones, y al mismo tiempo, una falta de modelos de negocio flexibles que se adapten a las realidades económicas y operativas de las cooperativas agrícolas.
+
 ### 2.3.3. User Journey Mapping
+
+* **Segmento 1** – Agricultor tecnificado
+
+<img src="images/cap-2/seg1journeymap.png" alt="Antonio User Journey"/>
+
+* **Segmento 2** – Representante de una Cooperativa Agrícola
+
+<img src="images/cap-2/seg2journeymap.png" alt="Jorge User Journey"/>
 
 ### 2.3.4. Empathy Mapping
 
+* **Segmento 1** – Agricultor tecnificado
+
+<img src="images/cap-2/seg1empathymap.png" alt="Antonio Empathy Map"/>
+
+* **Segmento 2** – Representante de una Cooperativa Agrícola
+
+<img src="images/cap-2/seg2empathymap.png" alt="Jorge Empathy Map"/>
+
 ### 2.3.5. As-Is Scenario Mapping
+<p align="justify">
+El As-Is Scenario Mapping describe la situación actual sin AgroPre: el proceso manual, ineficiente y estresante que enfrentan los agricultores para monitorear y proteger sus cultivos de las heladas y plagas, y cómo esta falta de estandarización afecta negativamente a las cooperativas en términos de calidad y gestión de riesgos.
+</p>
+
+**Segmento 1: Agricultor tecnificado**
+<img src="./assets/chapter-2/As-Is-Scenario-Mapping/As-Is-Scenario-Mapping-Agricultor-Tecnificado.jpg" alt="As Is Scenario Mapping de Agricultor Tecnificado">
+<br>
+
+**Segmento 2: Cooperativa Agrícola**
+<img src="./assets/chapter-2/As-Is-Scenario-Mapping/As-Is-Scenario-Mapping-Gerentes-de-Cooperativas.jpg" alt="As Is Scenario Mapping de Gerentes de Cooperativas">
+<br
 
 ## 2.4. Ubiquitous Language
+
+<table>
+    <thead>
+        <tr>
+            <th>Categoría</th>
+            <th>Término</th>
+            <th>Definición</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Usuarios</strong></td>
+            <td>Agricultor Tecnificado</td>
+            <td>Usuario final, dueño de la finca que usa el dashboard y el sistema de alerta para protección.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Gerente de Cooperativa</td>
+            <td>Usuario estratégico, el cliente que busca estandarización y revisa datos agregados para múltiples fincas.</td>
+        </tr>
+        <tr>
+            <td><strong>Problema</strong></td>
+            <td>Helada Crítica</td>
+            <td>Evento climático que dispara una alerta y la necesidad de una acción protectora (puede ser automática o manual).</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Riesgo de Plaga</td>
+            <td>Detección temprana de insectos que requiere fumigación o acción preventiva.</td>
+        </tr>
+        <tr>
+            <td><strong>Solución</strong></td>
+            <td>AgroPre</td>
+            <td>El producto, un sistema integral de IoT para la agricultura.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Módulo de Clima</td>
+            <td>Sensores IoT que miden temperatura, humedad y otros datos ambientales clave.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Módulo de Plagas</td>
+            <td>Sensores o cámaras con visión artificial para la detección de insectos en el cultivo.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Dashboard (Móvil/Web)</td>
+            <td>La interfaz central donde el usuario visualiza, recibe alertas y configura el sistema.</td>
+        </tr>
+        <tr>
+            <td><strong>Acción</strong></td>
+            <td>Activación Automática</td>
+            <td>La función clave donde el sistema AgroPre inicia los mecanismos de protección, sin intervención humana.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Alerta Crítica</td>
+            <td>Notificación push que exige atención inmediata del usuario temperatura &lt; umbral de helada.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Trazabilidad</td>
+            <td>La capacidad de la Cooperativa de rastrear el origen de los datos de cultivo de una finca específica para garantizar la calidad y obtener certificaciones.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Umbral de Alerta</td>
+            <td>El valor de temperatura o la densidad de plagas que, una vez alcanzado, dispara la Alerta Crítica.</td>
+        </tr>
+    </tbody>
+</table>
+<br>
 
 # Capítulo III: Requirements Specification
 
