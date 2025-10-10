@@ -638,7 +638,7 @@ A continuación, se presenta un análisis competitivo que examina a las principa
 
 1. **Estrategia de Diferenciación por Especialización Local y Sostenibilidad**
 
-**Objetivo:**Posicionar a AgroPre como la solución especializada en los problemas específicos del agricultor latinoamericano (heladas y plagas como áfidos en papa), con un fuerte enfoque en la sostenibilidad y el ahorro de recursos.
+**Objetivo:** Posicionar a AgroPre como la solución especializada en los problemas específicos del agricultor latinoamericano (heladas y plagas como áfidos en papa), con un fuerte enfoque en la sostenibilidad y el ahorro de recursos.
 
 **Tacticas:**
 
@@ -648,7 +648,7 @@ A continuación, se presenta un análisis competitivo que examina a las principa
 
 2. **Estrategia de Enfoque en el Agricultor Mediano y Cooperativas**
 
-**Objetivo:**Dominar el segmento de agricultores medianos y cooperativas de papa en Latinoamérica, un mercado masivo históricamente ignorado por las soluciones empresariales.
+**Objetivo:** Dominar el segmento de agricultores medianos y cooperativas de papa en Latinoamérica, un mercado masivo históricamente ignorado por las soluciones empresariales.
 **Tacticas:**
 
 - Crear **kits modulares preempaquetados** asequibles: "Kit Básico Heladas", "Kit Completo Papa" (clima + plagas), para simplificar la decisión de compra.
@@ -657,7 +657,7 @@ A continuación, se presenta un análisis competitivo que examina a las principa
 
 3. **Estrategia de Humanización, Confianza y Educación**
 
-**Objetivo:**Romper la barrera de desconfianza hacia la tecnología nueva mediante educación, soporte cercano y un lenguaje claro.
+**Objetivo:** Romper la barrera de desconfianza hacia la tecnología nueva mediante educación, soporte cercano y un lenguaje claro.
 **Tacticas:**
 
 - Ofrecer soporte técnico local en español y quechua/aymara (según la región), con agronomos que entiendan el negocio del cliente, no solo la tecnología.
@@ -666,7 +666,7 @@ A continuación, se presenta un análisis competitivo que examina a las principa
 
 4. **Estrategia de Precio Ultra-Transparente y de Bajo Costo de Entrada**
 
-**Objetivo:**Eliminar la fricción financiera y generar confianza con un modelo de precios claro y accesible que no requiera contactar a ventas.
+**Objetivo:** Eliminar la fricción financiera y generar confianza con un modelo de precios claro y accesible que no requiera contactar a ventas.
 **Tacticas:**
 
 - Publicar todos los precios directamente en la web: costo de cada sensor, kit y el precio de la suscripción mensual. Esto contrasta fuertemente con la opacidad de Semios y Trapview.
