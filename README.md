@@ -1399,8 +1399,7 @@ Link de figma lading page: <a href="https://www.figma.com/design/EHi82ICkHRBIJbR
 Web Application
 Pantallas relacionadas al inicio de sesión y registro de usuario:
 
-<img src="./assets/img/wireframerWeb.png" alt="WireFrame Web app" width="300" /> <img src="./assets/img/wireframerWeb1
-.png" alt="Mock-up Web app" width="300" />
+<img src="./assets/img/wireframerWeb.png" alt="WireFrame Web app" width="300" /> <img src="./assets/img/wireframerWeb1.png" alt="WireFrame Web app" width="300" />
 
 Pantallas relacionadas al dashboard donde se podra visualizar la temperatura , luminocidad y la deteccion de plagas  con un grafico  intuitivo:
 
@@ -1412,10 +1411,7 @@ Pantallas relacionadas a los dispositivos donde se podra visualizar todos los se
 Pantallas relacionadas a las alertas como la de alrestas activas,pendietes,resultados de hoy y el tiempo respuesta .Ademas de un historial de todos ellos:
 <img src="./assets/img/wireframerWeb4.png" alt="WireFrame Web app" width="300" /> <img src="./assets/img/wireframerWeb5.png" alt="Mock-up Web app" width="300" />
 Pantallas relacionadas a los datos de los sensores se visualizara el porcentade de cada uno de ellos con un grafico:
-<img src="./assets/img/wireframerWeb6.png" alt="WireFrame Web app" width="300" /> <img src="./assets/img/wireframerWeb7
-.png" alt="Mock-up Web app" width="300" /><img src="./assets/img/wireframerWeb8
-.png" alt="Mock-up Web app" width="300" /><img src="./assets/img/wireframerWeb9
-.png" alt="Mock-up Web app" width="300" />
+<img src="./assets/img/wireframerWeb6.png" alt="WireFrame Web app" width="300" /> <img src="./assets/img/wireframerWeb7.png" alt="Mock-up Web app" width="300" /><img src="./assets/img/wireframerWeb8.png" alt="Mock-up Web app" width="300" /><img src="./assets/img/wireframerWeb9.png" alt="Mock-up Web app" width="300" />
 Pantallas relacionadas a las configuraciones donde tomas  tus configuracion propias:
 <img src="./assets/img/wireframerWeb10.png" alt="WireFrame Web app" width="300" /> 
 
@@ -1453,8 +1449,7 @@ Usar Goal: Como usuario, quiero poder visualizar los dashboard que se tiene en l
 Web Application
 Pantallas relacionadas al inicio de sesión y registro de usuario:
 
-<img src="./assets/img/wireframerWeb0.png" alt="WireFrame Web app" width="300" /> <img src="./assets/img/wireframerWeb01
-.png" alt="Mock-up Web app" width="300" />
+<img src="./assets/img/wireframerWeb0.png" alt="WireFrame Web app" width="300" /> <img src="./assets/img/wireframerWeb01.png" alt="Mock-up Web app" width="300" />
 
 Pantallas relacionadas al dashboard donde se podra visualizar la temperatura , luminocidad y la deteccion de plagas  con un grafico  intuitivo:
 
@@ -1464,13 +1459,9 @@ Pantallas relacionadas al dashboard donde se podra visualizar la temperatura , l
 Pantallas relacionadas a los dispositivos donde se podra visualizar todos los sensores que tiene activados o desactivados:
 <img src="./assets/img/wireframerWeb03.png" alt="WireFrame Web app" width="300" />
 Pantallas relacionadas a las alertas como la de alrestas activas,pendietes,resultados de hoy y el tiempo respuesta .Ademas de un historial de todos ellos:
-<img src="./assets/img/wireframerWeb04.png" alt="WireFrame Web app" width="300" /> <img src="./assets/img/wireframerWeb05
-.png" alt="Mock-up Web app" width="300" />
+<img src="./assets/img/wireframerWeb04.png" alt="WireFrame Web app" width="300" /> <img src="./assets/img/wireframerWeb05.png" alt="Mock-up Web app" width="300" />
 Pantallas relacionadas a los datos de los sensores se visualizara el porcentade de cada uno de ellos con un grafico:
-<img src="./assets/img/wireframerWeb06.png" alt="WireFrame Web app" width="300" /> <img src="./assets/img/wireframerWeb07
-.png" alt="Mock-up Web app" width="300" /><img src="./assets/img/wireframerWeb08
-.png" alt="Mock-up Web app" width="300" /><img src="./assets/img/wireframerWeb09
-.png" alt="Mock-up Web app" width="300" />
+<img src="./assets/img/wireframerWeb06.png" alt="WireFrame Web app" width="300" /> <img src="./assets/img/wireframerWeb07.png" alt="Mock-up Web app" width="300" /><img src="./assets/img/wireframerWeb08.png" alt="Mock-up Web app" width="300" /><img src="./assets/img/wireframerWeb09.png" alt="Mock-up Web app" width="300" />
 Pantallas relacionadas a las configuraciones donde tomas  tus configuracion propias:
 <img src="./assets/img/wireframerWeb010.png" alt="WireFrame Web app" width="300" /> 
 
