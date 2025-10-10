@@ -1410,8 +1410,7 @@ Pantallas relacionadas al dashboard donde se podra visualizar la temperatura , l
 Pantallas relacionadas a los dispositivos donde se podra visualizar todos los sensores que tiene activados o desactivados:
 <img src="./assets/img/wireframerWeb3.png" alt="WireFrame Web app" width="300" />
 Pantallas relacionadas a las alertas como la de alrestas activas,pendietes,resultados de hoy y el tiempo respuesta .Ademas de un historial de todos ellos:
-<img src="./assets/img/wireframerWeb4.png" alt="WireFrame Web app" width="300" /> <img src="./assets/img/wireframerWeb5
-.png" alt="Mock-up Web app" width="300" />
+<img src="./assets/img/wireframerWeb4.png" alt="WireFrame Web app" width="300" /> <img src="./assets/img/wireframerWeb5.png" alt="Mock-up Web app" width="300" />
 Pantallas relacionadas a los datos de los sensores se visualizara el porcentade de cada uno de ellos con un grafico:
 <img src="./assets/img/wireframerWeb6.png" alt="WireFrame Web app" width="300" /> <img src="./assets/img/wireframerWeb7
 .png" alt="Mock-up Web app" width="300" /><img src="./assets/img/wireframerWeb8
@@ -1571,7 +1570,6 @@ Link de video: [Ver video del Figma](https://upcedupe-my.sharepoint.com/:f:/g/pe
 
 # Anexos
 
-- Miro de EventStorming:  https://miro.com/app/board/uXjVO-qMV2o=/?share_link_id=889158007938
-- Miro de Domain Message Flows Modeling:  https://miro.com/app/board/uXjVJ93mG54=/?share_link_id=817613181253
-- Miro de Bounded Context Canvases:  https://miro.com/app/board/uXjVJ94Zc2k=/?share_link_id=289906462401 
+- Link de Ladig Page:  https://solution-development-iot-project.github.io/UniverseThings-LandingPage/
+- Link de figma:  https://www.figma.com/design/5wUhtRHCzEBoJWnrsPvO8w/IOT-AGRO-PRE?node-id=0-1&t=flb0gsE9ZPUjDc0O-1
 
