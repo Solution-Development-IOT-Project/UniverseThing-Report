@@ -1570,6 +1570,19 @@ Link de video: [Ver video del Figma](https://upcedupe-my.sharepoint.com/:f:/g/pe
 
 # Anexos
 
-- Link de Ladig Page:  https://solution-development-iot-project.github.io/UniverseThings-LandingPage/
-- Link de figma:  https://www.figma.com/design/5wUhtRHCzEBoJWnrsPvO8w/IOT-AGRO-PRE?node-id=0-1&t=flb0gsE9ZPUjDc0O-1
+<h1>Anexos</h1>
 
+<ul>
+  <li>
+    <strong>Link de Landing Page:</strong>
+    <a href="https://solution-development-iot-project.github.io/UniverseThings-LandingPage/" target="_blank">
+      https://solution-development-iot-project.github.io/UniverseThings-LandingPage/
+    </a>
+  </li>
+  <li>
+    <strong>Link de Figma:</strong>
+    <a href="https://www.figma.com/design/5wUhtRHCzEBoJWnrsPvO8w/IOT-AGRO-PRE?node-id=0-1&t=flb0gsE9ZPUjDc0O-1" target="_blank">
+      https://www.figma.com/design/5wUhtRHCzEBoJWnrsPvO8w/IOT-AGRO-PRE?node-id=0-1&t=flb0gsE9ZPUjDc0O-1
+    </a>
+  </li>
+</ul>
