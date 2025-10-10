@@ -1,3 +1,32 @@
+<<<<<<< HEAD
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" width="150" alt="UPC Logo">
+
+# Universidad Peruana de Ciencias Aplicadas
+
+### **CURSO:** Desarrollo de Soluciones IOT
+
+### **NRC**: 3414
+
+### **Profesor:** Marco Antonio Leon Baca
+
+### **Ingeniería de software**
+
+## Informe de -
+
+### **Nombre del startup:** Papus
+
+### **Nombre del producto:** -AgroAlerta
+
+## **Integrantes**
+
+| **Nombre**                                | **Codigo** |
+| ----------------------------------------- | ---------- |
+| **Anthony Brahan Loarte Matos**           | ++++++++++ |
+| **Bruce Andres Cipriano Chumbes**         | ++++++++++ |
+| **Jose Miguel Riega Salas**               | ++++++++++ |
+| **Godofredo Quispe Tipo**                 | u202120772 |
+| **+++++++++++++++++++++++++++++++++++++** | ++++++++++ |
+
 <hr>
 
 # <center>Informe de Trabajo Final</center>
@@ -23,89 +52,70 @@
 <h4 align="center"> NRC: 3414 </h4>
 
 
-<h3> Startup: UniverseThings </h3>
+<h3> Startup: UniverseThing </h3>
 
-<h3> Product: AgroProtect </h3>
+<h3> Product: AgroPre </h3>
 
 <h3> Team Members: </h3>
 
 <div align="center">
 
-| Member                              |    Code    |
-| :---------------------------------- | :--------: |
-| Cipriano Chumbes, Bruce Andres      | U20211D640 |
-| Loarte Matos, Anthony Brahan        | U20211D563 |
-| Riega Salas, Jose Miguel            | U20211D640 |
-| Ruiz Torres, Erick Hernan           | U202118946 |
-| Quispe Tipo, Godofredo              | U202120772 |
+| Member                         |    Code    |
+|:-------------------------------|:----------:|
+| Cipriano Chumbes, Bruce Andres | U20211D640 |
+| Loarte Matos, Anthony Brahan   | U20211D563 |
+| Riegas Salas, Jose Miguel      | U202211254 |
+| Ruiz Torres, Erick Hernan      | U202118946 |
+| Quispe Tipo, Godofredo         | U202120772 |
+
 
 </div>
 
-<h3 align="center">Septiembre, 2025</h3>
+<h3 align="center">Octubre, 2025</h3>
 
 <br><br>
 
-# Registro de Versiones del Informe
 
-Esta sección tiene como propósito detallar las actualizaciones significativas realizadas al informe durante su evolución. Se presenta en una página independiente y se organiza en un cuadro con el formato que se muestra a continuación.
 
-<table align="center">
-  <thead>
-    <tr>
-      <th>Versión</th>
-      <th>Fecha</th>
-      <th>Autor</th>
-      <th>Descripción de modificación</th>
-    </tr>
-  </thead>
-  <tbody>
-  <!-- TB1 -->
-    <tr>
-      <td rowspan="7">TB1</td>
-      <td rowspan="7">16/09/2025</td>
-    </tr>
-    <tr>
-      <td>Cipriano Chumbes, Bruce Andres</td>
-      <td>xxx<br>xxx<br>xxx<br>xxx<br>xxx<br>xxx<br>
-      </td>
-    <tr>
-      <td>Loarte Matos, Anthony Brahan</td>
-      <td>xxx<br>xxx<br>xxx<br>xxx<br>xxx<br>xxx<br>
-      </td>
-    </tr>
-    <tr>
-      <td>Riega Salas, Jose Miguel</td>
-      <td>xxx<br>xxx<br>xxx<br>xxx<br>xxx<br>xxx<br>
-      </td>
-    </tr>
-        <tr>
-      <td>Ruiz Torres, Erick Hernan</td>
-      <td>xxx<br>xxx<br>xxx<br>xxx<br>xxx<br>xxx<br>
-      </td>
-    </tr>
-        <tr>
-      <td>Quispe Tipo, Godofredo</td>
-      <td>xxx<br>xxx<br>xxx<br>xxx<br>xxx<br>xxx<br>
-      </td>
-    </tr>
-  <!-- Otras entrega -->
-  </tbody>
-</table>
-
-<br><br>
-
-# Project Report Collaboration Insights
-- Link de la organización: https://github.com/Solution-Development-IOT-Project
-- Link del reporte: https://github.com/Solution-Development-IOT-Project/UniverseThing-Report
-<br><br>
-
-# Contenido
-
-## Tabla de Contenidos
 
 ### [Registro de versiones del informe](#registro-de-versiones-del-informe)
 
+| Versión |   Fecha    |                                                                                                                                                                                                                                                                                                                                        Descripción                                                                                                                                                                                                                                                                                                                                         |               Autor               |
+|:-------:|:----------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------:|
+|   0.1   | 2025-09-18 |                                                                         Desarrollo de los ítems: 1.1. Startup Profile, que incluye los subítems 1.1.1. Descripción de la Startup y 1.1.2. Perfiles de integrantes del equipo. Luego se presenta el 1.2. Solution Profile, que contiene los apartados 1.2.1. Antecedentes y problemática y 1.2.2. Lean UX Process, el cual se desglosa en 1.2.2.1. Lean UX Problem Statements, 1.2.2.2, 1.2.2.3 y 1.2.2.4. Finalmente, se desarrolla la sección 1.3. Lean UX Assumptions, que incluye los ítems Lean UX Hypothesis Statements, Lean UX Canvas y Segmentos objetivo.                                                                         |         Godofredo Quispe          |
+|   0.1   | 2025-09-19 | Desarrollo de los ítems: La sección 2 del informe está compuesta por varios apartados clave, comenzando con el 2.1. Competidores, que abarca los subítems 2.1.1. Análisis competitivo y 2.1.2. Estrategias y tácticas frente a competidores. Luego se desarrolla el 2.2. Entrevistas, que incluye 2.2.1. Diseño de entrevistas, 2.2.2. Registro de entrevistas y 2.2.3. Análisis de entrevistas. A continuación, se presenta el 2.3. Needfinding, compuesto por 2.3.1. User Personas, 2.3.2. User Task Matrix, 2.3.3. User Journey Mapping, 2.3.4. Empathy Mapping y 2.3.5. As-is Scenario Mapping. Finalmente, se cierra esta parte del informe con el apartado 2.4. Ubiquitous Language. | Anthony Loarte y Godofredo Quispe |
+|   0.1   | 2025-09-20 |                                                                                                                                                                                                                                                                       Desarrollo de los ítems: 3.1. To-Be Scenario Mapping, 3.2. Avance de las User Stories, 3.3. Impact Mapping y 3.4. Avance del Product Backlog.                                                                                                                                                                                                                                                                        |   Bruce Cipriano y Jose Riegas    |
+|   0.1   | 2025-09-20 |                                Desarrollo de los ítems: 3.2. Finalizacion de las User Stories, 3.4. Finalizacion del Product Backlog, 4.1. Strategic-Level Domain-Driven Design y comprende los siguientes subítems: 4.1.1. EventStorming, que a su vez incluye 4.1.1.1. Candidate Context Discovery, 4.1.1.2, 4.1.1.3. Domain Message Flows Modeling y Bounded Context Canvases. También se desarrolla el apartado 4.1.2. Context Mapping y 4.1.3. Software Architecture, que contiene 4.1.3.1. Software Architecture Context Level Diagrams, 4.1.3.2. Software Architecture Container Level Diagrams y 4.1.3.3 Software Architecture Deployment Diagrams.                                |           Erick Riegas            |
+|   0.1   | 2025-09-20 |                                                                                                                                                                                               Desarrollo de los ítems: 5.1. Style Guidelines-5.1.1. General Style Guidelines-5.1.2. Web, Mobile and IoT Style Guidelines-5.2. Information Architecture-5.2.1. Organization Systems-5.2.2. Labeling Systems-5.2.3. SEO Tags and Meta Tags-5.2.4. Searching Systems-5.2.5. Navigation Systems                                                                                                                                                                                                |         Erick Ruiz Torres         |
+
+<br><br>
+
+| Versión |   Fecha    |                                                                                                                                                                                                                                                                                                                                                                    Descripción                                                                                                                                                                                                                                                                                                                                                                    |                                   Autor                                    |
+|:-------:|:----------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------:|
+|   0.2   | 2025-10-09 |                                                                                                                                                                                                                                                                                                                                                 Desarrollo de los ítems: 1.2.2.4. Lean UX Canvas                                                                                                                                                                                                                                                                                                                                                  |                               Anthony Loarte                               |
+|   0.2   | 2025-10-09 |                                                                                                                                                                                                                                                                        Desarrollo de los ítems:   2.3. Needfinding-2.3.1. User Personas-2.3.2. User Task Matrix-2.3.3. User Journey Mapping-2.3.4. Empathy Mapping-2.3.5. As-is Scenario Mapping-2.4. Ubiquitous Language                                                                                                                                                                                                                                                                         |                     Anthony Loarte y Godofredo Quispe                      |
+|   0.2   | 2025-10-09 |                                                                                                                                                                                                                         Desarrollo de los ítems:     5.1. Style Guidelines-5.1.1. General Style Guidelines-5.1.2. Web, Mobile and IoT Style Guidelines-5.2. Information Architecture-5.2.1. Organization Systems-5.2.2. Labeling Systems-5.2.3. SEO Tags and Meta Tags-5.2.4. Searching Systems-5.2.5. Navigation Systems                                                                                                                                                                                                                         |              Erick Riegas, Bruce Cipriano y Godofredo Quispe               |
+|   0.2   | 2025-10-09 | Desarrollo de los ítems: 6.1. Software Configuration Management.6.1.1. Software Development Environment Configuration.6.1.2. Source Code Management.6.1.3. Source Code Style Guide & Conventions.V1.034/456.1.4. Software Deployment Configuration.6.2. Landing Page, Services & Applications Implementation.6.2.1. Sprint 16.2.1.1. Sprint Planning 1.6.2.1.2. Aspect Leaders and Collaborators.6.2.1.3. Sprint Backlog 1.6.2.1.4. Development Evidence for Sprint Review.6.2.1.5. Testing Suite Evidence for Sprint Review.6.2.1.6. Execution Evidence for Sprint Review.6.2.1.7. Services Documentation Evidence for Sprint Review.6.2.1.8. Software Deployment Evidence for Sprint Review.6.2.1.9. Team Collaboration Insights during Sprint. |                                Jose Riegas                                 |
+|   0.1   | 2025-10-09 |                                                                                                                                                                                                                                                                                                                                                     Desarrollo de los ítems:  landing Pages.                                                                                                                                                                                                                                                                                                                                                      |                      Anthony Loarte y Bruce Cipriano                       |
+|   0.1   | 2025-10-16 |                                                                                                                                                                                                                                                                                                                                                     Desarrollo de los ítems: Web application                                                                                                                                                                                                                                                                                                                                                      | Bruce Cipriano, Godofredo Quispe, Anthony Loarte, Erick Ruiz y Jose Riegas |
+
+<br><br>
+
 ### [Project Report Collaboration Insights](#project-report-collaboration-insights)
+
+El enlace a github del reporte del proyecto es el siguiente: <a href="https://github.com/Solution-Development-IOT-Project/UniverseThing-Report">https://github.com/Solution-Development-IOT-Project/UniverseThing-Report</a>
+<br><br>
+
+
+Para esta entrega se desarollo el capitulo 5 y 6, en la captura adjuntada se evidencia del trabajo colaborativo de github. Todos los integrantes del grupo trabajaron en el proyecto.
+
+Recapitulando los commits se dividieron de la siguiente manera:
+
+* Cipriano Chumbes, Bruce Andres(BruceACC)
+* Loarte Matos, Anthony Brahan(Anthony07LG)  
+* Riegas Salas, Jose Miguel(JoseRiega)     
+* Ruiz Torres, Erick Hernan(Erickl 30601)     
+* Quispe Tipo, Godofredo(GodofredoGT)
 
 ### [Contenido](#contenido)
 
@@ -232,114 +242,78 @@ Esta sección tiene como propósito detallar las actualizaciones significativas 
 
 <b>ABET – EAC - Student Outcome 5:</b> La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
 
-<table align="center">
-  <thead>
-    <tr>
-      <th>Criterio específico</th>
-      <th>Acciones realizadas</th>
-      <th>Conclusiones</th>
-    </tr>
-  </thead>
-  <tbody>
-    <!-- Criterio 1 -->
-    <tr>
-      <td rowspan="1">
-        Trabaja en equipo para proporcionar liderazgo en forma conjunta
-      </td>
-      <!-- TB1 -->
-      <td>
-        <table>
-          <tr>
-            <td rowspan="7"><b>TB1</b></td>
-          </tr>
-        <!-- Estudiantes -->
-          <tr>
-            <td align="justify">
-              <b>Cipriano Chumbes, Bruce Andres:</b><br>
-              XXXXX
-            </td>
-          </tr>
-          <tr>
-            <td align="justify">
-              <b>Loarte Matos, Anthony Brahan</b><br>
-              XXXXX
-            </td>
-          </tr>
-          <tr>
-            <td align="justify">
-              <b>Riega Salas, Jose Miguel:</b><br>
-              XXXXX
-            </td>
-          </tr>
-          <tr>
-            <td align="justify">
-              <b>Ruiz Torres, Erick Hernan:</b><br>
-              XXXXX
-            </td>
-          </tr>
-          <tr>
-            <td align="justify">
-                <b>Quispe Tipo, Godofredo:</b><br>
-              XXXXX
-            </td>
-          </tr>
-        </table>
-      </td>
-      <!-- Conclusion TB1 -->
-      <td rowspan="1" align="justify">
-        XXXXX  
-      </td>
-    </tr>
-    <!-- Criterio 2 -->
-    <tr>
-      <td rowspan="1" >
-        Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.
-      </td>
-      <!-- TB1 -->
-      <td>
-        <table>
-          <tr>
-            <td rowspan="7"><b>TB1</b></td>
-          </tr>
-        <!-- Estudiantes -->
-          <tr>
-            <td align="justify">
-              <b>Cipriano Chumbes, Bruce Andres:</b><br>
-              XXXXX
-            </td>
-          </tr>
-          <tr>
-            <td align="justify">
-              <b>Loarte Matos, Anthony Brahan</b><br>
-              XXXXX
-            </td>
-          </tr>
-          <tr>
-            <td align="justify">
-              <b>Riega Salas, Jose Miguel:</b><br>
-              XXXXX
-            </td>
-          </tr>
-          <tr>
-            <td align="justify">
-              <b>Ruiz Torres, Erick Hernan:</b><br>
-              XXXXX
-            </td>
-          </tr>
-          <tr>
-            <td align="justify">
-                <b>Quispe Tipo, Godofredo:</b><br>
-              XXXXX
-            </td>
-          </tr>
-        </table>
-      </td>
-      <!-- Conclusion TB1 -->
-      <td rowspan="1" align="justify">
-        XXXXX
-      </td>
-    </tr>
-  </tbody>
+<table>
+  <tr>
+    <td><strong>Criterio Específico</strong></td>
+    <td><strong>Acciones Realizadas</strong></td>
+    <td><strong>Conclusiones</strong></td>
+  </tr>
+  <tr>
+    <td>Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
+    <td>
+      Erick Ruiz <br>
+        TB1:<br> Lideré el desarrollo del primer capítulo para tener una visión clara del proyecto. Asimismo, desarollé en conjunto la primera versión de nuestras historias de usuario <br>
+        TP1:<br>  <br>
+        TB2:<br>  <br>
+        TF1: <br>  <br>
+      Jose Riegas<br>
+        TB1:<br> Para el desarrollo del proyecto he participado de manera activa tanto en la toma de decisiones como en la división de responsabilidades, de la misma manera he ayudado en responsabilidades de mis compañeros con el afán de entregar un mejor producto.<br> 
+        TP1:<br>  <br>  
+        TB2:<br>  <br>
+        TF1: <br>  <br>
+      Anthony Loarte<br>
+        TB1:<br> Durante el proyecto Bliss, mi enfoque ha sido mantener la cohesión del equipo, facilitando una comunicación fluida y asegurando que todas las voces fueran escuchadas. He trabajado mano a mano con mis compañeros para resolver conflictos y establecer un liderazgo compartido, lo que ha sido clave para el éxito del equipo.<br> 
+        TP1: <br> <br>
+        TB2: <br> <br>
+        TF1: <br>  <br>
+      Bruce Cipriano<br>
+        TB1:<br> He contribuido activamente en el liderazgo compartido, facilitando la toma de decisiones y promoviendo la responsabilidad colectiva.<br> 
+        TP1:<br>  <br> 
+        TB2: <br>  <br>  
+        TF1:<br>  <br>
+      Godofredo Quispe<br>
+        TB1: <br>Durante la entrega, completé las tareas asignadas de manera eficiente, asegurándome de reportar el progreso regularmente. Participé activamente en las reuniones del equipo, compartiendo sugerencias, atendiendo las opiniones de los demás y colaborando en la solución de los desafíos presentados.<br>
+        TP1: <br><br>
+        TB2: <br><br>
+        TF1: <br><br>
+</td>
+    <td>
+      TB1:<br> A lo largo del desarrollo del proyecto, hemos demostrado una fuerte capacidad de liderazgo compartido, destacando la importancia de la toma de decisiones conjunta y la distribución equitativa de responsabilidades. Cada miembro del equipo ha aportado activamente, promoviendo una comunicación abierta y colaborando para superar desafíos, lo cual ha fortalecido la cohesión y efectividad del grupo. La responsabilidad colectiva y el apoyo mutuo han sido pilares clave que nos han permitido dirigir el proyecto hacia el cumplimiento exitoso de nuestros objetivos. Este enfoque de liderazgo conjunto ha sido fundamental para crear un entorno de trabajo inclusivo y productivo.<br>
+    </td>
+  </tr>
+  <tr>
+    <td>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
+    <td>
+      Erick Ruiz<br>
+        TB1:<br> Tomé la mayor parte de la responsabilidad del desarrollo del primer y segundo capítulo. <br> 
+        TP1: <br>  <br> 
+        TB2:<br>  <br> 
+        TF1: <br>  <br>
+      Jose Riegas<br>
+        TB1:<br> Durante el proyecto fue de mi prioridad ayudar a mis compañeros en la realización de sus tareas, por este motivo he revisado todo el proyecto, corregido errores, como también aportado a la creación de ítems externos a mis responsabilidades asignadas.<br> 
+        TP1:<br> <br> 
+        TB2:<br>  <br>
+        TF1: <br><br>
+      Anthony Loarte<br>
+        TB1:<br> A lo largo del proyecto Bliss, me he centrado en establecer un entorno de trabajo colaborativo e inclusivo, asegurándome de que cada miembro del equipo tuviera las herramientas y el apoyo necesarios para cumplir con sus tareas. Además, he liderado la planificación de actividades y el establecimiento de metas alcanzables para cumplir con los objetivos de manera eficiente.<br>
+        TP1: <br> <br>
+        TB2: <br> <br>
+        TF1: <br>  <br>
+      Bruce Cipriano<br>
+        TB1:<br> He fomentado un entorno inclusivo, definiendo metas claras, planificando tareas, y asegurando el cumplimiento de los objetivos del proyecto.<br> 
+        TP1:<br>  <br> 
+        TB2: <br>. <br>  
+        TF1: <br> <br>
+      Godofredo Quispe<br>
+         TB1: <br>Durante la entrega, fomenté un entorno colaborativo e inclusivo asegurándome de que todos los integrantes tuvieran la oportunidad de participar activamente. Establecí objetivos claros y prioricé una planificación efectiva, asegurando el cumplimiento de mis responsabilidades mediante una comunicación constante.<br>
+         TP1: <br>.<br>
+         TB2: <br>.<br>
+         TF1: <br><br>
+</td>
+    <td>
+       Durante el proyecto, hemos logrado crear un entorno inclusivo y colaborativo que ha facilitado la participación activa de todos los miembros del equipo. Hemos definido metas claras y planificado tareas detalladamente, lo que ha permitido un seguimiento efectivo del progreso y el cumplimiento de los objetivos. La colaboración y el apoyo mutuo han sido esenciales para asegurar que cada miembro del equipo se sintiera valorado y comprometido. Este enfoque ha contribuido significativamente a la eficiencia y éxito del proyecto.<br>
+    </td>
+  </tr>
 </table>
 
 <br><br>
@@ -352,64 +326,6 @@ Esta sección tiene como propósito detallar las actualizaciones significativas 
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-<table>
-  <thead>
-    <tr>
-      <th>Foto</th>
-      <th>Apellidos y Nombres</th>
-      <th>Código</th>
-      <th>Carrera</th>
-      <th>Conocimientos y contribución principal</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><img src="XXXX" alt="Cipriano Chumbes, Bruce Andres" width="400"></td>
-      <td><b>Cipriano Chumbes, Bruce Andres</b></td>
-      <td>U20211D640</td>
-      <td>Ingeniería de Software</td>
-      <td>
-         xxxxx
-      </td>
-    </tr>
-    <tr>
-      <td><img src="XXXX" alt="Loarte Matos, Anthony Brahan" width="400"></td>
-      <td><b>Loarte Matos, Anthony Brahan</b></td>
-      <td>U20211D563</td>
-      <td>Ingeniería de Software</td>
-      <td>
-         xxxxx
-      </td>
-    </tr>
-    <tr>
-      <td><img src="XXXX" alt="Riega Salas, Jose Miguel" width="400"></td>
-      <td><b>Riega Salas, Jose Miguel</b></td>
-      <td>U20211640</td>
-      <td>Ingeniería de Software</td>
-      <td>
-         xxxxx
-      </td>
-    </tr>
-    <tr>
-      <td><img src="XXXX" alt="Ruiz Torres, Erick Hernan" width="400"></td>
-      <td><b>Ruiz Torres, Erick Hernan</b></td>
-      <td>U202118946</td>
-      <td>Ingeniería de Software</td>
-      <td>
-         xxxxx
-      </td>
-    </tr>
-    <tr>
-      <td><img src="XXXX" alt="Quispe Tipo, Godofredo" width="400"></td>
-      <td><b>Quispe Tipo, Godofredo</b></td>
-      <td>U202120772</td>
-      <td>Ingeniería de Software</td>
-      <td>
-         xxxxx
-      </td>
-    </tr>
-  </tbody>
-</table>
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
@@ -426,746 +342,45 @@ Esta sección tiene como propósito detallar las actualizaciones significativas 
 
 ## 1.3. Segmentos objetivo
 
-## Capítulo II: Requirements Elicitation & Analysis
+# Capítulo II: Requirements Elicitation & Analysis
 
-### 2.1 Competidores
+## 2.1. Competidores
 
-A continuación, se presenta un análisis competitivo que examina a las principales empresas que rivalizan con nuestra startup. Hemos identificado tanto competidores directos, aquellos que ofrecen una solución de software +++++++++++++++++++++++++++ **+++++++++++++++++++++++++++**.
+### 2.1.1. Análisis competitivo
 
-1. **Posture Reminder**  
-   ![Logo de Posture Reminder](/images/chapter-2/competidores/Posture_Reminder.png)  
-   **Descripción:**  
-   +++++++++++++++++++++++++++  
-   **Características principales**
+### 2.1.2. Estrategias y tácticas frente a competidores
 
-- +++++++++++++++++++++++++++
-- +++++++++++++++++++++++++++
-- +++++++++++++++++++++++++++
+## 2.2. Entrevistas
 
----
+### 2.2.1. Diseño de entrevistas
 
-2. **Upright Go**  
-   ![Logo de Uprigh Go](/images/chapter-2/competidores/UPRIGHT.png)  
-   **Descripción:**  
-   +++++++++++++++++++++++++++  
-   **Características principales**
+### 2.2.2. Registro de entrevistas
 
-- +++++++++++++++++++++++++++).
-- +++++++++++++++++++++++++++.
-- +++++++++++++++++++++++++++
-- +++++++++++++++++++++++++++
-- +++++++++++++++++++++++++++
+### 2.2.3. Análisis de entrevistas
 
----
+## 2.3. Needfinding
 
-3. **Workpace**  
-   ![Logo de Wellnomics](/images/chapter-2/competidores/Wellnomincs.png)  
-   **Descripción:**  
-   +++++++++++++++++++++++++++.  
-   **Características principales**
+### 2.3.1. User Personas
 
-- +++++++++++++++++++++++++++
-- +++++++++++++++++++++++++++
-- +++++++++++++++++++++++++++
-- +++++++++++++++++++++++++++
+### 2.3.2. User Task Matrix
 
-#### 2.1.1 Análisis competitivo
+### 2.3.3. User Journey Mapping
 
-<table> 
-  <tr>
-    <th colspan="6"> Competitive Analysis Landscape </th>
-  </tr>
-  <tr>
-    <td colspan="2" rowspan="2">¿Por qué llevar acabo este análisis? </td>
-    <td colspan="4"> Pregunta </td>
-  </tr>
-  <tr>
-    <td colspan="4"> Deberíamos llevar a cabo este análisis para conocer el entorno, la competencia, tomar decisiones de desarrollo y construir nuestra propuesta de valor. </td>
-  </tr>
-  <tr>
-    <td colspan="2"> Productos </td>
-    <td> ++++++++ </td>
-    <td> +++++++++++++++++++++++++++ </td>
-    <td> +++++++++++++++++++++++++++ </td>
-    <td> +++++++++++++++++++++++++++ </td>
-  </tr>
-  <tr>
-    <td rowspan="2">Perfil</td>
-    <td>Overview</td>
-    <td> Software +++++++++++++++++++++++++++. </td>
-    <td> Software +++++++++++++++++++++++++++. </td>
-    <td> Wearable +++++++++++++++++++++++++++. </td>
-    <td> Plataforma c+++++++++++++++++++++++++++. </td>
-  </tr>
-  <tr>
-    <td>Ventaja
-    competitiva
-    ¿Qué valor
-    ofrece a los
-    clientes?</td>
-    <td> Ofrece +++++++++++++++++++++++++++. </td>
-    <td> Ofrece +++++++++++++++++++++++++++.</td>
-    <td> Ofrece +++++++++++++++++++++++++++. </td>
-    <td> Ofrece +++++++++++++++++++++++++++. </td>
-  </tr>
-  <tr>
-    <td rowspan="2">Perfil de Marketing</td>
-    <td> Mercado Objetivo </td>
-    <td> +++++++++++++++++++++++++++. </td>
-    <td> +++++++++++++++++++++++++++. </td>
-    <td> U+++++++++++++++++++++++++++. </td>
-    <td> +++++++++++++++++++++++++++. </td>
-  </tr>
-  <tr>
-    <td> Estrategias de Marketing </td>
-    <td> +++++++++++++++++++++++++++. </td>
-    <td> +++++++++++++++++++++++++++. </td>
-    <td> +++++++++++++++++++++++++++ </td>
-    <td> +++++++++++. </td>
-  </tr>
-  <tr>
+### 2.3.4. Empathy Mapping
 
-  </tr>
-  <tr>
-    <td rowspan="3">Perfil de Producto</td>
-    <td> Productos & Servicios </td>
-    <td> ++++++++, +++ ++++++++++++). </td>
-    <td> ++++++++++++++ de sensibilidad. </td>
-    <td> +++++++++++++++++++++++++++ y +. </td>
-    <td> ++++++++++++++++++++++++++++++. </td>
-  </tr>
-  <tr>
-    <td> Precios & Costos </td>
-    <td> +++++++++++++++++. </td>
-    <td> ++++++++++++++++++++++++). </td>
-    <td> ++++++++++++++++++++++++++. </td>
-    <td> ++++++++++++++++++++++. </td>
-  </tr>
-  <tr> 
-    <td>Canales de distribución (Web y/o Móvil)</td>
-    <td> +++++++++++++++++++++++++++++vos. </td>
-    <td> +++++++++++++++++++++++. </td>
-    <td> ++++++++++++++++++++++++. </td>
-    <td> +++++++++++++++++ </td>
-  </tr>
-  <tr>
-    <td rowspan="4"> Análisis SWOT </td>
-    <td> Fortalezas </td>
-    <td> ++++++++++++++++++++++++++++++++++++++. </td>
-    <td> ++++++++++++++++++++++++++++++++++++++++++ </td>
-    <td> +++++++++++++++++++. </td>
-    <td> ++++++++++++++++++++++++++. </td>
-  </tr>
-  <tr>
-    <td> Debilidades </td>
-    <td> ++++++++++++++++++++++++++++++ de marca. </td>
-    <td> ++++++++++++++++++++++++dos. </td>
-    <td> ++++++++++++++++++++++++. </td>
-    <td> ++++++++++++ ++++++++++++. </td>
-  </tr>
-  <tr>
-    <td> Oportunidades </td>
-    <td> Cre++++++++++++++++. </td>
-    <td> ++++++++++++++++++++ ++++++++. </td>
-    <td> ++++++++++++++++++++ +++++++++++. </td>
-    <td> ++++++++++++++ ++++++++++++++++++++ </td>
-  </tr>
-  <tr>
-    <td> Amenazas </td>
-    <td> ++++++++++++++++ ++++++++++. </td>
-    <td> ++++++++++++++++++++++++++++++++++ +. </td>
-    <td> +++++++++++++++++++++++++++++ sin hardware. </td>
-    <td> ++++++++++++++++++++++. </td>
-  </tr>
-</table>
+### 2.3.5. As-Is Scenario Mapping
 
-#### 2.1.2 Estrategias y tácticas frente a competidores
+## 2.4. Ubiquitous Language
 
-**1. Estrategia de Diferenciación por Simplicidad y Usabilidad**
-
-**Objetivo:** Ser la solución más intuitiva y fácil de usar para usuarios no técnicos.
-
-**Tácticas:**
-
-- Configuración que no lleve más de 10 segundos para su uso.
-- Diseñar una interfaz limpia y minimalista con solo 3 botones: ++++++++++++++++++++++++++++++++
-- +++++++++++++++++++++++++++++++++++++++++
-
-**2. Estrategia de Enfoque en Nichos Desatendidos**
-
-**Objetivo:** Dominar segmentos específicos dentro del mercado +++++++++++++++++++++++++++++++
-**Tácticas:**
-
-- +++++++++++++++++++++++
-- +++++++++++++++++++++++++
-
-**3. Estrategia de Humanización y Cercanía de Marca**
-
-**Objetivo:** +++++++++++++++++++++.
-
-**Tácticas:**
-
-- ++++++++++++++++++
-- ++++++++++++
-- S+++++
-
-**4. Estrategia de Precio Accesible y Transparente**
-
-**Objetivo:** +++++++++++++++++++++++++++
-
-**Tácticas:**
-
-- ++++++++++++++++++++++++++++++++
-- Diseñar una estructura de precios clara, con un plan gratuito funcional y un plan premium económico.
-
-### 2.2 Entrevistas
-
-#### 2.2.1 Diseño de entrevistas
-
-**Entrevista para Trabajadores Remotos**
-
-**Preguntas:**
-
-1. ¿Cuál es tu nombre, edad y género?
-2. +++++++++++++++++++++++++++
-3. +++++++++++++++++++++++++++
-4. +++++++++++++++++++++++++++
-5. +++++++++++++++++++++++++++
-6. +++++++++++++++++++++++++++
-7. +++++++++++++++++++++++++++
-8. +++++++++++++++++++++++++++
-9. +++++++++++++++++++++++++++
-10. +++++++++++++++++++++++++++
-11. +++++++++++++++++++++++++++
-12. +++++++++++++++++++++++++++
-
-**Entrevista para Estudiantes que Usan Computadoras**
-
-**Preguntas:**
-
-1. +++++++++++++++++++++++++++
-2. +++++++++++++++++++++++++++
-3. +++++++++++++++++++++++++++
-4. +++++++++++++++++++++++++++
-5. +++++++++++++++++++++++++++
-6. +++++++++++++++++++++++++++
-7. +++++++++++++++++++++++++++
-8. +++++++++++++++++++++++++++
-9. +++++++++++++++++++++++++++
-10. +++++++++++++++++++++++++++
-11. +++++++++++++++++++++++++++
-12. +++++++++++++++++++++++++++
-
-#### 2.2.2 Registro de entrevistas
-
-En esta sección registramos los puntos e ideas más importantes de las entrevistas realizadas a los +++++++++++++++++++++++++++. Los detalles completos de las entrevistas, incluyendo las grabaciones, se encuentran disponibles en el siguiente enlace: [Needfinding Interviews](https://+++++++++++++++++++++++++++%3D)
-
-A continuación se presentan los detalles clave de las entrevistas realizadas a los +++++++++++++++++++++++++++:
-
-<table cellpadding="8" cellspacing="0">
-  <tbody>
-    <tr>
-      <td>Entrevista 1</td>
-      <td> <img src="./images/chapter-2/entrevistas/+++++++++++++++++++++++++++.png" alt="interview 1" width="400"/> </td>
-    </tr>
-    <tr>
-      <td>Nombre Entrevistado</td>
-      <td>+++++++++++++++++++++++++++</td>
-    </tr>
-    <tr>
-      <td>Edad</td>
-      <td>+++++++++++++++++++++++++++</td>
-    </tr>
-    <tr>
-      <td>Distrito</td>
-      <td>+++++++++++++++++++++++++++</td>
-    </tr>
-    <tr>
-      <td>Ocupacion</td>
-      <td>+++++++++++++++++++++++++++</td>
-    </tr>
-    <tr>
-      <td>Duración Entrevista</td>
-      <td>+++++++++++++++++++++++++++ </td>
-    </tr>
-    <tr>
-      <td>Minuto de Inicio</td>
-      <td>00:00 - +++++++++++++++++++++++++++</td>
-    </tr>
-  </tbody>
-</table>
-
-<table cellpadding="8" cellspacing="0">
-  <tbody>
-    <tr>
-      <td>Entrevista 2</td>
-      <td> <img src="./images/chapter-2/entrevistas/tra+++++++++++++++++++++++++++.png" alt="interview 2" width="400"/> </td>
-    </tr>
-    <tr>
-      <td>Nombre Entrevistado</td>
-      <td>+++++++++++++++++++++++++++</td>
-    </tr>
-    <tr>
-      <td>Edad</td>
-      <td>+++++++++++++++++++++++++++</td>
-    </tr>
-    <tr>
-      <td>Distrito</td>
-      <td>+++++++++++++++++++++++++++</td>
-    </tr>
-    <tr>
-      <td>Ocupacion</td>
-      <td>+++++++++++++++++++++++++++</td>
-    </tr>
-    <tr>
-      <td>Duración Entrevista</td>
-      <td>+++++++++++++++++++++++++++ </td>
-    </tr>
-    <tr>
-      <td>Minuto de Inicio</td>
-      <td>+++++++++++++++++++++++++++</td>
-    </tr>
-  </tbody>
-</table>
-
-<table cellpadding="8" cellspacing="0">
-  <tbody>
-    <tr>
-      <td>Entrevista 3</td>
-      <td> <img src="./images/chapter-2/entrevistas/+++++++++++++++++++++++++++.png" alt="interview 3" width="400"/> </td>
-    </tr>
-    <tr>
-      <td>Nombre Entrevistado</td>
-      <td>+++++++++++++++++++++++++++</td>
-    </tr>
-    <tr>
-      <td>Edad</td>
-      <td>+++++++++++++++++++++++++++</td>
-    </tr>
-    <tr>
-      <td>Distrito</td>
-      <td>+++++++++++++++++++++++++++</td>
-    </tr>
-    <tr>
-      <td>Ocupacion</td>
-      <td>+++++++++++++++++++++++++++</td>
-    </tr>
-    <tr>
-      <td>Duración Entrevista</td>
-      <td>+++++++++++++++++++++++++++ </td>
-    </tr>
-    <tr>
-      <td>Minuto de Inicio</td>
-      <td>+++++++++++++++++++++++++++</td>
-    </tr>
-  </tbody>
-</table>
-
-A continuación se presentan los detalles clave de las entrevistas realizadas a los +++++++++++++++++++++++++++:
-
-<table cellpadding="8" cellspacing="0">
-  <tbody>
-    <tr>
-      <td>Entrevista 4</td>
-      <td> <img src="./images/chapter-2/entrevistas/+++++++++++++++++++++++++++.png" alt="interview 4" width="400"/> </td>
-    </tr>
-    <tr>
-      <td>Nombre Entrevistado</td>
-      <td>+++++++++++++++++++++++++++</td>
-    </tr>
-    <tr>
-      <td>Edad</td>
-      <td>+++++++++++++++++++++++++++</td>
-    </tr>
-    <tr>
-      <td>Distrito</td>
-      <td>+++++++++++++++++++++++++++</td>
-    </tr>
-    <tr>
-      <td>Ocupacion</td>
-      <td>+++++++++++++++++++++++++++</td>
-    </tr>
-    <tr>
-      <td>Duración Entrevista</td>
-      <td>+++++++++++++++++++++++++++ </td>
-    </tr>
-    <tr>
-      <td>Minuto de Inicio</td>
-      <td>+++++++++++++++++++++++++++</td>
-    </tr>
-  </tbody>
-</table>
-
-<table cellpadding="8" cellspacing="0">
-  <tbody>
-    <tr>
-      <td>Entrevista 5</td>
-      <td> <img src="./images/chapter-2/entrevistas/+++++++++++++++++++++++++++.png" alt="interview 5" width="400"/> </td>
-    </tr>
-    <tr>
-      <td>Nombre Entrevistado</td>
-      <td>+++++++++++++++++++++++++++</td>
-    </tr>
-    <tr>
-      <td>Edad</td>
-      <td>+++++++++++++++++++++++++++</td>
-    </tr>
-    <tr>
-      <td>Distrito</td>
-      <td>+++++++++++++++++++++++++++</td>
-    </tr>
-    <tr>
-      <td>Ocupacion</td>
-      <td>+++++++++++++++++++++++++++</td>
-    </tr>
-    <tr>
-      <td>Duración Entrevista</td>
-      <td>:+++++++++++++++++++++++++++ </td>
-    </tr>
-    <tr>
-      <td>Minuto de Inicio</td>
-      <td>14:17 - 20:00</td>
-    </tr>
-  </tbody>
-</table>
-
-<table cellpadding="8" cellspacing="0">
-  <tbody>
-    <tr>
-      <td>Entrevista 6</td>
-      <td> <img src="./images/chapter-2/entrevistas/+++++++++++++++++++++++++++.png" alt="interview 6" width="400"/> </td>
-    </tr>
-    <tr>
-      <td>Nombre Entrevistado</td>
-      <td>+++++++++++++++++++++++++++</td>
-    </tr>
-    <tr>
-      <td>Edad</td>
-      <td>+++++++++++++++++++++++++++</td>
-    </tr>
-    <tr>
-      <td>Distrito</td>
-      <td>+++++++++++++++++++++++++++</td>
-    </tr>
-    <tr>
-      <td>Ocupacion</td>
-      <td>+++++++++++++++++++++++++++</td>
-    </tr>
-    <tr>
-      <td>Duración Entrevista</td>
-      <td>+++++++++++++++++++++++++++</td>
-    </tr>
-    <tr>
-      <td>Minuto de Inicio</td>
-      <td>+++++++++++++++++++++++++++</td>
-    </tr>
-  </tbody>
-</table>
-
-#### 2.2.3 Análisis de entrevistas
-
-**Segmento Objetivo 1: Trabajadores Remotos**
-
-En el segmento de +++++++++++++++++++++++++++s+++++++++++++++++++++++++++
-
-**Segmento Objetivo 2: Estudiantes Remotos**
-
-Para el segmento de +++++++++++++++++++++++++++
-
-### 2.3 Needfinding
-
-#### 2.3.1 User Personas
-
-#### 2.3.2 User Task Matrix
-
-**Segmento 1: Trabajadores Remotos:**
-
-| Tarea                       | Frecuencia | Severidad |
-| --------------------------- | ---------- | --------- |
-| +++++++++++++++++++++++++++ | Alta       | Alta      |
-| +++++++++++++++++++++++++++ | Alta       | Alta      |
-| +++++++++++++++++++++++++++ | Media      | Media     |
-| +++++++++++++++++++++++++++ | Baja       | Media     |
-| +++++++++++++++++++++++++++ | Media      | Alta      |
-| +++++++++++++++++++++++++++ | Baja       | Alta      |
-| +++++++++++++++++++++++++++ | Baja       | Media     |
-
-**Segmento 2: Estudiantes Remotos:**
-
-| Tarea                       | Frecuencia | Severidad |
-| --------------------------- | ---------- | --------- |
-| +++++++++++++++++++++++++++ | Alta       | Alta      |
-| +++++++++++++++++++++++++++ | Alta       | Alta      |
-| +++++++++++++++++++++++++++ | Baja       | Alta      |
-| +++++++++++++++++++++++++++ | Baja       | Media     |
-| +++++++++++++++++++++++++++ | Media      | Alta      |
-| +++++++++++++++++++++++++++ | Media      | Media     |
-| +++++++++++++++++++++++++++ | Media      | Media     |
-| +++++++++++++++++++++++++++ | Baja       | Alta      |
-
-#### 2.3.3 Empathy Mapping
-
-**Segmento 1: +++++++++++++++++++++++++++:**
-
-<img src="images/chapter-2/target-segment-1-empathy-map.png" alt="empathy-map +++++++++++++++++++++++++++"/>
-
-**Segmento 2: +++++++++++++++++++++++++++:**
-
-<img src="images/chapter-2/target-segment-2-empathy-map.png" alt="empathy-map +++++++++++++++++++++++++++"/>
-
-#### 2.3.4 As-is Scenario Mapping
-
-**Segmento 1: +++++++++++++++++++++++++++**
-
-<img src="./images/chapter-2/As-Is Scenario Mapping +++++++++++++++++++++++++++ Remoto.png" alt="as-is +++++++++++++++++++++++++++"/>
-
-**Segmento 2: +++++++++++++++++++++++++++**
-
-<img src="./images/chapter-2/As-Is Scenario Mapping +++++++++++++++++++++++++++.png" alt="as-is +++++++++++++++++++++++++++"/>
-
-### 2.4 Ubiquitous Language
-
-El siguiente glosario detalla los términos esenciales del Lenguaje Ubiquo que utilizamos en este proyecto. Este lenguaje común nos permite alinear nuestras conversaciones y asegurar que todos estemos trabajando con una misma comprensión del dominio del problema.
-
-| Término (Inglés)        | Término (Español)                 | Definición                                                                                                                                                                                                                |
-| ----------------------- | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Task**                | Tarea                             | Acción específica asignada a un miembro del grupo para ser completada en un periodo.                                                                                                                                      |
-| **Monitoring**          | Monitoreo                         | Proceso continuo mediante el cual el sistema observa y analiza la postura del usuario en tiempo real.                                                                                                                     |
-| **Notification**        | Notificación                      | Aviso emitido por el sistema (visual o sonoro) para alertar al usuario sobre una postura incorrecta o recordarle una acción.                                                                                              |
-| **Metric**              | Métrica                           | Indicador cuantitativo que mide hábitos posturales, como el tiempo en postura incorrecta o la frecuencia de correcciones.                                                                                                 |
-| **Posture**             | Postura                           | Posición corporal adoptada por el usuario frente a la computadora, que puede ser correcta o incorrecta según criterios ergonómicos.                                                                                       |
-| **Webcam**              | Cámara web                        | Dispositivo que captura imágenes en tiempo real y permite al sistema analizar la postura del usuario.                                                                                                                     |
-| **Remote Student**      | Estudiante remoto                 | Usuario que accede al sistema desde un entorno académico a distancia, como clases en línea, y que utiliza ErgoVision para mantener hábitos posturales saludables mientras estudia desde casa u otro lugar fuera del aula. |
-| **Remote Worker**       | Trabajador remoto                 | Usuario que desempeña sus funciones laborales desde casa u otro lugar fuera de la oficina tradicional, empleando ErgoVision para cuidar su postura durante la jornada laboral a distancia.                                |
-| **MediaPipe**           | MediaPipe                         | Framework de visión por computadora desarrollado por Google, usado para detectar y procesar puntos clave del cuerpo humano.                                                                                               |
-| **Pose Landmark**       | Punto de referencia de la postura | Coordenadas específicas del cuerpo (ej. hombros, cuello, rodillas) detectadas por la IA para evaluar la postura del usuario.                                                                                              |
-| **Postural Biometrics** | Biometría postural                | Conjunto de datos únicos relacionados con la forma en que una persona se sienta, se mueve o mantiene su postura.                                                                                                          |
-| **Workstation**         | Estación de trabajo               | Espacio físico compuesto por escritorio, silla y computadora donde el estudiante y trabajador remoto realiza sus actividades.                                                                                             |
-| **Comfort Threshold**   | Umbral de confort                 | Límite dentro del cual una postura se considera aceptable sin generar molestias o riesgos ergonómicos.                                                                                                                    |
-| **Correction Cycle**    | Ciclo de corrección               | Secuencia de eventos que inicia con una alerta, continúa con el ajuste de la postura por parte del estudiante y trabajador remoto y finaliza con la validación del cambio.                                                |
-
-## Capítulo III: Requirements Specification
+# Capítulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping
 
 ## 3.2. User Stories
 
-<table align=center">
-  <thead align="center">
-    <tr>
-      <th>Epic/User Story ID</th>
-      <th>Título</th>
-      <th>Descripción</th>
-      <th>Criterios de Aceptación</th>
-      <th>Relación (EPIC ID)</th>
-    </tr>
-  </thead>
-  <tbody align="center">
-    <!-- EP-01 -->
-    <tr style="background-color:#F3F8FF; border-left:6px solid #2563EB;">
-      <td><strong>EP-01</strong></td>
-      <td><strong>XXXXX</strong></td>
-      <td align="justify">
-        <strong>Como</strong> XXXXX <strong>quiero</strong> XXXXX
-        <strong>para</strong>XXXXX
-      </td>
-      <td align="justify">
-        <strong>Escenario 1: XXXXX</strong><br>
-        <strong>Dado</strong> XXXXX<br>
-        <strong>Cuando</strong> XXXXX<br>
-        <strong>Entonces</strong> XXXXX
-      </td>
-      <td>–</td>
-    </tr>
-    <!-- HU-01 -->
-    <tr>
-      <td><strong>HU-01</strong></td>
-      <td>XXXXX</td>
-      <td align="justify">
-        <strong>Como</strong>XXXXX <strong>quiero</strong>XXXXX
-        <strong>para</strong>XXXXX
-      </td>
-      <td align="justify">
-        <strong>Escenario 1: XXXXX</strong><br>
-        <strong>Dado</strong> XXXXX <br>
-        <strong>Cuando</strong> XXXXX<br>
-        <strong>Entonces</strong> XXXXX
-        <br><br>
-        <strong>Escenario 2: XXXXX</strong><br>
-        <strong>Dado</strong> XXXXX <br>
-        <strong>Cuando</strong> XXXXX<br>
-        <strong>Entonces</strong> XXXXX.
-      </td>
-      <td>EP-01</td>
-    </tr>
-    <!-- HU-02 -->
-    <tr>
-      <td><strong>HU-02</strong></td>
-      <td>XXXXX</td>
-      <td align="justify">
-        <strong>Como</strong>XXXXX <strong>quiero</strong>XXXXX
-        <strong>para</strong>XXXXX
-      </td>
-      <td align="justify">
-        <strong>Escenario 1: XXXXX</strong><br>
-        <strong>Dado</strong> XXXXX <br>
-        <strong>Cuando</strong> XXXXX<br>
-        <strong>Entonces</strong> XXXXX
-        <br><br>
-        <strong>Escenario 2: XXXXX</strong><br>
-        <strong>Dado</strong> XXXXX <br>
-        <strong>Cuando</strong> XXXXX<br>
-        <strong>Entonces</strong> XXXXX.
-      </td>
-      <td>EP-01</td>
-    </tr>
-    <!-- HU-03 -->
-    <tr>
-      <td><strong>HU-03</strong></td>
-      <td>XXXXX</td>
-      <td align="justify">
-        <strong>Como</strong>XXXXX <strong>quiero</strong>XXXXX
-        <strong>para</strong>XXXXX
-      </td>
-      <td align="justify">
-        <strong>Escenario 1: XXXXX</strong><br>
-        <strong>Dado</strong> XXXXX <br>
-        <strong>Cuando</strong> XXXXX<br>
-        <strong>Entonces</strong> XXXXX
-        <br><br>
-        <strong>Escenario 2: XXXXX</strong><br>
-        <strong>Dado</strong> XXXXX <br>
-        <strong>Cuando</strong> XXXXX<br>
-        <strong>Entonces</strong> XXXXX.
-      </td>
-      <td>EP-01</td>
-    </tr>
-    <!-- HU-04 -->
-    <tr>
-      <td><strong>HU-04</strong></td>
-      <td>XXXXX</td>
-      <td align="justify">
-        <strong>Como</strong>XXXXX <strong>quiero</strong>XXXXX
-        <strong>para</strong>XXXXX
-      </td>
-      <td align="justify">
-        <strong>Escenario 1: XXXXX</strong><br>
-        <strong>Dado</strong> XXXXX <br>
-        <strong>Cuando</strong> XXXXX<br>
-        <strong>Entonces</strong> XXXXX
-        <br><br>
-        <strong>Escenario 2: XXXXX</strong><br>
-        <strong>Dado</strong> XXXXX <br>
-        <strong>Cuando</strong> XXXXX<br>
-        <strong>Entonces</strong> XXXXX.
-      </td>
-      <td>EP-01</td>
-    </tr>
-    <!-- HU-05 -->
-    <tr>
-      <td><strong>HU-05</strong></td>
-      <td>XXXXX</td>
-      <td align="justify">
-        <strong>Como</strong>XXXXX <strong>quiero</strong>XXXXX
-        <strong>para</strong>XXXXX
-      </td>
-      <td align="justify">
-        <strong>Escenario 1: XXXXX</strong><br>
-        <strong>Dado</strong> XXXXX <br>
-        <strong>Cuando</strong> XXXXX<br>
-        <strong>Entonces</strong> XXXXX
-        <br><br>
-        <strong>Escenario 2: XXXXX</strong><br>
-        <strong>Dado</strong> XXXXX <br>
-        <strong>Cuando</strong> XXXXX<br>
-        <strong>Entonces</strong> XXXXX.
-      </td>
-      <td>EP-01</td>
-    </tr>
-    <!-- EHU-06 -->
-    <tr>
-      <td><strong>HU-06</strong></td>
-      <td>XXXXX</td>
-      <td align="justify">
-        <strong>Como</strong>XXXXX <strong>quiero</strong>XXXXX
-        <strong>para</strong>XXXXX
-      </td>
-      <td align="justify">
-        <strong>Escenario 1: XXXXX</strong><br>
-        <strong>Dado</strong> XXXXX <br>
-        <strong>Cuando</strong> XXXXX<br>
-        <strong>Entonces</strong> XXXXX
-        <br><br>
-        <strong>Escenario 2: XXXXX</strong><br>
-        <strong>Dado</strong> XXXXX <br>
-        <strong>Cuando</strong> XXXXX<br>
-        <strong>Entonces</strong> XXXXX.
-      </td>
-      <td>EP-01</td>
-    </tr>
-  </tbody>
-</table>
-
 ## 3.3. Impact mapping
 
 ## 3.4. Product Backlog
-
-<table align="center" width="100%" cellspacing="0" cellpadding="6" style="border-collapse:collapse;">
-  <thead align="center" style="background:#F8FAFC;">
-    <tr>
-      <th># Orden</th>
-      <th>User Story Id</th>
-      <th>Título</th>
-      <th>Descripción</th>
-      <th>Story Points</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr style="text-align:center;">
-      <td>1</td>
-      <td>HU-01</td>
-      <td>XXXXX</td>
-      <td align="justify">XXXXX</td>
-      <td>2</td>
-    </tr>
-    <tr style="text-align:center;">
-      <td>2</td>
-      <td>HU-02</td>
-      <td>XXXXX</td>
-      <td align="justify">XXXXX</td>
-      <td>2</td>
-    </tr>
-    <tr style="text-align:center;">
-      <td>3</td>
-      <td>HU-04</td>
-      <td>XXXXX</td>
-      <td align="justify">XXXXX</td>
-      <td>3</td>
-    </tr>
-    <tr style="text-align:center;">
-      <td>4</td>
-      <td>HU-05</td>
-      <td>XXXXX</td>
-      <td align="justify">XXXXX</td>
-      <td>3</td>
-    </tr>
-    <tr style="text-align:center;">
-      <td>5</td>
-      <td>HU-03</td>
-      <td>XXXXX</td>
-      <td align="justify">XXXXX</td>
-      <td>1</td>
-    </tr>
-    <tr style="text-align:center;">
-      <td>6</td>
-      <td>HU-06</td>
-      <td>XXXXX</td>
-      <td align="justify">XXXXX</td>
-      <td>5</td>
-    </tr>
-  </tbody>
-</table>
-<br></br>
 
 # Capítulo IV: Solution Software Design
 
@@ -1300,3 +515,4 @@ El siguiente glosario detalla los términos esenciales del Lenguaje Ubiquo que u
 # Bibliografía
 
 # Anexos
+>>>>>>> 83d5a5c871cd524a9cc7c4546cc66b0da29bbc34
