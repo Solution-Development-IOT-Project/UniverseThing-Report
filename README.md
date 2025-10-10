@@ -1396,6 +1396,33 @@ Link de figma lading page: <a href="https://www.figma.com/design/EHi82ICkHRBIJbR
 
 ### 5.4.1. Applications Wireframes
 
+Web Application
+Pantallas relacionadas al inicio de sesión y registro de usuario:
+
+<img src="./assets/img/wireframerWeb.png" alt="WireFrame Web app" width="300" /> <img src="./assets/img/wireframerWeb1
+.png" alt="Mock-up Web app" width="300" />
+
+Pantallas relacionadas al dashboard donde se podra visualizar la temperatura , luminocidad y la deteccion de plagas  con un grafico  intuitivo:
+
+
+<img src="./assets/img/wireframerWeb2.png" alt="WireFrame Web app" width="300" />
+
+Pantallas relacionadas a los dispositivos donde se podra visualizar todos los sensores que tiene activados o desactivados:
+<img src="./assets/img/wireframerWeb3.png" alt="WireFrame Web app" width="300" />
+Pantallas relacionadas a las alertas como la de alrestas activas,pendietes,resultados de hoy y el tiempo respuesta .Ademas de un historial de todos ellos:
+<img src="./assets/img/wireframerWeb4.png" alt="WireFrame Web app" width="300" /> <img src="./assets/img/wireframerWeb5
+.png" alt="Mock-up Web app" width="300" />
+Pantallas relacionadas a los datos de los sensores se visualizara el porcentade de cada uno de ellos con un grafico:
+<img src="./assets/img/wireframerWeb6.png" alt="WireFrame Web app" width="300" /> <img src="./assets/img/wireframerWeb7
+.png" alt="Mock-up Web app" width="300" /><img src="./assets/img/wireframerWeb8
+.png" alt="Mock-up Web app" width="300" /><img src="./assets/img/wireframerWeb9
+.png" alt="Mock-up Web app" width="300" />
+Pantallas relacionadas a las configuraciones donde tomas  tus configuracion propias:
+<img src="./assets/img/wireframerWeb10.png" alt="WireFrame Web app" width="300" /> 
+
+Pantallas relacionadas al perfil de usuario aqui visualizaras el perfil y los datos de dais activadasm sesosres configrados, alertas reltados y el ahorro de insecticida y claro los datos personales que fue registrado : 
+<img src="./assets/img/wireframerWeb11.png" alt="WireFrame Web app" width="300" /> 
+
 ### 5.4.2. Applications Wireflow Diagrams
 
 ### 5.4.3. Applications Mock-ups
