@@ -72,6 +72,12 @@
 
 <br><br>
 
+# Contenido
+
+## Tabla de Contenidos
+
+### [Registro de versiones del informe](#registro-de-versiones-del-informe)
+
 ### [Project Report Collaboration Insights](#project-report-collaboration-insights)
 
 El enlace a github del reporte del proyecto es el siguiente: <a href="https://github.com/Solution-Development-IOT-Project/UniverseThing-Report">https://github.com/Solution-Development-IOT-Project/UniverseThing-Report</a>
@@ -1295,33 +1301,266 @@ El siguiente backlog representa las historias de usuario priorizadas y estimadas
 
 ## 6.1. Software Configuration Management
 
+En esta sección se establece el proceso de implementación, comprobación, despliegue y validación de nuestra solución compuesta por los productos digitales que forman parte del alcance nuestra solución. Este capítulo abarca secciones para la organización del proceso de trabajo en Sprints, la descripción de las prácticas asociadas, evidencias de implementación y la colaboración por Sprint.
+
 ### 6.1.1. Software Development Environment Configuration
+
+A continuación se especifica cada uno de los productos de software, que utilizamos para colaborar en el ciclo de vida y desarrollo de los productos para nuestra solución, considerandotodas las herramientas utilizadas en la documentación, especificación de nuestra solución y desarrollo de software, respetando las restricciones indicadas sobre los productos de software y herramientas que debemos utilizar.
+
+#### Project Management
+
+| Producto de Software | Descripción                                                                                                         | Ruta de referencia o de descarga      |
+|----------------------|---------------------------------------------------------------------------------------------------------------------|---------------------------------------|
+| Trello               | Para el control del proyecto, asignación de tareas y actividades de cada integrante del equipo en base a User Stories. | https://www.trello.com/               |
+| Google Meet          | Plataforma virtual para realizar reuniones del grupo para coordinar y asignar actividades.                          | https://meet.google.com               |
+
+#### Requirements Management
+
+| Producto de Software | Descripción                                                                 | Ruta de referencia o de descarga |
+|----------------------|-----------------------------------------------------------------------------|----------------------------------|
+| UXPressia            | Elaboración de User Personas, Empathy Maps, Journey Maps e Impact Maps.     | https://uxpressia.com/           |
+| Miro                 | Elaboración de As-Is y To-Be Scenario Maps.                                 | https://miro.com/                |
+
+#### Product UX/UI Design
+
+| Producto de Software | Descripción                                 | Ruta de referencia o de descarga |
+|----------------------|---------------------------------------------|----------------------------------|
+| Figma                | Elaboración de Wireframes, Mock-ups y Prototypes. | https://www.figma.com            |
+
+#### Software Development
+
+| Producto de Software | Descripción                                                                                           | Ruta de referencia o de descarga              |
+|----------------------|-------------------------------------------------------------------------------------------------------|-----------------------------------------------|
+| IntelliJ IDEA        | Entorno de Desarrollo Integrado (IDE) para codificación y desarrollo del lado Backend de la solución. | https://www.jetbrains.com/idea/               |
+| Android Studio       | Entorno de Desarrollo Integrado (IDE) para codificación y desarrollo de la aplicación móvil.          | https://developer.android.com/studio          |
+| GIT                  | Almacenamiento y control de versiones de código.                                                      | https://git-scm.com                           |
+| GitHub               | Gestión de GIT en un repositorio común.                                                               | https://github.com                            |
+
+---
 
 ### 6.1.2. Source Code Management
 
+Para el seguimiento de modificaciones en el desarrollo de nuestra solución, utilizamos la plataforma **GitHub** para alojar tanto la documentación como el código de nuestros productos de software. Esta plataforma nos permite realizar seguimiento de las modificaciones en cada parte de los productos desarrollados y también la utilizaremos como sistema de control de versiones. Para asegurar que todo el equipo pueda acceder a la plataforma y que los repositorios que alojarán diferentes partes de nuestra solución sean accesibles por una misma ruta, hemos creado una **organización** en GitHub con el nombre de nuestro producto.
+
+### Organización
+
+| Organización            | URL                                      |
+|-------------------------|-------------------------------------------|
+| Solution-Development-IOT-Project   | [Solution-Development-IOT-Project ](https://github.com/Solution-Development-IOT-Project)  |
+
+Dentro de nuestra organización en GitHub se encuentran los **repositorios** correspondientes a cada uno de los productos a desarrollar.
+
+### Repositorios por Producto
+
+| Producto                       | URL del Repositorio                                                                 |
+|--------------------------------|--------------------------------------------------------------------------------------|
+| Landing Page                   | [Solution-Development-IOT-Project-Landing-Page ](https://github.com/Solution-Development-IOT-Project/UniverseThings-LandingPage)                   |
+| Backend                        | [Solution-Development-IOT-Project/Backend  ](https://github.com/Solution-Development-IOT-Project/UniverseThings-Backend)                                   |
+| Mobile Application             | [hSolution-Development-IOT-Project/mobile  ](https://github.com/Solution-Development-IOT-Project/UniverseThings-Mobile-App)                   |
+| Frontend                       | [Solution-Development-IOT-Project-Application-Frontend](https://github.com/Solution-Development-IOT-Project/UniverseThings-Frontend)             |
+
+### Implementación de GitFlow
+
+Para el desarrollo del proyecto, implementaremos **GitFlow** propuesto por Vincent Driessen (“A successful Git branching model”) y lo aplicaremos en todos los repositorios que integran la solución. Para implementar GitFlow, crearemos las siguientes ramas de trabajo en cada repositorio:
+
+| Rama        | Propósito (resumen)                               |
+|-------------|----------------------------------------------------|
+| `main`      | Línea estable de producción                        |
+| `develop`   | Integración de nuevas funcionalidades              |
+| `feature/*` | Desarrollo de características aisladas             |
+| `release/*` | Preparación de versiones de lanzamiento            |
+| `hotfix/*`  | Correcciones críticas sobre producción             |
+
+
+### Convenciones de Mensajes de Commit (Conventional Commits)
+
+Aplicaremos **Conventional Commits** para los textos de cada commit en todas las ramas de los repositorios. Esto proporciona un conjunto de reglas para crear un historial de commits que describa de manera clara las características, correcciones y cambios importantes realizados.
+
+**Estructura general del mensaje de commit:**
+
+| Elemento | Descripción                                                                 |
+|----------|------------------------------------------------------------------------------|
+| `type`   | Tipo de cambio (por ejemplo: `feat`, `fix`, `docs`, `style`, `refactor`, …) |
+| `scope`  | (Opcional) Alcance del cambio                                               |
+| `subject`| Descripción breve del cambio                                                |
+
+**Tipos usados (ejemplos):**
+
+| Tipo       | Uso                                                                 |
+|------------|---------------------------------------------------------------------|
+| `fix`      | Indica una corrección en el código base                             |
+| `feat`     | Introduce una nueva característica                                  |
+| `build`    | Cambios que afectan el sistema de build                             |
+| `chore`    | Tareas varias (sin afectar código de producción)                    |
+| `ci`       | Cambios de configuración de integración continua                    |
+| `docs`     | Cambios en documentación                                            |
+| `style`    | Formato y estilos (sin cambiar comportamiento)                      |
+| `refactor` | Reestructuración sin cambios funcionales                            |
+| `perf`     | Mejoras de rendimiento                                              |
+| `test`     | Agrega o corrige pruebas                                            |
+
+ 
 ### 6.1.3. Source Code Style Guide & Conventions
+
+Para el desarrollo de nuestra propuesta de solución, el equipo utilizará las convenciones estándar para cada lenguaje durante todo el ciclo de vida del proyecto y en todos los repositorios de trabajo. A continuación, se presentan las referencias para la nomenclatura de los elementos en cada lenguaje, procurando utilizar nomenclatura en inglés y seguir buenas prácticas de programación.
+
+| Lenguaje   | Referencias y Convenciones |
+|------------|----------------------------|
+| **HTML**   | - Utilizar la estructura de documento propia de HTML, especificando el `<!DOCTYPE html>`.<br>- Cerrar siempre las etiquetas de autocierre con `/>`.<br>- Utilizar minúsculas (“lowercase”) para los nombres de las etiquetas y atributos.<br>- Incluir atributos `alt` en las imágenes para describir su contenido.<br>- Mantener una indentación consistente en el código. |
+| **CSS**    | - Utilizar unidades relativas para definir el tamaño de las imágenes.<br>- Separar las palabras con guiones en lugar de espacios o subrayados.<br>- Preferir el uso de propiedades abreviadas cuando sea posible.<br>- Emplear nombres descriptivos para las clases y los identificadores. |
+| **JavaScript** | - Documentar el código de manera descriptiva.<br>- Utilizar nombres descriptivos para variables y funciones.<br>- Organizar el código en módulos y componentes. |
+| **Java**   | - Las clases e interfaces deben nombrarse con sustantivos en *CamelCase*.<br>- Organizar el código en módulos y componentes.<br>- Limitar la longitud de los métodos para que realicen una única función clara.<br>- Manejar adecuadamente las excepciones con mensajes o acciones concretas. |
+| **Kotlin** | - Los nombres de funciones, propiedades y variables locales deben comenzar con una letra minúscula (salvo funciones de fábrica).<br>- Los nombres de las clases deben ser frases nominales que expliquen su contexto.<br>- Evitar la creación de objetos innecesarios.<br>- Utilizar `lazy` para posponer la inicialización de propiedades hasta que sea necesaria.<br>- Los nombres de los paquetes deben escribirse en minúsculas, sin guiones bajos ni concatenar palabras usando *CamelCase*. |
+| **Gherkin**| - Usar la estructura **Given / When / Then / And** para escribir casos de prueba.<br>- Uso de archivos `.feature` para cada caso de prueba.<br>- Utilizar un **Feature** por funcionalidad del sistema.<br>- Describir escenarios de forma clara. |
+
 
 ### 6.1.4. Software Deployment Configuration
 
+A continuación se detalla la configuración necesaria para el despliegue de cada producto digital desarrollado. Asimismo, se incluyen los pasos requeridos para llevar a cabo el despliegue y la publicación, partiendo desde los repositorios de código fuente alojados en nuestra organización en la plataforma GitHub.
+
+#### Landing Page
+
+**Requisitos para realizar el despliegue**
+- Repositorio en la plataforma GitHub  
+- Tener todos los permisos necesarios para modificar el repositorio  
+- Archivos con el código fuente de la Landing Page
+
+**Resultado del despliegue**
+
+![Evidencias despliegue 1](assets/image/DeployEvidence.png)
+
+---
+
 ## 6.2. Landing Page, Services & Applications Implementation
 
-### 6.2.X. Sprint n
+### 6.2.X. Sprint 1
 
-#### 6.2.X.1. Sprint Planning n.
+Se presenta la planificación del primer Sprint realizado por el equipo para el inicio del desarrollo de la solución UniverseThings. 
 
-#### 6.2.X.2. Sprint Backlog n.
+| Campo                         | Valor                                                                                                   |
+|------------------------------|---------------------------------------------------------------------------------------------------------|
+| Sprint #                     | Sprint 1                                                                                                |
+| Sprint Planning Background   | Primer Sprint; no hay información previa.                                                               |
+| Date                         | 2025-10-2                                                                                              |
+| Time                         | 08:00 PM                                                                                                |
+| Location                     | Reunión virtual (Meet)                                                                                  |
+| Prepared By                  | Quispe Tipo, Godofredo / Riega Salas Jose Miguel/ Loarte Matos, Anthony Brahan/ Ruiz Torres, Erick Hernan/ Cipriano Chumbes, Bruce Andres|
+| Attendees                    | Quispe Tipo, Godofredo / Riega Salas Jose Miguel/ Loarte Matos, Anthony Brahan/ Ruiz Torres, Erick Hernan/ Cipriano Chumbes, Bruce Andres|
+| Sprint 1-1 Review Summary    | No se dispone de resúmenes ni resultados previos.                                                       |
+| Sprint 1-1 Retrospective     | Se destaca trabajo en equipo, organización y necesidad de investigar desarrollo en Android.             |
+| Sprint 1 Goal                | Creación de primera version de la landing page y web app frontend                                                         |
+| Hipótesis de Valor           | Generará confianza en los agricultores sobre la solución.                                                |
+| Criterio de Confirmación     | Pueden acceder a landing y frontend.                                      |
+| Sprint 1 Velocity            | 35 (Story Points aceptados)                                                                             |
+| Sum of Story Points          | 35                                                                                                      |
 
-#### 6.2.X.3. Development Evidence for Sprint Review
 
-#### 6.2.X.4. Testing Suite Evidence for Sprint Review.
+---
 
-#### 6.2.X.5. Execution Evidence for Sprint Review.
+### 6.2.1.2. Sprint Backlog 1
+| User Story | Work-Item / Task | Título / Descripción (extracto)                                                                                                   | Estimación (h) | Assigned To        | Status     |
+|------------|-------------------|----------------------------------------------------------------------------------------------------------------------------------|----------------|--------------------|------------|
+| US027       | T01               | Crear barra de navegación — Diseñar e implementar barra con logo y enlaces a secciones clave                                    | 2              | Bruce Cipriano     | Done       |
+| US028       | T01               | Agregar información destacada — Misión, objetivo y beneficios en la landing                                                     | 3              | Jose Miguel        | Done       |
+| US029       | T01               | Crear footer informativo — Contacto, redes sociales y enlaces legales                                                           | 2              | Jose Miguel        | Done       |
+| US016       | T01               | Enviar un mensaje o consulta desde la landing page, para recibir más información sobre el producto.                             | 2              | Brice Cipriano     | Done       |
+| US017       | T01               | La landing page debe incluir una sección con al menos 3 testimonios con foto y nombre del agricultor/cooperativa.               | 2              | Godofredo Quispe   | To - do    |
+| US018       | T01               | La landing page debe mostrar tabla de precios o paquetes de suscripción, diferenciados por tipo de usuario.                     | 2              | Godofredo Quispe   | In-Process |
+| US020       | T01               | El sistema debe permitir la descarga de un PDF con información resumida del dispositivo y su uso.                               | 2              | Anthony loarte     | To - do    |
+| US21        | T01               | ofrecer un selector de idioma y traducir todos los textos de la interfaz.                                                       | 3              | Anthony loarte     | Done       |
+| US22        | T01               | ofrecer un selector de tema y recordar la preferencia del usuario.                                                              | 2              | Erick Ruiz         | Done       |
+| US012       | T01               | Visualización gráfica de datos — Página de gráficos (líneas, barras, calor) con filtros por rango y dispositivo                 | 6              | Erick Ruiz         | To - review    |
+| US013       | T01               | Exportación de reportes — Generar y descargar reportes en PDF/XLSX desde la Web App                                             | 4              | Anthony loarte     | To - review   |
+| US014       | T01               | Integración vía API — Endpoints seguros para datos históricos y en tiempo real                                                  | 6              | Godofredo Quispe   | In-Process |
+| US023       | T01               | Recuperar contraseña — Flujo de “olvidé mi contraseña” vía correo con enlace seguro                                             | 3              | Bruce Cipriano     | Done       |
+| US024       | T01               | Notificaciones de mantenimiento — Alerta cuando un sensor no reporta por X días                                                 | 3              | Godofredo Quispe   | To - do |
+| US025       | T01               | Historial de notificaciones — Listado con fecha, hora y tipo de evento                                                          | 2              | Jose Miguel        | To - review |
+| US026       | T01               | Perfil de usuario editable — Editar nombre, email y organización con validaciones                                               | 3              | Brice Cipriano     | Done       |
 
-#### 6.2.X.6. Services Documentation Evidence for Sprint Review.
 
-#### 6.2.X.7. Software Deployment Evidence for Sprint Review.
+---
+
+### 6.2.1.3. Development Evidence for Sprint Review
+| Repository                                     | Branch       | Commit Id | Commit Message                               | Committed on |
+|-----------------------------------------------|--------------|-----------|----------------------------------------------|--------------|
+| 2510-356-Solution-Development-IOT-Project-Landing-Page | main         | 1cc1d96  | initial commit                                | 19/7/2025   |
+| 2510-356-Solution-Development-IOT-Projecto-Landing-Page  | develop      | 135ccf8   | feat: tus cambios aquí                       | 1/10/2025   |
+| 2510-356-Solution-Development-IOT-Project-Landing-Page  | develop      | 403a699   | feat: tus cambios aquí                     | 1/10/2025   |
+| 2510-356-Solution-Development-IOT-Project-Landing-Page | develop      | 90089b1   | fix: descripción corta de lo que cambiaste   | 1/10/2025   |
+
+
+---
+
+### 6.2.1.5. Execution Evidence for Sprint Review
+
+En esta sección presentamos el resumen de lo alcanzado en este Sprint describiendo la visualización y navegación de las principales vistas implementadas para nuestra solución siendo el primer Sprint y nuestro Producto Backlog y el desarrollo descrito en nuestro Sprint Backlog.
+
+Landing Page:
+
+![Evidencias Sprint 1](assets/image/EvidenceN1.png)
+
+![Evidencias Sprint 1](assets/image/EvidenceN2.png)
+
+![Evidencias Sprint 1](assets/image/EvidenceN3.png)
+
+#### 6.2.1.6. Services Documentation Evidence for Sprint Review.
+
+#### 6.2.1.7. Software Deployment Evidence for Sprint Review.
+
+Durante este Sprint se realizaron procesos de despliegue para los productos correspondientes a nuestra solución como son Landing Page.
+
+Landing Page:
+
+luego de tener la configuración terminada el proyecto deberia aparecer en github pages:
+
+![Evidencias despliegue 1](assets/image/DeployEvidence.png)
+
+![Evidencias despliegue 1](assets/image/DeployEvidence.png)
+
+Deployment:
+
+![Evidencias Sprint 1](assets/image/EvidenceN1.png)
+
 
 #### 6.2.X.8. Team Collaboration Insights during Sprint.
+
+Analíticos de colaboración y commits realizados en la plataforma GitHub, realizados por los
+miembros del equipo en desarrollo de cada producto asociado a nuestra solución:  
+
+Report:
+
+![Evidencias Sprint 1](assets/image/EvidenceR.png)
+
+![Evidencias Sprint 1](assets/image/EvidenceR2.png)
+
+Landing Page:
+
+![Evidencias Sprint 1](assets/image/EvidenceLanding.png)
+![Evidencias Sprint 1](assets/image/EvidenceLanding2.png)
+
+
+#### 6.2.X.9. Team Collaboration Insights during Sprint.
+
+En el presente sprint se implementó la **Landing Page** y una **primera versión de la Web Application**.  
+A continuación, se muestra la tabla de actividades de todos los participantes:
+
+| Alumno | Actividad |
+|---------|------------|
+| **Cipriano Chumbes, Bruce Andres** | Diseño UI/UX general del sistema, desarrollo del prototipo en Figma y despliegue de la Landing Page. |
+| **Loarte Matos, Anthony Brahan** | Implementación del backend inicial (servicios y API), configuración del entorno y soporte en pruebas. |
+| **Riegas Salas, Jose Miguel** | Integración del backend con la base de datos y documentación técnica del Sprint 1. |
+| **Ruiz Torres, Erick Hernan** | Configuración del entorno DevOps (GitHub Actions y despliegue), soporte en validación del entorno. |
+| **Quispe Tipo, Godofredo** | Desarrollo del frontend de la Web Application y apoyo en las pruebas funcionales del sprint. |
+
+
+<h2>Landing Page</h2>
+<img src="./assets/image/githubladig.png" alt="Landing - 1" style="max-width:100%;height:auto;">
+<img src="./assets/image/githubladig2.png" alt="Landing - 2" style="max-width:100%;height:auto;">
+
+<h2>Web App</h2>
+<img src="./assets/image/githubweb.png" alt="Web App - 1" style="max-width:100%;height:auto;">
+<img src="./assets/image/githubweb2.png" alt="Web App - 2" style="max-width:100%;height:auto;">
+
 
 ## 6.3. Validation Interviews.
 
