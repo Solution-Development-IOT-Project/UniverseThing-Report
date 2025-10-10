@@ -1002,6 +1002,30 @@ Landing Page:
 ![Evidencias Sprint 1](assets/image/EvidenceLanding.png)
 ![Evidencias Sprint 1](assets/image/EvidenceLanding2.png)
 
+
+#### 6.2.X.9. Team Collaboration Insights during Sprint.
+
+En el presente sprint se implementó la **Landing Page** y una **primera versión de la Web Application**.  
+A continuación, se muestra la tabla de actividades de todos los participantes:
+
+| Alumno | Actividad |
+|---------|------------|
+| **Cipriano Chumbes, Bruce Andres** | Diseño UI/UX general del sistema, desarrollo del prototipo en Figma y despliegue de la Landing Page. |
+| **Loarte Matos, Anthony Brahan** | Implementación del backend inicial (servicios y API), configuración del entorno y soporte en pruebas. |
+| **Riegas Salas, Jose Miguel** | Integración del backend con la base de datos y documentación técnica del Sprint 1. |
+| **Ruiz Torres, Erick Hernan** | Configuración del entorno DevOps (GitHub Actions y despliegue), soporte en validación del entorno. |
+| **Quispe Tipo, Godofredo** | Desarrollo del frontend de la Web Application y apoyo en las pruebas funcionales del sprint. |
+
+
+<h2>Landing Page</h2>
+<img src="./assets/image/githubladig.png" alt="Landing - 1" style="max-width:100%;height:auto;">
+<img src="./assets/image/githubladig2.png" alt="Landing - 2" style="max-width:100%;height:auto;">
+
+<h2>Web App</h2>
+<img src="./assets/image/githubweb.png" alt="Web App - 1" style="max-width:100%;height:auto;">
+<img src="./assets/image/githubweb2.png" alt="Web App - 2" style="max-width:100%;height:auto;">
+
+
 ## 6.3. Validation Interviews.
 
 ### 6.3.1. Diseño de Entrevistas.
