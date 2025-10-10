@@ -1160,20 +1160,19 @@ Tabla de épicas establecidas para las historias de usuarios de UniverseThing
 
 ## 3.3 Impact Mapping
 
-<p align="center">
- 
-  <p>El siguiente diagrama representa la relación entre los objetivos de negocio, los impactos esperados, los entregables y las historias de usuario, segmentadas para los principales actores: Agricultores Tecnificados y Cooperativas Agrícolas. Esta representación permite visualizar cómo cada componente del sistema contribuye a la protección de los cultivos y optimización de recursos (UniverseThing, 2025).</p><br><br>
-  <img src="./img/Impact mapping.png" alt="Impact Mapping AgroPre" width="700"><br>
-  <i>Figura 1. Impact Mapping de AgroPre (UniverseThing, 2025)</i>
-</p>
+<div align="center">
+
+El siguiente diagrama representa la relación entre los objetivos de negocio, los impactos esperados, los entregables y las historias de usuario, segmentadas para los principales actores: Agricultores Tecnificados y Cooperativas Agrícolas. Esta representación permite visualizar cómo cada componente del sistema contribuye a la protección de los cultivos y optimización de recursos (UniverseThing, 2025).  
+<br><br>
+<img src="./img/Impact mapping.png" alt="Impact Mapping AgroPre" width="700"><br>
+<i>Figura 1. Impact Mapping de AgroPre (UniverseThing, 2025)</i>
+</div>
 
 ## 3.4 Product Backlog
 
-<p align="center">
-
-  <p>El siguiente backlog representa las historias de usuario priorizadas y estimadas en Story Points para guiar el desarrollo del sistema de monitoreo y protección de cultivos. Cada historia está vinculada a su épica correspondiente, asegurando trazabilidad entre objetivos de negocio y entregables tecnológicos (UniverseThing, 2025).</p>
-</p>
-
+<div align="center">
+El siguiente backlog representa las historias de usuario priorizadas y estimadas en Story Points para guiar el desarrollo del sistema de monitoreo y protección de cultivos. Cada historia está vinculada a su épica correspondiente, asegurando trazabilidad entre objetivos de negocio y entregables tecnológicos (UniverseThing, 2025).
+</div>
 <p align="center">
 
 | <b>ID</b>  | <b>Epic</b>                          | <b>User Story / Feature</b>                    | <b>Prioridad</b> | <b>Estimación (Story Points)</b> | <b>Estado</b> |
