@@ -8,24 +8,21 @@
 
 <h3 align="center">Ciclo 2025 - 2</h3>
 
-
 <div align="center">
   <img width=250 src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"/>
 </div>
 
+<h1 align="center"> TP Report </h1>
 
-<h1 align="center"> TB1 Report </h1>
-
-<h3 align="center"> Docente: Vera Olivera, David Carlos </h3>
+<h3 align="center"> Docente: Marco Antonio Leon Baca </h3>
 
 <h3 align="center"> 1ASI0572 - Desarrollo de Soluciones IoT </h3>
 
-<h4 align="center"> NRC: 3355 </h4>
+<h4 align="center"> NRC: 3414 </h4>
 
+<h3> Startup: UniverseThing </h3>
 
-<h3> Startup: ------ </h3>
-
-<h3> Product: ------ </h3>
+<h3> Product: AgroPre </h3>
 
 <h3> Team Members: </h3>
 
@@ -39,15 +36,11 @@
 | Ruiz Torres, Erick Hernan      | U202118946 |
 | Quispe Tipo, Godofredo         | U202120772 |
 
-
 </div>
 
 <h3 align="center">Octubre, 2025</h3>
 
 <br><br>
-
-
-
 
 ### [Registro de versiones del informe](#registro-de-versiones-del-informe)
 
@@ -64,10 +57,10 @@
 | Versión |   Fecha    |                                                                                                                                                                                                                                                                                                                                                                    Descripción                                                                                                                                                                                                                                                                                                                                                                    |                                   Autor                                    |
 |:-------:|:----------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------:|
 |   0.2   | 2025-10-09 |                                                                                                                                                                                                                                                                                                                                                 Desarrollo de los ítems: 1.2.2.4. Lean UX Canvas                                                                                                                                                                                                                                                                                                                                                  |                               Anthony Loarte                               |
-|   0.2   | 2025-10-09 |                                                                                                                                                                                                                                                                        Desarrollo de los ítems:   2.3. Needfinding-2.3.1. User Personas-2.3.2. User Task Matrix-2.3.3. User Journey Mapping-2.3.4. Empathy Mapping-2.3.5. As-is Scenario Mapping-2.4. Ubiquitous Language                                                                                                                                                                                                                                                                         |                     Anthony Loarte y Godofredo Quispe                      |
-|   0.2   | 2025-10-09 |                                                                                                                                                                                                                         Desarrollo de los ítems:     5.1. Style Guidelines-5.1.1. General Style Guidelines-5.1.2. Web, Mobile and IoT Style Guidelines-5.2. Information Architecture-5.2.1. Organization Systems-5.2.2. Labeling Systems-5.2.3. SEO Tags and Meta Tags-5.2.4. Searching Systems-5.2.5. Navigation Systems                                                                                                                                                                                                                         |              Erick Riegas, Bruce Cipriano y Godofredo Quispe               |
+|   0.2   | 2025-10-09 |                                                                                                                                                                                                                                                                         Desarrollo de los ítems: 2.3. Needfinding-2.3.1. User Personas-2.3.2. User Task Matrix-2.3.3. User Journey Mapping-2.3.4. Empathy Mapping-2.3.5. As-is Scenario Mapping-2.4. Ubiquitous Language                                                                                                                                                                                                                                                                          |                     Anthony Loarte y Godofredo Quispe                      |
+|   0.2   | 2025-10-09 |                                                                                                                                                                                                                           Desarrollo de los ítems: 5.1. Style Guidelines-5.1.1. General Style Guidelines-5.1.2. Web, Mobile and IoT Style Guidelines-5.2. Information Architecture-5.2.1. Organization Systems-5.2.2. Labeling Systems-5.2.3. SEO Tags and Meta Tags-5.2.4. Searching Systems-5.2.5. Navigation Systems                                                                                                                                                                                                                           |              Erick Riegas, Bruce Cipriano y Godofredo Quispe               |
 |   0.2   | 2025-10-09 | Desarrollo de los ítems: 6.1. Software Configuration Management.6.1.1. Software Development Environment Configuration.6.1.2. Source Code Management.6.1.3. Source Code Style Guide & Conventions.V1.034/456.1.4. Software Deployment Configuration.6.2. Landing Page, Services & Applications Implementation.6.2.1. Sprint 16.2.1.1. Sprint Planning 1.6.2.1.2. Aspect Leaders and Collaborators.6.2.1.3. Sprint Backlog 1.6.2.1.4. Development Evidence for Sprint Review.6.2.1.5. Testing Suite Evidence for Sprint Review.6.2.1.6. Execution Evidence for Sprint Review.6.2.1.7. Services Documentation Evidence for Sprint Review.6.2.1.8. Software Deployment Evidence for Sprint Review.6.2.1.9. Team Collaboration Insights during Sprint. |                                Jose Riegas                                 |
-|   0.1   | 2025-10-09 |                                                                                                                                                                                                                                                                                                                                                     Desarrollo de los ítems:  landing Pages.                                                                                                                                                                                                                                                                                                                                                      |                      Anthony Loarte y Bruce Cipriano                       |
+|   0.1   | 2025-10-09 |                                                                                                                                                                                                                                                                                                                                                      Desarrollo de los ítems: landing Pages.                                                                                                                                                                                                                                                                                                                                                      |                      Anthony Loarte y Bruce Cipriano                       |
 |   0.1   | 2025-10-16 |                                                                                                                                                                                                                                                                                                                                                     Desarrollo de los ítems: Web application                                                                                                                                                                                                                                                                                                                                                      | Bruce Cipriano, Godofredo Quispe, Anthony Loarte, Erick Ruiz y Jose Riegas |
 
 <br><br>
@@ -83,16 +76,15 @@
 El enlace a github del reporte del proyecto es el siguiente: <a href="https://github.com/Solution-Development-IOT-Project/UniverseThing-Report">https://github.com/Solution-Development-IOT-Project/UniverseThing-Report</a>
 <br><br>
 
-
 Para esta entrega se desarollo el capitulo 5 y 6, en la captura adjuntada se evidencia del trabajo colaborativo de github. Todos los integrantes del grupo trabajaron en el proyecto.
 
 Recapitulando los commits se dividieron de la siguiente manera:
 
-* Cipriano Chumbes, Bruce Andres(BruceACC)
-* Loarte Matos, Anthony Brahan(Anthony07LG)  
-* Riegas Salas, Jose Miguel(JoseRiega)     
-* Ruiz Torres, Erick Hernan(Erickl 30601)     
-* Quispe Tipo, Godofredo(GodofredoGT)
+- Cipriano Chumbes, Bruce Andres(BruceACC)
+- Loarte Matos, Anthony Brahan(Anthony07LG)
+- Riegas Salas, Jose Miguel(JoseRiega)
+- Ruiz Torres, Erick Hernan(Erickl 30601)
+- Quispe Tipo, Godofredo(GodofredoGT)
 
 ### [Contenido](#contenido)
 
@@ -232,61 +224,61 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     <td>Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
     <td>
       Erick Ruiz <br>
-        TB1:<br> Lideré el desarrollo del primer capítulo para tener una visión clara del proyecto. Asimismo, desarollé en conjunto la primera versión de nuestras historias de usuario <br>
-        TP1:<br>  <br>
+        TB1:<br> Elabore el EventStorming, asignando roles para identificar eventos de dominio, comandos, reglas de negocio y vistas. Además, se promovió la participación equitativa del equipo en la definición de los Bounded Contexts y en la construcción de los diagramas C4, distribuyendo responsabilidades de acuerdo con las fortalezas de cada integrante.<br>
+        TP1:<br> Se distribuyeron responsabilidades para el desarrollo de las secciones del capítulo, donde cada integrante lideró la creación de partes específicas del diseño, en mi caso realice (Style Guidelines, Information Architecture, Navigation Systems). Se promovió la revisión cruzada entre los miembros para garantizar coherencia visual y conceptual.<br>
         TB2:<br>  <br>
         TF1: <br>  <br>
       Jose Riegas<br>
         TB1:<br> Para el desarrollo del proyecto he participado de manera activa tanto en la toma de decisiones como en la división de responsabilidades, de la misma manera he ayudado en responsabilidades de mis compañeros con el afán de entregar un mejor producto.<br> 
-        TP1:<br>  <br>  
+        TP1:<br>  La elaboración del capítulo se organizó mediante la distribución de responsabilidades, asignando a cada integrante el liderazgo en el desarrollo de secciones específicas del diseño. En mi caso, estuve a cargo de la creación de las Guías de Estilo, la Arquitectura de la Información y los Sistemas de Navegación. Para asegurar la uniformidad en el resultado, se implementó un sistema de revisión por pares entre todos los miembros.<br>  
         TB2:<br>  <br>
         TF1: <br>  <br>
       Anthony Loarte<br>
-        TB1:<br> Durante el proyecto Bliss, mi enfoque ha sido mantener la cohesión del equipo, facilitando una comunicación fluida y asegurando que todas las voces fueran escuchadas. He trabajado mano a mano con mis compañeros para resolver conflictos y establecer un liderazgo compartido, lo que ha sido clave para el éxito del equipo.<br> 
-        TP1: <br> <br>
+        TB1:<br> Durante el proyecto, mi enfoque ha sido mantener la cohesión del equipo, facilitando una comunicación fluida y asegurando que todas las voces fueran escuchadas. He trabajado mano a mano con mis compañeros para resolver conflictos y establecer un liderazgo compartido, lo que ha sido clave para el éxito del equipo.<br> 
+        TP1: <br> Para garantizar un resultado coherente tanto en lo visual como en lo conceptual, el equipo implementó una dinámica de trabajo que combinó la especialización con la revisión colectiva. Cada miembro asumió la responsabilidad principal sobre partes específicas del diseño; mi contribución se centró en desarrollar las Guías de Estilo, la Arquitectura de la Información y los Sistemas de Navegación, las cuales fueron posteriormente validadas a través de una revisión cruzada.<br>
         TB2: <br> <br>
         TF1: <br>  <br>
       Bruce Cipriano<br>
         TB1:<br> He contribuido activamente en el liderazgo compartido, facilitando la toma de decisiones y promoviendo la responsabilidad colectiva.<br> 
-        TP1:<br>  <br> 
+        TP1:<br>  Mi contribución al desarrollo del capítulo consistió en liderar la creación de tres componentes clave: las Guías de Estilo, la Arquitectura de la Información y los Sistemas de Navegación. Este trabajo se enmarcó en una estrategia de distribución de tareas donde cada integrante se especializó en una sección. Para unificar los distintos aportes, el equipo realizó revisiones cruzadas que aseguraron la coherencia final del diseño.<br> 
         TB2: <br>  <br>  
         TF1:<br>  <br>
       Godofredo Quispe<br>
         TB1: <br>Durante la entrega, completé las tareas asignadas de manera eficiente, asegurándome de reportar el progreso regularmente. Participé activamente en las reuniones del equipo, compartiendo sugerencias, atendiendo las opiniones de los demás y colaborando en la solución de los desafíos presentados.<br>
-        TP1: <br><br>
+        TP1: <br>Lideré la distribución de tareas entre los miembros del equipo, asignando responsabilidades específicas según las competencias de cada integrante.<br>
         TB2: <br><br>
         TF1: <br><br>
 </td>
     <td>
-      TB1:<br> A lo largo del desarrollo del proyecto, hemos demostrado una fuerte capacidad de liderazgo compartido, destacando la importancia de la toma de decisiones conjunta y la distribución equitativa de responsabilidades. Cada miembro del equipo ha aportado activamente, promoviendo una comunicación abierta y colaborando para superar desafíos, lo cual ha fortalecido la cohesión y efectividad del grupo. La responsabilidad colectiva y el apoyo mutuo han sido pilares clave que nos han permitido dirigir el proyecto hacia el cumplimiento exitoso de nuestros objetivos. Este enfoque de liderazgo conjunto ha sido fundamental para crear un entorno de trabajo inclusivo y productivo.<br>
+      <br> A lo largo del desarrollo del proyecto, hemos demostrado una fuerte capacidad de liderazgo compartido, destacando la importancia de la toma de decisiones conjunta y la distribución equitativa de responsabilidades. Cada miembro del equipo ha aportado activamente, promoviendo una comunicación abierta y colaborando para superar desafíos, lo cual ha fortalecido la cohesión y efectividad del grupo. La responsabilidad colectiva y el apoyo mutuo han sido pilares clave que nos han permitido dirigir el proyecto hacia el cumplimiento exitoso de nuestros objetivos. Este enfoque de liderazgo conjunto ha sido fundamental para crear un entorno de trabajo inclusivo y productivo.<br>
     </td>
   </tr>
   <tr>
     <td>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
     <td>
       Erick Ruiz<br>
-        TB1:<br> Tomé la mayor parte de la responsabilidad del desarrollo del primer y segundo capítulo. <br> 
-        TP1: <br>  <br> 
+        TB1:<br> Se establecieron reuniones semanales para revisar avances y definir metas alcanzables. Se usaron herramientas colaborativas como Miro y Structurizr para fomentar la participación activa y el consenso en decisiones de arquitectura.<br>
+        TP1: <br>  El equipo planificó un cronograma de entregas intermedias para validar cada subcomponente del diseño UI/UX. Se fomentó la participación equitativa, la retroalimentación constante y la adaptación<br> 
         TB2:<br>  <br> 
         TF1: <br>  <br>
       Jose Riegas<br>
         TB1:<br> Durante el proyecto fue de mi prioridad ayudar a mis compañeros en la realización de sus tareas, por este motivo he revisado todo el proyecto, corregido errores, como también aportado a la creación de ítems externos a mis responsabilidades asignadas.<br> 
-        TP1:<br> <br> 
+        TP1:<br> Durante la entrega, fomenté un entorno colaborativo e inclusivo asegurándome de que todos los integrantes tuvieran la oportunidad de participar activamente. Establecí objetivos claros y prioricé una planificación efectiva, asegurando el cumplimiento de mis responsabilidades mediante una comunicación constante.<br> 
         TB2:<br>  <br>
         TF1: <br><br>
       Anthony Loarte<br>
         TB1:<br> A lo largo del proyecto Bliss, me he centrado en establecer un entorno de trabajo colaborativo e inclusivo, asegurándome de que cada miembro del equipo tuviera las herramientas y el apoyo necesarios para cumplir con sus tareas. Además, he liderado la planificación de actividades y el establecimiento de metas alcanzables para cumplir con los objetivos de manera eficiente.<br>
-        TP1: <br> <br>
+        TP1: <br> Durante el desarrollo del proyecto, me aseguré de ser parte de un entorno colaborativo con mi grupo, y acatar con las responsabilidades correspondientes.<br>
         TB2: <br> <br>
         TF1: <br>  <br>
       Bruce Cipriano<br>
         TB1:<br> He fomentado un entorno inclusivo, definiendo metas claras, planificando tareas, y asegurando el cumplimiento de los objetivos del proyecto.<br> 
-        TP1:<br>  <br> 
+        TP1:<br>  Durante las etapas iniciales del proyecto, me aseguré de realizar reuniones de equipo para fomentar una comunicación abierta y efectiva. Establecí dinámicas de trabajo que promovieran la inclusión, asignando tareas según las fortalezas individuales y ofreciendo apoyo constante a quienes enfrentaban desafíos técnicos. Gracias a este enfoque, logramos alcanzar los hitos iniciales a tiempo, como el desarrollo de las secciones clave y la integración de funcionalidades.<br> 
         TB2: <br>. <br>  
         TF1: <br> <br>
       Godofredo Quispe<br>
          TB1: <br>Durante la entrega, fomenté un entorno colaborativo e inclusivo asegurándome de que todos los integrantes tuvieran la oportunidad de participar activamente. Establecí objetivos claros y prioricé una planificación efectiva, asegurando el cumplimiento de mis responsabilidades mediante una comunicación constante.<br>
-         TP1: <br>.<br>
+         TP1: <br>Establecí metas de entrega para el desarrollo de las actividades correspondientes a este ciclo de trabajo. Procuré que todos los miembros del equipo sean incluidos en la repartición de tareas.<br>
          TB2: <br>.<br>
          TF1: <br><br>
 </td>
@@ -297,12 +289,6 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 </table>
 
 <br><br>
-
-| Criterio específico                          |  Acciones realizadas   |  Conclusiones   |
-| :---------------------------------- | :--------: |:--------: |
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta    |  <b>TB1 </b> <br><br> Erick Hernan Ruiz Torres <br><br> Elabore el EventStorming, asignando roles para identificar eventos de dominio, comandos, reglas de negocio y vistas. Además, se promovió la participación equitativa del equipo en la definición de los Bounded Contexts y en la construcción de los diagramas C4, distribuyendo responsabilidades de acuerdo con las fortalezas de cada integrante. <br><br>xxxx <br><br> xxxxx <br><br> xxxx  <br><br> xxxx  <br><br>   <b>TP1 </b> <br><br> Erick Hernan Ruiz Torres <br><br>  Se distribuyeron responsabilidades para el desarrollo de las secciones del capítulo, donde cada integrante lideró la creación de partes específicas del diseño, en mi caso realice (Style Guidelines, Information Architecture, Navigation Systems). Se promovió la revisión cruzada entre los miembros para garantizar coherencia visual y conceptual.  <br><br>xxxx <br><br> xxxxx <br><br> xxxx  <br><br> xxxx  <br><br>|   <b>TB1 </b>  <br><br> - El trabajo permitió desarrollar habilidades de liderazgo compartido y comunicación efectiva, garantizando la coherencia entre los modelos generados y los objetivos del proyecto.  <br><br>  <b>TP1 </b> <br><br> - Se reforzaron las competencias de liderazgo compartido y pensamiento crítico en el diseño de interfaces, logrando un resultado unificado y alineado con la experiencia de usuario esperada. | 
-|Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.  |   <b>TB1 </b> <br><br> Erick Hernan Ruiz Torres <br><br>  Se establecieron reuniones semanales para revisar avances y definir metas alcanzables. Se usaron herramientas colaborativas como Miro y Structurizr para fomentar la participación activa y el consenso en decisiones de arquitectura.  <br><br>xxxx <br><br> xxxxx <br><br> xxxx  <br><br> xxxx  <br><br>   <b>TP1 </b> <br><br> Erick Hernan Ruiz Torres <br><br>  El equipo planificó un cronograma de entregas intermedias para validar cada subcomponente del diseño UI/UX. Se fomentó la participación equitativa, la retroalimentación constante y la adaptación de ideas.  <br><br>xxxx <br><br> xxxxx <br><br> xxxx  <br><br> xxxx  <br><br>|   <b>TB1 </b>  <br><br> - El equipo logró cumplir los plazos establecidos con un alto nivel de organización y sinergia, fortaleciendo la capacidad de trabajo conjunto y la integración de ideas diversas. <br><br>  <b>TP1 </b> <br><br> - Se cumplió con los objetivos del capítulo de manera eficiente, evidenciando la capacidad del grupo para planificar, colaborar e integrar distintas perspectivas dentro de un entorno de trabajo inclusivo.|
-
 
 # Capítulo I: Introducción
 
@@ -331,15 +317,13 @@ La agricultura enfrenta desafíos críticos debido a la imprevisibilidad climát
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-|                  Foto                  |                                                                                                                                                                                                                                                                   Descripción                                                                                                                                                                                                                                                                   |
-|:--------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| ![Foto1](imagenes/cap-1/Godofredo.jpg) | **Nombre:** Mi nombre es Godofredo y actualmente me encuentro cursando la carrera de Ingeniería de Software, un campo que me apasiona profundamente. Mi interés por las nuevas tecnologías es constante, y estoy siempre al tanto de las últimas innovaciones que están redefiniendo el panorama tecnológico. Me considero un entusiasta de la programación, área en la que he adquirido un dominio en diversos lenguajes, tales como Python, C++ y Assembler, lo que me ha permitido abordar una amplia gama de proyectos y desafíos técnicos . |
-| ![Foto1](imagenes/cap-1/erickfoto.png) | **Nombre:** Mi nombre es Erick Ruiz y actualmente me encuentro cursando la carrera de Ingeniería de Software, la cual decidi estudiar porque me gusta la tecnologia. Me considero una persona que le gusta aprender nuevas tecnologias ,  manejo varias herramientas y tambien lenguajes, tales como Python, C++ y Kotlin, lo que me ha permitidodesarrollar una amplia gama de proyectos nuevos . |
-| ![Foto1](imagenes/cap-1/Bruce.png) | **Nombre:** Soy Bruce, estudiante de Ingeniería de Software en la UPC (Universidad Peruana de Ciencias Aplicadas). Siempre me ha fascinado la tecnología y cómo funciona. Disfruto programar, ser responsable y trabajar en equipo. Tengo conocimientos básicos en C#, Java, JavaScript, HTML y CSS, y conocimientos intermedios en C++, SQL y MongoDB. Mi objetivo es contribuir al mundo de la tecnología mientras desarrollo mi carrera profesional como ingeniero de software. |
-| ![Foto1](imagenes/cap-1/anthony.png) | **Nombre:** Soy Anthony Brahan Loarte Matos, estudiante de Ingeniería de Software en la UPC (Universidad Peruana de Ciencias Aplicadas). Me apasiona todo lo relacionado a la tecnología, los avances tecnológicos y los procesos de arquitectura para el desarrollo de software. Asimismo, cuento con la capacidad para innovar en el diseño y desarrollo de proyectos. Finalmente, poseo conocimientos intermedios en C++, SQL Server, Html y CSS. |
-| ![Foto1](imagenes/cap-1/erickfoto.png) | **Nombre:** Mi nombre es Jose y actualmente me encuentro cursando la carrera de Ingeniería de Software, la cual decidi estudiar porque me gusta la tecnologia. Me considero una persona que le gusta aprender nuevas tecnologias ,  manejo varias herramientas y tambien lenguajes, tales como Python, C++ y Kotlin, lo que me ha permitidodesarrollar una amplia gama de proyectos nuevos . |
-
-
+|                                   Foto                                   |                                                                                                                                                                                                                                                                   Descripción                                                                                                                                                                                                                                                                    |
+|:------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| <img src="assets/cap1/Godofredo.jpg" alt="Foto de perfil de Godofredo" > | **Nombre:** Mi nombre es Godofredo y actualmente me encuentro cursando la carrera de Ingeniería de Software, un campo que me apasiona profundamente. Mi interés por las nuevas tecnologías es constante, y estoy siempre al tanto de las últimas innovaciones que están redefiniendo el panorama tecnológico. Me considero un entusiasta de la programación, área en la que he adquirido un dominio en diversos lenguajes, tales como Python, C++ y Assembler, lo que me ha permitido abordar una amplia gama de proyectos y desafíos técnicos . |
+|   <img src="assets/cap1/erickfoto.png" alt="Foto de perfil de Erick" >   |                                                                        **Nombre:** Mi nombre es Erick Ruiz y actualmente me encuentro cursando la carrera de Ingeniería de Software, la cual decidi estudiar porque me gusta la tecnologia. Me considero una persona que le gusta aprender nuevas tecnologias , manejo varias herramientas y tambien lenguajes, tales como Python, C++ y Kotlin, lo que me ha permitidodesarrollar una amplia gama de proyectos nuevos .                                                                         |
+|     <img src="assets/cap1/Bruce.png" alt="Foto de perfil de Bruce" >     |                                **Nombre:** Soy Bruce, estudiante de Ingeniería de Software en la UPC (Universidad Peruana de Ciencias Aplicadas). Siempre me ha fascinado la tecnología y cómo funciona. Disfruto programar, ser responsable y trabajar en equipo. Tengo conocimientos básicos en C#, Java, JavaScript, HTML y CSS, y conocimientos intermedios en C++, SQL y MongoDB. Mi objetivo es contribuir al mundo de la tecnología mientras desarrollo mi carrera profesional como ingeniero de software.                                |
+|   <img src="assets/cap1/anthony.png" alt="Foto de perfil de anthony" >   |                                               **Nombre:** Soy Anthony Brahan Loarte Matos, estudiante de Ingeniería de Software en la UPC (Universidad Peruana de Ciencias Aplicadas). Me apasiona todo lo relacionado a la tecnología, los avances tecnológicos y los procesos de arquitectura para el desarrollo de software. Asimismo, cuento con la capacidad para innovar en el diseño y desarrollo de proyectos. Finalmente, poseo conocimientos intermedios en C++, SQL Server, Html y CSS.                                               |
+|      <img src="assets/cap1/jose.jpg" alt="Foto de perfil de jose" >      |                                                                           **Nombre:** Mi nombre es Jose y actualmente me encuentro cursando la carrera de Ingeniería de Software, la cual decidi estudiar porque me gusta la tecnologia. Me considero una persona que le gusta aprender nuevas tecnologias , manejo varias herramientas y tambien lenguajes, tales como Python, C++ y Kotlin, lo que me ha permitidodesarrollar una amplia gama de proyectos nuevos .                                                                            |
 
 ## 1.2. Solution Profile
 
@@ -452,7 +436,8 @@ En el sector agrícola actual, los productores de papa se enfrentan a pérdidas 
 - **Hipótesis 06:** Creemos que las cooperativas son el canal de venta más efectivo. Sabremos que es correcto si el 50% de nuestras ventas del primer año provienen de este segmento.
 
 #### 1.2.2.4. Lean UX Canvas
-<img src="./imagenes/cap-1/Lean-UX-Canvas.jpg" alt="Lean UX Canvas">
+
+<img src="assets/cap1/Lean-UX-Canvas.jpg" alt="Lean UX Canvas">
 <br>
 
 ## 1.3. Segmentos objetivo
@@ -497,8 +482,10 @@ Corresponde a las juntas directivas y gerentes técnicos de asociaciones o coope
 
 A continuación, se presenta un análisis competitivo que examina a las principales empresas que rivalizan con nuestra startup. Hemos identificado tanto competidores directos, aquellos que ofrecen una solución de software centralizada en la monitoreo del clima para toma de deciciones, como indirectos que, si bien no son idénticos, compiten en áreas prevencion y medidas contra plagas. Este análisis se centra en aquellos que ofrecen soluciones que se superponen con las de **AgroPre**.
 
-1. **Sencrop**  
-   ![Logo de Sencrop](/images/cap-2/sencrop.png)  
+1. **Sencrop**
+
+   <img src="assets/chapter-2/sencrop.png" alt="Logo Sencrop">
+
    **Descripción:**  
    Una red de estaciones meteorológicas conectadas que proporciona datos hiperlocales y alertas para la gestión climática de cultivos.
 
@@ -512,7 +499,7 @@ A continuación, se presenta un análisis competitivo que examina a las principa
 ---
 
 2. **Semios**  
-   ![Logo de Semios](/images/cap-2/semios.png)  
+   <img src="assets/chapter-2/semios.png" alt="Logo semios">
    **Descripción:**  
    Una plataforma integral de gestión de riesgos que utiliza una extensa red de sensores IoT para el monitoreo de clima, plagas y agua.
 
@@ -526,7 +513,7 @@ A continuación, se presenta un análisis competitivo que examina a las principa
 ---
 
 3. **Trapview**  
-   ![Logo de Trapview](/images/cap-2/trapview.png)  
+   <img src="assets/chapter-2/trapview.png" alt="Logo TrapView">
    **Descripción:**  
    Un sistema automatizado de monitoreo de plagas que utiliza trampas con visión artificial e IA para identificar y predecir infestaciones.
 
@@ -552,10 +539,10 @@ A continuación, se presenta un análisis competitivo que examina a las principa
   </tr>
   <tr>
     <td colspan="2"> Productos </td>
-    <td> AgroPre </td>
-    <td> Sencrop </td>
-    <td> Semios </td>
-    <td> Trapview </td>
+    <td> AgroPre <img src="assets/chapter-2/agropre.png" alt="Logo AgroPre"></td>
+    <td> Sencrop <img src="assets/chapter-2/sencrop.png" alt="Logo Sencrop"></td>
+    <td> Semios <img src="assets/chapter-2/semios.png" alt="Logo semios"></td>
+    <td> Trapview <img src="assets/chapter-2/trapview.png" alt="Logo TrapView"></td>
   </tr>
   <tr>
     <td rowspan="2">Perfil</td>
@@ -726,79 +713,73 @@ Preguntas principales:
 
 #### Segmento 1 – Agricultor tecnificado
 
-| **Entrevistador:**  | José Miguel Riega                                                                     |
-|---------------------|---------------------------------------------------------------------------------------|
-| **Entrevistado 1:** | Antonio Chávez                                                                        |
-| **Edad:**           | 31 años                                                                               |
-| **Ocupación:**      | Agricultor                                                                            |
-| **Imagen:**         | ![Logo de Semios](./images/cap-2/Entrevista1.png)                                     |
-| **Descripción:**    | El entrevistado, productor frutícola en Tunuyán (Mendoza) con 12 ha de perales, ciruelos y algo de duraznos, combina una actitud pragmática hacia la tecnología (prueba lo nuevo si ve ROI) con un manejo actual manual de heladas (torres de viento y aspersión activadas a las 3–4 a.m. según termómetro), donde su mayor dolor son las heladas tardías —por encima de plagas como la carpocapsa— y su “producto ideal” sería un sistema que avise en tiempo real y active automáticamente la protección; además, le preocupan el ahorro de agua y fitosanitarios, hoy lleva registros manuales, valora automatizarlos, decide inversiones priorizando confiabilidad y retorno y exige casos reales y costos de operación claros antes de adoptar.                    |
-| **Inicio: Min**     | 00:00:01                                                                              |
-| **Finaliza: Min**   | 00:03:53                                                                              |
-| **Link del video:** | [Ver video](https://drive.google.com/drive/folders/1okh-RLcmiiJ_Hv2pB_4FqVP2Vx35tvwA) |
+| **Entrevistador:**  | José Miguel Riega                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Entrevistado 1:** | Antonio Chávez                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Edad:**           | 31 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Ocupación:**      | Agricultor                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| **Imagen:**         | <img src="assets/chapter-2/Entrevista1.png" alt="Imagen de Entrevista 1">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Descripción:**    | El entrevistado, productor frutícola en Tunuyán (Mendoza) con 12 ha de perales, ciruelos y algo de duraznos, combina una actitud pragmática hacia la tecnología (prueba lo nuevo si ve ROI) con un manejo actual manual de heladas (torres de viento y aspersión activadas a las 3–4 a.m. según termómetro), donde su mayor dolor son las heladas tardías —por encima de plagas como la carpocapsa— y su “producto ideal” sería un sistema que avise en tiempo real y active automáticamente la protección; además, le preocupan el ahorro de agua y fitosanitarios, hoy lleva registros manuales, valora automatizarlos, decide inversiones priorizando confiabilidad y retorno y exige casos reales y costos de operación claros antes de adoptar. |
+| **Inicio: Min**     | 00:00:01                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Finaliza: Min**   | 00:03:53                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Link del video:** | <a href="https://drive.google.com/file/d/1AZ0ROyNEcXcBciDbI2KlumkG5nc1yG_H/view?usp=drive_link">https://drive.google.com/file/d/1AZ0ROyNEcXcBciDbI2KlumkG5nc1yG_H/view?usp=drive_link</a>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 
 | **Entrevistador:**  | Bruce Cipriano                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |---------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Entrevistado 2:** | Agustino Alejandro Aguilar                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | **Edad:**           | 30 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | **Ocupación:**      | Agricultor independiente                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| **Imagen:**         | ![Logo de Semios](./images/cap-2/agustin.png)                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Imagen:**         | <img src="assets/chapter-2/agustin.png" alt="Imagen de Entrevista 2">                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | **Descripción:**    | Agricultor con 5 hectáreas en Ica, dedicado al cultivo de papas, yucas y tubérculos. Su trabajo es principalmente manual, con escaso uso de tecnología. Afronta problemas frecuentes como plagas y heladas que afectan fuertemente su producción. No lleva un control digital de agua ni pesticidas, solo registros básicos en Excel. Considera importante la inversión a largo plazo y estaría interesado en tecnologías que den alertas tempranas y sistemas de protección automatizados. |
-| **Inicio: Min**     | 00:00                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| **Finaliza: Min**   | ~08:30 (aprox.)                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| **Link del video:** | [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211d640_upc_edu_pe/EW51pZIeuPhLvPUvYzMCgO0BEcdUzqcSBHBJlGp3ffVv5Q?e=SoDV1V )                                                                                                                                                                                                                                                                                                                                               |
+| **Inicio: Min**     | 03:59 min                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Finaliza: Min**   | 10:57 min                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Link del video:** | <a href="https://drive.google.com/file/d/1AZ0ROyNEcXcBciDbI2KlumkG5nc1yG_H/view?usp=drive_link">https://drive.google.com/file/d/1AZ0ROyNEcXcBciDbI2KlumkG5nc1yG_H/view?usp=drive_link</a>                                                                                                                                                                                                                                                                                                   |
 
-| **Entrevistador:**   | Godofredo Quispe Tipo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-|----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Entrevistado:**    | Huber René, Calizaya Juanillo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| **Edad:**            | 22 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| **Ocupación:**       | Ingeniero Agrónomo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| **Imagen:**          | ![Logo de Semios](./images/cap-2/huber.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| **Descripción:**     | Huber administra la finca familiar en Ica, enfocada en el cultivo de uva. Aunque su padre prefiere métodos tradicionales, Huber, un recién egresado, busca integrar tecnología a su trabajo. Su principal desafío es el control de plagas, que pueden infectar toda la cosecha y requieren monitoreo diario, seguido ocasionalmente por las heladas. Actualmente, combate las plagas con la compra de insecticidas y gestiona las heladas absteniéndose de cosechar en esos periodos, utilizando solo aplicaciones digitales para el clima y sin implementar soluciones físicas. Huber vería con agrado un sistema para activar insecticidas automáticamente y una capa para proteger contra heladas, lo que reduciría la complejidad de sus procesos. Destaca la importancia crítica del ahorro de agua y pesticidas, ya que el agua es racionada por día entre socios y el uso excesivo de insecticidas representa un gasto económico innecesario. Para realizar inversiones en la finca, el factor más importante es el retorno de inversión a largo plazo y la seguridad de que la tecnología será efectiva y sostenible, siendo la familia en conjunto quien toma las decisiones sobre compras costosas. Al evaluar a un proveedor, Huber prioriza la efectividad demostrada de la solución, especialmente si está enfocada específicamente en el sector agrícola. |
-| **Inicio: Min**      | 00:00:01                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| **Finaliza: Min**    | 00:03:53                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| **Link del video:**  | [Ver video](https://drive.google.com/file/d/1Pg0Q6OzwZXZFl8FnqABUqNqWngHDVyKM/view?usp=drive_link)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Entrevistador:**  | Godofredo Quispe Tipo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Entrevistado:**   | Huber René, Calizaya Juanillo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| **Edad:**           | 22 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Ocupación:**      | Ingeniero Agrónomo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Imagen:**         | <img src="assets/chapter-2/huber.png" alt="Imagen de Entrevista 3">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Descripción:**    | Huber administra la finca familiar en Ica, enfocada en el cultivo de uva. Aunque su padre prefiere métodos tradicionales, Huber, un recién egresado, busca integrar tecnología a su trabajo. Su principal desafío es el control de plagas, que pueden infectar toda la cosecha y requieren monitoreo diario, seguido ocasionalmente por las heladas. Actualmente, combate las plagas con la compra de insecticidas y gestiona las heladas absteniéndose de cosechar en esos periodos, utilizando solo aplicaciones digitales para el clima y sin implementar soluciones físicas. Huber vería con agrado un sistema para activar insecticidas automáticamente y una capa para proteger contra heladas, lo que reduciría la complejidad de sus procesos. Destaca la importancia crítica del ahorro de agua y pesticidas, ya que el agua es racionada por día entre socios y el uso excesivo de insecticidas representa un gasto económico innecesario. Para realizar inversiones en la finca, el factor más importante es el retorno de inversión a largo plazo y la seguridad de que la tecnología será efectiva y sostenible, siendo la familia en conjunto quien toma las decisiones sobre compras costosas. Al evaluar a un proveedor, Huber prioriza la efectividad demostrada de la solución, especialmente si está enfocada específicamente en el sector agrícola. |
+| **Inicio: Min**     | 10:58 min                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Finaliza: Min**   | 19.33 min                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Link del video:** | <a href="https://drive.google.com/file/d/1AZ0ROyNEcXcBciDbI2KlumkG5nc1yG_H/view?usp=drive_link">https://drive.google.com/file/d/1AZ0ROyNEcXcBciDbI2KlumkG5nc1yG_H/view?usp=drive_link</a>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 
+#### Segmento 2 – Representante de una Cooperativa Agrícola
 
-
-#### Segmento 2 – Representante de una Cooperativa Agrícola 
-
-
-| **Entrevistador:**  | Erick Ruiz Torres                                                                                   |
-|---------------------|-----------------------------------------------------------------------------------------------------|
-| **Entrevistado 1:** | Alex Salazar                                                                                        |
-| **Edad:**           | 25 años                                                                                             |
-| **Ocupación:**      | Miembro de Cooperativa                                                                              |
-| **Imagen:**         | ![imagen del entrevistado alex](./images/cap-2/alexsalazar.png)                                     |
-| **Descripción:**    | Alex Salazar, joven ingeniero agrícola de 25 años y miembro de una cooperativa agrícola ubicada en la costa del Perú, conformada por 40 socios. La cooperativa maneja cultivos de vid, palta, maíz y hortalizas, abarcando una extensión significativa de terreno productivo en la región. Alex cumple un rol activo en la coordinación técnica, apoyando a los socios en temas de buenas prácticas agrícolas, uso eficiente del riego, control de plagas y gestión sostenible del suelo. Entre los principales desafíos que identifica se encuentran la escasez de agua, las variaciones climáticas y el incremento de los costos de insumos agrícolas. La cooperativa ofrece servicios de asistencia técnica, capacitación continua y gestión de compras conjuntas para optimizar recursos. Alex se muestra abierto a la adopción de tecnologías agrícolas, especialmente aquellas relacionadas con sensores de humedad, monitoreo remoto y plataformas digitales de gestión de cultivos. Además, valora los modelos de suscripción accesibles y las alianzas con empresas tecnológicas que puedan brindar soporte técnico y formación práctica a los productores.                      |
-| **Inicio: Min**     | 00:00:01                                                                                            |
-| **Finaliza: Min**   | 00:05:37                                                                                            |
-| **Link del video:** | [Ver video](https://drive.google.com/file/d/1SRAPa4cC9q1jEgf0V4_538xNbMy3ZNGP/view?usp=drive_link ) |
+| **Entrevistador:**  | Erick Ruiz Torres                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Entrevistado 1:** | Alex Salazar                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Edad:**           | 25 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Ocupación:**      | Miembro de Cooperativa                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Imagen:**         | <img src="assets/chapter-2/alexsalazar.png" alt="Imagen de Entrevista 1">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Descripción:**    | Alex Salazar, joven ingeniero agrícola de 25 años y miembro de una cooperativa agrícola ubicada en la costa del Perú, conformada por 40 socios. La cooperativa maneja cultivos de vid, palta, maíz y hortalizas, abarcando una extensión significativa de terreno productivo en la región. Alex cumple un rol activo en la coordinación técnica, apoyando a los socios en temas de buenas prácticas agrícolas, uso eficiente del riego, control de plagas y gestión sostenible del suelo. Entre los principales desafíos que identifica se encuentran la escasez de agua, las variaciones climáticas y el incremento de los costos de insumos agrícolas. La cooperativa ofrece servicios de asistencia técnica, capacitación continua y gestión de compras conjuntas para optimizar recursos. Alex se muestra abierto a la adopción de tecnologías agrícolas, especialmente aquellas relacionadas con sensores de humedad, monitoreo remoto y plataformas digitales de gestión de cultivos. Además, valora los modelos de suscripción accesibles y las alianzas con empresas tecnológicas que puedan brindar soporte técnico y formación práctica a los productores. |
+| **Inicio: Min**     | 00:00:01                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Finaliza: Min**   | 00:05:37                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Link del video:** | <a href="https://drive.google.com/file/d/1A-46bfKWoYpem4j1jtXIHQzlQj5mLgqu/view?usp=drive_link">https://drive.google.com/file/d/1A-46bfKWoYpem4j1jtXIHQzlQj5mLgqu/view?usp=drive_link</a>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 
 | **Entrevistador:**  | Bruce Cipriano                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Entrevistado 2:** | Ray Alessandro Carmen zorrillo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | **Edad:**           | 25 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | **Ocupación:**      | Director técnico de cooperativa agrícola                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| **Imagen:**         | ![imagen del entrevistado ray](./images/cap-2/ray.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Imagen:**         | <img src="assets/chapter-2/ray.png" alt="Imagen de Entrevista 2">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | **Descripción:**    | Ingeniero agrícola y miembro de una cooperativa en Huánuco con más de 150 socios y 1,200 hectáreas en total. Se dedica a papa, yuca, camote y tubérculos. Su rol es acompañar a los socios en asistencia técnica, transferencia de tecnología, capacitaciones y gestión de proyectos. Reconoce como principales problemas las plagas y las condiciones climáticas extremas. La cooperativa brinda asistencia técnica, capacitaciones y compras conjuntas. Está abierto a implementar pilotos tecnológicos, valora modelos de suscripción accesibles y alianzas con empresas tecnológicas que brinden soporte y capacitación. |
-| **Inicio: Min**     | 00:00                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| **Finaliza: Min**   | ~12:00 (aprox.)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| **Link del video:** | [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211d640_upc_edu_pe/EYRm1wt0RulFjRnAMsRu06UB5CcrEeWbirazb04fKiDNIQ?e=Y2d7AT )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Inicio: Min**     | 05:38 min                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Finaliza: Min**   | 14:45 min                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Link del video:** | <a href="https://drive.google.com/file/d/1A-46bfKWoYpem4j1jtXIHQzlQj5mLgqu/view?usp=drive_link">https://drive.google.com/file/d/1A-46bfKWoYpem4j1jtXIHQzlQj5mLgqu/view?usp=drive_link</a>                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 
 | **Entrevistador:**  | Godofredo Quispe Tipo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |---------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Entrevistado 3:** | Brayan Quichca Licapa                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | **Edad:**           | 25 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | **Ocupación:**      | Director técnico de cooperativa agrícola Andina SumacPallpa                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| **Imagen:**         | ![imagen del entrevistado brayan](./images/cap-2/brayan.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Imagen:**         | <img src="assets/chapter-2/brayan.png" alt="Imagen de Entrevista 3">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | **Descripción:**    | El agrónomo Brayan se desempeña como director técnico de la agraria Sumac-Jallpa, una cooperativa en Ayacucho,Apurímac, Huancavelica y Junin con 50 socios principales que se enfoca en la cosecha de papa, maíz y quinua para programas locales y su exportación. Su rol principal es organizar y mejorar la productividad mediante asistencia técnica y gestión de proyectos, enfrentando desafíos significativos como plagas y heladas, además de pérdidas por la falta de riego tecnificado en épocas secas. La cooperativa ofrece asistencia técnica a los socios agricultores, gestiona la compra de fertilizantes orgánicos y semillas mejoradas, y mantiene convenios con SENASA y universidades para capacitaciones sobre manejo de plagas, así como la administración de un fondo rotatorio de créditos. El proceso para adoptar una nueva tecnología incluye la evaluación de viabilidad por el equipo técnico, una prueba piloto con 5 a 10 productores, y la aprobación final de la cooperativa, el director y la asamblea de socios, buscando activamente financiación con municipalidades y ONGs para superar la barrera del alto costo inicial. Brayan subraya la importancia de las alertas de plagas y heladas y la necesidad de proveedores confiables que ofrezcan soporte técnico continuo, garantías, pruebas de campo y prefieran modelos de suscripción baja sobre grandes inversiones iniciales. Finalmente, muestra interés en realizar una prueba piloto de una tecnología con 5 de sus socios, solicitando un convenio formal, capacitación y acompañamiento técnico. |
-| **Inicio: Min**     | 00:00                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| **Finaliza: Min**   | ~12:00 (aprox.)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| **Link del video:** | [Ver video](https://drive.google.com/file/d/1Pg0Q6OzwZXZFl8FnqABUqNqWngHDVyKM/view )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-
-
-
+| **Inicio: Min**     | 14:55 min                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Finaliza: Min**   | 20:40 min                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Link del video:** | <a href="https://drive.google.com/file/d/1A-46bfKWoYpem4j1jtXIHQzlQj5mLgqu/view?usp=drive_link">https://drive.google.com/file/d/1A-46bfKWoYpem4j1jtXIHQzlQj5mLgqu/view?usp=drive_link</a>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 
 ### 2.2.3. Análisis de entrevistas
 
@@ -818,7 +799,7 @@ Preguntas principales:
 | **Recursos y visión** | Sus recursos son limitados y prioriza la inversión que garantice rentabilidad a largo plazo. Se muestra receptivo a tecnologías que brinden alertas tempranas y soluciones automatizadas, siempre que sean accesibles y fáciles de usar.                                                                                                                                                                               |
 | **Decisiones**        | Las decisiones las toma él mismo, evaluando costos y beneficios. Aunque consulta ocasionalmente con otros agricultores, lo que más influye es la practicidad y la posibilidad de mantener sus cultivos sin gastos excesivos.                                                                                                                                                                                           |
 
-#### Segmento 2 – Representante de una Cooperativa Agrícola 
+#### Segmento 2 – Representante de una Cooperativa Agrícola
 
 | **Segmento**          | **Descripción**                                                                                                                                                                                                                                                                                                                                                        |
 |-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -827,25 +808,22 @@ Preguntas principales:
 | **Recursos y visión** | Cuentan con cierta capacidad de inversión conjunta y organizan compras colectivas para reducir costos. Valoran las herramientas digitales que mejoren la producción, especialmente aquellas que permitan prevenir problemas y optimizar recursos. Están abiertos a implementar pilotos tecnológicos, siempre que haya capacitación y soporte constante.                |
 | **Decisiones**        | Las decisiones importantes se toman de manera colectiva en la cooperativa, pero dependen de la validación técnica del director y del consenso de los socios. Buscan soluciones que sean sostenibles, escalables y que puedan aplicarse de manera uniforme en la mayoría de las parcelas.                                                                               |
 
-
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
- * **Segmento 1** – Agricultor tecnificado
 
- <img src="images/cap-2/userPersonSeg1.png" alt="Antonio User Persona"/>
+- **Segmento 1** – Agricultor tecnificado
 
- * **Segmento 2** – Representante de una Cooperativa Agrícola
-   
-<img src="images/cap-2/userpersonSeg2.png" alt="Jorge User Persona"/>
+ <img src="assets/chapter-2/userPersonSeg1.png" alt="Antonio User Persona"/>
 
+- **Segmento 2** – Representante de una Cooperativa Agrícola
+
+<img src="assets/chapter-2/userpersonSeg2.png" alt="Jorge User Persona"/>
 
 ### 2.3.2. User Task Matrix
 
-* **Segmento 1** – Agricultor tecnificado
+- **Segmento 1** – Agricultor tecnificado
   Para la elaboración de esta sección hemos considerado como segmento objetivo a los agricultores tecnificados, propietarios o administradores de fincas medianas y grandes, quienes se encuentran en una etapa de modernización de sus operaciones y buscan soluciones confiables que optimicen su productividad y reduzcan riesgos climáticos.
-
-
 
 <table border="1">
   <tr>
@@ -912,8 +890,8 @@ En relación con el User Task Matrix, y la necesidad de proteger sus cultivos de
 
 Los tasks que tienen mayor relevancia para este segmento son aquellos que requieren monitoreo constante y respuesta inmediata a amenazas climáticas, como verificar condiciones de heladas, controlar sistemas de protección y aplicar pesticidas preventivos. Se identifica una alta dependencia de métodos manuales y vigilancia personal, especialmente durante las noches de temporada de heladas, y al mismo tiempo, una falta de herramientas automatizadas que permitan una respuesta rápida y precisa sin requerir intervención constante del agricultor.
 
-* **Segmento 2** – Representante de una Cooperativa Agrícola
-  
+- **Segmento 2** – Representante de una Cooperativa Agrícola
+
 Para la elaboración de esta sección hemos considerado como segmento objetivo a los directores técnicos y gerentes de cooperativas agrícolas, quienes buscan implementar soluciones tecnológicas que beneficien de manera colectiva a todos sus socios, mejorando la productividad homogénea y el acceso a mercados más exigentes.
 
 <table border="1">
@@ -983,35 +961,36 @@ Los tasks que tienen mayor relevancia para este segmento son aquellos que permit
 
 ### 2.3.3. User Journey Mapping
 
-* **Segmento 1** – Agricultor tecnificado
+- **Segmento 1** – Agricultor tecnificado
 
-<img src="images/cap-2/seg1journeymap.png" alt="Antonio User Journey"/>
+<img src="assets/chapter-2/seg1journeymap.png" alt="Antonio User Journey"/>
 
-* **Segmento 2** – Representante de una Cooperativa Agrícola
+- **Segmento 2** – Representante de una Cooperativa Agrícola
 
-<img src="images/cap-2/seg2journeymap.png" alt="Jorge User Journey"/>
+<img src="assets/chapter-2/seg2journeymap.png" alt="Jorge User Journey"/>
 
 ### 2.3.4. Empathy Mapping
 
-* **Segmento 1** – Agricultor tecnificado
+- **Segmento 1** – Agricultor tecnificado
 
-<img src="images/cap-2/seg1empathymap.png" alt="Antonio Empathy Map"/>
+<img src="assets/chapter-2/seg1empathymap.png" alt="Antonio Empathy Map"/>
 
-* **Segmento 2** – Representante de una Cooperativa Agrícola
+- **Segmento 2** – Representante de una Cooperativa Agrícola
 
-<img src="images/cap-2/seg2empathymap.png" alt="Jorge Empathy Map"/>
+<img src="assets/chapter-2/seg2empathymap.png" alt="Jorge Empathy Map"/>
 
 ### 2.3.5. As-Is Scenario Mapping
+
 <p align="justify">
 El As-Is Scenario Mapping describe la situación actual sin AgroPre: el proceso manual, ineficiente y estresante que enfrentan los agricultores para monitorear y proteger sus cultivos de las heladas y plagas, y cómo esta falta de estandarización afecta negativamente a las cooperativas en términos de calidad y gestión de riesgos.
 </p>
 
 **Segmento 1: Agricultor tecnificado**
-<img src="./assets/chapter-2/As-Is-Scenario-Mapping/As-Is-Scenario-Mapping-Agricultor-Tecnificado.jpg" alt="As Is Scenario Mapping de Agricultor Tecnificado">
+<img src="assets/chapter-2/As-Is-Scenario-Mapping/As-Is-Scenario-Mapping-Agricultor-Tecnificado.jpg" alt="As Is Scenario Mapping de Agricultor Tecnificado">
 <br>
 
 **Segmento 2: Cooperativa Agrícola**
-<img src="./assets/chapter-2/As-Is-Scenario-Mapping/As-Is-Scenario-Mapping-Gerentes-de-Cooperativas.jpg" alt="As Is Scenario Mapping de Gerentes de Cooperativas">
+<img src="assets/chapter-2/As-Is-Scenario-Mapping/As-Is-Scenario-Mapping-Gerentes-de-Cooperativas.jpg" alt="As Is Scenario Mapping de Gerentes de Cooperativas">
 <br
 
 ## 2.4. Ubiquitous Language
@@ -1098,10 +1077,10 @@ El As-Is Scenario Mapping describe la situación actual sin AgroPre: el proceso 
 Pequeña introducción: Este segmento está compuesto por productores medianos y grandes que buscan tecnología para optimizar sus cultivos y protegerlos de heladas y plagas. AgroPre les permite monitorear, automatizar y controlar su campo de manera remota.
 
 <p align="center">
-  <img src="img/image.png" alt="Segmento Agricultores Tecnificados" width="600">
+  <img src="assets/cap3/image.png" alt="Segmento Agricultores Tecnificados" width="600">
 </p>
 
-*Figura 1. AgroPre para Agricultores Tecnificados. Elaboración propia.*
+_Figura 1. AgroPre para Agricultores Tecnificados. Elaboración propia._
 
 ---
 
@@ -1110,59 +1089,57 @@ Pequeña introducción: Este segmento está compuesto por productores medianos y
 Pequeña introducción: Este segmento agrupa a pequeños y medianos agricultores que operan de manera colectiva. AgroPre les ofrece un sistema centralizado que permite proteger todas las parcelas de sus socios, mejorar la productividad y garantizar la calidad de la producción.
 
 <p align="center">
-  <img src="img/image-1.png" alt="Segmento Cooperativas Agrícolas" width="600">
+  <img src="assets/cap3/image-1.png" alt="Segmento Cooperativas Agrícolas" width="600">
 </p>
 
-*Figura 2. AgroPre para Cooperativas Agrícolas. Elaboración propia.*
+_Figura 2. AgroPre para Cooperativas Agrícolas. Elaboración propia._
 
-Para una mejor visualizacion del To-Be Scenario Mapping completo en:  
-[Acceder al tablero de Miro](https://miro.com/welcomeonboard/U3BNcDZpcm0zV015WWtDNmJYQ1VnUlpZUWZ2STVpREpKVjJsSUdYczNZU2tZVTRuRTZUQkh3MUZiTjZlcG9xVDB2K3NmbXhwZm9rR3FVY0dZb2o0T1JJQzYzaXJPUlNhYWkzcWRkUU10a2ZqNnFLSkdPWUVlaHlJUS80MXB0MmdyVmtkMG5hNDA3dVlncnBvRVB2ZXBnPT0hdjE=?share_link_id=810061349841)
+Para una mejor visualizacion del To-Be Scenario Mapping completo en:
+Acceder al tablero de Miro Link: <a href="https://miro.com/welcomeonboard/U3BNcDZpcm0zV015WWtDNmJYQ1VnUlpZUWZ2STVpREpKVjJsSUdYczNZU2tZVTRuRTZUQkh3MUZiTjZlcG9xVDB2K3NmbXhwZm9rR3FVY0dZb2o0T1JJQzYzaXJPUlNhYWkzcWRkUU10a2ZqNnFLSkdPWUVlaHlJUS80MXB0MmdyVmtkMG5hNDA3dVlncnBvRVB2ZXBnPT0hdjE=?share_link_id=810061349841">[Ir a Ejemplo](https://miro.com/welcomeonboard/U3BNcDZpcm0zV015WWtDNmJYQ1VnUlpZUWZ2STVpREpKVjJsSUdYczNZU2tZVTRuRTZUQkh3MUZiTjZlcG9xVDB2K3NmbXhwZm9rR3FVY0dZb2o0T1JJQzYzaXJPUlNhYWkzcWRkUU10a2ZqNnFLSkdPWUVlaHlJUS80MXB0MmdyVmtkMG5hNDA3dVlncnBvRVB2ZXBnPT0hdjE=?share_link_id=810061349841)</a>
 
 ## 3.2. User Stories
 
 Tabla de épicas establecidas para las historias de usuarios de UniverseThing
 
-| # | Épica | Objetivo |
-|---|-------|----------|
-| 1 | **Onboarding de Dispositivos & Provisionamiento** | Registrar, provisionar y administrar “things” (dispositivos IoT) de forma segura y controlada. |
-| 2 | **Ingesta de Telemetría & Pipeline de Datos** | Recibir, validar y almacenar telemetría de dispositivos a escala para su posterior análisis. |
-| 3 | **Monitoreo, Alertas & Notificaciones** | Detectar condiciones anómalas y notificar oportunamente a usuarios/operaciones para reducir MTTA/MTTR. |
-| 4 | **Análisis, Insights & Reportes** | Ofrecer visualizaciones y reportes accionables que permitan entender el desempeño y tendencias del sistema. |
-| 5 | **Plataforma Web (Web App) — Portal de Usuario** | Proveer una interfaz autenticada para operar el sistema: gestionar dispositivos, reglas y visualizar datos. |
-| 6 | **Landing Page (Sitio Público)** | Comunicar la propuesta de valor y convertir visitantes en registros/solicitudes de demo con métricas de conversión. |
+| # | Épica                                             | Objetivo                                                                                                            |
+|---|---------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| 1 | **Onboarding de Dispositivos & Provisionamiento** | Registrar, provisionar y administrar “things” (dispositivos IoT) de forma segura y controlada.                      |
+| 2 | **Ingesta de Telemetría & Pipeline de Datos**     | Recibir, validar y almacenar telemetría de dispositivos a escala para su posterior análisis.                        |
+| 3 | **Monitoreo, Alertas & Notificaciones**           | Detectar condiciones anómalas y notificar oportunamente a usuarios/operaciones para reducir MTTA/MTTR.              |
+| 4 | **Análisis, Insights & Reportes**                 | Ofrecer visualizaciones y reportes accionables que permitan entender el desempeño y tendencias del sistema.         |
+| 5 | **Plataforma Web (Web App) — Portal de Usuario**  | Proveer una interfaz autenticada para operar el sistema: gestionar dispositivos, reglas y visualizar datos.         |
+| 6 | **Landing Page (Sitio Público)**                  | Comunicar la propuesta de valor y convertir visitantes en registros/solicitudes de demo con métricas de conversión. |
 
-
-| **Epic / Story ID** | **Título**                                                | **Descripción**                                                                                                                                  | **Criterios de Aceptación**                                                                                                                                                                                                 | **Relacionado con (Epic ID)** |
-|---------------------|-----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
-| US001               | Instalar dispositivo con guía visual                      | Como agricultor, quiero instalar el dispositivo con instrucciones paso a paso en la app, para configurarlo sin asistencia técnica especializada. | **Dado que** el usuario encendió el dispositivo y abrió la guía en la app, **cuando** completa los pasos y confirma las conexiones, **entonces** la app valida sensores/cámara y marca la instalación como correcta.         | EPIC001                       |
-| US002               | Registro automático de sensores                           | Como usuario, quiero que el sistema detecte automáticamente los sensores y cámara al encender el dispositivo, para validar que funciona bien.    | **Dado que** el dispositivo está encendido, **cuando** el sistema escanea el hardware, **Entonces** detecta sensores y cámara y los muestra como “activos” en la app.                                                       | EPIC001                       |
-| US003               | Registro de múltiples dispositivos                        | Como administrador de cooperativa, quiero registrar múltiples dispositivos en una sola cuenta, para gestionarlos colectivamente.                  | **Dado que** el usuario tiene sesión iniciada, **cuando** registra un nuevo dispositivo con datos válidos, **entonces** el panel central lo lista con su estado y metadatos.                                                | EPIC001                       |
-| US004               | Notificaciones tempranas de helada                        | Como agricultor, quiero recibir alertas en mi celular cuando la temperatura se acerque al umbral de helada, para anticipar medidas preventivas.  | **Dado que** existe un umbral de helada configurado, **cuando** la temperatura medida entra al rango crítico, **entonces** el sistema envía una notificación (push/SMS) única por evento.                                  | EPIC002                       |
-| US005               | Visualizar condiciones actuales                           | Como usuario, quiero ver en un panel la temperatura, para entender el estado de mis cultivos en tiempo real.                                     | **Dado que** hay telemetría reciente, **cuando** el usuario abre el panel, **entonces** ve la temperatura actual y el panel se actualiza en intervalos definidos.                                                           | EPIC002                       |
-| US007               | Activación automática de protección térmica               | Como agricultor, quiero que la tela protectora se active automáticamente cuando se detecte riesgo de helada, para proteger mis cultivos.         | **Dado que** el umbral de activación está definido, **cuando** la temperatura baja del umbral, **entonces** el sistema acciona la tela protectora y registra el evento.                                                     | EPIC003                       |
-| US008               | Configuración de umbrales                                 | Como usuario avanzado, quiero configurar los umbrales de activación (ej. -1 °C, -3 °C), para adaptar la protección a mi cultivo específico.      | **Dado que** el usuario abre “Configuración”, **cuando** edita y guarda umbrales válidos, **entonces** el dispositivo aplica la nueva configuración y la app confirma el cambio.                                            | EPIC003                       |
-| US009               | Confirmación de activación                                | Como agricultor, quiero recibir una confirmación en la app cuando la protección se active, para estar seguro de que el sistema funciona.         | **Dado que** se activó la protección, **cuando** la app recibe el evento, **entonces** muestra confirmación con estado y hora exacta.                                                                                       | EPIC003                       |
-| US010               | Identificación automática de plagas                       | Como agricultor, quiero que la cámara identifique plagas comunes en tubérculos, para reducir inspecciones manuales.                              | **Dado que** la cámara está operativa, **cuando** detecta una plaga dentro del catálogo, **entonces** el sistema la clasifica mediante IA y muestra una alerta en la app.                                                   | EPIC004                       |
-| US011               | Consolidación de reportes de plagas                       | Como administrador de cooperativa, quiero que las detecciones de plagas se consoliden en un reporte colectivo, para coordinar estrategias.       | **Dado que** existen detecciones en múltiples dispositivos, **cuando** el administrador solicita el reporte, **entonces** el sistema genera un informe consolidado con incidencias por dispositivo.                         | EPIC004                       |
-| US012               | Visualización gráfica de datos                            | Como usuario, quiero ver gráficos de temperatura, heladas y plagas, para tomar decisiones informadas.                                            | **Dado que** hay datos históricos, **cuando** el usuario accede a “Gráficos”, **entonces** visualiza líneas/barras/calor con filtros de rango y dispositivo.                                                                | EPIC005                       |
-| US013               | Exportación de reportes                                   | Como usuario, quiero exportar reportes en PDF o Excel, para compartirlos con asesores técnicos o instituciones.                                  | **Dado que** el usuario abre “Exportar”, **cuando** elige PDF o XLSX y confirma, **entonces** el sistema genera y descarga el archivo con los datos seleccionados.                                                           | EPIC005                       |
-| US014               | Integración vía API                                       | Como usuario avanzado, quiero integrar los datos con otros sistemas agrícolas, para unificar mis fuentes de información.                         | **Dado que** el usuario posee token válido, **cuando** consume los endpoints de la API REST, **entonces** obtiene datos históricos y en tiempo real según permisos.                                                          | EPIC005                       |
-| US015               | Landing page: información del dispositivo                 | Como visitante, quiero ver en la landing page qué es el dispositivo IoT y cómo funciona, para entender sus beneficios.                           | **Dado que** el visitante navega a “Qué es y cómo funciona”, **cuando** la sección carga, **entonces** visualiza descripción clara, imágenes y beneficios principales.                                                       | EPIC006                       |
-| US016               | Landing page: formulario de contacto                      | Como visitante, quiero enviar un mensaje o consulta desde la landing page, para recibir más información sobre el producto.                       | **Dado que** el visitante completa nombre/email/mensaje válidos, **cuando** envía el formulario, **entonces** el sistema registra la solicitud/notifica al administrador y muestra confirmación al usuario.                 | EPIC006                       |
-| US017               | Landing page: testimonios de agricultores                 | Como visitante, quiero leer testimonios de agricultores, para confiar en la efectividad de la solución.                                          | **Dado que** la sección “Testimonios” está activa, **cuando** el visitante la visualiza, **entonces** se muestran al menos 3 testimonios con foto y nombre.                                                                  | EPIC006                       |
-| US018               | Landing page: precios y planes                            | Como agricultor, quiero ver planes de precios claros en la landing page, para evaluar si puedo adquirir el dispositivo.                          | **Dado que** hay planes configurados, **cuando** el visitante abre “Precios”, **entonces** ve una tabla/paquetes con diferencias claras por tipo de usuario.                                                                 | EPIC006                       |
-| US019               | Landing page: preguntas frecuentes (FAQ)                  | Como visitante, quiero acceder a un listado de preguntas frecuentes, para resolver dudas sin contactar soporte.                                  | **Dado que** el visitante abre la sección FAQ, **cuando** selecciona una pregunta, **entonces** se despliega su respuesta y puede colapsarla.                                                                               | EPIC006                       |
-| US020               | Landing page: descarga de brochure                        | Como visitante, quiero descargar un brochure en PDF desde la landing page, para compartir la información del producto.                           | **Dado que** el visitante hace clic en “Descargar brochure”, **cuando** el enlace es válido, **entonces** se descarga el PDF actualizado.                                                                                   | EPIC006                       |
-| US021               | Ajuste de idioma en la app                                | Como usuario, quiero cambiar el idioma de la app (español/inglés), para usarla en mi idioma preferido.                                           | **Dado que** el usuario abre “Idioma”, **cuando** selecciona el idioma y guarda, **entonces** la app cambia todos los textos y recuerda la preferencia.                                                                     | EPIC005                       |
-| US022               | Tema claro/oscuro en la app                               | Como usuario, quiero activar un tema oscuro, para usar la app cómodamente de noche.                                                              | **Dado que** el usuario abre “Tema”, **cuando** selecciona “Oscuro” y confirma, **entonces** la interfaz cambia y la preferencia persiste entre sesiones.                                                                    | EPIC005                       |
-| US023               | Recuperar contraseña                                      | Como usuario, quiero recuperar mi contraseña por correo, para volver a acceder si la olvido.                                                      | **Dado que** el usuario olvidó su clave, **cuando** solicita recuperación con un email registrado, **entonces** el sistema envía un enlace seguro y registra el evento.                                                      | EPIC005                       |
-| US024               | Notificaciones de mantenimiento                           | Como administrador, quiero recibir alertas de mantenimiento de los dispositivos, para dar soporte preventivo.                                    | **Dado que** existe un sensor sin reportar por *X* días, **cuando** se cumple el umbral, **entonces** el administrador recibe una notificación de mantenimiento.                                                             | EPIC005                       |
-| US025               | Historial de notificaciones                               | Como usuario, quiero ver un historial de todas mis notificaciones pasadas, para revisar eventos previos.                                         | **Dado que** el usuario abre “Historial”, **cuando** consulta notificaciones, **entonces** visualiza un listado con fecha, hora y tipo de evento.                                                                            | EPIC005                       |
-| US026               | Perfil de usuario editable                                | Como usuario, quiero editar mis datos básicos (nombre, email, cooperativa), para mantener mi perfil actualizado.                                 | **Dado que** el usuario abre su perfil, **cuando** edita y guarda datos válidos, **entonces** el sistema persiste los cambios y confirma la actualización.                                                                   | EPIC005                       |
-| US027               | Crear barra de navegación                                 | Como usuario, quiero contar con una barra de navegación para desplazarme en la página.                                                            | **Dado que** el visitante ingresa a la landing page, **cuando** se encuentra en la parte superior de la página, **entonces** visualiza una barra con logo y enlaces a secciones clave y la navegación funciona correctamente. | EPIC006                       |
-| US028               | Agregar información destacada                             | Como visitante, quiero entender qué hace la solución y sus beneficios principales para decidir si explorar más.                                  | **Dado que** el visitante navega la landing, **cuando** accede a “Información destacada”, **entonces** visualiza misión, objetivo y beneficios de la solución en un bloque claro.                                           | EPIC006                       |
-| US029               | Crear footer informativo                                  | Como usuario, quiero poder contactar con la empresa de forma accesible, para poder contratar los servicios o obtener más información.            | **Dado que** el visitante llega al final de la landing, **cuando** visualiza el footer, **entonces** encuentra datos de contacto, redes y enlaces legales visibles y funcionales.                                            | EPIC006                       |
-
+| **Epic / Story ID** | **Título**                                  | **Descripción**                                                                                                                                  | **Criterios de Aceptación**                                                                                                                                                                                                   | **Relacionado con (Epic ID)** |
+|---------------------|---------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
+| US001               | Instalar dispositivo con guía visual        | Como agricultor, quiero instalar el dispositivo con instrucciones paso a paso en la app, para configurarlo sin asistencia técnica especializada. | **Dado que** el usuario encendió el dispositivo y abrió la guía en la app, **cuando** completa los pasos y confirma las conexiones, **entonces** la app valida sensores/cámara y marca la instalación como correcta.          | EPIC001                       |
+| US002               | Registro automático de sensores             | Como usuario, quiero que el sistema detecte automáticamente los sensores y cámara al encender el dispositivo, para validar que funciona bien.    | **Dado que** el dispositivo está encendido, **cuando** el sistema escanea el hardware, **Entonces** detecta sensores y cámara y los muestra como “activos” en la app.                                                         | EPIC001                       |
+| US003               | Registro de múltiples dispositivos          | Como administrador de cooperativa, quiero registrar múltiples dispositivos en una sola cuenta, para gestionarlos colectivamente.                 | **Dado que** el usuario tiene sesión iniciada, **cuando** registra un nuevo dispositivo con datos válidos, **entonces** el panel central lo lista con su estado y metadatos.                                                  | EPIC001                       |
+| US004               | Notificaciones tempranas de helada          | Como agricultor, quiero recibir alertas en mi celular cuando la temperatura se acerque al umbral de helada, para anticipar medidas preventivas.  | **Dado que** existe un umbral de helada configurado, **cuando** la temperatura medida entra al rango crítico, **entonces** el sistema envía una notificación (push/SMS) única por evento.                                     | EPIC002                       |
+| US005               | Visualizar condiciones actuales             | Como usuario, quiero ver en un panel la temperatura, para entender el estado de mis cultivos en tiempo real.                                     | **Dado que** hay telemetría reciente, **cuando** el usuario abre el panel, **entonces** ve la temperatura actual y el panel se actualiza en intervalos definidos.                                                             | EPIC002                       |
+| US007               | Activación automática de protección térmica | Como agricultor, quiero que la tela protectora se active automáticamente cuando se detecte riesgo de helada, para proteger mis cultivos.         | **Dado que** el umbral de activación está definido, **cuando** la temperatura baja del umbral, **entonces** el sistema acciona la tela protectora y registra el evento.                                                       | EPIC003                       |
+| US008               | Configuración de umbrales                   | Como usuario avanzado, quiero configurar los umbrales de activación (ej. -1 °C, -3 °C), para adaptar la protección a mi cultivo específico.      | **Dado que** el usuario abre “Configuración”, **cuando** edita y guarda umbrales válidos, **entonces** el dispositivo aplica la nueva configuración y la app confirma el cambio.                                              | EPIC003                       |
+| US009               | Confirmación de activación                  | Como agricultor, quiero recibir una confirmación en la app cuando la protección se active, para estar seguro de que el sistema funciona.         | **Dado que** se activó la protección, **cuando** la app recibe el evento, **entonces** muestra confirmación con estado y hora exacta.                                                                                         | EPIC003                       |
+| US010               | Identificación automática de plagas         | Como agricultor, quiero que la cámara identifique plagas comunes en tubérculos, para reducir inspecciones manuales.                              | **Dado que** la cámara está operativa, **cuando** detecta una plaga dentro del catálogo, **entonces** el sistema la clasifica mediante IA y muestra una alerta en la app.                                                     | EPIC004                       |
+| US011               | Consolidación de reportes de plagas         | Como administrador de cooperativa, quiero que las detecciones de plagas se consoliden en un reporte colectivo, para coordinar estrategias.       | **Dado que** existen detecciones en múltiples dispositivos, **cuando** el administrador solicita el reporte, **entonces** el sistema genera un informe consolidado con incidencias por dispositivo.                           | EPIC004                       |
+| US012               | Visualización gráfica de datos              | Como usuario, quiero ver gráficos de temperatura, heladas y plagas, para tomar decisiones informadas.                                            | **Dado que** hay datos históricos, **cuando** el usuario accede a “Gráficos”, **entonces** visualiza líneas/barras/calor con filtros de rango y dispositivo.                                                                  | EPIC005                       |
+| US013               | Exportación de reportes                     | Como usuario, quiero exportar reportes en PDF o Excel, para compartirlos con asesores técnicos o instituciones.                                  | **Dado que** el usuario abre “Exportar”, **cuando** elige PDF o XLSX y confirma, **entonces** el sistema genera y descarga el archivo con los datos seleccionados.                                                            | EPIC005                       |
+| US014               | Integración vía API                         | Como usuario avanzado, quiero integrar los datos con otros sistemas agrícolas, para unificar mis fuentes de información.                         | **Dado que** el usuario posee token válido, **cuando** consume los endpoints de la API REST, **entonces** obtiene datos históricos y en tiempo real según permisos.                                                           | EPIC005                       |
+| US015               | Landing page: información del dispositivo   | Como visitante, quiero ver en la landing page qué es el dispositivo IoT y cómo funciona, para entender sus beneficios.                           | **Dado que** el visitante navega a “Qué es y cómo funciona”, **cuando** la sección carga, **entonces** visualiza descripción clara, imágenes y beneficios principales.                                                        | EPIC006                       |
+| US016               | Landing page: formulario de contacto        | Como visitante, quiero enviar un mensaje o consulta desde la landing page, para recibir más información sobre el producto.                       | **Dado que** el visitante completa nombre/email/mensaje válidos, **cuando** envía el formulario, **entonces** el sistema registra la solicitud/notifica al administrador y muestra confirmación al usuario.                   | EPIC006                       |
+| US017               | Landing page: testimonios de agricultores   | Como visitante, quiero leer testimonios de agricultores, para confiar en la efectividad de la solución.                                          | **Dado que** la sección “Testimonios” está activa, **cuando** el visitante la visualiza, **entonces** se muestran al menos 3 testimonios con foto y nombre.                                                                   | EPIC006                       |
+| US018               | Landing page: precios y planes              | Como agricultor, quiero ver planes de precios claros en la landing page, para evaluar si puedo adquirir el dispositivo.                          | **Dado que** hay planes configurados, **cuando** el visitante abre “Precios”, **entonces** ve una tabla/paquetes con diferencias claras por tipo de usuario.                                                                  | EPIC006                       |
+| US019               | Landing page: preguntas frecuentes (FAQ)    | Como visitante, quiero acceder a un listado de preguntas frecuentes, para resolver dudas sin contactar soporte.                                  | **Dado que** el visitante abre la sección FAQ, **cuando** selecciona una pregunta, **entonces** se despliega su respuesta y puede colapsarla.                                                                                 | EPIC006                       |
+| US020               | Landing page: descarga de brochure          | Como visitante, quiero descargar un brochure en PDF desde la landing page, para compartir la información del producto.                           | **Dado que** el visitante hace clic en “Descargar brochure”, **cuando** el enlace es válido, **entonces** se descarga el PDF actualizado.                                                                                     | EPIC006                       |
+| US021               | Ajuste de idioma en la app                  | Como usuario, quiero cambiar el idioma de la app (español/inglés), para usarla en mi idioma preferido.                                           | **Dado que** el usuario abre “Idioma”, **cuando** selecciona el idioma y guarda, **entonces** la app cambia todos los textos y recuerda la preferencia.                                                                       | EPIC005                       |
+| US022               | Tema claro/oscuro en la app                 | Como usuario, quiero activar un tema oscuro, para usar la app cómodamente de noche.                                                              | **Dado que** el usuario abre “Tema”, **cuando** selecciona “Oscuro” y confirma, **entonces** la interfaz cambia y la preferencia persiste entre sesiones.                                                                     | EPIC005                       |
+| US023               | Recuperar contraseña                        | Como usuario, quiero recuperar mi contraseña por correo, para volver a acceder si la olvido.                                                     | **Dado que** el usuario olvidó su clave, **cuando** solicita recuperación con un email registrado, **entonces** el sistema envía un enlace seguro y registra el evento.                                                       | EPIC005                       |
+| US024               | Notificaciones de mantenimiento             | Como administrador, quiero recibir alertas de mantenimiento de los dispositivos, para dar soporte preventivo.                                    | **Dado que** existe un sensor sin reportar por _X_ días, **cuando** se cumple el umbral, **entonces** el administrador recibe una notificación de mantenimiento.                                                              | EPIC005                       |
+| US025               | Historial de notificaciones                 | Como usuario, quiero ver un historial de todas mis notificaciones pasadas, para revisar eventos previos.                                         | **Dado que** el usuario abre “Historial”, **cuando** consulta notificaciones, **entonces** visualiza un listado con fecha, hora y tipo de evento.                                                                             | EPIC005                       |
+| US026               | Perfil de usuario editable                  | Como usuario, quiero editar mis datos básicos (nombre, email, cooperativa), para mantener mi perfil actualizado.                                 | **Dado que** el usuario abre su perfil, **cuando** edita y guarda datos válidos, **entonces** el sistema persiste los cambios y confirma la actualización.                                                                    | EPIC005                       |
+| US027               | Crear barra de navegación                   | Como usuario, quiero contar con una barra de navegación para desplazarme en la página.                                                           | **Dado que** el visitante ingresa a la landing page, **cuando** se encuentra en la parte superior de la página, **entonces** visualiza una barra con logo y enlaces a secciones clave y la navegación funciona correctamente. | EPIC006                       |
+| US028               | Agregar información destacada               | Como visitante, quiero entender qué hace la solución y sus beneficios principales para decidir si explorar más.                                  | **Dado que** el visitante navega la landing, **cuando** accede a “Información destacada”, **entonces** visualiza misión, objetivo y beneficios de la solución en un bloque claro.                                             | EPIC006                       |
+| US029               | Crear footer informativo                    | Como usuario, quiero poder contactar con la empresa de forma accesible, para poder contratar los servicios o obtener más información.            | **Dado que** el visitante llega al final de la landing, **cuando** visualiza el footer, **entonces** encuentra datos de contacto, redes y enlaces legales visibles y funcionales.                                             | EPIC006                       |
 
 ## 3.3 Impact Mapping
 
@@ -1170,8 +1147,9 @@ Tabla de épicas establecidas para las historias de usuarios de UniverseThing
 
 El siguiente diagrama representa la relación entre los objetivos de negocio, los impactos esperados, los entregables y las historias de usuario, segmentadas para los principales actores: Agricultores Tecnificados y Cooperativas Agrícolas. Esta representación permite visualizar cómo cada componente del sistema contribuye a la protección de los cultivos y optimización de recursos (UniverseThing, 2025).  
 <br><br>
-<img src="./img/Impact mapping.png" alt="Impact Mapping AgroPre" width="700"><br>
+<img src="assets/cap3/Impact mapping.png" alt="Impact Mapping AgroPre" width="700"><br>
 <i>Figura 1. Impact Mapping de AgroPre (UniverseThing, 2025)</i>
+
 </div>
 
 ## 3.4 Product Backlog
@@ -1181,99 +1159,96 @@ El siguiente backlog representa las historias de usuario priorizadas y estimadas
 </div>
 <p align="center">
 
-| <b>ID</b>  | <b>Epic</b>                          | <b>User Story / Feature</b>                    | <b>Prioridad</b> | <b>Estimación (Story Points)</b> | <b>Estado</b> |
-|------------|--------------------------------------|-----------------------------------------------|-----------------|---------------------------------|--------------|
-| US001      | Instalación y Configuración Inteligente | Instalar dispositivo con guía visual          | Alta            | 3                               | Pendiente    |
-| US002      | Instalación y Configuración Inteligente | Registro automático de sensores               | Alta            | 2                               | Pendiente    |
-| US003      | Instalación y Configuración Inteligente | Registro de múltiples dispositivos            | Media           | 5                               | Pendiente    |
-| US004      | Monitoreo Climático                  | Notificaciones tempranas de helada            | Alta            | 3                               | Pendiente    |
-| US005      | Monitoreo Climático                  | Visualizar condiciones actuales               | Alta            | 3                               | Pendiente    |
-| US006      | Monitoreo Climático                  | Reporte histórico de clima                    | Media           | 4                               | Pendiente    |
-| US007      | Activación Automática de Protección  | Activación automática de protección térmica   | Alta            | 5                               | Pendiente    |
-| US008      | Activación Automática de Protección  | Configuración de umbrales                     | Media           | 3                               | Pendiente    |
-| US009      | Activación Automática de Protección  | Confirmación de activación                    | Media           | 2                               | Pendiente    |
-| US010      | Detección Inteligente de Plagas      | Identificación automática de plagas           | Alta            | 5                               | Pendiente    |
-| US011      | Detección Inteligente de Plagas      | Consolidación de reportes de plagas           | Media           | 3                               | Pendiente    |
-| US012      | Plataforma de Datos y Reportes       | Visualización gráfica de datos                | Alta            | 4                               | Pendiente    |
-| US013      | Plataforma de Datos y Reportes       | Exportación de reportes                       | Media           | 3                               | Pendiente    |
-| US014      | Plataforma de Datos y Reportes       | Integración vía API                           | Media           | 5                               | Pendiente    |
-| US015      | Plataforma de Datos y Reportes       | Landing page: información del dispositivo     | Alta            | 3                               | Pendiente    |
-| US016      | Plataforma de Datos y Reportes       | Landing page: formulario de contacto          | Alta            | 2                               | Pendiente    |
-| US017      | Plataforma de Datos y Reportes       | Landing page: testimonios de agricultores     | Media           | 2                               | Pendiente    |
-| US018      | Plataforma de Datos y Reportes       | Landing page: precios y planes                | Alta            | 3                               | Pendiente    |
-| US019      | Plataforma de Datos y Reportes       | Landing page: preguntas frecuentes (FAQ)      | Media           | 2                               | Pendiente    |
-| US020      | Plataforma de Datos y Reportes       | Landing page: descarga de brochure            | Media           | 2                               | Pendiente    |
-| US021      | Plataforma de Datos y Reportes       | Ajuste de idioma en la app                    | Media           | 3                               | Pendiente    |
-| US022      | Plataforma de Datos y Reportes       | Tema claro/oscuro en la app                   | Baja            | 2                               | Pendiente    |
-| US023      | Plataforma de Datos y Reportes       | Recuperar contraseña                          | Alta            | 2                               | Pendiente    |
-| US024      | Plataforma de Datos y Reportes       | Notificaciones de mantenimiento               | Media           | 3                               | Pendiente    |
-| US025      | Plataforma de Datos y Reportes       | Historial de notificaciones                   | Media           | 3                               | Pendiente    |
-| US026      | Plataforma de Datos y Reportes       | Perfil de usuario editable                    | Alta            | 3                               | Pendiente    |
-| US027      | Plataforma de Datos y Reportes       | Perfil de usuario editable                    | Alta            | 3                               | Pendiente    |
-| US028      | Plataforma de Datos y Reportes       | Perfil de usuario editable                    | Alta            | 3                               | Pendiente    |
-| US029      | Plataforma de Datos y Reportes       | Perfil de usuario editable                    | Alta            | 3                               | Pendiente    |
-</p>
+| <b>ID</b> | <b>Epic</b>                             | <b>User Story / Feature</b>                 | <b>Prioridad</b> | <b>Estimación (Story Points)</b> | <b>Estado</b> |
+|-----------|-----------------------------------------|---------------------------------------------|------------------|----------------------------------|---------------|
+| US001     | Instalación y Configuración Inteligente | Instalar dispositivo con guía visual        | Alta             | 3                                | Pendiente     |
+| US002     | Instalación y Configuración Inteligente | Registro automático de sensores             | Alta             | 2                                | Pendiente     |
+| US003     | Instalación y Configuración Inteligente | Registro de múltiples dispositivos          | Media            | 5                                | Pendiente     |
+| US004     | Monitoreo Climático                     | Notificaciones tempranas de helada          | Alta             | 3                                | Pendiente     |
+| US005     | Monitoreo Climático                     | Visualizar condiciones actuales             | Alta             | 3                                | Pendiente     |
+| US006     | Monitoreo Climático                     | Reporte histórico de clima                  | Media            | 4                                | Pendiente     |
+| US007     | Activación Automática de Protección     | Activación automática de protección térmica | Alta             | 5                                | Pendiente     |
+| US008     | Activación Automática de Protección     | Configuración de umbrales                   | Media            | 3                                | Pendiente     |
+| US009     | Activación Automática de Protección     | Confirmación de activación                  | Media            | 2                                | Pendiente     |
+| US010     | Detección Inteligente de Plagas         | Identificación automática de plagas         | Alta             | 5                                | Pendiente     |
+| US011     | Detección Inteligente de Plagas         | Consolidación de reportes de plagas         | Media            | 3                                | Pendiente     |
+| US012     | Plataforma de Datos y Reportes          | Visualización gráfica de datos              | Alta             | 4                                | Pendiente     |
+| US013     | Plataforma de Datos y Reportes          | Exportación de reportes                     | Media            | 3                                | Pendiente     |
+| US014     | Plataforma de Datos y Reportes          | Integración vía API                         | Media            | 5                                | Pendiente     |
+| US015     | Plataforma de Datos y Reportes          | Landing page: información del dispositivo   | Alta             | 3                                | Pendiente     |
+| US016     | Plataforma de Datos y Reportes          | Landing page: formulario de contacto        | Alta             | 2                                | Pendiente     |
+| US017     | Plataforma de Datos y Reportes          | Landing page: testimonios de agricultores   | Media            | 2                                | Pendiente     |
+| US018     | Plataforma de Datos y Reportes          | Landing page: precios y planes              | Alta             | 3                                | Pendiente     |
+| US019     | Plataforma de Datos y Reportes          | Landing page: preguntas frecuentes (FAQ)    | Media            | 2                                | Pendiente     |
+| US020     | Plataforma de Datos y Reportes          | Landing page: descarga de brochure          | Media            | 2                                | Pendiente     |
+| US021     | Plataforma de Datos y Reportes          | Ajuste de idioma en la app                  | Media            | 3                                | Pendiente     |
+| US022     | Plataforma de Datos y Reportes          | Tema claro/oscuro en la app                 | Baja             | 2                                | Pendiente     |
+| US023     | Plataforma de Datos y Reportes          | Recuperar contraseña                        | Alta             | 2                                | Pendiente     |
+| US024     | Plataforma de Datos y Reportes          | Notificaciones de mantenimiento             | Media            | 3                                | Pendiente     |
+| US025     | Plataforma de Datos y Reportes          | Historial de notificaciones                 | Media            | 3                                | Pendiente     |
+| US026     | Plataforma de Datos y Reportes          | Perfil de usuario editable                  | Alta             | 3                                | Pendiente     |
+| US027     | Plataforma de Datos y Reportes          | Perfil de usuario editable                  | Alta             | 3                                | Pendiente     |
+| US028     | Plataforma de Datos y Reportes          | Perfil de usuario editable                  | Alta             | 3                                | Pendiente     |
+| US029     | Plataforma de Datos y Reportes          | Perfil de usuario editable                  | Alta             | 3                                | Pendiente     |
 
+</p>
 
 # Capítulo IV: Solution Software Design
 
 ## 4.1. Strategic-Level Domain-Driven Design <b>
+
 <p>En esta sección se explica el proceso de tomar decisiones estratégicas en la concepción del software, basándose en Domain-Driven Design (DDD).  El enfoque se enfoca en identificar los subdominios fundamentales y los contextos delimitados, asegurando que el diseño siga alineado con las metas del negocio.  Se delinearon los contextos y sus interacciones, y se ilustraron los flujos de mensajes mediante dinámicas de colaboración como EventStorming.  Más tarde, por medio del Context Mapping, se definieron relaciones y patrones de integración que se utilizaron como fundamento para la arquitectura.  Aquí se presentan las etapas fundamentales, desde la fase de descubrimiento hasta la determinación de la arquitectura definitiva, siempre respaldadas por los principios de DDD. </p></b>
 
-### 4.1.1. EventStorming 
-
+### 4.1.1. EventStorming
 
 Para llevar a cabo el EventStorming, el equipo se coordinó con el objetivo de obtener una primera aproximación al modelado del dominio de nuestro proyecto. Para ello, seguimos una secuencia de nueve pasos.
 
 <b>Paso 1: Recolección de Eventos de Dominio</b>
-Se determina en esta etapa inicial los sucesos más significativos del dominio que tienen lugar en el sistema.  Estos acontecimientos se documentan con notas adhesivas de color naranja y representan sucesos importantes dentro del proceso de negocio.
+Se determina en esta etapa inicial los sucesos más significativos del dominio que tienen lugar en el sistema. Estos acontecimientos se documentan con notas adhesivas de color naranja y representan sucesos importantes dentro del proceso de negocio.
 
-![collectdomainevents](assets/img/collects.jpg)
+<img src="assets/cap4/collects.jpg" alt="collectdomainevents">
 
 <b>Paso 2: Línea de Tiempo</b>
-En esta fase, todos los sucesos que se han identificado con anterioridad se organizan en una secuencia temporal.  Así, se ubican en orden cronológico para que sea más fácil ver el flujo del proceso y entender la secuencia natural de las acciones dentro del sistema.
+En esta fase, todos los sucesos que se han identificado con anterioridad se organizan en una secuencia temporal. Así, se ubican en orden cronológico para que sea más fácil ver el flujo del proceso y entender la secuencia natural de las acciones dentro del sistema.
 
-![timelins](assets/img/timeline.jpg)
+<img src="assets/cap4/timeline.jpg" alt="timelines">
 
 <b>Paso 3: Puntos Problemáticos y Momentos Clave</b>
-En esta etapa se identifican tanto los puntos de dolor como los momentos cruciales.  Estas características indican campos que requieren atención especial o que son cruciales para el adecuado funcionamiento del sistema.
+En esta etapa se identifican tanto los puntos de dolor como los momentos cruciales. Estas características indican campos que requieren atención especial o que son cruciales para el adecuado funcionamiento del sistema.
 
-![pivotal](assets/img/pivotal.jpg)
-
+<img src="assets/cap4/pivotal.jpg" alt="painpoints">
 
 <b> Paso 4: Comandos </b>
-En este paso se añaden los comandos, que son representados con notas adhesivas azules y que dan lugar a los eventos.  Estas instrucciones son las que los usuarios o sistemas externos ejecutan para provocar modificaciones dentro del sistema.
+En este paso se añaden los comandos, que son representados con notas adhesivas azules y que dan lugar a los eventos. Estas instrucciones son las que los usuarios o sistemas externos ejecutan para provocar modificaciones dentro del sistema.
 
-![commands](assets/img/commands.jpg)
-
+<img src="assets/cap4/commands.jpg" alt="commands">
 
 <b>Paso 5: Políticas</b>
-En esta fase, se definen las políticas o normas de negocio, presentadas mediante notas adhesivas de color morado.  Estas reaccionan a ciertos acontecimientos y, por lo tanto, producen otros nuevos.  Su propósito fundamental es automatizar decisiones basándose en lo que haya sucedido anteriormente.
+En esta fase, se definen las políticas o normas de negocio, presentadas mediante notas adhesivas de color morado. Estas reaccionan a ciertos acontecimientos y, por lo tanto, producen otros nuevos. Su propósito fundamental es automatizar decisiones basándose en lo que haya sucedido anteriormente.
 
-![policy](assets/img/policy.jpg)
+<img src="assets/cap4/policy.jpg" alt="policy">
 
 <b>Paso 6: Modelos de Lectura</b>
-En esta etapa, se determinan los modelos de lectura o las vistas que necesitan los usuarios para tomar decisiones.  Estos modelos muestran los datos que tienen que estar disponibles en instantes concretos del proceso.
+En esta etapa, se determinan los modelos de lectura o las vistas que necesitan los usuarios para tomar decisiones. Estos modelos muestran los datos que tienen que estar disponibles en instantes concretos del proceso.
 
-![vista](assets/img/vista.jpg)
+<img src="assets/cap4/vista.jpg" alt="vista">
 
 <b>Paso 7: Sistemas Externos</b>
-Se indican en esta etapa los sistemas externos, que están representados con notas adhesivas de color rosa y que interactúan con la solución.  Son elementos que no se controlan de manera directa, pero que tienen un impacto en la evolución del proceso.
+Se indican en esta etapa los sistemas externos, que están representados con notas adhesivas de color rosa y que interactúan con la solución. Son elementos que no se controlan de manera directa, pero que tienen un impacto en la evolución del proceso.
 
-
-![externos](assets/img/externos.jpg)
+<img src="assets/cap4/externos.jpg" alt="externos">
 
 <b>Paso 8: Agregados</b>
 En esta etapa se organizan los comandos y eventos vinculados en unidades lógicas denominadas agregados, representadas con notas adhesivas de color amarillo. Cada agregado concentra y encapsula un conjunto coherente de funcionalidades.
 
-![agregados](assets/img/agregados.jpg)
+<img src="assets/cap4/agregados.jpg" alt="agregados">
 
 <b>Paso 9: Bounded Context</b>
 Finalmente, se reconocen los bounded contexts o contextos delimitados, que representan áreas de responsabilidad claramente definidas dentro del sistema.
 
-![bounded](assets/img/bounded.jpg)
+<img src="assets/cap4/bounded.jpg" alt="bounded">
 
-Link de Miro: https://miro.com/app/board/uXjVO-qMV2o=/?share_link_id=889158007938 
+Link de Miro: <a href="https://miro.com/app/board/uXjVO-qMV2o=/?share_link_id=889158007938"> https://miro.com/app/board/uXjVO-qMV2o=/?share_link_id=889158007938 </a>
 
 #### 4.1.1.1. Candidate Context Discovery
 
@@ -1282,29 +1257,24 @@ A partir del EventStorming desarrollado en Miro, nuestro equipo realizó una ses
 Proceso de identificación
 El trabajo comenzó con una revisión detallada del modelo completo previamente construido, poniendo especial énfasis en los eventos pivote y en los agregados que habían sido definidos.
 
-
- 
-![pivotal](assets/img/pivotal.jpg)
-
+<img src="assets/cap4/pivotal.jpg" alt="pivotal">
 
 Detección de agrupaciones naturales: Se identificaron patrones y conjuntos lógicos de comandos, eventos y políticas que interactuaban sobre las mismas entidades o procesos, lo que permitió reconocer relaciones coherentes dentro del sistema.
 
-![externos](assets/img/externos.jpg)
+<img src="assets/cap4/externos.jpg" alt="externos">
 
 Nos enfocamos en eventos importantes, como la configuración de alertas y notificaciones, que indicaban sin ambigüedades los cambios de un contexto a otro.
 
-
-![agregados](assets/img/agregados.jpg)
+<img src="assets/cap4/agregados.jpg" alt="agregados">
 
 Definición de límites: Se definieron fronteras alrededor de los grupos previamente detectados, para determinar así los límites preliminares de los bounded contexts.
 
-![bounded](assets/img/bounded.jpg)
+<img src="assets/cap4/bounded.jpg" alt="bounded">
 
 Nomenclatura y validación
 Se asignó un nombre a cada bounded context de acuerdo con su responsabilidad principal, verificando además que mantuvieran coherencia interna y límites claramente definidos.
 
-![bounded](assets/img/bounded.jpg)
-
+<img src="assets/cap4/bounded.jpg" alt="bounded">
 
 #### 4.1.1.2. Domain Message Flows Modeling
 
@@ -1312,86 +1282,91 @@ Se asignó un nombre a cada bounded context de acuerdo con su responsabilidad pr
 
 Descripción: Un agricultor crea su cuenta, agrega su finca y activa una suscripción mediante un método de pago.
 
-![escenario1](assets/img/escenario1.jpg)
+<img src="assets/cap4/escenario1.jpg" alt="escenario1">
 
 <b>Escenario 2: Monitoreo y Detección de Helada</b>
 
 Descripción: El sistema detecta temperaturas bajas y activa automáticamente la protección contra heladas.
 
-![escenario2](assets/img/escenario2.jpg)
-
+<img src="assets/cap4/escenario2.jpg" alt="escenario2">
 
 <b>Escenario 3: Detección y Control de Plaga</b>
 
 Descripción: La visión artificial detecta una plaga y se activa el sistema de fumigación localizada.
 
-![escenario3](assets/img/escenario3.jpg)
+<img src="assets/cap4/escenario3.jpg" alt="escenario3">
 
 <b>Escenario 4: Notificaciones y Reportes</b>
 
 Descripción: El agricultor recibe notificaciones y consulta reportes históricos.
 
-![escenario4](assets/img/escenario4.jpg)
+<img src="assets/cap4/escenario4.jpg" alt="escenario4">
 
 Link en Miro: https://miro.com/app/board/uXjVJ93mG54=/?share_link_id=572383765696
-
+<a href="https://miro.com/app/board/uXjVJ93mG54=/?share_link_id=572383765696">https://miro.com/app/board/uXjVJ93mG54=/?share_link_id=572383765696</a>
 
 #### 4.1.1.3. Bounded Context Canvases
+
 Se elaboraron lienzos de Bounded Context para cada uno de los contextos definidos durante el EventStorming. Estos lienzos permiten delimitar con claridad el alcance de cada contexto, sus responsabilidades principales y la manera en que se relaciona con los demás.
 
-![canvase1](assets/img/canvase1.jpg)
+<img src="assets/cap4/canvase1.jpg" alt="canvase1">
+
 <b></b>
 
-![canvase2](assets/img/canvase2.jpg)
+<img src="assets/cap4/canvase2.jpg" alt="canvase2">
+
 <b></b>
 
-![canvase3](assets/img/canvase3.jpg)
+<img src="assets/cap4/canvase3.jpg" alt="canvase3">
+
 <b></b>
 
-![canvase4](assets/img/canvase4.jpg)
+<img src="assets/cap4/canvase4.jpg" alt="canvase4">
+
 <b></b>
 
-Link en Miro:  https://miro.com/app/board/uXjVJ94Zc2k=/?share_link_id=473917165758 
+<a href="https://miro.com/app/board/uXjVJ94Zc2k=/?share_link_id=473917165758">https://miro.com/app/board/uXjVJ94Zc2k=/?share_link_id=473917165758</a>
 
 ### 4.1.2 Context mapping
 
-Después de determinar los bounded contexts mediante el EventStorming, procedemos a examinar la forma en que se interrelacionan entre sí con el objetivo de desarrollar un context mapping claro y beneficioso.  Para comprender las interacciones, responsabilidades y límites de cada contexto en la solución, este ejercicio fue fundamental.
+Después de determinar los bounded contexts mediante el EventStorming, procedemos a examinar la forma en que se interrelacionan entre sí con el objetivo de desarrollar un context mapping claro y beneficioso. Para comprender las interacciones, responsabilidades y límites de cada contexto en la solución, este ejercicio fue fundamental.
 
 <b>Exploración de Alternativas de Diseño</b>
 Durante las sesiones de trabajo surgieron varias alternativas de diseño que nos ayudaron a evaluar diferentes enfoques.
 
-<b>Primera opción:</b>  Mapa inicial
- - <b>Usuarios y gestión </b>→ El resto: actúa como Shared Kernel, ya que la información de los usuarios, las fincas, las suscripciones y los pagos es fundamental para el funcionamiento de los demás contextos.
- - <b> Monitoreo medioambiental </b> → <b> Reportes y notificaciones </b>: Se determina una conexión, puesto que el monitoreo proporciona información de heladas y sensores, la cual es utilizada por los reportes para crear advertencias.
- - <b>Supervisión medioambiental</b> → <b>Automatización de cultivos</b>: En este caso, se puede ver un patrón de upstream/downstream, en el que la supervisión identifica las condiciones y la automatización reacciona con acciones físicas.
+<b>Primera opción:</b> Mapa inicial
+
+- <b>Usuarios y gestión </b>→ El resto: actúa como Shared Kernel, ya que la información de los usuarios, las fincas, las suscripciones y los pagos es fundamental para el funcionamiento de los demás contextos.
+- <b> Monitoreo medioambiental </b> → <b> Reportes y notificaciones </b>: Se determina una conexión, puesto que el monitoreo proporciona información de heladas y sensores, la cual es utilizada por los reportes para crear advertencias.
+- <b>Supervisión medioambiental</b> → <b>Automatización de cultivos</b>: En este caso, se puede ver un patrón de upstream/downstream, en el que la supervisión identifica las condiciones y la automatización reacciona con acciones físicas.
 - <b>Automatización de Cultivo</b> → <b>Reportes y notificaciones</b>: bajo un esquema de cliente/proveedor, ya que las actividades de cultivo producen datos que se documentan en informes.
- - <b>Reportes y Notificaciones</b> → <b>Usuarios y Gestión</b>: actúa como un conformista, porque los informes tienen que ajustarse a la estructura de usuarios, fincas y suscripciones.
+- <b>Reportes y Notificaciones</b> → <b>Usuarios y Gestión</b>: actúa como un conformista, porque los informes tienen que ajustarse a la estructura de usuarios, fincas y suscripciones.
 
 <b>Segunda alternativa: Fusión de Monitoreo y Automatización</b>
 
 Nos preguntamos si sería viable unificar Monitoreo Ambiental y Automatización de Cultivo en un único contexto.
 
 - Este nuevo escenario se podría denominar Control Inteligente de Cultivo.
- - La ventaja sería facilitar la implementación de acciones y la integración de datos ambientales.
- - Sin embargo, observamos que las responsabilidades son diferentes: el monitoreo calibra y mide, mientras que la automatización lleva a cabo acciones específicas.
+- La ventaja sería facilitar la implementación de acciones y la integración de datos ambientales.
+- Sin embargo, observamos que las responsabilidades son diferentes: el monitoreo calibra y mide, mientras que la automatización lleva a cabo acciones específicas.
 
 <b>Tercera alternativa: Uso de un Anti-corruption Layer</b>
 
 También analizamos la posibilidad de aislar ciertos contextos para evitar que los cambios internos afecten a otros.
 
 - Añadimos una Capa Anticorrupción entre el Monitoreo Ambiental y los Reportes & Notificaciones con el fin de salvaguardar la lógica que rige los reportes de alteraciones en las configuraciones de los sensores.
- - Se realizó lo mismo entre Reportes & Notificaciones y Automatización de Cultivo, para que los procedimientos físicos de la creación de reportes permanecieran separados.
- - Esto brinda más autonomía evolutiva a cada contexto.
+- Se realizó lo mismo entre Reportes & Notificaciones y Automatización de Cultivo, para que los procedimientos físicos de la creación de reportes permanecieran separados.
+- Esto brinda más autonomía evolutiva a cada contexto.
 
 <b>Cuarta alternativa: Servicio compartido de notificaciones</b>
 
 Otra opción fue pensar en un servicio centralizado para gestionar todas las notificaciones.
 
 - Se planteó la idea de trasladar la lógica para enviar alertas y notificaciones a un nuevo escenario, conocido como Notification Service.
- - Esto eliminaría la redundancia de código y concentraría la comunicación con los usuarios en un solo lugar.
- - Los contextos de reportes y notificaciones, así como los de monitoreo ambiental y automatización de cultivos, se convertirían en usuarios de este servicio compartido.
+- Esto eliminaría la redundancia de código y concentraría la comunicación con los usuarios en un solo lugar.
+- Los contextos de reportes y notificaciones, así como los de monitoreo ambiental y automatización de cultivos, se convertirían en usuarios de este servicio compartido.
 
-_____________________
+---
 
 <b>Evaluación de Alternativas</b>
 
@@ -1400,62 +1375,57 @@ Cada alternativa fue evaluada tomando en cuenta cuatro criterios principales:
 - Cohesión y acoplamiento: nivel de claridad y dependencia entre los contextos.
 - Alineación con el negocio: qué tanto se ajusta a las necesidades reales de los usuarios.
 - Facilidad de evolución: posibilidad de evolucionar cada contexto de manera autónoma.
-Complejidad técnica: grado de dificultad en la implementación.
+  Complejidad técnica: grado de dificultad en la implementación.
 
 <b>Context Map Final</b>
 
 Después del análisis, la mejor opción resultó ser una combinación de la tercera y cuarta alternativa:
 
 - Usuarios y Gestión como núcleo compartido: continúa siendo el centro que abastece a todos los contextos con información sobre usuarios, fincas y pagos.
- - Monitoreo ambiental como proveedor principal (Upstream): proporciona los datos de los sensores con una capa anticorrupción para evitar que tengan un efecto directo en otros ámbitos.
- - Automatización del cultivo como downstream de monitoreo: obtiene información sobre el entorno y lleva a cabo acciones, manteniendo un ACL hacia los informes.
- - Servicio de notificaciones como servicio compartido: se encarga de la gestión de alertas y notificaciones, las cuales son utilizadas por los demás contextos.
- - Reportes y notificaciones como Conformist: se ajusta a la estructura de los usuarios y a la información que llega del monitoreo y la automatización con el fin de crear reportes y advertencias.
+- Monitoreo ambiental como proveedor principal (Upstream): proporciona los datos de los sensores con una capa anticorrupción para evitar que tengan un efecto directo en otros ámbitos.
+- Automatización del cultivo como downstream de monitoreo: obtiene información sobre el entorno y lleva a cabo acciones, manteniendo un ACL hacia los informes.
+- Servicio de notificaciones como servicio compartido: se encarga de la gestión de alertas y notificaciones, las cuales son utilizadas por los demás contextos.
+- Reportes y notificaciones como Conformist: se ajusta a la estructura de los usuarios y a la información que llega del monitoreo y la automatización con el fin de crear reportes y advertencias.
 
 Este diseño final consigue un equilibrio apropiado entre flexibilidad, cohesión y acoplamiento bajo, lo que posibilita que cada contexto progrese de manera independiente, al tiempo que se sostiene un marco claro de relaciones y obligaciones.
 
 ### 4.1.3. Software Architecture
-En este segmento se expone la arquitectura de software de la solución utilizando el C4 Model como recurso visual, a través de la herramienta Structurizr.  Se presenta la estructura general del sistema, comenzando con una perspectiva de alto nivel (diagrama de nivel de contexto) y ahondando en las interacciones y los elementos fundamentales (diagramas de nivel contenedor), para brindar una visión comprensible y nítida de la arquitectura sugerida.
 
+En este segmento se expone la arquitectura de software de la solución utilizando el C4 Model como recurso visual, a través de la herramienta Structurizr. Se presenta la estructura general del sistema, comenzando con una perspectiva de alto nivel (diagrama de nivel de contexto) y ahondando en las interacciones y los elementos fundamentales (diagramas de nivel contenedor), para brindar una visión comprensible y nítida de la arquitectura sugerida.
 
 #### 4.1.3.1. Software Architecture System Landscape Diagram
 
-El diagrama de contexto relacionado con la arquitectura de software de la solución propuesta se muestra a continuación.  Se muestran en él los actores externos que se relacionan con el sistema y los sistemas externos con los que está en comunicación.
+El diagrama de contexto relacionado con la arquitectura de software de la solución propuesta se muestra a continuación. Se muestran en él los actores externos que se relacionan con el sistema y los sistemas externos con los que está en comunicación.
 
-![diagramacontexto](assets/img/diagramacontexto.png)
+<img src="assets/cap4/diagramacontexto.png" alt="diagramacontexto">
+
 <b></b>
 
 #### 4.1.3.2. Software Architecture Context Level Diagrams
 
- En este diagrama se describe como AGROPRE  se relaciona con sus usuarios y con sistemas externos como IOT hub  y el dispositivo IOT.
+En este diagrama se describe como AGROPRE se relaciona con sus usuarios y con sistemas externos como IOT hub y el dispositivo IOT.
 
-![diagramacontextolevel](assets/img/diagramacontextolevel.png)
+<img src="assets/cap4/diagramacontextolevel.png" alt="diagramacontextolevel">
 
 #### 4.1.3.3. Software Architecture Container Level Diagrams
 
 La aplicación móvil, la aplicación web, las APIs REST, las bases de datos, el sistema IoT con sensores y el servicio de notificaciones son los elementos centrales que se ilustran en este diagrama.
 
- Se representan sus interacciones internas y la manera en que se conectan con los usuarios externos (como los supervisores, operadores y administradores).  La relación con los bounded contexts se manifiesta en la arquitectura:  Gestión de usuarios, supervisión del medio ambiente, automatización del cultivo y notificaciones e informes.
+Se representan sus interacciones internas y la manera en que se conectan con los usuarios externos (como los supervisores, operadores y administradores). La relación con los bounded contexts se manifiesta en la arquitectura: Gestión de usuarios, supervisión del medio ambiente, automatización del cultivo y notificaciones e informes.
 
-
-![diagramacontenedor](assets/img/diagramacontenedor.jpg)
-
-
-
+<img src="assets/cap4/diagramacontenedor.jpg" alt="diagramacontenedor">
 
 #### 4.1.3.4. Software Architecture Deployment Diagrams
 
 En esta parte se muestra cómo se despliegan físicamente los componentes del sistema AGROPRE dentro de su entorno de ejecución. El diagrama representa los dispositivos/servidores utilizados, los servicios desplegados en cada uno y los protocolos de comunicación que permiten la interacción.
 
-![arquitecturadespliegue](assets/img/arquitecturadespliegue.png)
-
+<img src="assets/cap4/arquitecturadespliegue.png" alt="arquitecturadespliegue">
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
 ### 4.2.1. Bounded Context:Usuarios & Gestión
-Este bounded context es el centro de administración de la plataforma AGROPRE, dado que posibilita el manejo de pagos, suscripciones, usuarios y fincas.  Su objetivo principal es consolidar la gestión de identidades, accesos y conexiones comerciales entre los campesinos, supervisores y el sistema, asegurando así la seguridad, el control y la trazabilidad de los datos.
 
-
+Este bounded context es el centro de administración de la plataforma AGROPRE, dado que posibilita el manejo de pagos, suscripciones, usuarios y fincas. Su objetivo principal es consolidar la gestión de identidades, accesos y conexiones comerciales entre los campesinos, supervisores y el sistema, asegurando así la seguridad, el control y la trazabilidad de los datos.
 
 #### 4.2.1.1. Domain Layer
 
@@ -1463,18 +1433,18 @@ En esta capa se encuentran los modelos y reglas de negocio que rigen la gestión
 
 <b>Entidades principales</b>
 
-| Clase | Descripción |
-|-----------|----------|
-| User (Aggregate Root)  | - Atributos: id: UUID, email: VARCHAR, password_hash: VARCHAR, user_type: UserType, status: UserStatus, registered_at: TIMESTAMP, last_login: TIMESTAMP, profile_id: UUID. <br> - Responsabilidades: gestionar credenciales, estado, relaciones con FarmMember, emitir eventos de dominio UserCreated, UserDeactivated.  |
-|Profile (Entity / Value Object) | - Atributos: id: UUID, full_name, phone, avatar_url, address (JSON), preferred_language. <br> -Responsabilidades: contener datos personales y validaciones (email normalizado, teléfono E.164). |
-| Role (Entity)  | - Atributos: id, name, permissions: JSONB. <br> - Responsabilidades: definir conjuntos de permisos. |
-| Permission (Value)| - Atributos: name (string, ej. farm.create, device.onboard), description.   |
-| Farm (Aggregate Root)| - Atributos: id: UUID, name, geo: Geometry (Polygon), owner_id: UUID, metadata: JSONB, created_at.  <br> - Responsabilidades: geolocalización, límites, asociación de dispositivos y members.  |
-| FarmMember (Entity)| - Atributos: id, farm_id, user_id, role_in_farm (OWNER, MANAGER, WORKER), joined_at. <br> - Responsabilidades: permisos y ámbito de actuación dentro de una finca. |
-| Cooperative (Aggregate)| - Atributos: id, name, description, members: List[User ids], metadata.  |
-| Invite (Entity)| - Atributos: id, inviter_id, invitee_email, token, status: InviteStatus, expires_at. <br> - Responsabilidades: flujo de invitación y onboarding. |
-| Session (Entity)| - Atributos: id, user_id, device_info, refresh_token_hash, created_at, expires_at.|
-| AuditLog (Entity / Append-only)| - Atributos: id, user_id, action, metadata: JSONB, created_at.|
+| Clase                           | Descripción                                                                                                                                                                                                                                                                                                             |
+|---------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| User (Aggregate Root)           | - Atributos: id: UUID, email: VARCHAR, password_hash: VARCHAR, user_type: UserType, status: UserStatus, registered_at: TIMESTAMP, last_login: TIMESTAMP, profile_id: UUID. <br> - Responsabilidades: gestionar credenciales, estado, relaciones con FarmMember, emitir eventos de dominio UserCreated, UserDeactivated. |
+| Profile (Entity / Value Object) | - Atributos: id: UUID, full_name, phone, avatar_url, address (JSON), preferred_language. <br> -Responsabilidades: contener datos personales y validaciones (email normalizado, teléfono E.164).                                                                                                                         |
+| Role (Entity)                   | - Atributos: id, name, permissions: JSONB. <br> - Responsabilidades: definir conjuntos de permisos.                                                                                                                                                                                                                     |
+| Permission (Value)              | - Atributos: name (string, ej. farm.create, device.onboard), description.                                                                                                                                                                                                                                               |
+| Farm (Aggregate Root)           | - Atributos: id: UUID, name, geo: Geometry (Polygon), owner_id: UUID, metadata: JSONB, created_at. <br> - Responsabilidades: geolocalización, límites, asociación de dispositivos y members.                                                                                                                            |
+| FarmMember (Entity)             | - Atributos: id, farm_id, user_id, role_in_farm (OWNER, MANAGER, WORKER), joined_at. <br> - Responsabilidades: permisos y ámbito de actuación dentro de una finca.                                                                                                                                                      |
+| Cooperative (Aggregate)         | - Atributos: id, name, description, members: List[User ids], metadata.                                                                                                                                                                                                                                                  |
+| Invite (Entity)                 | - Atributos: id, inviter_id, invitee_email, token, status: InviteStatus, expires_at. <br> - Responsabilidades: flujo de invitación y onboarding.                                                                                                                                                                        |
+| Session (Entity)                | - Atributos: id, user_id, device_info, refresh_token_hash, created_at, expires_at.                                                                                                                                                                                                                                      |
+| AuditLog (Entity / Append-only) | - Atributos: id, user_id, action, metadata: JSONB, created_at.                                                                                                                                                                                                                                                          |
 
 <b>Value Objects</b>
 
@@ -1514,12 +1484,12 @@ En esta capa se encuentran los modelos y reglas de negocio que rigen la gestión
 
 - GeoFenceValidator (valida GeoJSON y superficie máxima permitida).
 
-
-
 #### 4.2.1.2. Interface Context
+
 Conjunto de contratos (REST/JSON y mensajes de eventos) que exponen la funcionalidad del bounded context. Versionado con /api/v1/.
 
 <b>Principios</b>
+
 - Usar HTTPs, JWT RS256 para access tokens.
 
 - Minimizar PII en payloads de eventos.
@@ -1527,42 +1497,41 @@ Conjunto de contratos (REST/JSON y mensajes de eventos) que exponen la funcional
 - API REST para operaciones CRUD y RPC-ish endpoints para acciones (ej. accept_invite).
 
 <b>Esquemas (DTOs / JSON-Schema)</b>
-| Schemas / DTOs | Descripción |
-|-----------|----------|
-| LoginRequest: |{ email: string, password: string, device_info?: string } |
-|TokenResponse: |{ access_token: string, token_type: "bearer", expires_in: int, refresh_token?: string }|
-| UserCreate:| { email, password, full_name?, phone?, user_type? }|
-| UserGet: | { id, email, profile: { full_name, phone, avatar_url }, user_type, status, registered_at }|
-| ProfileUpdate: |{ full_name?, phone?, address? }|
-| FarmCreate: |{ name, geo: GeoJSON, metadata? }|
-| FarmGet: |{ id, name, geo, owner_id, metadata }|
-| InviteCreate: |{ inviter_id, invitee_email, farm_id, role_in_farm, expires_in_days }|
-|InviteAcceptRequest:|{ token, user_credentials?: {email, password} }|
 
+| Schemas/DTOs         | Descripción                                                                                |
+|----------------------|--------------------------------------------------------------------------------------------|
+| LoginRequest:        | { email: string, password: string, device_info?: string }                                  |
+| TokenResponse:       | { access_token: string, token_type: "bearer", expires_in: int, refresh_token?: string }    |
+| UserCreate:          | { email, password, full_name?, phone?, user_type? }                                        |
+| UserGet:             | { id, email, profile: { full_name, phone, avatar_url }, user_type, status, registered_at } |
+| ProfileUpdate:       | { full_name?, phone?, address? }                                                           |
+| FarmCreate:          | { name, geo: GeoJSON, metadata? }                                                          |
+| FarmGet:             | { id, name, geo, owner_id, metadata }                                                      |
+| InviteCreate:        | { inviter_id, invitee_email, farm_id, role_in_farm, expires_in_days }                      |
+| InviteAcceptRequest: | { token, user_credentials?: {email, password} }                                            |
 
-<b>Rutas REST recomendadas</b> 
+<b>Rutas REST recomendadas</b>
 
-
-|REST endpoints (contratos)| Descripción |
-|-----------|----------|
-| POST /api/v1/auth/register | registrar usuario (o aceptar invite). |
-|POST /api/v1/auth/login| autenticar|
-|POST /api/v1/auth/refresh | renovar token|
-|POST /api/v1/auth/logout | cerrar sesión|
-|GET /api/v1/users  | listar (admin).|
-|GET /api/v1/users/{user_id}  | obtener perfil|
-|PUT /api/v1/users/{user_id} |actualizar.|
-|PUT /api/v1/users/{user_id}/profile |actualizar profile|
-|POST /api/v1/farms |crear finca|
-|GET /api/v1/farms/{farm_id} |obtener|
-|GET /api/v1/farms/{farm_id}/members |listar miembros|
-|POST /api/v1/farms/{farm_id}/members |agregar miembro|
-|DELETE /api/v1/farms/{farm_id}/members/{member_id} |remover|
-|POST /api/v1/invites|crear invite|
-|GET /api/v1/invites/{token} |estado invite|
-|POST /api/v1/invites/{token}/accept |aceptar invite|
-|GET /api/v1/roles |listar roles y permisos|
-|POST /api/v1/roles|crear roles personalizados (admin)|
+| REST endpoints (contratos)                         | Descripción                           |
+|----------------------------------------------------|---------------------------------------|
+| POST /api/v1/auth/register                         | registrar usuario (o aceptar invite). |
+| POST /api/v1/auth/login                            | autenticar                            |
+| POST /api/v1/auth/refresh                          | renovar token                         |
+| POST /api/v1/auth/logout                           | cerrar sesión                         |
+| GET /api/v1/users                                  | listar (admin).                       |
+| GET /api/v1/users/{user_id}                        | obtener perfil                        |
+| PUT /api/v1/users/{user_id}                        | actualizar.                           |
+| PUT /api/v1/users/{user_id}/profile                | actualizar profile                    |
+| POST /api/v1/farms                                 | crear finca                           |
+| GET /api/v1/farms/{farm_id}                        | obtener                               |
+| GET /api/v1/farms/{farm_id}/members                | listar miembros                       |
+| POST /api/v1/farms/{farm_id}/members               | agregar miembro                       |
+| DELETE /api/v1/farms/{farm_id}/members/{member_id} | remover                               |
+| POST /api/v1/invites                               | crear invite                          |
+| GET /api/v1/invites/{token}                        | estado invite                         |
+| POST /api/v1/invites/{token}/accept                | aceptar invite                        |
+| GET /api/v1/roles                                  | listar roles y permisos               |
+| POST /api/v1/roles                                 | crear roles personalizados (admin)    |
 
 <b>Eventos publicados (broker)</b>
 
@@ -1576,21 +1545,18 @@ Conjunto de contratos (REST/JSON y mensajes de eventos) que exponen la funcional
 
 - InviteAccepted { invite_id, user_id, farm_id }
 
-
-
-
 #### 4.2.1.3. Application Context
+
 Servicios de aplicación y casos de uso que implementan las reglas de negocio del dominio combinando repositorios, validadores y mappers.
 
-|Servicios de aplicación (use-case layer)| Descripción |
-|-----------|----------|
-| AuthService | - register(user_data: UserCreate) -> UserGet.<br>- login(email: str, password: str, device_info: str) -> TokenResponse<br>- refresh_token(refresh_token: str) -> TokenResponse <br>- logout(user_id: UUID, session_id: UUID)<br>- password_reset_request(email: str) |
-| UserService| - get_user_by_id(user_id: UUID) -> UserGet <br>- update_profile(user_id: UUID, profile_update: ProfileUpdate)-> Profile <br>- list_users(filters, paging) -> List[UserGet] <br>- deactivate_user(user_id: UUID, reason: str) <br>- assign_role(user_id: UUID, role_name: str)|
-|FarmService | - Create_farm(owner_user_id: UUID, farm_data:FarmCreate) -> FarmGet <br>- get_farm(farm_id: UUID) ->FarmGet <br>- add_member(farm_id: UUID, inviter_id: UUID, invitee_identifier:str,role: str) <br>- remove_member(farm_id: UUID, member_id: UUID) <br>- transfer_ownership(farm_id: UUID, new_owner_user_id: UUID)|
-|InviteService |- create_invite(inviter_id: UUID, invitee_email: str, farm_id: UUID, role: str) <br>- accept_invite(token: str, user_credentials?: {email, password}) -> FarmMember|
-|RoleService|-  create_role(name: str, permissions: List[str]) <br>- get_role(name: str)|
-|AuditService | - log(user_id: UUID, action: str, metadata: dict)|
-
+| Servicios de aplicación (use-case layer) | Descripción                                                                                                                                                                                                                                                                                                          |
+|------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| AuthService                              | - register(user_data: UserCreate) -> UserGet.<br>- login(email: str, password: str, device_info: str) -> TokenResponse<br>- refresh_token(refresh_token: str) -> TokenResponse <br>- logout(user_id: UUID, session_id: UUID)<br>- password_reset_request(email: str)                                                 |
+| UserService                              | - get_user_by_id(user_id: UUID) -> UserGet <br>- update_profile(user_id: UUID, profile_update: ProfileUpdate)-> Profile <br>- list_users(filters, paging) -> List[UserGet] <br>- deactivate_user(user_id: UUID, reason: str) <br>- assign_role(user_id: UUID, role_name: str)                                        |
+| FarmService                              | - Create_farm(owner_user_id: UUID, farm_data:FarmCreate) -> FarmGet <br>- get_farm(farm_id: UUID) ->FarmGet <br>- add_member(farm_id: UUID, inviter_id: UUID, invitee_identifier:str,role: str) <br>- remove_member(farm_id: UUID, member_id: UUID) <br>- transfer_ownership(farm_id: UUID, new_owner_user_id: UUID) |
+| InviteService                            | - create_invite(inviter_id: UUID, invitee_email: str, farm_id: UUID, role: str) <br>- accept_invite(token: str, user_credentials?: {email, password}) -> FarmMember                                                                                                                                                  |
+| RoleService                              | - create_role(name: str, permissions: List[str]) <br>- get_role(name: str)                                                                                                                                                                                                                                           |
+| AuditService                             | - log(user_id: UUID, action: str, metadata: dict)                                                                                                                                                                                                                                                                    |
 
 <b>Casos de uso</b>
 
@@ -1604,8 +1570,8 @@ Flujo: Crear finca y asignar owner
 
 - Publica FarmCreated a broker.
 
-
 Flujo: Invitar miembro
+
 - inviter llama a InviteService.create_invite.
 
 - Genera Invite.token, persiste y envía notificación (NotificationService) y InviteCreated al broker.
@@ -1613,6 +1579,7 @@ Flujo: Invitar miembro
 - Cuando accept_invite es llamado: valida token, crea User si no existe, crea FarmMember, cambia estado del invite y publica InviteAccepted.
 
 Flujo: Login y sesiones
+
 - AuthService.login valida credenciales.
 
 - Genera access_token (RS256) y refresh_token (rotativo, almacenado hashed en DB).
@@ -1622,19 +1589,17 @@ Flujo: Login y sesiones
 - AuditService.log registra intento de login exitoso o fallido.
 
 #### 4.2.1.4. Infrastructure Context
-Componentes técnicos que permiten persistencia, mensajería, almacenamiento y servicios externos. 
+
+Componentes técnicos que permiten persistencia, mensajería, almacenamiento y servicios externos.
 
 <b>Repositorio - Interfases y Comportamiento</b>
 
-
-|Repositorios| Descripción |
-|-----------|----------|
-| IUserRepository: |- create(user: User) -> User<br>- find_by_id(id: UUID) -> User / None <br> - find_by_email(email: str) -> User / None <br> - update(user: User) -> User <br>- delete(id: UUID)|
-| IFarmRepository: | - create(farm: Farm), find_by_id, find_by_owner, find_nearby(geo, radius) (geospatial query)|
-|IInviteRepository: | - create, find_by_token, mark_accepted.|
-|ISessionRepository: |- store_refresh_token, revoke_session, list_sessions_by_user.|
-
-
+| Repositorios        | Descripción                                                                                                                                                                    |
+|---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| IUserRepository:    | - create(user: User) -> User<br>- find_by_id(id: UUID) -> User / None <br> - find_by_email(email: str) -> User / None <br> - update(user: User) -> User <br>- delete(id: UUID) |
+| IFarmRepository:    | - create(farm: Farm), find_by_id, find_by_owner, find_nearby(geo, radius) (geospatial query)                                                                                   |
+| IInviteRepository:  | - create, find_by_token, mark_accepted.                                                                                                                                        |
+| ISessionRepository: | - store_refresh_token, revoke_session, list_sessions_by_user.                                                                                                                  |
 
 <b>Infraestructuras auxiliares</b>
 
@@ -1658,41 +1623,36 @@ Componentes técnicos que permiten persistencia, mensajería, almacenamiento y s
 
 - Persigned URLs para cargas a S3.
 
-
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
-![imagen1](assets/img/ContextSoftwareArchitectureComponentLevelDiagrams.png)
+
+<img src="assets/cap4/ContextSoftwareArchitectureComponentLevelDiagrams.png" alt="ContextSoftwareArchitectureComponentLevelDiagrams">
 
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
+
 #### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
 
-![imagen1](assets/img/BoundedContextDomainLayerClassDiagrams1.png)
-
+<img src="assets/cap4/BoundedContextDomainLayerClassDiagrams1.png" alt="BoundedContextDomainLayerClassDiagrams1">
 
 #### 4.2.1.6.2. Bounded Context Database Design Diagram
 
-![imagen1](assets/img/BoundedContextDatabaseDesignDiagram1.png)
+<img src="assets/cap4/BoundedContextDatabaseDesignDiagram1.png" alt="BoundedContextDatabaseDesignDiagram1">
 
-----
-
-
-
+---
 
 ### 4.2.2. Bounded Context: Monitoreo Ambiental
-El bounded context de Monitoreo Ambiental se ocupa de la captura, almacenamiento, tratamiento y presentación de información obtenida a través de los sensores IoT que están ubicados en las viviendas.  Estos sensores son capaces de medir variables como la calidad del aire, la temperatura, la humedad, el ruido y la concentración de gases, entre otras.  Su principal función es proporcionar información en tiempo real que nutra el sistema de seguridad y los módulos de gestión y reportes, lo que posibilita una visión completa del entorno del hogar.
+
+El bounded context de Monitoreo Ambiental se ocupa de la captura, almacenamiento, tratamiento y presentación de información obtenida a través de los sensores IoT que están ubicados en las viviendas. Estos sensores son capaces de medir variables como la calidad del aire, la temperatura, la humedad, el ruido y la concentración de gases, entre otras. Su principal función es proporcionar información en tiempo real que nutra el sistema de seguridad y los módulos de gestión y reportes, lo que posibilita una visión completa del entorno del hogar.
 
 #### 4.2.2.1. Domain Layer
 
-
-
 <b>Modelos</b>
 
-| Clase | Descripción |
-|-----------|----------|
-| Sensor| - Representa un dispositivo IoT físico capaz de recolectar información ambiental. <br> - Atributos: id, sensorType, location, status, installationDate. <br> - Relación con Measurement (uno a muchos).  |
-|Measurement | - Registra los datos capturados por los sensores. <br> -Atributos: id, sensorId, timestamp, value, unit.<br> - Relación con Sensor (muchos a uno). |
-| Alert  | - Entidad encargada de representar eventos críticos cuando una medición supera un umbral establecido. <br> - Atributos: id, sensorId, measurementId, threshold, alertType, createdAt, resolved. |
-| ThresholdConfig| - Define los umbrales máximos y mínimos aceptables para cada tipo de sensor. <br> - Atributos: id, sensorType, minValue, maxValue, unit.  |
-
+| Clase           | Descripción                                                                                                                                                                                             |
+|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sensor          | - Representa un dispositivo IoT físico capaz de recolectar información ambiental. <br> - Atributos: id, sensorType, location, status, installationDate. <br> - Relación con Measurement (uno a muchos). |
+| Measurement     | - Registra los datos capturados por los sensores. <br> -Atributos: id, sensorId, timestamp, value, unit.<br> - Relación con Sensor (muchos a uno).                                                      |
+| Alert           | - Entidad encargada de representar eventos críticos cuando una medición supera un umbral establecido. <br> - Atributos: id, sensorId, measurementId, threshold, alertType, createdAt, resolved.         |
+| ThresholdConfig | - Define los umbrales máximos y mínimos aceptables para cada tipo de sensor. <br> - Atributos: id, sensorType, minValue, maxValue, unit.                                                                |
 
 <b>Enums</b>
 
@@ -1707,105 +1667,95 @@ El bounded context de Monitoreo Ambiental se ocupa de la captura, almacenamiento
 - ThresholdValidator: Asegura que los umbrales sean coherentes (ejemplo: minValue < maxValue).
 
 #### 4.2.2.2. Interface Context
+
 Conjunto de contratos (REST/JSON y mensajes de eventos) que exponen la funcionalidad del bounded context. Versionado con /api/v1/.
 
-
 <b>Esquemas (DTOs / JSON-Schema)</b>
-| Schemas / DTOs | Descripción |
-|-----------|----------|
-| SensorSchemaPost| Creación de un nuevo sensor (location, sensorType, installationDate). |
-|SensorSchemaGet: |Respuesta con la información de un sensor registrado.|
-|MeasurementSchemaPost|Registro de una medición proveniente de un sensor.|
-| MeasurementSchemaGet | Respuesta detallada con los valores capturados.|
-| AlertSchemaGet |Respuesta con los datos de una alerta generada (sensor, valor, umbral, tipo de alerta).|
 
-<b>Rutas REST recomendadas</b> 
+| Schemas / DTOs        | Descripción                                                                             |
+|-----------------------|-----------------------------------------------------------------------------------------|
+| SensorSchemaPost      | Creación de un nuevo sensor (location, sensorType, installationDate).                   |
+| SensorSchemaGet:      | Respuesta con la información de un sensor registrado.                                   |
+| MeasurementSchemaPost | Registro de una medición proveniente de un sensor.                                      |
+| MeasurementSchemaGet  | Respuesta detallada con los valores capturados.                                         |
+| AlertSchemaGet        | Respuesta con los datos de una alerta generada (sensor, valor, umbral, tipo de alerta). |
 
+<b>Rutas REST recomendadas</b>
 
-|REST endpoints (contratos)| Descripción |
-|-----------|----------|
-| /sensors [POST] | Registro de un nuevo sensor. |
-|/sensors [GET]| Listado de sensores instalados.|
-|/measurements [POST] |Registrar mediciones de un sensor.|
-|/measurements/{sensorId} [GET] |Consultar mediciones históricas de un sensor.|
-|/alerts [GET] | Obtener todas las alertas activas|
-|/alerts/{id}/resolve [PUT] |Marcar una alerta como resuelta.|
-
-
+| REST endpoints (contratos)     | Descripción                                   |
+|--------------------------------|-----------------------------------------------|
+| /sensors [POST]                | Registro de un nuevo sensor.                  |
+| /sensors [GET]                 | Listado de sensores instalados.               |
+| /measurements [POST]           | Registrar mediciones de un sensor.            |
+| /measurements/{sensorId} [GET] | Consultar mediciones históricas de un sensor. |
+| /alerts [GET]                  | Obtener todas las alertas activas             |
+| /alerts/{id}/resolve [PUT]     | Marcar una alerta como resuelta.              |
 
 #### 4.2.2.3. Application Context
+
 Servicios de aplicación y casos de uso que implementan las reglas de negocio del dominio combinando repositorios, validadores y mappers.
 
-|Servicios de aplicación (use-case layer)| Descripción |
-|-----------|----------|
-| SensorService | - register_sensor(data, db): Registrar un sensor en la base de datos.<br>- get_sensors(db): Recuperar la lista de sensores activos.<br>|
-|MeasurementService| - record_measurement(sensorId, value, timestamp, db): Guardar una nueva medición. <br>- get_measurements(sensorId, startDate, endDate, db): Recuperar mediciones filtradas por fechas. <br>- validate_measurement(value, unit): Validar rango y unidad antes de registrar. |
-|AlertService | - generate_alert(sensorId, measurementId, db): Crear una alerta si se supera un umbral. <br>- get_active_alerts(db): Recuperar alertas activas. <br>- resolve_alert(alertId, db): Marcar alerta como atendida. |
-
+| Servicios de aplicación (use-case layer) | Descripción                                                                                                                                                                                                                                                                |
+|------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| SensorService                            | - register_sensor(data, db): Registrar un sensor en la base de datos.<br>- get_sensors(db): Recuperar la lista de sensores activos.<br>                                                                                                                                    |
+| MeasurementService                       | - record_measurement(sensorId, value, timestamp, db): Guardar una nueva medición. <br>- get_measurements(sensorId, startDate, endDate, db): Recuperar mediciones filtradas por fechas. <br>- validate_measurement(value, unit): Validar rango y unidad antes de registrar. |
+| AlertService                             | - generate_alert(sensorId, measurementId, db): Crear una alerta si se supera un umbral. <br>- get_active_alerts(db): Recuperar alertas activas. <br>- resolve_alert(alertId, db): Marcar alerta como atendida.                                                             |
 
 #### 4.2.2.4. Infrastructure Context
-Componentes técnicos que permiten persistencia, mensajería, almacenamiento y servicios externos. 
+
+Componentes técnicos que permiten persistencia, mensajería, almacenamiento y servicios externos.
 
 <b>Repositorio - Interfases y Comportamiento</b>
 
+| Repositorios          | Descripción                                                     |
+|-----------------------|-----------------------------------------------------------------|
+| SensorRepository      | - Acceso a datos para registrar y obtener sensores. <br>        |
+| MeasurementRepository | - Manejo de lecturas almacenadas en la base de datos.           |
+| AlertRepository       | - Operaciones de creación, consulta y actualización de alertas. |
 
-|Repositorios| Descripción |
-|-----------|----------|
-| SensorRepository|- Acceso a datos para registrar y obtener sensores. <br>|
-| MeasurementRepository| - Manejo de lecturas almacenadas en la base de datos.|
-|AlertRepository | - Operaciones de creación, consulta y actualización de alertas.|
+| Mappers           | Descripción                                                  |
+|-------------------|--------------------------------------------------------------|
+| SensorMapper:     | - Traduce la entidad Sensor a la tabla correspondiente. <br> |
+| MeasurementMapper | -Traduce la entidad Measurement con timestamp y valor.       |
+| AlertMapper       | -Traduce la entidad Alert a su tabla SQL.                    |
 
-|Mappers| Descripción |
-|-----------|----------|
-| SensorMapper:|- Traduce la entidad Sensor a la tabla correspondiente. <br>|
-| MeasurementMapper| -Traduce la entidad Measurement con timestamp y valor.|
-|AlertMapper | -Traduce la entidad Alert a su tabla SQL.|
-
-|Integraciones| Descripción |
-|-----------|----------|
-|IoT Gateway Adapter|- Middleware encargado de recibir la información desde los dispositivos físicos (MQTT, HTTP, CoAP).|
-|Notification Adapter| -Permite enviar notificaciones al usuario (email, push, SMS) cuando se genera una alerta crítica.|
-
-
+| Integraciones        | Descripción                                                                                         |
+|----------------------|-----------------------------------------------------------------------------------------------------|
+| IoT Gateway Adapter  | - Middleware encargado de recibir la información desde los dispositivos físicos (MQTT, HTTP, CoAP). |
+| Notification Adapter | -Permite enviar notificaciones al usuario (email, push, SMS) cuando se genera una alerta crítica.   |
 
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
-![imagen1](assets/img/ContextSoftwareArchitectureComponentLevelDiagrams2.png)
+
+<img src="assets/cap4/ContextSoftwareArchitectureComponentLevelDiagrams2.png" alt="ContextSoftwareArchitectureComponentLevelDiagrams2">
 
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
+
 #### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
 
-![imagen1](assets/img/BoundedContextDomainLayerClassDiagrams2.png)
-
+<img src="assets/cap4/BoundedContextDomainLayerClassDiagrams2.png" alt="BoundedContextDomainLayerClassDiagrams2">
 
 #### 4.2.2.6.2. Bounded Context Database Design Diagram
 
-![imagen1](assets/img/BoundedContextDatabaseDesignDiagram2.png)
+<img src="assets/cap4/BoundedContextDatabaseDesignDiagram2.png" alt="BoundedContextDatabaseDesignDiagram2">
 
-
-
------
-
-
-
-
+---
 
 ### 4.2.3. Bounded Context: Automatización de Cultivo
-El bounded Context  de la Automatización de cultivos se encarga de las funciones automáticas relacionados con el riego, la ventilación, la iluminación y la fertilización en los hogares inteligentes que tienen módulos agrícolas.  Este subsistema vincula sensores ambientales y actuadores IoT (ventiladores, luces, bombas, válvulas, dosificadores) por medio de reglas que el usuario puede configurar o que ya están establecidas.
 
- Su meta es asegurar las mejores condiciones para el cultivo, disminuyendo el uso de agua y energía y respondiendo en tiempo real a los cambios en el ambiente.
+El bounded Context de la Automatización de cultivos se encarga de las funciones automáticas relacionados con el riego, la ventilación, la iluminación y la fertilización en los hogares inteligentes que tienen módulos agrícolas. Este subsistema vincula sensores ambientales y actuadores IoT (ventiladores, luces, bombas, válvulas, dosificadores) por medio de reglas que el usuario puede configurar o que ya están establecidas.
+
+Su meta es asegurar las mejores condiciones para el cultivo, disminuyendo el uso de agua y energía y respondiendo en tiempo real a los cambios en el ambiente.
+
 #### 4.2.3.1. Domain Layer
-
-
 
 <b>Modelos</b>
 
-| Clase | Descripción |
-|-----------|----------|
-|Actuator| - Representa un dispositivo IoT que ejecuta acciones en el cultivo (riego, ventilación, luz, fertilización). <br> - Atributos: id, type, location, status, installationDate. <br> - Relación con ActionLog.  |
-|ActionLog| - Registro histórico de acciones realizadas por actuadores. <br> -Atributos: id, actuatorId, command, executedAt, status.<br> - Relación con Actuator. |
-| AutomationRule | - Define reglas para activar actuadores de forma automática según condiciones ambientales <br> - Atributos: id, name, sensorType, condition, thresholdValue, actuatorType, action. |
-| Schedule| - Programa de ejecución periódica para los actuadores (ej. riego cada 8 horas). <br> - Atributos: id, actuatorId, frequency, startTime, endTime, enabled. |
-
+| Clase          | Descripción                                                                                                                                                                                                 |
+|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Actuator       | - Representa un dispositivo IoT que ejecuta acciones en el cultivo (riego, ventilación, luz, fertilización). <br> - Atributos: id, type, location, status, installationDate. <br> - Relación con ActionLog. |
+| ActionLog      | - Registro histórico de acciones realizadas por actuadores. <br> -Atributos: id, actuatorId, command, executedAt, status.<br> - Relación con Actuator.                                                      |
+| AutomationRule | - Define reglas para activar actuadores de forma automática según condiciones ambientales <br> - Atributos: id, name, sensorType, condition, thresholdValue, actuatorType, action.                          |
+| Schedule       | - Programa de ejecución periódica para los actuadores (ej. riego cada 8 horas). <br> - Atributos: id, actuatorId, frequency, startTime, endTime, enabled.                                                   |
 
 <b>Enums</b>
 
@@ -1820,106 +1770,97 @@ El bounded Context  de la Automatización de cultivos se encarga de las funcione
 - ScheduleValidator: valida que los horarios no se solapen y sean viables.
 
 #### 4.2.3.2. Interface Context
+
 Conjunto de contratos (REST/JSON y mensajes de eventos) que exponen la funcionalidad del bounded context. Versionado con /api/v1/.
 
-
 <b>Esquemas (DTOs / JSON-Schema)</b>
-| Schemas / DTOs | Descripción |
-|-----------|----------|
-| ActuatorSchemaPost|Registro de un actuador.|
-|ActuatorSchemaGet |Respuesta con datos de actuador.|
-|ActionLogSchemaGet|Historial de acciones ejecutadas|
-| AutomationRuleSchemaPost| Creación de una nueva regla de automatización.|
-| AutomationRuleSchemaGet:|Consulta de reglas configuradas|
-| ScheduleSchemaPost:|Creación de un nuevo cronograma.|
-| ScheduleSchemaGet:|Consulta de cronogramas existentes.|
 
-<b>Rutas REST recomendadas</b> 
+| Schemas / DTOs           | Descripción                                    |
+|--------------------------|------------------------------------------------|
+| ActuatorSchemaPost       | Registro de un actuador.                       |
+| ActuatorSchemaGet        | Respuesta con datos de actuador.               |
+| ActionLogSchemaGet       | Historial de acciones ejecutadas               |
+| AutomationRuleSchemaPost | Creación de una nueva regla de automatización. |
+| AutomationRuleSchemaGet: | Consulta de reglas configuradas                |
+| ScheduleSchemaPost:      | Creación de un nuevo cronograma.               |
+| ScheduleSchemaGet:       | Consulta de cronogramas existentes.            |
 
+<b>Rutas REST recomendadas</b>
 
-|REST endpoints (contratos)| Descripción |
-|-----------|----------|
-| /actuators [POST/GET] | Registrar y consultar actuadores. |
-|/actuators/{id}/status [PUT]| Cambiar estado de un actuador|
-|/actions [GET] |Consultar historial de acciones.|
-|/rules [POST/GET/PUT/DELETE]|CRUD de reglas de automatización|
-|/schedules [POST/GET/PUT/DELETE] |CRUD de cronogramas de automatización.|
-
-
-
+| REST endpoints (contratos)       | Descripción                            |
+|----------------------------------|----------------------------------------|
+| /actuators [POST/GET]            | Registrar y consultar actuadores.      |
+| /actuators/{id}/status [PUT]     | Cambiar estado de un actuador          |
+| /actions [GET]                   | Consultar historial de acciones.       |
+| /rules [POST/GET/PUT/DELETE]     | CRUD de reglas de automatización       |
+| /schedules [POST/GET/PUT/DELETE] | CRUD de cronogramas de automatización. |
 
 #### 4.2.3.3. Application Context
+
 Servicios de aplicación y casos de uso que implementan las reglas de negocio del dominio combinando repositorios, validadores y mappers.
 
-|Servicios de aplicación (use-case layer)| Descripción |
-|-----------|----------|
-| ActuatorService | - register_actuator(data, db)<br>-get_actuators(db) <br>- update_status(actuatorId, status, db)|
-|ActionLogService| - record_action(actuatorId, command, status, db)<br>- get_action_logs(actuatorId, db) . |
-|AutomationRuleService | - create_rule(rule, db) <br>- evaluate_rules(sensorData, db) <br>- update_rule(ruleId, db) |
-|ScheduleService | - create_schedule(schedule, db) <br>- execute_schedules(db) <br>- disable_schedule(scheduleId, db) |
-
+| Servicios de aplicación (use-case layer) | Descripción                                                                                        |
+|------------------------------------------|----------------------------------------------------------------------------------------------------|
+| ActuatorService                          | - register_actuator(data, db)<br>-get_actuators(db) <br>- update_status(actuatorId, status, db)    |
+| ActionLogService                         | - record_action(actuatorId, command, status, db)<br>- get_action_logs(actuatorId, db) .            |
+| AutomationRuleService                    | - create_rule(rule, db) <br>- evaluate_rules(sensorData, db) <br>- update_rule(ruleId, db)         |
+| ScheduleService                          | - create_schedule(schedule, db) <br>- execute_schedules(db) <br>- disable_schedule(scheduleId, db) |
 
 #### 4.2.3.4. Infrastructure Context
-Componentes técnicos que permiten persistencia, mensajería, almacenamiento y servicios externos. 
+
+Componentes técnicos que permiten persistencia, mensajería, almacenamiento y servicios externos.
 
 <b>Repositorio - Interfases y Comportamiento</b>
 
+| Repositorios             | Descripción                  |
+|--------------------------|------------------------------|
+| ActuatorRepository       | - CRUD actuadores <br>       |
+| ActionLogRepository      | - CRUD historial de acciones |
+| AutomationRuleRepository | - CRUD reglas                |
+| ScheduleRepository       | - CRUD cronogramas.          |
 
-|Repositorios| Descripción |
-|-----------|----------|
-| ActuatorRepository|- CRUD actuadores <br>|
-| ActionLogRepository| - CRUD historial de acciones|
-|AutomationRuleRepository | - CRUD reglas|
-|ScheduleRepository | - CRUD cronogramas.|
+| Mappers         | Descripción                                         |
+|-----------------|-----------------------------------------------------|
+| ActuatorMapper  | - Traducción Actuator ↔ tabla actuators.            |
+| ActionLogMapper | -Traducción ActionLog ↔ tabla action_logs           |
+| RuleMapper      | -Traducción AutomationRule ↔ tabla automation_rules |
+| ScheduleMapper  | -Traducción Schedule ↔ tabla schedules              |
 
-
-|Mappers| Descripción |
-|-----------|----------|
-| ActuatorMapper|- Traducción Actuator ↔ tabla actuators.|
-| ActionLogMapper| -Traducción ActionLog ↔ tabla action_logs|
-|RuleMapper | -Traducción AutomationRule ↔ tabla automation_rules|
-|ScheduleMapper | -Traducción Schedule ↔ tabla schedules|
-
-|Integraciones| Descripción |
-|-----------|----------|
-|IoT Command Adapter|- puente con actuadores (MQTT, HTTP, CoAP).|
-|Event Scheduler Adapter| -gestiona cronogramas recurrentes.|
-
-
+| Integraciones           | Descripción                                 |
+|-------------------------|---------------------------------------------|
+| IoT Command Adapter     | - puente con actuadores (MQTT, HTTP, CoAP). |
+| Event Scheduler Adapter | -gestiona cronogramas recurrentes.          |
 
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
-![imagen1](assets/img/ContextSoftwareArchitectureComponentLevelDiagrams3_.png)
+
+<img src="assets/cap4/ContextSoftwareArchitectureComponentLevelDiagrams3_.png" alt="ContextSoftwareArchitectureComponentLevelDiagrams3_">
 
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
+
 #### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
 
-![imagen1](assets/img/BoundedContextDomainLayerClassDiagrams3.png)
-
+<img src="assets/cap4/BoundedContextDomainLayerClassDiagrams3.png" alt="BoundedContextDomainLayerClassDiagrams3">
 
 #### 4.2.3.6.2. Bounded Context Database Design Diagram
 
-![imagen1](assets/img/BoundedContextDatabaseDesignDiagram3.png)
+<img src="assets/cap4/BoundedContextDatabaseDesignDiagram3.png" alt="BoundedContextDatabaseDesignDiagram3">
 
+---
 
-
-
--------
 ### 4.2.4. Bounded Context: Reportes y Notificaciones
+
 Este bounded context administra la consolidación de datos y eventos de los demás módulos (monitoreo, automatización, seguridad) para generar reportes analíticos y enviar notificaciones en tiempo real a los usuarios.
 
 #### 4.2.4.1. Domain Layer
 
-
-
 <b>Modelos</b>
 
-| Clase | Descripción |
-|-----------|----------|
-|Report| - Representa un informe consolidado generado periódicamente o bajo demanda. <br> -Atributos: id, type, generatedAt, data, format, requestedBy. <br> - Relación con User (quien solicita).  |
-|Notification| -Notificación enviada a un usuario (ej. alerta de intrusión, reporte disponible, condición anómala en sensores).<br> -Atributos: id, userId, title, message, priority, status, sentAt.|
-|NotificationPreference | - Configuración personalizada del usuario sobre cómo y cuándo recibir notificaciones. <br> - Atributos: id, userId, channel, enabled, schedule. |
-| Channe| - Define la vía de comunicación (ejemplo: Email, SMS, App Push). <br> - Atributos: id, type, config. |
-
+| Clase                  | Descripción                                                                                                                                                                               |
+|------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Report                 | - Representa un informe consolidado generado periódicamente o bajo demanda. <br> -Atributos: id, type, generatedAt, data, format, requestedBy. <br> - Relación con User (quien solicita). |
+| Notification           | -Notificación enviada a un usuario (ej. alerta de intrusión, reporte disponible, condición anómala en sensores).<br> -Atributos: id, userId, title, message, priority, status, sentAt.    |
+| NotificationPreference | - Configuración personalizada del usuario sobre cómo y cuándo recibir notificaciones. <br> - Atributos: id, userId, channel, enabled, schedule.                                           |
+| Channe                 | - Define la vía de comunicación (ejemplo: Email, SMS, App Push). <br> - Atributos: id, type, config.                                                                                      |
 
 <b>Enums</b>
 
@@ -1938,154 +1879,116 @@ Este bounded context administra la consolidación de datos y eventos de los dem�
 - NotificationValidator: valida coherencia entre prioridad y canal disponible.
 
 #### 4.2.4.2. Interface Context
+
 Conjunto de contratos (REST/JSON y mensajes de eventos) que exponen la funcionalidad del bounded context. Versionado con /api/v1/.
 
-
 <b>Esquemas (DTOs / JSON-Schema)</b>
-| Schemas / DTOs | Descripción |
-|-----------|----------|
-| ReportSchemaPost|creación de reporte bajo demanda.|
-|ReportSchemaGet |consulta de reportes generados.|
-|NotificationSchemaPost|enviar notificación manual o programada.|
-| NotificationSchemaGet| historial de notificaciones recibidas.|
-| PreferenceSchemaPost|configuración de preferencias de usuario.|
-|PreferenceSchemaGet|consulta de preferencias activas.|
 
+| Schemas / DTOs         | Descripción                               |
+|------------------------|-------------------------------------------|
+| ReportSchemaPost       | creación de reporte bajo demanda.         |
+| ReportSchemaGet        | consulta de reportes generados.           |
+| NotificationSchemaPost | enviar notificación manual o programada.  |
+| NotificationSchemaGet  | historial de notificaciones recibidas.    |
+| PreferenceSchemaPost   | configuración de preferencias de usuario. |
+| PreferenceSchemaGet    | consulta de preferencias activas.         |
 
-<b>Rutas REST recomendadas</b> 
+<b>Rutas REST recomendadas</b>
 
-
-|REST endpoints (contratos)| Descripción |
-|-----------|----------|
-|/reports [POST/GET] | CRUD de reportes. |
-|/notifications [POST/GET/PUT]| CRUD de notificaciones.|
-|/preferences [POST/GET/PUT/DELETE] |CRUD de preferencias de notificación.|
-
-
-
+| REST endpoints (contratos)         | Descripción                           |
+|------------------------------------|---------------------------------------|
+| /reports [POST/GET]                | CRUD de reportes.                     |
+| /notifications [POST/GET/PUT]      | CRUD de notificaciones.               |
+| /preferences [POST/GET/PUT/DELETE] | CRUD de preferencias de notificación. |
 
 #### 4.2.4.3. Application Context
+
 Servicios de aplicación y casos de uso que implementan las reglas de negocio del dominio combinando repositorios, validadores y mappers.
 
-|Servicios de aplicación (use-case layer)| Descripción |
-|-----------|----------|
-| ReportService | - generate_report(reportType, format, db)<br>- get_reports(userId, db)|
-|NotificationService| - send_notification(userId, message, channel, priority, db)<br>- get_notifications(userId, db) <br> - mark_as_read(notificationId, db)|
-|PreferenceService | - save_preferences(userId, data, db) <br>- get_preferences(userId, db) |
+| Servicios de aplicación (use-case layer) | Descripción                                                                                                                            |
+|------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| ReportService                            | - generate_report(reportType, format, db)<br>- get_reports(userId, db)                                                                 |
+| NotificationService                      | - send_notification(userId, message, channel, priority, db)<br>- get_notifications(userId, db) <br> - mark_as_read(notificationId, db) |
+| PreferenceService                        | - save_preferences(userId, data, db) <br>- get_preferences(userId, db)                                                                 |
 
 <b>Casos de uso principales</b>
+
 - Generar reportes ambientales periódicos y notificar al usuario.
 
 - Emitir alertas críticas en tiempo real (ej. intrusión, humedad excesiva).
 
 - Enviar notificaciones de respaldo (ej. por Email cuando falla Push).
 
-
 #### 4.2.4.4. Infrastructure Context
-Componentes técnicos que permiten persistencia, mensajería, almacenamiento y servicios externos. 
+
+Componentes técnicos que permiten persistencia, mensajería, almacenamiento y servicios externos.
 
 <b>Repositorio - Interfases y Comportamiento</b>
 
+| Repositorios           | Descripción              |
+|------------------------|--------------------------|
+| ReportRepository       | - CRUD de reportes. <br> |
+| NotificationRepository | -CRUD de notificaciones  |
+| PreferenceRepository   | - CRUD de preferencias.  |
 
-|Repositorios| Descripción |
-|-----------|----------|
-|ReportRepository|- CRUD de reportes. <br>|
-|NotificationRepository| -CRUD de notificaciones|
-|PreferenceRepository | - CRUD de preferencias.|
+| Mappers            | Descripción                                            |
+|--------------------|--------------------------------------------------------|
+| ReportMapper       | - Traducción Report ↔ tabla reports                    |
+| NotificationMapper | -Traducción Notification ↔ tabla notifications         |
+| PreferenceMapper   | -Traducción NotificationPreference ↔ tabla preferences |
 
-
-|Mappers| Descripción |
-|-----------|----------|
-|ReportMapper|- Traducción Report ↔ tabla reports|
-|NotificationMapper| -Traducción Notification ↔ tabla notifications|
-|PreferenceMapper | -Traducción NotificationPreference ↔ tabla preferences|
-
-|Integraciones| Descripción |
-|-----------|----------|
-|EmailAdapter|- (SMTP).|
-|SMSAdapter| -(proveedor Twilio o equivalente).|
-|PushNotificationAdapter| -(Firebase Cloud Messaging).|
-
-
+| Integraciones           | Descripción                        |
+|-------------------------|------------------------------------|
+| EmailAdapter            | - (SMTP).                          |
+| SMSAdapter              | -(proveedor Twilio o equivalente). |
+| PushNotificationAdapter | -(Firebase Cloud Messaging).       |
 
 #### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
-![imagen1](assets/img/ContextSoftwareArchitectureComponentLevelDiagrams4.png)
+
+<img src="assets/cap4/ContextSoftwareArchitectureComponentLevelDiagrams4.png" alt="ContextSoftwareArchitectureComponentLevelDiagrams4">
 
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
+
 #### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
 
-![imagen1](assets/img/BoundedContextDomainLayerClassDiagrams4.png)
-
+<img src="assets/cap4/BoundedContextDomainLayerClassDiagrams4.png" alt="BoundedContextDomainLayerClassDiagrams4">
 
 #### 4.2.4.6.2. Bounded Context Database Design Diagram
 
-![imagen1](assets/img/BoundedContextDatabaseDesignDiagram4.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img src="assets/cap4/BoundedContextDatabaseDesignDiagram4.png" alt="BoundedContextDatabaseDesignDiagram4">
 
 # Capítulo V: Solutions UI/UX Design
 
 ## 5.1. Style Guidelines
+
 En el marco del desarrollo de nuestra solución digital Agropre, enfocada en el monitoreo ambiental, gestión de cultivos, automatización agrícola y generación de reportes inteligentes, establecemos pautas de estilo que garantizarán una presentación coherente, usable y profesional en todos los productos: la aplicación móvil, la plataforma web y las integraciones con dispositivos IoT.
 
 Estas guías buscan mantener una identidad visual clara y homogénea, un lenguaje accesible para agricultores y profesionales, y una experiencia intuitiva en todos los puntos de interacción.
 
 Agropre adopta los principios de Material Design 3 y lineamientos de accesibilidad digital, asegurando que la aplicación sea clara, moderna y escalable, tanto en entornos web como móviles.
 
-
 ### 5.1.1. General Style Guidelines
 
 Agropre, nuestra solución, satisface la demanda de los agricultores y las cooperativas de disponer de una plataforma completa para el manejo digital de fincas, el control ambiental, la automatización de procedimientos agrícolas y la producción de informes predictivos.
- El sistema proporciona información precisa para la toma de decisiones al enlazar a los agricultores con sensores de campo, aparatos de control (cubiertas, fumigación, riego) y herramientas de monitoreo en tiempo real.
- El diseño visual de Agropre se centra en la naturaleza y en la innovación tecnológica, poniendo énfasis en la confianza, la sencillez y la sostenibilidad.
+El sistema proporciona información precisa para la toma de decisiones al enlazar a los agricultores con sensores de campo, aparatos de control (cubiertas, fumigación, riego) y herramientas de monitoreo en tiempo real.
+El diseño visual de Agropre se centra en la naturaleza y en la innovación tecnológica, poniendo énfasis en la confianza, la sencillez y la sostenibilidad.
 
 <b>Branding:</b>
 
 - Brand Name:
-Agropre es un término que resulta de combinar "Pre" (de precisión, predicción y prevención) con "Agro" (del campo, la agricultura).  Muestra la finalidad de la solución: anticipar riesgos, evitar pérdidas y proporcionar precisión en el manejo agrícola.
+  Agropre es un término que resulta de combinar "Pre" (de precisión, predicción y prevención) con "Agro" (del campo, la agricultura). Muestra la finalidad de la solución: anticipar riesgos, evitar pérdidas y proporcionar precisión en el manejo agrícola.
 - Logo:
-El logotipo de Agropre combina un escudo estilizado con una hoja verde, simbolizando protección, sostenibilidad y confianza en el campo. Este será el ícono principal de la marca en aplicaciones, landing pages y material corporativo.
+  El logotipo de Agropre combina un escudo estilizado con una hoja verde, simbolizando protección, sostenibilidad y confianza en el campo. Este será el ícono principal de la marca en aplicaciones, landing pages y material corporativo.
 
-![logobrand](assets/img/logobrand.png){ width=100% }
-
+<img src="assets/cap5/logobrand.png" alt="logobrand" style="width:100%">
 
 <b>Typography:</b>
 
 - Fuente Principal: Montserrat (limpia, moderna y legible en web y móvil).
 
 - Fuente Secundaria: Roboto (para interfaces de usuario, tablas y dashboards).
-![logobrand](assets/img/tipografia.png){ width=100% }
 
-
+  <img src="assets/cap5/tipografia.png" alt="tipografia" style="width:100%">
 
 <b>Colors:</b>
 
@@ -2101,7 +2004,7 @@ Paleta principal inspirada en la agricultura y la sostenibilidad:
 
 Los colores se aplican con jerarquía visual: verde como identidad principal, amarillo para alertas/acciones críticas y gris para equilibrio.
 
-![logobrand](assets/img/colores.png){ width=100% }
+<img src="assets/cap5/colores.png" alt="colores" style="width:100%">
 
 <b>Tono de comunicación y lenguaje:</b>
 
@@ -2117,31 +2020,29 @@ Se prioriza un tono confiable, proactivo y preventivo, que motive a los usuarios
 
 ### 5.1.2. Web, Mobile and IoT Style Guidelines
 
-La página web de AgroPre se ha diseñado para que sea apropiada en cualquier dispositivo, incluyendo teléfonos celulares, computadoras y tabletas, garantizando así un diseño totalmente adaptable.   Esto hace posible que los usuarios, especialmente los técnicos, agricultores o administradores de cultivos, puedan acceder a la plataforma independientemente del tamaño o tipo de pantalla.
-  Para brindar una experiencia actualizada, accesible y sin interrupciones, el sitio web estará disponible en dispositivos móviles y ordenadores de escritorio.
+La página web de AgroPre se ha diseñado para que sea apropiada en cualquier dispositivo, incluyendo teléfonos celulares, computadoras y tabletas, garantizando así un diseño totalmente adaptable. Esto hace posible que los usuarios, especialmente los técnicos, agricultores o administradores de cultivos, puedan acceder a la plataforma independientemente del tamaño o tipo de pantalla.
+Para brindar una experiencia actualizada, accesible y sin interrupciones, el sitio web estará disponible en dispositivos móviles y ordenadores de escritorio.
 
-La interfaz que se ha elegido es Flat Design para ofrecer una interfaz clara, intuitiva y sin elementos decorativos innecesarios.   Esta selección, al reducir las distracciones visuales, mejora la comprensión de la información presentada (por ejemplo, reportes de cultivos, estado de los sensores o métricas medioambientales).
-  Asimismo, se emplea el modelo Z de lectura visual, que guía la disposición de los elementos esenciales (gráficos, botones de acción, menús y logotipo) en función del movimiento natural de los ojos del usuario.   Por lo tanto, la información prioritaria se centra sin que la coherencia visual se vea afectada.
-
+La interfaz que se ha elegido es Flat Design para ofrecer una interfaz clara, intuitiva y sin elementos decorativos innecesarios. Esta selección, al reducir las distracciones visuales, mejora la comprensión de la información presentada (por ejemplo, reportes de cultivos, estado de los sensores o métricas medioambientales).
+Asimismo, se emplea el modelo Z de lectura visual, que guía la disposición de los elementos esenciales (gráficos, botones de acción, menús y logotipo) en función del movimiento natural de los ojos del usuario. Por lo tanto, la información prioritaria se centra sin que la coherencia visual se vea afectada.
 
 Además, se han definido pautas específicas para las interfaces web responsivas, entre las cuales destacan:
- 
- - Sistema de rejillas:  Un sistema de 12 columnas hace posible que los elementos se adapten a distintas dimensiones de pantalla, lo que asegura una estructura organizada y flexible.
 
- - Puntos de interrupción:  Para adecuar la disposición de los elementos a dispositivos móviles, tablets y escritorios, respectivamente, se definen puntos de quiebre en 320px, 768px y 1200px.
+- Sistema de rejillas: Un sistema de 12 columnas hace posible que los elementos se adapten a distintas dimensiones de pantalla, lo que asegura una estructura organizada y flexible.
 
- - Escalado de la tipografía:  En dispositivos móviles, los textos tienen un tamaño mínimo de 16px para asegurar que sean legibles en situaciones de campo, donde las condiciones de luz pueden cambiar.
+- Puntos de interrupción: Para adecuar la disposición de los elementos a dispositivos móviles, tablets y escritorios, respectivamente, se definen puntos de quiebre en 320px, 768px y 1200px.
 
- - Uniformidad de color:  En todos los estados interactivos (hover, focus, active), la paleta de colores (verde naturaleza y gris claro) permanece igual.
+- Escalado de la tipografía: En dispositivos móviles, los textos tienen un tamaño mínimo de 16px para asegurar que sean legibles en situaciones de campo, donde las condiciones de luz pueden cambiar.
 
- - Hiperenlaces y botones:  La interacción en pantallas pequeñas o con guantes de trabajo se vuelve más sencilla porque los componentes táctiles tienen una altura mínima de 44px.
+- Uniformidad de color: En todos los estados interactivos (hover, focus, active), la paleta de colores (verde naturaleza y gris claro) permanece igual.
 
- - Iconografía:  Se utilizan íconos de alto contraste y universales que simbolizan acciones como la creación de informes, la generación de alertas, el monitoreo o la adición de sensores.
+- Hiperenlaces y botones: La interacción en pantallas pequeñas o con guantes de trabajo se vuelve más sencilla porque los componentes táctiles tienen una altura mínima de 44px.
 
+- Iconografía: Se utilizan íconos de alto contraste y universales que simbolizan acciones como la creación de informes, la generación de alertas, el monitoreo o la adición de sensores.
 
 <b>Diseño de la Aplicación Móvil</b>
 
-La app de AgroPre fue diseñada especialmente para aquellos agricultores que requieren acceder a información agrícola en tiempo real.  Por esta razón, su diseño se fundamenta en la sencillez y en el acceso rápido a la información crucial.
+La app de AgroPre fue diseñada especialmente para aquellos agricultores que requieren acceder a información agrícola en tiempo real. Por esta razón, su diseño se fundamenta en la sencillez y en el acceso rápido a la información crucial.
 
 Los principales lineamientos considerados son:
 
@@ -2155,31 +2056,30 @@ Los principales lineamientos considerados son:
 
 - Notificaciones inteligentes: Los usuarios recibirán alertas de heladas o niveles críticos de humedad a través de notificaciones push, acompañadas de íconos y colores distintivos.
 
-
 <b>Interfaces IoT</b>
 Respecto a las interfaces IoT embebidas, su implementación se da sobre todo en los dispositivos de control y monitoreo (como cámaras 4K, sensores de temperatura o actuadores de riego o de cubiertas).
- Como su objetivo es únicamente funcional, no se prevé un diseño gráfico sofisticado.  Si hay pantallas, estas solo muestran indicadores simples o valores numéricos.
+Como su objetivo es únicamente funcional, no se prevé un diseño gráfico sofisticado. Si hay pantallas, estas solo muestran indicadores simples o valores numéricos.
 
 Los lineamientos definidos son:
 
-- Luces indicadoras LED:  Rojo para desconexión o error, azul para conexión a la red activa y verde para un funcionamiento adecuado.
+- Luces indicadoras LED: Rojo para desconexión o error, azul para conexión a la red activa y verde para un funcionamiento adecuado.
 
- - Pantalla simplificada:  Los dispositivos con pantalla solo exhiben información importante (como por ejemplo: "Temp: 18.2 °C ").
+- Pantalla simplificada: Los dispositivos con pantalla solo exhiben información importante (como por ejemplo: "Temp: 18.2 °C ").
 
- - Menú jerárquico fundamental:  Los dispositivos que necesitan configuración local tienen menús de texto en una única capa, los cuales se controlan mediante botones físicos o perillas.
+- Menú jerárquico fundamental: Los dispositivos que necesitan configuración local tienen menús de texto en una única capa, los cuales se controlan mediante botones físicos o perillas.
 
- - Sincronización visual:  Cuando un sensor está sincronizándose con el servidor central de AgroPre, parpadea en azul.
+- Sincronización visual: Cuando un sensor está sincronizándose con el servidor central de AgroPre, parpadea en azul.
 
 ## 5.2. Information Architecture
 
 La arquitectura de información de AgroPre garantiza que los usuarios puedan acceder rápidamente a las funciones fundamentales, entender con facilidad la estructura del sistema y navegar eficientemente debido a la disposición ordenada de todos los componentes y módulos.
- Esta arquitectura considera la plataforma web, la aplicación móvil y los dispositivos IoT para asegurar una consistencia visual, semántica y funcional durante toda la experiencia del usuario.
+Esta arquitectura considera la plataforma web, la aplicación móvil y los dispositivos IoT para asegurar una consistencia visual, semántica y funcional durante toda la experiencia del usuario.
 
 ### 5.2.1. Organization Systems
+
 A continuación, se describen los sistemas de organización de la información, diferenciando los principales segmentos de usuario que utiliza AgroPre.
 
 <b>Segmento: Agricultores o Técnicos de Campo</b>
-
 
 Jerárquica:
 
@@ -2200,7 +2100,6 @@ Matricial:
 - Cruce de Datos: El sistema permite comparar métricas de diferentes sensores para analizar correlaciones (por ejemplo, humedad del suelo vs. temperatura ambiental).
 
 - Planes de Fertilización: Se visualizan matrices de fechas y acciones recomendadas según el tipo de cultivo.
-
 
 <b>Segmento: Administradores o Empresas Agrícolas</b>
 
@@ -2224,42 +2123,37 @@ Matricial:
 
 - Control de Energía IoT: Relación entre consumo energético de los sensores y eficiencia operativa.
 
-
 ### 5.2.2. Labeling Systems
 
 El sistema de etiquetado de AgroPre se diseñó para ser claro, breve y orientado a la acción, permitiendo que los usuarios identifiquen rápidamente las funciones.
 
 Etiquetas del sitio web:
 
-- Inicio / Tablero:  Interfaz principal que presenta indicadores generales y la situación presente del campo.
+- Inicio / Tablero: Interfaz principal que presenta indicadores generales y la situación presente del campo.
 
-- Vigilancia del medio ambiente:  Panel que muestra los valores más recientes de CO₂, viento, luz, humedad y temperatura.
+- Vigilancia del medio ambiente: Panel que muestra los valores más recientes de CO₂, viento, luz, humedad y temperatura.
 
-- Control sobre las cosechas:  Sección para administrar las acciones automatizadas, los cultivos y los sensores.
+- Control sobre las cosechas: Sección para administrar las acciones automatizadas, los cultivos y los sensores.
 
-- Notificaciones y alertas:  Catálogo de sucesos recientes (desconexiones, heladas, niveles bajos).
+- Notificaciones y alertas: Catálogo de sucesos recientes (desconexiones, heladas, niveles bajos).
 
-- Informes y análisis:  Visualización de datos históricos utilizando filtros según la fecha o el tipo de cultivo.
+- Informes y análisis: Visualización de datos históricos utilizando filtros según la fecha o el tipo de cultivo.
 
-- Ajustes:  Lugar donde se adaptan los umbrales, los usuarios y las preferencias del sistema.
-
+- Ajustes: Lugar donde se adaptan los umbrales, los usuarios y las preferencias del sistema.
 
 Etiquetas de la aplicación móvil:
 
-- Comienzo:  Ejemplo de un resumen que incluye métricas del campo y alertas recientes.
+- Comienzo: Ejemplo de un resumen que incluye métricas del campo y alertas recientes.
 
-- Mis cosechas:  Lista interactiva de cultivos registrados, que incluye botones para añadir o modificar los datos.
+- Mis cosechas: Lista interactiva de cultivos registrados, que incluye botones para añadir o modificar los datos.
 
-- Mis sensores:  Panel para examinar los sensores IoT en cuanto a su estado, batería y conexión.
+- Mis sensores: Panel para examinar los sensores IoT en cuanto a su estado, batería y conexión.
 
-- Avisos:  Notificaciones organizadas según su tipo y su prioridad.
+- Avisos: Notificaciones organizadas según su tipo y su prioridad.
 
-- Perfil:  Sincronización, cierre de sesión, idioma y opciones del usuario.
-
-
+- Perfil: Sincronización, cierre de sesión, idioma y opciones del usuario.
 
 ### 5.2.3. SEO Tags and Meta Tags
-
 
 Sitio Web Principal:
 
@@ -2299,30 +2193,32 @@ El sistema de búsqueda en AgroPre está diseñado para mejorar la eficiencia de
 - Historial de Consultas: Permite revisar las últimas búsquedas realizadas.
 
 - Índices Prioritarios: Los datos más relevantes (por ejemplo, alertas recientes) se muestran primero.
+
 ### 5.2.5. Navigation Systems
 
 La navegación de AgroPre se ha diseñado bajo principios de usabilidad, consistencia y fluidez, con variaciones según el tipo de plataforma:
 
 Landing Page:
+
 - Incluye un menú superior fijo con las secciones “Inicio”, “Características”, “Cómo Funciona”, “Soporte” y “Contacto”.
 - El desplazamiento entre secciones se realiza mediante anclas suaves, facilitando una navegación intuitiva sin recargar la página.
 
 Aplicación Web:
+
 - El menú lateral (sidebar) agrupa las funciones principales, adaptándose al perfil del usuario. Por ejemplo, los agricultores verán “Monitoreo”, “Cultivos”, “Sensores”, “Alertas” y “Reportes”.
 - El diseño prioriza los atajos visuales y la navegación contextual dentro de dashboards.
 
 Aplicación Móvil:
+
 - Navegación asistida mediante bottom navigation bar con iconos reconocibles.
 - Las vistas verticales permiten desplazamiento tipo scroll limitado, con carruseles de métricas o productos.
 - Los accesos rápidos mediante FAB permiten interactuar sin abandonar la pantalla principal.
 
 Dispositivos IoT:
+
 - La navegación física se limita a menús lineales o secuenciales mediante botones físicos, pensados para técnicos en campo.
 
-
-
-
------
+---
 
 ## 5.3. Landing Page UI Design
 
@@ -2330,27 +2226,21 @@ En esta sección se mostrará el desarrollo visual del Landing Page. Para ello, 
 
 ### 5.3.1. Landing Page Wireframe
 
-<img src="./assets/img/wireframerLanding.png" alt="WireFrame Landing Page" width="500" />
+<img src="assets/cap5/wireframerLanding.png" alt="WireFrame Landing Page" width="500" />
 
 Link de figma lading page: <a href="https://www.figma.com/design/EHi82ICkHRBIJbRcUAo2fF/IoT-Figma?node-id=0-1&t=mBL4zOuR51tJplyB-1">https://www.figma.com/design/EHi82ICkHRBIJbRcUAo2fF/IoT-Figma?node-id=0-1&t=mBL4zOuR51tJplyB-1</a>
-
-
 
 ### 5.3.2. Landing Page Mock-up
 
 Trabajando con los wireframes anteriormente mostrados, luego se aplicó los Style Guidelines para el uso de los colores. Como se aprecia, estos tienen un contraste llamativo en cada sección de la landing page
 
-
-<img src="./assets/img/moockupLanding.png" alt="Mock-up Landing Page" width="500" />
-
+<img src="assets/cap5/moockupLanding.png" alt="Mock-up Landing Page" width="500" />
 
 Vista general de ambos diseños:
 
-<img src="./assets/img/wireframerLanding.png" alt="WireFrame Landing Page" width="300" /> <img src="./assets/img/moockupLanding.png" alt="Mock-up Landing Page" width="300" />
+<img src="assets/cap5/wireframerLanding.png" alt="WireFrame Landing Page" width="300" /> <img src="assets/cap5/moockupLanding.png" alt="Mock-up Landing Page" width="300" />
 
 Link de figma lading page: <a href="https://www.figma.com/design/EHi82ICkHRBIJbRcUAo2fF/IoT-Figma?node-id=0-1&t=mBL4zOuR51tJplyB-1">https://www.figma.com/design/EHi82ICkHRBIJbRcUAo2fF/IoT-Figma?node-id=0-1&t=mBL4zOuR51tJplyB-1</a>
-
-
 
 ## 5.4. Application UX/UI Design
 
@@ -2359,115 +2249,128 @@ Link de figma lading page: <a href="https://www.figma.com/design/EHi82ICkHRBIJbR
 Web Application
 Pantallas relacionadas al inicio de sesión y registro de usuario:
 
-<img src="./assets/img/wireframerWeb.png" alt="WireFrame Web app" width="300" /> <img src="./assets/img/wireframerWeb1.png" alt="WireFrame Web app" width="300" />
+<img src="assets/cap5/wireframerWeb.png" alt="WireFrame Web app" width="300" /> <img src="assets/cap5/wireframerWeb1.png" alt="WireFrame Web app" width="300" />
 
-Pantallas relacionadas al dashboard donde se podra visualizar la temperatura , luminocidad y la deteccion de plagas  con un grafico  intuitivo:
+Pantallas relacionadas al dashboard donde se podra visualizar la temperatura , luminocidad y la deteccion de plagas con un grafico intuitivo:
 
-
-<img src="./assets/img/wireframerWeb2.png" alt="WireFrame Web app" width="300" />
+<img src="assets/cap5/wireframerWeb2.png" alt="WireFrame Web app" width="300" />
 
 Pantallas relacionadas a los dispositivos donde se podra visualizar todos los sensores que tiene activados o desactivados:
-<img src="./assets/img/wireframerWeb3.png" alt="WireFrame Web app" width="300" />
-Pantallas relacionadas a las alertas como la de alrestas activas,pendietes,resultados de hoy y el tiempo respuesta .Ademas de un historial de todos ellos:
-<img src="./assets/img/wireframerWeb4.png" alt="WireFrame Web app" width="300" /> <img src="./assets/img/wireframerWeb5.png" alt="Mock-up Web app" width="300" />
-Pantallas relacionadas a los datos de los sensores se visualizara el porcentade de cada uno de ellos con un grafico:
-<img src="./assets/img/wireframerWeb6.png" alt="WireFrame Web app" width="300" /> <img src="./assets/img/wireframerWeb7.png" alt="Mock-up Web app" width="300" /><img src="./assets/img/wireframerWeb8.png" alt="Mock-up Web app" width="300" /><img src="./assets/img/wireframerWeb9.png" alt="Mock-up Web app" width="300" />
-Pantallas relacionadas a las configuraciones donde tomas  tus configuracion propias:
-<img src="./assets/img/wireframerWeb10.png" alt="WireFrame Web app" width="300" /> 
 
-Pantallas relacionadas al perfil de usuario aqui visualizaras el perfil y los datos de dais activadasm sesosres configrados, alertas reltados y el ahorro de insecticida y claro los datos personales que fue registrado : 
-<img src="./assets/img/wireframerWeb11.png" alt="WireFrame Web app" width="300" /> 
+<img src="assets/cap5/wireframerWeb3.png" alt="WireFrame Web app" width="300" />
+
+Pantallas relacionadas a las alertas como la de alrestas activas,pendietes,resultados de hoy y el tiempo respuesta .Ademas de un historial de todos ellos:
+
+<img src="assets/cap5/wireframerWeb4.png" alt="WireFrame Web app" width="300" /> <img src="assets/cap5/wireframerWeb5.png" alt="Mock-up Web app" width="300" />
+
+Pantallas relacionadas a los datos de los sensores se visualizara el porcentade de cada uno de ellos con un grafico:
+
+<img src="assets/cap5/wireframerWeb6.png" alt="WireFrame Web app" width="300" /> <img src="assets/cap5/wireframerWeb7.png" alt="Mock-up Web app" width="300" /><img src="assets/cap5/wireframerWeb8.png" alt="Mock-up Web app" width="300" /><img src="assets/cap5/wireframerWeb9.png" alt="Mock-up Web app" width="300" />
+
+Pantallas relacionadas a las configuraciones donde tomas tus configuracion propias:
+
+<img src="assets/cap5/wireframerWeb10.png" alt="WireFrame Web app" width="300" />
+
+Pantallas relacionadas al perfil de usuario aqui visualizaras el perfil y los datos de dais activadasm sesosres configrados, alertas reltados y el ahorro de insecticida y claro los datos personales que fue registrado :
+
+<img src="assets/cap5/wireframerWeb11.png" alt="WireFrame Web app" width="300" />
 
 ### 5.4.2. Applications Wireflow Diagrams
 
 En esta sección, se presentan los wireflows de la aplicación web guiándose de las historias de usuario:
 
 Usar Goal: Como usuario, quiero poder registrarme en la aplicación para acceder a las funcionalidades disponibles.
-<img src="./assets/img/DiagramWireframer3.png" alt="WireFrame Web app" width="300" /> 
+<img src="assets/cap5/DiagramWireframer3.png" alt="WireFrame Web app" width="300" />
 
 En esta sección, se presentan los wireflows de la aplicación web guiándose de las historias de usuario:
 
 Usar Goal: Como usuario, quiero poder visualizar con graficso cada aparatode los de sensores.
 
-<img src="./assets/img/DiagramWireframer1.png" alt="WireFrame Web app" width="300" /> 
+<img src="assets/cap5/DiagramWireframer1.png" alt="WireFrame Web app" width="300" />
 
 En esta sección, se presentan los wireflows de la aplicación web guiándose de las historias de usuario:
 
-Usar Goal: Como usuario, quiero poder visualizar los datos captados de los sensores 
+Usar Goal: Como usuario, quiero poder visualizar los datos captados de los sensores
 y asi poder tomar represarias sobre ellos
 
-<img src="./assets/img/DiagramWireframer2.png" alt="WireFrame Web app" width="300" /> 
+<img src="assets/cap5/DiagramWireframer2.png" alt="WireFrame Web app" width="300" />
 
 En esta sección, se presentan los wireflows de la aplicación web guiándose de las historias de usuario:
 
 Usar Goal: Como usuario, quiero poder visualizar los dashboard que se tiene en la web
 
-<img src="./assets/img/DiagramWireframer.png" alt="WireFrame Web app" width="300" /> 
-
+<img src="assets/cap5/DiagramWireframer.png" alt="WireFrame Web app" width="300" />
 
 ### 5.4.3. Applications Mock-ups
+
 Web Application
 Pantallas relacionadas al inicio de sesión y registro de usuario:
 
-<img src="./assets/img/wireframerWeb0.png" alt="WireFrame Web app" width="300" /> <img src="./assets/img/wireframerWeb01.png" alt="Mock-up Web app" width="300" />
+<img src="assets/cap5/wireframerWeb0.png" alt="WireFrame Web app" width="300" /> <img src="assets/cap5/wireframerWeb01.png" alt="Mock-up Web app" width="300" />
 
-Pantallas relacionadas al dashboard donde se podra visualizar la temperatura , luminocidad y la deteccion de plagas  con un grafico  intuitivo:
+Pantallas relacionadas al dashboard donde se podra visualizar la temperatura , luminocidad y la deteccion de plagas con un grafico intuitivo:
 
-
-<img src="./assets/img/wireframerWeb02.png" alt="WireFrame Web app" width="300" />
+<img src="assets/cap5/wireframerWeb02.png" alt="WireFrame Web app" width="300" />
 
 Pantallas relacionadas a los dispositivos donde se podra visualizar todos los sensores que tiene activados o desactivados:
-<img src="./assets/img/wireframerWeb03.png" alt="WireFrame Web app" width="300" />
-Pantallas relacionadas a las alertas como la de alrestas activas,pendietes,resultados de hoy y el tiempo respuesta .Ademas de un historial de todos ellos:
-<img src="./assets/img/wireframerWeb04.png" alt="WireFrame Web app" width="300" /> <img src="./assets/img/wireframerWeb05.png" alt="Mock-up Web app" width="300" />
-Pantallas relacionadas a los datos de los sensores se visualizara el porcentade de cada uno de ellos con un grafico:
-<img src="./assets/img/wireframerWeb06.png" alt="WireFrame Web app" width="300" /> <img src="./assets/img/wireframerWeb07.png" alt="Mock-up Web app" width="300" /><img src="./assets/img/wireframerWeb08.png" alt="Mock-up Web app" width="300" /><img src="./assets/img/wireframerWeb09.png" alt="Mock-up Web app" width="300" />
-Pantallas relacionadas a las configuraciones donde tomas  tus configuracion propias:
-<img src="./assets/img/wireframerWeb010.png" alt="WireFrame Web app" width="300" /> 
 
-Pantallas relacionadas al perfil de usuario aqui visualizaras el perfil y los datos de dais activadasm sesosres configrados, alertas reltados y el ahorro de insecticida y claro los datos personales que fue registrado : 
-<img src="./assets/img/wireframerWeb011.png" alt="WireFrame Web app" width="300" /> 
+<img src="assets/cap5/wireframerWeb03.png" alt="WireFrame Web app" width="300" />
+
+Pantallas relacionadas a las alertas como la de alrestas activas,pendietes,resultados de hoy y el tiempo respuesta .Ademas de un historial de todos ellos:
+
+<img src="assets/cap5/wireframerWeb04.png" alt="WireFrame Web app" width="300" /> <img src="assets/cap5/wireframerWeb05.png" alt="Mock-up Web app" width="300" />
+
+Pantallas relacionadas a los datos de los sensores se visualizara el porcentade de cada uno de ellos con un grafico:
+
+<img src="assets/cap5/wireframerWeb06.png" alt="WireFrame Web app" width="300" /> <img src="assets/cap5/wireframerWeb07.png" alt="Mock-up Web app" width="300" /><img src="assets/cap5/wireframerWeb08.png" alt="Mock-up Web app" width="300" /><img src="assets/cap5/wireframerWeb09.png" alt="Mock-up Web app" width="300" />
+
+Pantallas relacionadas a las configuraciones donde tomas tus configuracion propias:
+
+<img src="assets/cap5/wireframerWeb010.png" alt="WireFrame Web app" width="300" />
+
+Pantallas relacionadas al perfil de usuario aqui visualizaras el perfil y los datos de dais activadasm sesosres configrados, alertas reltados y el ahorro de insecticida y claro los datos personales que fue registrado :
+
+<img src="assets/cap5/wireframerWeb011.png" alt="WireFrame Web app" width="300" />
 
 ### 5.4.4. Applications User Flow Diagrams
 
 En esta sección, se presentan los wireflows de la aplicación web guiándose de las historias de usuario:
 
 Usar Goal: Como usuario, quiero poder registrarme en la aplicación para acceder a las funcionalidades disponibles.
-<img src="./assets/img/DiagramWireframer03.png" alt="WireFrame Web app" width="300" /> 
+
+<img src="assets/cap5/DiagramWireframer03.png" alt="WireFrame Web app" width="300" />
 
 En esta sección, se presentan los wireflows de la aplicación web guiándose de las historias de usuario:
 
 Usar Goal: Como usuario, quiero poder visualizar con graficso cada aparatode los de sensores.
 
-<img src="./assets/img/DiagramWireframer01.png" alt="WireFrame Web app" width="300" /> 
+<img src="assets/cap5/DiagramWireframer01.png" alt="WireFrame Web app" width="300" />
 
 En esta sección, se presentan los wireflows de la aplicación web guiándose de las historias de usuario:
 
-Usar Goal: Como usuario, quiero poder visualizar los datos captados de los sensores 
+Usar Goal: Como usuario, quiero poder visualizar los datos captados de los sensores
 y asi poder tomar represarias sobre ellos
 
-<img src="./assets/img/DiagramWireframer02.png" alt="WireFrame Web app" width="300" /> 
+<img src="assets/cap5/DiagramWireframer02.png" alt="WireFrame Web app" width="300" />
 
 En esta sección, se presentan los wireflows de la aplicación web guiándose de las historias de usuario:
 
 Usar Goal: Como usuario, quiero poder visualizar los dashboard que se tiene en la web
 
-<img src="./assets/img/DiagramWireframer0.png" alt="WireFrame Web app" width="300" /> 
-
+<img src="assets/cap5/DiagramWireframer0.png" alt="WireFrame Web app" width="300" />
 
 ## 5.5. Applications Prototyping
+
 En esta sección, se puede acceder al prototipo en la herramienta Figma. Asismismo se pueden evidenciar los principios de arquitectura de información,
 esto hace que la aplicación se vea lo más eficiente posible.
-Principio de elección: Procuramos que la aplicación web  posea una cantidad de secciones a todo momento, por lo que se cuenta con la barra
+Principio de elección: Procuramos que la aplicación web posea una cantidad de secciones a todo momento, por lo que se cuenta con la barra
 superior e inferior siempre en la aplicación con 4 secciones, los cuales podrá acceder a las funcionalidades rapidamente desde cualquier pantalla.
 Principio de divulgación: La información presentada se separa por partes, de tal manera que el usuario encuentre lo que desee. Esto se evidencia en
 los detalles al seleccionar un cultivo.
 
-<img src="./assets/img/Figma.png" alt="WireFrame Web app" width="300" /> 
+<img src="assets/cap5/Figma.png" alt="WireFrame Web app" width="300" />
 
-Link de video: [Ver video del Figma](https://upcedupe-my.sharepoint.com/:f:/g/personal/u20211d640_upc_edu_pe/EvW3EPDQFLpNjAy0wUX5_DAB8o0BFQr0plBacKRFbMxsKw?e=7cMWfU)
-
-
+Link de video: <a href="https://upcedupe-my.sharepoint.com/:f:/g/personal/u20211d640_upc_edu_pe/EvW3EPDQFLpNjAy0wUX5_DAB8o0BFQr0plBacKRFbMxsKw?e=7cMWfU">https://upcedupe-my.sharepoint.com/:f:/g/personal/u20211d640_upc_edu_pe/EvW3EPDQFLpNjAy0wUX5_DAB8o0BFQr0plBacKRFbMxsKw?e=7cMWfU</a>
 
 # Capítulo VI: Product Implementation, Validation & Deployment
 
@@ -2481,32 +2384,32 @@ A continuación se especifica cada uno de los productos de software, que utiliza
 
 #### Project Management
 
-| Producto de Software | Descripción                                                                                                         | Ruta de referencia o de descarga      |
-|----------------------|---------------------------------------------------------------------------------------------------------------------|---------------------------------------|
-| Trello               | Para el control del proyecto, asignación de tareas y actividades de cada integrante del equipo en base a User Stories. | https://www.trello.com/               |
-| Google Meet          | Plataforma virtual para realizar reuniones del grupo para coordinar y asignar actividades.                          | https://meet.google.com               |
+| Producto de Software | Descripción                                                                                                            | Ruta de referencia o de descarga |
+|----------------------|------------------------------------------------------------------------------------------------------------------------|----------------------------------|
+| Trello               | Para el control del proyecto, asignación de tareas y actividades de cada integrante del equipo en base a User Stories. | https://www.trello.com/          |
+| Google Meet          | Plataforma virtual para realizar reuniones del grupo para coordinar y asignar actividades.                             | https://meet.google.com          |
 
 #### Requirements Management
 
-| Producto de Software | Descripción                                                                 | Ruta de referencia o de descarga |
-|----------------------|-----------------------------------------------------------------------------|----------------------------------|
-| UXPressia            | Elaboración de User Personas, Empathy Maps, Journey Maps e Impact Maps.     | https://uxpressia.com/           |
-| Miro                 | Elaboración de As-Is y To-Be Scenario Maps.                                 | https://miro.com/                |
+| Producto de Software | Descripción                                                             | Ruta de referencia o de descarga |
+|----------------------|-------------------------------------------------------------------------|----------------------------------|
+| UXPressia            | Elaboración de User Personas, Empathy Maps, Journey Maps e Impact Maps. | https://uxpressia.com/           |
+| Miro                 | Elaboración de As-Is y To-Be Scenario Maps.                             | https://miro.com/                |
 
 #### Product UX/UI Design
 
-| Producto de Software | Descripción                                 | Ruta de referencia o de descarga |
-|----------------------|---------------------------------------------|----------------------------------|
+| Producto de Software | Descripción                                       | Ruta de referencia o de descarga |
+|----------------------|---------------------------------------------------|----------------------------------|
 | Figma                | Elaboración de Wireframes, Mock-ups y Prototypes. | https://www.figma.com            |
 
 #### Software Development
 
-| Producto de Software | Descripción                                                                                           | Ruta de referencia o de descarga              |
-|----------------------|-------------------------------------------------------------------------------------------------------|-----------------------------------------------|
-| IntelliJ IDEA        | Entorno de Desarrollo Integrado (IDE) para codificación y desarrollo del lado Backend de la solución. | https://www.jetbrains.com/idea/               |
-| Android Studio       | Entorno de Desarrollo Integrado (IDE) para codificación y desarrollo de la aplicación móvil.          | https://developer.android.com/studio          |
-| GIT                  | Almacenamiento y control de versiones de código.                                                      | https://git-scm.com                           |
-| GitHub               | Gestión de GIT en un repositorio común.                                                               | https://github.com                            |
+| Producto de Software | Descripción                                                                                           | Ruta de referencia o de descarga     |
+|----------------------|-------------------------------------------------------------------------------------------------------|--------------------------------------|
+| IntelliJ IDEA        | Entorno de Desarrollo Integrado (IDE) para codificación y desarrollo del lado Backend de la solución. | https://www.jetbrains.com/idea/      |
+| Android Studio       | Entorno de Desarrollo Integrado (IDE) para codificación y desarrollo de la aplicación móvil.          | https://developer.android.com/studio |
+| GIT                  | Almacenamiento y control de versiones de código.                                                      | https://git-scm.com                  |
+| GitHub               | Gestión de GIT en un repositorio común.                                                               | https://github.com                   |
 
 ---
 
@@ -2516,33 +2419,32 @@ Para el seguimiento de modificaciones en el desarrollo de nuestra solución, uti
 
 ### Organización
 
-| Organización            | URL                                      |
-|-------------------------|-------------------------------------------|
-| Solution-Development-IOT-Project   | [Solution-Development-IOT-Project ](https://github.com/Solution-Development-IOT-Project)  |
+| Organización                     | URL                                                                                                                   |
+|----------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| Solution-Development-IOT-Project | <a href="https://github.com/Solution-Development-IOT-Project">https://github.com/Solution-Development-IOT-Project</a> |
 
 Dentro de nuestra organización en GitHub se encuentran los **repositorios** correspondientes a cada uno de los productos a desarrollar.
 
 ### Repositorios por Producto
 
-| Producto                       | URL del Repositorio                                                                 |
-|--------------------------------|--------------------------------------------------------------------------------------|
-| Landing Page                   | [Solution-Development-IOT-Project-Landing-Page ](https://github.com/Solution-Development-IOT-Project/UniverseThings-LandingPage)                   |
-| Backend                        | [Solution-Development-IOT-Project/Backend  ](https://github.com/Solution-Development-IOT-Project/UniverseThings-Backend)                                   |
-| Mobile Application             | [hSolution-Development-IOT-Project/mobile  ](https://github.com/Solution-Development-IOT-Project/UniverseThings-Mobile-App)                   |
-| Frontend                       | [Solution-Development-IOT-Project-Application-Frontend](https://github.com/Solution-Development-IOT-Project/UniverseThings-Frontend)             |
+| Producto           | URL del Repositorio                                                                                                                        |
+|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+| Landing Page       | <a href="https://github.com/Solution-Development-IOT-Project/UniverseThings-LandingPage">Solution-Development-IOT-Project-Landing-Page</a> |
+| Backend            | <a href="https://github.com/Solution-Development-IOT-Project/UniverseThings-Backend">Solution-Development-IOT-Project-Backend</a>          |
+| Mobile Application | <a href="https://github.com/Solution-Development-IOT-Project/UniverseThings-Mobile-App">Solution-Development-IOT-Project-Mobile-App</a>    |
+| Frontend           | <a href="https://github.com/Solution-Development-IOT-Project/UniverseThings-Frontend">Solution-Development-IOT-Project-Frontend</a>        |
 
 ### Implementación de GitFlow
 
 Para el desarrollo del proyecto, implementaremos **GitFlow** propuesto por Vincent Driessen (“A successful Git branching model”) y lo aplicaremos en todos los repositorios que integran la solución. Para implementar GitFlow, crearemos las siguientes ramas de trabajo en cada repositorio:
 
-| Rama        | Propósito (resumen)                               |
-|-------------|----------------------------------------------------|
-| `main`      | Línea estable de producción                        |
-| `develop`   | Integración de nuevas funcionalidades              |
-| `feature/*` | Desarrollo de características aisladas             |
-| `release/*` | Preparación de versiones de lanzamiento            |
-| `hotfix/*`  | Correcciones críticas sobre producción             |
-
+| Rama        | Propósito (resumen)                     |
+|-------------|-----------------------------------------|
+| `main`      | Línea estable de producción             |
+| `develop`   | Integración de nuevas funcionalidades   |
+| `feature/*` | Desarrollo de características aisladas  |
+| `release/*` | Preparación de versiones de lanzamiento |
+| `hotfix/*`  | Correcciones críticas sobre producción  |
 
 ### Convenciones de Mensajes de Commit (Conventional Commits)
 
@@ -2550,41 +2452,39 @@ Aplicaremos **Conventional Commits** para los textos de cada commit en todas las
 
 **Estructura general del mensaje de commit:**
 
-| Elemento | Descripción                                                                 |
-|----------|------------------------------------------------------------------------------|
-| `type`   | Tipo de cambio (por ejemplo: `feat`, `fix`, `docs`, `style`, `refactor`, …) |
-| `scope`  | (Opcional) Alcance del cambio                                               |
-| `subject`| Descripción breve del cambio                                                |
+| Elemento  | Descripción                                                                 |
+|-----------|-----------------------------------------------------------------------------|
+| `type`    | Tipo de cambio (por ejemplo: `feat`, `fix`, `docs`, `style`, `refactor`, …) |
+| `scope`   | (Opcional) Alcance del cambio                                               |
+| `subject` | Descripción breve del cambio                                                |
 
 **Tipos usados (ejemplos):**
 
-| Tipo       | Uso                                                                 |
-|------------|---------------------------------------------------------------------|
-| `fix`      | Indica una corrección en el código base                             |
-| `feat`     | Introduce una nueva característica                                  |
-| `build`    | Cambios que afectan el sistema de build                             |
-| `chore`    | Tareas varias (sin afectar código de producción)                    |
-| `ci`       | Cambios de configuración de integración continua                    |
-| `docs`     | Cambios en documentación                                            |
-| `style`    | Formato y estilos (sin cambiar comportamiento)                      |
-| `refactor` | Reestructuración sin cambios funcionales                            |
-| `perf`     | Mejoras de rendimiento                                              |
-| `test`     | Agrega o corrige pruebas                                            |
+| Tipo       | Uso                                              |
+|------------|--------------------------------------------------|
+| `fix`      | Indica una corrección en el código base          |
+| `feat`     | Introduce una nueva característica               |
+| `build`    | Cambios que afectan el sistema de build          |
+| `chore`    | Tareas varias (sin afectar código de producción) |
+| `ci`       | Cambios de configuración de integración continua |
+| `docs`     | Cambios en documentación                         |
+| `style`    | Formato y estilos (sin cambiar comportamiento)   |
+| `refactor` | Reestructuración sin cambios funcionales         |
+| `perf`     | Mejoras de rendimiento                           |
+| `test`     | Agrega o corrige pruebas                         |
 
- 
 ### 6.1.3. Source Code Style Guide & Conventions
 
 Para el desarrollo de nuestra propuesta de solución, el equipo utilizará las convenciones estándar para cada lenguaje durante todo el ciclo de vida del proyecto y en todos los repositorios de trabajo. A continuación, se presentan las referencias para la nomenclatura de los elementos en cada lenguaje, procurando utilizar nomenclatura en inglés y seguir buenas prácticas de programación.
 
-| Lenguaje   | Referencias y Convenciones |
-|------------|----------------------------|
-| **HTML**   | - Utilizar la estructura de documento propia de HTML, especificando el `<!DOCTYPE html>`.<br>- Cerrar siempre las etiquetas de autocierre con `/>`.<br>- Utilizar minúsculas (“lowercase”) para los nombres de las etiquetas y atributos.<br>- Incluir atributos `alt` en las imágenes para describir su contenido.<br>- Mantener una indentación consistente en el código. |
-| **CSS**    | - Utilizar unidades relativas para definir el tamaño de las imágenes.<br>- Separar las palabras con guiones en lugar de espacios o subrayados.<br>- Preferir el uso de propiedades abreviadas cuando sea posible.<br>- Emplear nombres descriptivos para las clases y los identificadores. |
-| **JavaScript** | - Documentar el código de manera descriptiva.<br>- Utilizar nombres descriptivos para variables y funciones.<br>- Organizar el código en módulos y componentes. |
-| **Java**   | - Las clases e interfaces deben nombrarse con sustantivos en *CamelCase*.<br>- Organizar el código en módulos y componentes.<br>- Limitar la longitud de los métodos para que realicen una única función clara.<br>- Manejar adecuadamente las excepciones con mensajes o acciones concretas. |
-| **Kotlin** | - Los nombres de funciones, propiedades y variables locales deben comenzar con una letra minúscula (salvo funciones de fábrica).<br>- Los nombres de las clases deben ser frases nominales que expliquen su contexto.<br>- Evitar la creación de objetos innecesarios.<br>- Utilizar `lazy` para posponer la inicialización de propiedades hasta que sea necesaria.<br>- Los nombres de los paquetes deben escribirse en minúsculas, sin guiones bajos ni concatenar palabras usando *CamelCase*. |
-| **Gherkin**| - Usar la estructura **Given / When / Then / And** para escribir casos de prueba.<br>- Uso de archivos `.feature` para cada caso de prueba.<br>- Utilizar un **Feature** por funcionalidad del sistema.<br>- Describir escenarios de forma clara. |
-
+| Lenguaje       | Referencias y Convenciones                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **HTML**       | - Utilizar la estructura de documento propia de HTML, especificando el `<!DOCTYPE html>`.<br>- Cerrar siempre las etiquetas de autocierre con `/>`.<br>- Utilizar minúsculas (“lowercase”) para los nombres de las etiquetas y atributos.<br>- Incluir atributos `alt` en las imágenes para describir su contenido.<br>- Mantener una indentación consistente en el código.                                                                                                                       |
+| **CSS**        | - Utilizar unidades relativas para definir el tamaño de las imágenes.<br>- Separar las palabras con guiones en lugar de espacios o subrayados.<br>- Preferir el uso de propiedades abreviadas cuando sea posible.<br>- Emplear nombres descriptivos para las clases y los identificadores.                                                                                                                                                                                                        |
+| **JavaScript** | - Documentar el código de manera descriptiva.<br>- Utilizar nombres descriptivos para variables y funciones.<br>- Organizar el código en módulos y componentes.                                                                                                                                                                                                                                                                                                                                   |
+| **Java**       | - Las clases e interfaces deben nombrarse con sustantivos en _CamelCase_.<br>- Organizar el código en módulos y componentes.<br>- Limitar la longitud de los métodos para que realicen una única función clara.<br>- Manejar adecuadamente las excepciones con mensajes o acciones concretas.                                                                                                                                                                                                     |
+| **Kotlin**     | - Los nombres de funciones, propiedades y variables locales deben comenzar con una letra minúscula (salvo funciones de fábrica).<br>- Los nombres de las clases deben ser frases nominales que expliquen su contexto.<br>- Evitar la creación de objetos innecesarios.<br>- Utilizar `lazy` para posponer la inicialización de propiedades hasta que sea necesaria.<br>- Los nombres de los paquetes deben escribirse en minúsculas, sin guiones bajos ni concatenar palabras usando _CamelCase_. |
+| **Gherkin**    | - Usar la estructura **Given / When / Then / And** para escribir casos de prueba.<br>- Uso de archivos `.feature` para cada caso de prueba.<br>- Utilizar un **Feature** por funcionalidad del sistema.<br>- Describir escenarios de forma clara.                                                                                                                                                                                                                                                 |
 
 ### 6.1.4. Software Deployment Configuration
 
@@ -2593,73 +2493,73 @@ A continuación se detalla la configuración necesaria para el despliegue de cad
 #### Landing Page
 
 **Requisitos para realizar el despliegue**
-- Repositorio en la plataforma GitHub  
-- Tener todos los permisos necesarios para modificar el repositorio  
+
+- Repositorio en la plataforma GitHub
+- Tener todos los permisos necesarios para modificar el repositorio
 - Archivos con el código fuente de la Landing Page
 
 **Resultado del despliegue**
 
-![Evidencias despliegue 1](assets/image/DeployEvidence.png)
+<img src="assets/cap6/DeployEvidence.png" alt="Evidencias despliegue 1"/>
 
 ---
 
 ## 6.2. Landing Page, Services & Applications Implementation
 
-### 6.2.X. Sprint 1
+### 6.2.1. Sprint 1
 
-Se presenta la planificación del primer Sprint realizado por el equipo para el inicio del desarrollo de la solución UniverseThings. 
+Se presenta la planificación del primer Sprint realizado por el equipo para el inicio del desarrollo de la solución UniverseThings.
 
-| Campo                         | Valor                                                                                                   |
-|------------------------------|---------------------------------------------------------------------------------------------------------|
-| Sprint #                     | Sprint 1                                                                                                |
-| Sprint Planning Background   | Primer Sprint; no hay información previa.                                                               |
-| Date                         | 2025-10-2                                                                                              |
-| Time                         | 08:00 PM                                                                                                |
-| Location                     | Reunión virtual (Meet)                                                                                  |
-| Prepared By                  | Quispe Tipo, Godofredo / Riega Salas Jose Miguel/ Loarte Matos, Anthony Brahan/ Ruiz Torres, Erick Hernan/ Cipriano Chumbes, Bruce Andres|
-| Attendees                    | Quispe Tipo, Godofredo / Riega Salas Jose Miguel/ Loarte Matos, Anthony Brahan/ Ruiz Torres, Erick Hernan/ Cipriano Chumbes, Bruce Andres|
-| Sprint 1-1 Review Summary    | No se dispone de resúmenes ni resultados previos.                                                       |
-| Sprint 1-1 Retrospective     | Se destaca trabajo en equipo, organización y necesidad de investigar desarrollo en Android.             |
-| Sprint 1 Goal                | Creación de primera version de la landing page y web app frontend                                                         |
-| Hipótesis de Valor           | Generará confianza en los agricultores sobre la solución.                                                |
-| Criterio de Confirmación     | Pueden acceder a landing y frontend.                                      |
-| Sprint 1 Velocity            | 35 (Story Points aceptados)                                                                             |
-| Sum of Story Points          | 35                                                                                                      |
-
+| Campo                      | Valor                                                                                                                                     |
+|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
+| Sprint #                   | Sprint 1                                                                                                                                  |
+| Sprint Planning Background | Primer Sprint; no hay información previa.                                                                                                 |
+| Date                       | 2025-10-2                                                                                                                                 |
+| Time                       | 08:00 PM                                                                                                                                  |
+| Location                   | Reunión virtual (Meet)                                                                                                                    |
+| Prepared By                | Quispe Tipo, Godofredo / Riega Salas Jose Miguel/ Loarte Matos, Anthony Brahan/ Ruiz Torres, Erick Hernan/ Cipriano Chumbes, Bruce Andres |
+| Attendees                  | Quispe Tipo, Godofredo / Riega Salas Jose Miguel/ Loarte Matos, Anthony Brahan/ Ruiz Torres, Erick Hernan/ Cipriano Chumbes, Bruce Andres |
+| Sprint 1-1 Review Summary  | No se dispone de resúmenes ni resultados previos.                                                                                         |
+| Sprint 1-1 Retrospective   | Se destaca trabajo en equipo, organización y necesidad de investigar desarrollo en Android.                                               |
+| Sprint 1 Goal              | Creación de primera version de la landing page y web app frontend                                                                         |
+| Hipótesis de Valor         | Generará confianza en los agricultores sobre la solución.                                                                                 |
+| Criterio de Confirmación   | Pueden acceder a landing y frontend.                                                                                                      |
+| Sprint 1 Velocity          | 35 (Story Points aceptados)                                                                                                               |
+| Sum of Story Points        | 35                                                                                                                                        |
 
 ---
 
 ### 6.2.1.2. Sprint Backlog 1
-| User Story | Work-Item / Task | Título / Descripción (extracto)                                                                                                   | Estimación (h) | Assigned To        | Status     |
-|------------|-------------------|----------------------------------------------------------------------------------------------------------------------------------|----------------|--------------------|------------|
-| US027       | T01               | Crear barra de navegación — Diseñar e implementar barra con logo y enlaces a secciones clave                                    | 2              | Bruce Cipriano     | Done       |
-| US028       | T01               | Agregar información destacada — Misión, objetivo y beneficios en la landing                                                     | 3              | Jose Miguel        | Done       |
-| US029       | T01               | Crear footer informativo — Contacto, redes sociales y enlaces legales                                                           | 2              | Jose Miguel        | Done       |
-| US016       | T01               | Enviar un mensaje o consulta desde la landing page, para recibir más información sobre el producto.                             | 2              | Brice Cipriano     | Done       |
-| US017       | T01               | La landing page debe incluir una sección con al menos 3 testimonios con foto y nombre del agricultor/cooperativa.               | 2              | Godofredo Quispe   | To - do    |
-| US018       | T01               | La landing page debe mostrar tabla de precios o paquetes de suscripción, diferenciados por tipo de usuario.                     | 2              | Godofredo Quispe   | In-Process |
-| US020       | T01               | El sistema debe permitir la descarga de un PDF con información resumida del dispositivo y su uso.                               | 2              | Anthony loarte     | To - do    |
-| US21        | T01               | ofrecer un selector de idioma y traducir todos los textos de la interfaz.                                                       | 3              | Anthony loarte     | Done       |
-| US22        | T01               | ofrecer un selector de tema y recordar la preferencia del usuario.                                                              | 2              | Erick Ruiz         | Done       |
-| US012       | T01               | Visualización gráfica de datos — Página de gráficos (líneas, barras, calor) con filtros por rango y dispositivo                 | 6              | Erick Ruiz         | To - review    |
-| US013       | T01               | Exportación de reportes — Generar y descargar reportes en PDF/XLSX desde la Web App                                             | 4              | Anthony loarte     | To - review   |
-| US014       | T01               | Integración vía API — Endpoints seguros para datos históricos y en tiempo real                                                  | 6              | Godofredo Quispe   | In-Process |
-| US023       | T01               | Recuperar contraseña — Flujo de “olvidé mi contraseña” vía correo con enlace seguro                                             | 3              | Bruce Cipriano     | Done       |
-| US024       | T01               | Notificaciones de mantenimiento — Alerta cuando un sensor no reporta por X días                                                 | 3              | Godofredo Quispe   | To - do |
-| US025       | T01               | Historial de notificaciones — Listado con fecha, hora y tipo de evento                                                          | 2              | Jose Miguel        | To - review |
-| US026       | T01               | Perfil de usuario editable — Editar nombre, email y organización con validaciones                                               | 3              | Brice Cipriano     | Done       |
 
+| User Story | Work-Item / Task | Título / Descripción (extracto)                                                                                   | Estimación (h) | Assigned To      | Status      |
+|------------|------------------|-------------------------------------------------------------------------------------------------------------------|----------------|------------------|-------------|
+| US027      | T01              | Crear barra de navegación — Diseñar e implementar barra con logo y enlaces a secciones clave                      | 2              | Bruce Cipriano   | Done        |
+| US028      | T01              | Agregar información destacada — Misión, objetivo y beneficios en la landing                                       | 3              | Jose Miguel      | Done        |
+| US029      | T01              | Crear footer informativo — Contacto, redes sociales y enlaces legales                                             | 2              | Jose Miguel      | Done        |
+| US016      | T01              | Enviar un mensaje o consulta desde la landing page, para recibir más información sobre el producto.               | 2              | Brice Cipriano   | Done        |
+| US017      | T01              | La landing page debe incluir una sección con al menos 3 testimonios con foto y nombre del agricultor/cooperativa. | 2              | Godofredo Quispe | To - do     |
+| US018      | T01              | La landing page debe mostrar tabla de precios o paquetes de suscripción, diferenciados por tipo de usuario.       | 2              | Godofredo Quispe | In-Process  |
+| US020      | T01              | El sistema debe permitir la descarga de un PDF con información resumida del dispositivo y su uso.                 | 2              | Anthony loarte   | To - do     |
+| US21       | T01              | ofrecer un selector de idioma y traducir todos los textos de la interfaz.                                         | 3              | Anthony loarte   | Done        |
+| US22       | T01              | ofrecer un selector de tema y recordar la preferencia del usuario.                                                | 2              | Erick Ruiz       | Done        |
+| US012      | T01              | Visualización gráfica de datos — Página de gráficos (líneas, barras, calor) con filtros por rango y dispositivo   | 6              | Erick Ruiz       | To - review |
+| US013      | T01              | Exportación de reportes — Generar y descargar reportes en PDF/XLSX desde la Web App                               | 4              | Anthony loarte   | To - review |
+| US014      | T01              | Integración vía API — Endpoints seguros para datos históricos y en tiempo real                                    | 6              | Godofredo Quispe | In-Process  |
+| US023      | T01              | Recuperar contraseña — Flujo de “olvidé mi contraseña” vía correo con enlace seguro                               | 3              | Bruce Cipriano   | Done        |
+| US024      | T01              | Notificaciones de mantenimiento — Alerta cuando un sensor no reporta por X días                                   | 3              | Godofredo Quispe | To - do     |
+| US025      | T01              | Historial de notificaciones — Listado con fecha, hora y tipo de evento                                            | 2              | Jose Miguel      | To - review |
+| US026      | T01              | Perfil de usuario editable — Editar nombre, email y organización con validaciones                                 | 3              | Brice Cipriano   | Done        |
 
 ---
 
 ### 6.2.1.3. Development Evidence for Sprint Review
-| Repository                                     | Branch       | Commit Id | Commit Message                               | Committed on |
-|-----------------------------------------------|--------------|-----------|----------------------------------------------|--------------|
-| 2510-356-Solution-Development-IOT-Project-Landing-Page | main         | 1cc1d96  | initial commit                                | 19/7/2025   |
-| 2510-356-Solution-Development-IOT-Projecto-Landing-Page  | develop      | 135ccf8   | feat: tus cambios aquí                       | 1/10/2025   |
-| 2510-356-Solution-Development-IOT-Project-Landing-Page  | develop      | 403a699   | feat: tus cambios aquí                     | 1/10/2025   |
-| 2510-356-Solution-Development-IOT-Project-Landing-Page | develop      | 90089b1   | fix: descripción corta de lo que cambiaste   | 1/10/2025   |
 
+| Repository                                              | Branch  | Commit Id | Commit Message                             | Committed on |
+|---------------------------------------------------------|---------|-----------|--------------------------------------------|--------------|
+| 2510-356-Solution-Development-IOT-Project-Landing-Page  | main    | 1cc1d96   | initial commit                             | 19/7/2025    |
+| 2510-356-Solution-Development-IOT-Projecto-Landing-Page | develop | 135ccf8   | feat: tus cambios aquí                     | 1/10/2025    |
+| 2510-356-Solution-Development-IOT-Project-Landing-Page  | develop | 403a699   | feat: tus cambios aquí                     | 1/10/2025    |
+| 2510-356-Solution-Development-IOT-Project-Landing-Page  | develop | 90089b1   | fix: descripción corta de lo que cambiaste | 1/10/2025    |
 
 ---
 
@@ -2669,11 +2569,11 @@ En esta sección presentamos el resumen de lo alcanzado en este Sprint describie
 
 Landing Page:
 
-![Evidencias Sprint 1](assets/image/EvidenceN1.png)
+<img src="assets/cap6/EvidenceN1.png" alt="Evidencias Sprint 1"/>
 
-![Evidencias Sprint 1](assets/image/EvidenceN2.png)
+<img src="assets/cap6/EvidenceN2.png" alt="Evidencias Sprint 1"/>
 
-![Evidencias Sprint 1](assets/image/EvidenceN3.png)
+<img src="assets/cap6/EvidenceN3.png" alt="Evidencias Sprint 1"/>
 
 #### 6.2.1.6. Services Documentation Evidence for Sprint Review.
 
@@ -2685,54 +2585,55 @@ Landing Page:
 
 luego de tener la configuración terminada el proyecto deberia aparecer en github pages:
 
-![Evidencias despliegue 1](assets/image/DeployEvidence.png)
+<img src="assets/cap6/DeployEvidence.png" alt="Evidencias despliegue 1"/>
 
-![Evidencias despliegue 1](assets/image/DeployEvidence.png)
+<img src="assets/cap6/DeployEvidence.png" alt="Evidencias despliegue 1"/>
 
 Deployment:
 
-![Evidencias Sprint 1](assets/image/EvidenceN1.png)
-
+<img src="assets/cap6/EvidenceN1.png" alt="Evidencias Sprint 1"/>
 
 #### 6.2.X.8. Team Collaboration Insights during Sprint.
 
 Analíticos de colaboración y commits realizados en la plataforma GitHub, realizados por los
-miembros del equipo en desarrollo de cada producto asociado a nuestra solución:  
+miembros del equipo en desarrollo de cada producto asociado a nuestra solución:
 
 Report:
 
-![Evidencias Sprint 1](assets/image/EvidenceR.png)
+<img src="assets/cap6/EvidenceR.png" alt="Evidencias Sprint 1"/>
 
-![Evidencias Sprint 1](assets/image/EvidenceR2.png)
+<img src="assets/cap6/EvidenceR2.png" alt="Evidencias Sprint 1"/>
 
 Landing Page:
 
-![Evidencias Sprint 1](assets/image/EvidenceLanding.png)
-![Evidencias Sprint 1](assets/image/EvidenceLanding2.png)
+<img src="assets/cap6/EvidenceLanding.png" alt="Evidencias Sprint 1"/>
 
+<img src="assets/cap6/EvidenceLanding2.png" alt="Evidencias Sprint 1"/>
 
 #### 6.2.X.9. Team Collaboration Insights during Sprint.
 
 En el presente sprint se implementó la **Landing Page** y una **primera versión de la Web Application**.  
 A continuación, se muestra la tabla de actividades de todos los participantes:
 
-| Alumno | Actividad |
-|---------|------------|
-| **Cipriano Chumbes, Bruce Andres** | Diseño UI/UX general del sistema, desarrollo del prototipo en Figma y despliegue de la Landing Page. |
-| **Loarte Matos, Anthony Brahan** | Implementación del backend inicial (servicios y API), configuración del entorno y soporte en pruebas. |
-| **Riegas Salas, Jose Miguel** | Integración del backend con la base de datos y documentación técnica del Sprint 1. |
-| **Ruiz Torres, Erick Hernan** | Configuración del entorno DevOps (GitHub Actions y despliegue), soporte en validación del entorno. |
-| **Quispe Tipo, Godofredo** | Desarrollo del frontend de la Web Application y apoyo en las pruebas funcionales del sprint. |
-
+| Alumno                             | Actividad                                                                                             |
+|------------------------------------|-------------------------------------------------------------------------------------------------------|
+| **Cipriano Chumbes, Bruce Andres** | Diseño UI/UX general del sistema, desarrollo del prototipo en Figma y despliegue de la Landing Page.  |
+| **Loarte Matos, Anthony Brahan**   | Implementación del backend inicial (servicios y API), configuración del entorno y soporte en pruebas. |
+| **Riegas Salas, Jose Miguel**      | Integración del backend con la base de datos y documentación técnica del Sprint 1.                    |
+| **Ruiz Torres, Erick Hernan**      | Configuración del entorno DevOps (GitHub Actions y despliegue), soporte en validación del entorno.    |
+| **Quispe Tipo, Godofredo**         | Desarrollo del frontend de la Web Application y apoyo en las pruebas funcionales del sprint.          |
 
 <h2>Landing Page</h2>
-<img src="./assets/image/githubladig.png" alt="Landing - 1" style="max-width:100%;height:auto;">
-<img src="./assets/image/githubladig2.png" alt="Landing - 2" style="max-width:100%;height:auto;">
+
+<img src="assets/cap6/githubladig.png" alt="Landing - 1" style="max-width:100%;height:auto;">
+
+<img src="assets/cap6/githubladig2.png" alt="Landing - 2" style="max-width:100%;height:auto;">
 
 <h2>Web App</h2>
-<img src="./assets/image/githubweb.png" alt="Web App - 1" style="max-width:100%;height:auto;">
-<img src="./assets/image/githubweb2.png" alt="Web App - 2" style="max-width:100%;height:auto;">
 
+<img src="assets/cap6/githubweb.png" alt="Web App - 1" style="max-width:100%;height:auto;">
+
+<img src="assets/cap6/githubweb2.png" alt="Web App - 2" style="max-width:100%;height:auto;">
 
 ## 6.3. Validation Interviews.
 
@@ -2753,8 +2654,6 @@ A continuación, se muestra la tabla de actividades de todos los participantes:
 # Bibliografía
 
 # Anexos
-
-<h1>Anexos</h1>
 
 <ul>
   <li>
