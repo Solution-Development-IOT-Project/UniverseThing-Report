@@ -1425,11 +1425,99 @@ Pantallas relacionadas al perfil de usuario aqui visualizaras el perfil y los da
 
 ### 5.4.2. Applications Wireflow Diagrams
 
+En esta sección, se presentan los wireflows de la aplicación web guiándose de las historias de usuario:
+
+Usar Goal: Como usuario, quiero poder registrarme en la aplicación para acceder a las funcionalidades disponibles.
+<img src="./assets/img/DiagramWireframer3.png" alt="WireFrame Web app" width="300" /> 
+
+En esta sección, se presentan los wireflows de la aplicación web guiándose de las historias de usuario:
+
+Usar Goal: Como usuario, quiero poder visualizar con graficso cada aparatode los de sensores.
+
+<img src="./assets/img/DiagramWireframer1.png" alt="WireFrame Web app" width="300" /> 
+
+En esta sección, se presentan los wireflows de la aplicación web guiándose de las historias de usuario:
+
+Usar Goal: Como usuario, quiero poder visualizar los datos captados de los sensores 
+y asi poder tomar represarias sobre ellos
+
+<img src="./assets/img/DiagramWireframer2.png" alt="WireFrame Web app" width="300" /> 
+
+En esta sección, se presentan los wireflows de la aplicación web guiándose de las historias de usuario:
+
+Usar Goal: Como usuario, quiero poder visualizar los dashboard que se tiene en la web
+
+<img src="./assets/img/DiagramWireframer.png" alt="WireFrame Web app" width="300" /> 
+
+
 ### 5.4.3. Applications Mock-ups
+Web Application
+Pantallas relacionadas al inicio de sesión y registro de usuario:
+
+<img src="./assets/img/wireframerWeb0.png" alt="WireFrame Web app" width="300" /> <img src="./assets/img/wireframerWeb01
+.png" alt="Mock-up Web app" width="300" />
+
+Pantallas relacionadas al dashboard donde se podra visualizar la temperatura , luminocidad y la deteccion de plagas  con un grafico  intuitivo:
+
+
+<img src="./assets/img/wireframerWeb02.png" alt="WireFrame Web app" width="300" />
+
+Pantallas relacionadas a los dispositivos donde se podra visualizar todos los sensores que tiene activados o desactivados:
+<img src="./assets/img/wireframerWeb03.png" alt="WireFrame Web app" width="300" />
+Pantallas relacionadas a las alertas como la de alrestas activas,pendietes,resultados de hoy y el tiempo respuesta .Ademas de un historial de todos ellos:
+<img src="./assets/img/wireframerWeb04.png" alt="WireFrame Web app" width="300" /> <img src="./assets/img/wireframerWeb05
+.png" alt="Mock-up Web app" width="300" />
+Pantallas relacionadas a los datos de los sensores se visualizara el porcentade de cada uno de ellos con un grafico:
+<img src="./assets/img/wireframerWeb06.png" alt="WireFrame Web app" width="300" /> <img src="./assets/img/wireframerWeb07
+.png" alt="Mock-up Web app" width="300" /><img src="./assets/img/wireframerWeb08
+.png" alt="Mock-up Web app" width="300" /><img src="./assets/img/wireframerWeb09
+.png" alt="Mock-up Web app" width="300" />
+Pantallas relacionadas a las configuraciones donde tomas  tus configuracion propias:
+<img src="./assets/img/wireframerWeb010.png" alt="WireFrame Web app" width="300" /> 
+
+Pantallas relacionadas al perfil de usuario aqui visualizaras el perfil y los datos de dais activadasm sesosres configrados, alertas reltados y el ahorro de insecticida y claro los datos personales que fue registrado : 
+<img src="./assets/img/wireframerWeb011.png" alt="WireFrame Web app" width="300" /> 
 
 ### 5.4.4. Applications User Flow Diagrams
 
+En esta sección, se presentan los wireflows de la aplicación web guiándose de las historias de usuario:
+
+Usar Goal: Como usuario, quiero poder registrarme en la aplicación para acceder a las funcionalidades disponibles.
+<img src="./assets/img/DiagramWireframer03.png" alt="WireFrame Web app" width="300" /> 
+
+En esta sección, se presentan los wireflows de la aplicación web guiándose de las historias de usuario:
+
+Usar Goal: Como usuario, quiero poder visualizar con graficso cada aparatode los de sensores.
+
+<img src="./assets/img/DiagramWireframer01.png" alt="WireFrame Web app" width="300" /> 
+
+En esta sección, se presentan los wireflows de la aplicación web guiándose de las historias de usuario:
+
+Usar Goal: Como usuario, quiero poder visualizar los datos captados de los sensores 
+y asi poder tomar represarias sobre ellos
+
+<img src="./assets/img/DiagramWireframer02.png" alt="WireFrame Web app" width="300" /> 
+
+En esta sección, se presentan los wireflows de la aplicación web guiándose de las historias de usuario:
+
+Usar Goal: Como usuario, quiero poder visualizar los dashboard que se tiene en la web
+
+<img src="./assets/img/DiagramWireframer0.png" alt="WireFrame Web app" width="300" /> 
+
+
 ## 5.5. Applications Prototyping
+En esta sección, se puede acceder al prototipo en la herramienta Figma. Asismismo se pueden evidenciar los principios de arquitectura de información,
+esto hace que la aplicación se vea lo más eficiente posible.
+Principio de elección: Procuramos que la aplicación web  posea una cantidad de secciones a todo momento, por lo que se cuenta con la barra
+superior e inferior siempre en la aplicación con 4 secciones, los cuales podrá acceder a las funcionalidades rapidamente desde cualquier pantalla.
+Principio de divulgación: La información presentada se separa por partes, de tal manera que el usuario encuentre lo que desee. Esto se evidencia en
+los detalles al seleccionar un cultivo.
+
+<img src="./assets/img/Figma.png" alt="WireFrame Web app" width="300" /> 
+
+Link de video: [Ver video del Figma](https://upcedupe-my.sharepoint.com/:f:/g/personal/u20211d640_upc_edu_pe/EvW3EPDQFLpNjAy0wUX5_DAB8o0BFQr0plBacKRFbMxsKw?e=7cMWfU)
+
+
 
 # Capítulo VI: Product Implementation, Validation & Deployment
 
