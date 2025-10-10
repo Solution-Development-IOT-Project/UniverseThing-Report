@@ -905,16 +905,16 @@ Se presenta la planificación del primer Sprint realizado por el equipo para el 
 |------------------------------|---------------------------------------------------------------------------------------------------------|
 | Sprint #                     | Sprint 1                                                                                                |
 | Sprint Planning Background   | Primer Sprint; no hay información previa.                                                               |
-| Date                         | 2025-05-12                                                                                              |
+| Date                         | 2025-10-2                                                                                              |
 | Time                         | 08:00 PM                                                                                                |
 | Location                     | Reunión virtual (Meet)                                                                                  |
 | Prepared By                  | Quispe Tipo, Godofredo / Riega Salas Jose Miguel/ Loarte Matos, Anthony Brahan/ Ruiz Torres, Erick Hernan/ Cipriano Chumbes, Bruce Andres|
 | Attendees                    | Quispe Tipo, Godofredo / Riega Salas Jose Miguel/ Loarte Matos, Anthony Brahan/ Ruiz Torres, Erick Hernan/ Cipriano Chumbes, Bruce Andres|
 | Sprint 1-1 Review Summary    | No se dispone de resúmenes ni resultados previos.                                                       |
 | Sprint 1-1 Retrospective     | Se destaca trabajo en equipo, organización y necesidad de investigar desarrollo en Android.             |
-| Sprint 1 Goal                | Creación de primera version de la landing page                                                          |
-| Hipótesis de Valor           | Generará confianza en los estudiantes sobre la solución.                                                |
-| Criterio de Confirmación     | Pueden acceder a tests y usar funciones de orientación vocacional.                                      |
+| Sprint 1 Goal                | Creación de primera version de la landing page y web app frontend                                                         |
+| Hipótesis de Valor           | Generará confianza en los agricultores sobre la solución.                                                |
+| Criterio de Confirmación     | Pueden acceder a landing y frontend.                                      |
 | Sprint 1 Velocity            | 35 (Story Points aceptados)                                                                             |
 | Sum of Story Points          | 35                                                                                                      |
 
