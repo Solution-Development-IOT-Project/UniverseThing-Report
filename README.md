@@ -342,6 +342,8 @@ En el sector agrícola actual, los productores de papa se enfrentan a pérdidas 
 - **Hipótesis 06:** Creemos que las cooperativas son el canal de venta más efectivo. Sabremos que es correcto si el 50% de nuestras ventas del primer año provienen de este segmento.
 
 #### 1.2.2.4. Lean UX Canvas
+<img src="./imagenes/cap-1/Lean-UX-Canvas.jpg" alt="Lean UX Canvas">
+<br>
 
 ## 1.3. Segmentos objetivo
 
