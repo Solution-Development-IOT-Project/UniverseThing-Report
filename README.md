@@ -1,24 +1,25 @@
 <hr>
+<div align="center">
+  <img width=250 src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"/>
+</div>
 
-# <center>Informe de Trabajo Final</center>
 
-<h3 align="center"> Universidad Peruana de Ciencias Aplicadas </h3>
+
+<h2 align="center"> Universidad Peruana de Ciencias Aplicadas </h2>
 
 <h3 align="center"> Ingeniería de Software </h3>
 
 <h3 align="center">Ciclo 2025 - 2</h3>
 
-<div align="center">
-  <img width=250 src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"/>
-</div>
-
-<h1 align="center"> TP Report </h1>
-
-<h3 align="center"> Docente: Marco Antonio Leon Baca </h3>
-
 <h3 align="center"> 1ASI0572 - Desarrollo de Soluciones IoT </h3>
 
 <h4 align="center"> NRC: 3414 </h4>
+
+
+
+<h3 align="center"> Docente: Marco Antonio Leon Baca </h3>
+
+# <center>Informe de Trabajo Final</center>
 
 <h3> Startup: UniverseThing </h3>
 
@@ -28,13 +29,13 @@
 
 <div align="center">
 
-| Member                         |    Code    |
-|:-------------------------------|:----------:|
-| Cipriano Chumbes, Bruce Andres | U20211D640 |
-| Loarte Matos, Anthony Brahan   | U20211D563 |
-| Riegas Salas, Jose Miguel      | U202211254 |
-| Ruiz Torres, Erick Hernan      | U202118946 |
-| Quispe Tipo, Godofredo         | U202120772 |
+|    Code    |             Member              |
+|:----------:|:-------------------------------:|
+| U20211D640 | Cipriano Chumbes, Bruce Andres  |
+| U20211D563 |  Loarte Matos, Anthony Brahan   |
+| U202211254 |    Riegas Salas, Jose Miguel    |
+| U202118946 |    Ruiz Torres, Erick Hernan    |
+| U202120772 |     Quispe Tipo, Godofredo      |
 
 </div>
 
