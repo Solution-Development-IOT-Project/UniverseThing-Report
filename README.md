@@ -2594,7 +2594,7 @@ Deployment:
 
 <img src="assets/cap6/EvidenceN1.png" alt="Evidencias Sprint 1"/>
 
-#### 6.2.X.8. Team Collaboration Insights during Sprint.
+#### 6.2.1.8. Team Collaboration Insights during Sprint.
 
 Analíticos de colaboración y commits realizados en la plataforma GitHub, realizados por los
 miembros del equipo en desarrollo de cada producto asociado a nuestra solución:
@@ -2611,7 +2611,7 @@ Landing Page:
 
 <img src="assets/cap6/EvidenceLanding2.png" alt="Evidencias Sprint 1"/>
 
-#### 6.2.X.9. Team Collaboration Insights during Sprint.
+#### 6.2.1.9. Team Collaboration Insights during Sprint.
 
 En el presente sprint se implementó la **Landing Page** y una **primera versión de la Web Application**.  
 A continuación, se muestra la tabla de actividades de todos los participantes:
@@ -2636,15 +2636,30 @@ A continuación, se muestra la tabla de actividades de todos los participantes:
 
 <img src="assets/cap6/githubweb2.png" alt="Web App - 2" style="max-width:100%;height:auto;">
 
-## 6.3. Validation Interviews.
 
+
+
+
+
+
+### 6.2.2. Sprint 2
+### 6.2.2.1.Sprint Planning 2.
+### 6.2.2.2.Aspect Leaders and Collaborators.
+### 6.2.2.3.Sprint Backlog 2.
+### 6.2.2.4.Development Evidence for Sprint Review.
+### 6.2.2.5.Testing Suite Evidence for Sprint Review.
+### 6.2.2.6.Execution Evidence for Sprint Review.
+### 6.2.2.7.Services Documentation Evidence for Sprint Review.
+### 6.2.2.8.Software Deployment Evidence for Sprint Review.
+### 6.2.2.9.Team Collaboration Insights during Sprint.
+### 6.3. Validation Interviews.
 ### 6.3.1. Diseño de Entrevistas.
-
 ### 6.3.2. Registro de Entrevistas.
-
 ### 6.3.3. Evaluaciones según heurísticas.
+### 6.4. Video About-the-Product.
 
-## 6.4. Video About-the-Product.
+
+
 
 # Conclusiones
 
