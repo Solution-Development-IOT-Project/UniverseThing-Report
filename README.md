@@ -2667,8 +2667,6 @@ Se presenta la planificación del segundo Sprint realizado por el equipo para co
 | Sprint 2 Velocity          | 39 (Story Points aceptados)                                                                                                                                                                                                       |
 | Sum of Story Points        | 39                                                                                                                                                                                                                                |
 
----
-
 ### 6.2.2.2. Aspect Leaders and Collaborators.
 
 | Aspecto / Módulo                           | Líder                          | Colaboradores                                                                                           | Descripción                                                                                                           |
@@ -2679,7 +2677,6 @@ Se presenta la planificación del segundo Sprint realizado por el equipo para co
 | QA & Testing Suite                        | Quispe Tipo, Godofredo         | Cipriano Chumbes, Bruce Andres / Ruiz Torres, Erick Hernan                                            | Definición y ejecución de pruebas funcionales, integración y revisión de criterios de aceptación por User Story.       |
 | DevOps & Deployment                       | Ruiz Torres, Erick Hernan      | Loarte Matos, Anthony Brahan                                                                           | Configuración de Docker, entornos de despliegue, scripts de arranque y soporte a despliegue de backend y frontend.     |
 
----
 
 ### 6.2.2.3. Sprint Backlog 2.
 
@@ -2699,139 +2696,34 @@ En este Sprint se seleccionaron historias orientadas a **instalación/configurac
 | US012      | T01              | Visualización gráfica (líneas/barras) de datos históricos para comparar sensores y periodos.                                   | 10             | Bruce Cipriano     | Done       |
 | US014      | T01              | Integración vía API entre backend UniverseThings, Web Application y Mobile Application para lectura/escritura de datos IoT.   | 12             | Anthony Loarte     | Done       |
 
-> Nota: Los Story Points asociados a estas User Stories suman **39 puntos**, coherentes con la capacidad planeada para el Sprint 2.
-
----
 
 ### 6.2.2.4. Development Evidence for Sprint Review.
 
-Durante el Sprint 2 se desarrollaron las siguientes funcionalidades clave:
+En la siguiente tabla se presentan los principales commits realizados durante el Sprint 2 en los repositorios involucrados en el MVP full-stack de UniverseThings.
 
-- **Backend – “Solution-Development-IOT-Project-Backend”**  
-  - Implementación de endpoints REST para:
-    - Gestión de fincas, parcelas y zonas de cultivo.
-    - Registro de sensores y actuadores (US001, US002, US003).
-    - Registro y consulta de mediciones y alertas (US004, US005, US006).
-    - Evaluación de reglas de automatización y disparo de acciones (US007, US008, US009).
-  - Organización del código en capas (routers, services, repositories, schemas) alineadas al diseño de arquitectura definido en el capítulo de arquitectura.
-  - Manejo de autenticación/autorización básica mediante JWT para asegurar acceso a los recursos.
+| Repository                                                   | Branch   | Commit Id | Commit Message                                                            | Committed on |
+|--------------------------------------------------------------|----------|-----------|----------------------------------------------------------------------------|--------------|
+| 2510-356-Solution-Development-IOT-Project-Backend            | develop  | a13f2c9   | feat: gestión de fincas, parcelas y zonas de cultivo (US001)              | 18/10/2025   |
+| 2510-356-Solution-Development-IOT-Project-Backend            | develop  | f47b9e2   | feat: registro de sensores y actuadores (US002, US003)                    | 19/10/2025   |
+| 2510-356-Solution-Development-IOT-Project-Backend            | develop  | c89d4a1   | feat: mediciones, alertas y reglas de automatización (US004, US007, US008, US009) | 20/10/2025   |
+| 2510-356-Solution-Development-IOT-Project-Backend            | develop  | d20ac77   | refactor: separación de routers, services y repositories                  | 21/10/2025   |
+| 2510-356-Solution-Development-IOT-Project-Frontend           | develop  | e31b7f5   | feat: dashboard de monitoreo en tiempo real (US005)                       | 19/10/2025   |
+| 2510-356-Solution-Development-IOT-Project-Frontend           | develop  | 9bc4e08   | feat: gráficas históricas y filtros por sensor/parcela (US012)           | 20/10/2025   |
+| 2510-356-Solution-Development-IOT-Project-Frontend           | develop  | 7da92c3   | feat: formularios de registro de sensores y umbrales (US002, US003, US008) | 21/10/2025   |
+| 2510-356-Solution-Development-IOT-Project-Mobile-App         | develop  | 4f7c9e3   | feat: pantallas de login y selección de finca                             | 19/10/2025   |
+| 2510-356-Solution-Development-IOT-Project-Mobile-App         | develop  | 6d8b0a4   | feat: monitoreo móvil y override de automatizaciones (US009)              | 21/10/2025   |
+| 2510-356-Solution-Development-IOT-Project-Mobile-App         | develop  | b52e1d9   | fix: ajustes de consumo de API y manejo de estados                        | 22/10/2025   |
 
-- **Web Application – “Solution-Development-IOT-Project-Frontend”**  
-  - Creación del **dashboard principal** con tarjetas y gráficas para visualizar en tiempo real las lecturas de los sensores (US005, US012).
-  - Formularios para registrar sensores, actuadores y configurar umbrales de alerta (US002, US003, US008).
-  - Vistas de detalle de finca/parcela con listado de dispositivos y estado de las automatizaciones.
-
-- **Mobile Application – “Solution-Development-IOT-Project-Mobile-App”**  
-  - Implementación de pantallas de **login**, selección de finca y visualización rápida de mediciones por sensor.
-  - Acciones rápidas para override de automatizaciones (encender/apagar actuadores) desde el dispositivo móvil (US009).
-  - Consumo de los mismos endpoints del backend que la Web App, garantizando consistencia de datos.
-
-Los cambios se gestionaron en GitHub mediante ramas `feature/*` y PRs revisados por al menos un integrante adicional del equipo.
-
----
 
 ### 6.2.2.5. Testing Suite Evidence for Sprint Review.
 
-Para este Sprint se ejecutó una combinación de pruebas automatizadas y manuales:
-
-- **Backend**
-  - Pruebas unitarias sobre servicios de:
-    - Registro de sensores y actuadores.
-    - Evaluación de reglas de umbrales y generación de alertas.
-  - Pruebas de integración (colección Postman) para verificar:
-    - Flujo de autenticación.
-    - Registro de finca → registro de sensor → envío de medición → generación de alerta.
-  - Validación de códigos HTTP, estructura de respuestas JSON y manejo de errores en escenarios nominales y de fallo.
-
-- **Web Application**
-  - Pruebas funcionales de UI:
-    - Alta/modificación de dispositivos.
-    - Configuración de umbrales y verificación de alertas en el dashboard.
-    - Visualización de gráficas históricas y filtros por fecha/parcela.
-  - Pruebas exploratorias en distintos navegadores de escritorio (Chrome, Edge).
-
-- **Mobile Application**
-  - Pruebas manuales en emulador y dispositivo Android real:
-    - Inicio de sesión y selección de finca.
-    - Visualización de datos en tiempo casi real.
-    - Override manual de automatizaciones.
-
-Los resultados de las pruebas se consolidaron en una matriz interna, marcando como **pendientes** dos hallazgos menores asociados a US006 (reporte histórico) y US007 (reglas complejas de automatización), que se mantuvieron en estado “To - review” en el Sprint Backlog.
-
----
-
 ### 6.2.2.6. Execution Evidence for Sprint Review.
-
-Durante la Review del Sprint 2 se ejecutaron los siguientes **flujos end-to-end**:
-
-1. **Flujo de monitoreo básico (Web Application)**  
-   - El usuario se autentica en la Web App.  
-   - Crea una finca y registra sensores simulados de temperatura y humedad.  
-   - Envía mediciones de prueba desde una herramienta de simulación / script.  
-   - Visualiza los datos en el dashboard y en las gráficas históricas.
-
-2. **Flujo de alertas y automatización (Backend + Web Application)**  
-   - Se configuran umbrales de temperatura para una parcela específica.  
-   - Se envían mediciones que superan el umbral, generando alertas visibles en las interfaces web.  
-   - Se verifica la activación de una automatización de riego/aspersores según la regla parametrizada.
-
-3. **Flujo móvil (Mobile Application + Backend)**  
-   - El usuario se autentica en la Mobile App.  
-   - Consulta el estado de sensores y alertas de la misma finca configurada en la Web App.  
-   - Realiza un override manual de un actuador desde el móvil y se verifica la actualización del estado en el backend.
-
-Las demostraciones se realizaron contra el backend corriendo en un entorno de desarrollo común (Docker Compose / servidor de pruebas).
-
----
 
 ### 6.2.2.7. Services Documentation Evidence for Sprint Review.
 
-Se actualizó la documentación técnica y funcional de los servicios:
-
-- Generación y revisión de la **documentación OpenAPI (Swagger)** para todos los endpoints del backend, incluyendo ejemplos de request/response.
-- Actualización del **README** del repositorio Backend con:
-  - Requerimientos de entorno.
-  - Pasos para levantar la API (localmente y vía Docker).
-  - Descripción de endpoints clave para sensores, mediciones, alertas y automatizaciones.
-- Creación y compartición de una colección de **Postman** con variables de entorno para backend local y backend desplegado.
-- Actualización del documento de requisitos para trazar cada User Story (US001–US009, US012, US014) con los endpoints implementados y vistas web/móviles asociadas.
-
----
-
 ### 6.2.2.8. Software Deployment Evidence for Sprint Review.
 
-En este Sprint se avanzó en el despliegue y configuración de los componentes:
-
-- **Backend**
-  - Configuración de contenedores Docker para la API y la base de datos.
-  - Scripts de despliegue para un servicio de hosting (por ejemplo, plataforma en la nube o servidor académico) en entorno de pruebas.
-  - Verificación de conectividad externa desde Web y Mobile Application al backend desplegado.
-
-- **Web Application**
-  - Build de la aplicación frontend y despliegue en un entorno similar al de producción (por ejemplo, servicio de hosting estático) apuntando al backend de pruebas.
-  - Validación de rutas, carga de recursos estáticos y comunicación con la API.
-
-- **Mobile Application**
-  - Generación de archivo APK de debug para instalación en dispositivos Android del equipo.
-  - Pruebas de conectividad remota contra el backend desplegado y validación de flujos principales (login, monitoreo, override).
-
-Los pasos de despliegue se documentaron en la sección 6.1.4 (Software Deployment Configuration) y en los README de cada repositorio.
-
----
-
 ### 6.2.2.9. Team Collaboration Insights during Sprint.
-
-En el presente Sprint se implementó el **MVP full-stack** de UniverseThings: backend IoT, Web Application con dashboard de monitoreo y primera versión operativa de la Mobile Application. A continuación, se resumen las principales actividades de cada integrante:
-
-| Alumno                             | Actividad principal durante el Sprint 2                                                                                                                      |
-|------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Cipriano Chumbes, Bruce Andres** | Desarrollo de vistas de dashboard y gráficas (US005, US012) en la Web Application, ajuste de UX/UI para configuración de umbrales y soporte en pruebas funcionales web.                           |
-| **Loarte Matos, Anthony Brahan**   | Implementación de endpoints del backend para gestión de dispositivos, mediciones y automatizaciones (US001, US003, US007, US014) y soporte en despliegue y simulación de datos IoT.              |
-| **Riegas Salas, Jose Miguel**      | Integración de flujos de registro de finca/sensores (US002) y generación de reportes históricos (US006), además de documentación técnica de servicios y apoyo en pruebas de integración.         |
-| **Ruiz Torres, Erick Hernan**      | Configuración de entornos, Docker y pipelines de CI/CD para backend y frontend; implementación y validación de alertas y override manual desde web/móvil (US004, US009).                         |
-| **Quispe Tipo, Godofredo**         | Desarrollo de pantallas de configuración de umbrales y detalle de parcela (US008), refactor de componentes de UI y ejecución de pruebas funcionales de extremo a extremo en Web y Mobile Application. |
-
-Con este Sprint 2, el equipo deja listo un **MVP funcional** sobre el cual se podrán incorporar capacidades avanzadas (detección de plagas con visión artificial, optimización de reglas, analítica avanzada, etc.) en los siguientes Sprints.
 
 ### 6.3. Validation Interviews.
 ### 6.3.1. Diseño de Entrevistas.
