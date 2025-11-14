@@ -2717,16 +2717,46 @@ En la siguiente tabla se presentan los principales commits realizados durante el
 | 2510-356-Solution-Development-IOT-Project-Mobile-App         | develop  | b52e1d9   | fix: ajustes de consumo de API y manejo de estados                        | 22/10/2025   |
 
 
-### 6.2.2.5. Testing Suite Evidence for Sprint Review.
-
 ### 6.2.2.6. Execution Evidence for Sprint Review.
+En esta sección presentamos el resumen de lo alcanzado en este Sprint describiendo la visualización y navegación de las principales vistas implementadas para nuestra solución siendo el primer Sprint y nuestro Producto Backlog y el desarrollo descrito en nuestro Sprint Backlog.
+
+Mobile App:
+
+<img src="assets/cap6/MobileEvidence1.png" alt="Evidencias Sprint 2"/>
+
+<img src="assets/cap6/MobileEvidence2.png" alt="Evidencias Sprint 2"/>
+
+<img src="assets/cap6/MobileEvidence3.png" alt="Evidencias Sprint 2"/>
+
+<img src="assets/cap6/MobileEvidence4.png" alt="Evidencias Sprint 2"/>
+
+<img src="assets/cap6/MobileEvidence5.png" alt="Evidencias Sprint 2"/>
+
+<img src="assets/cap6/MobileEvidence6.png" alt="Evidencias Sprint 2"/>
+
+<img src="assets/cap6/MobileEvidence7.png" alt="Evidencias Sprint 2"/>
+
 
 ### 6.2.2.7. Services Documentation Evidence for Sprint Review.
+
+No hubieron más servicios durante el desarrollo de este sprint
 
 ### 6.2.2.8. Software Deployment Evidence for Sprint Review.
 
 ### 6.2.2.9. Team Collaboration Insights during Sprint.
-En este Sprint se realizó la primera versión del backend, mobile application y Web Application
+
+Analíticos de colaboración y commits realizados en la plataforma GitHub, realizados por los
+miembros del equipo en desarrollo de cada producto asociado a nuestra solución:
+
+<img src="assets/cap6/Collaboration.png" alt="Evidencias Sprint 2"/>
+
+<img src="assets/cap6/Collaboration2.png" alt="Evidencias Sprint 2"/>
+
+<img src="assets/cap6/Collaboration3.png" alt="Evidencias Sprint 2"/>
+
+<img src="assets/cap6/Collaboration4.png" alt="Evidencias Sprint 2"/>
+
+<img src="assets/cap6/Collaboration5.png" alt="Evidencias Sprint 2"/>
 
 
 |             Alumno            |  Actividad   |
