@@ -63,6 +63,7 @@
 |   0.2   | 2025-10-09 | Desarrollo de los ítems: 6.1. Software Configuration Management.6.1.1. Software Development Environment Configuration.6.1.2. Source Code Management.6.1.3. Source Code Style Guide & Conventions.V1.034/456.1.4. Software Deployment Configuration.6.2. Landing Page, Services & Applications Implementation.6.2.1. Sprint 16.2.1.1. Sprint Planning 1.6.2.1.2. Aspect Leaders and Collaborators.6.2.1.3. Sprint Backlog 1.6.2.1.4. Development Evidence for Sprint Review.6.2.1.5. Testing Suite Evidence for Sprint Review.6.2.1.6. Execution Evidence for Sprint Review.6.2.1.7. Services Documentation Evidence for Sprint Review.6.2.1.8. Software Deployment Evidence for Sprint Review.6.2.1.9. Team Collaboration Insights during Sprint. |                                Jose Riegas                                 |
 |   0.1   | 2025-10-09 |                                                                                                                                                                                                                                                                                                                                                      Desarrollo de los ítems: landing Pages.                                                                                                                                                                                                                                                                                                                                                      |                      Anthony Loarte y Bruce Cipriano                       |
 |   0.1   | 2025-10-16 |                                                                                                                                                                                                                                                                                                                                                     Desarrollo de los ítems: Web application                                                                                                                                                                                                                                                                                                                                                      | Bruce Cipriano, Godofredo Quispe, Anthony Loarte, Erick Ruiz y Jose Riegas |
+|   0.1   | 2025-11-14 |                                                                                                                                                                                                                                                                                                                                                     Desarrollo de los ítems: Web application  , Mobile Apa y Backend                                                                                                                                                                                                                                                                                                                                                    | Bruce Cipriano, Godofredo Quispe, Anthony Loarte, Erick Ruiz y Jose Riegas |
 
 <br><br>
 
@@ -227,7 +228,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       Erick Ruiz <br>
         TB1:<br> Elabore el EventStorming, asignando roles para identificar eventos de dominio, comandos, reglas de negocio y vistas. Además, se promovió la participación equitativa del equipo en la definición de los Bounded Contexts y en la construcción de los diagramas C4, distribuyendo responsabilidades de acuerdo con las fortalezas de cada integrante.<br>
         TP1:<br> Se distribuyeron responsabilidades para el desarrollo de las secciones del capítulo, donde cada integrante lideró la creación de partes específicas del diseño, en mi caso realice (Style Guidelines, Information Architecture, Navigation Systems). Se promovió la revisión cruzada entre los miembros para garantizar coherencia visual y conceptual.<br>
-        TB2:<br>  <br>
+        TB2:<br>Elabore items de la aplicacion web , ademas del desarrollo del video de about the product ,tambien en el apoyo del desarrollo del documento.
+        <br>
         TF1: <br>  <br>
       Jose Riegas<br>
         TB1:<br> Para el desarrollo del proyecto he participado de manera activa tanto en la toma de decisiones como en la división de responsabilidades, de la misma manera he ayudado en responsabilidades de mis compañeros con el afán de entregar un mejor producto.<br> 
@@ -260,7 +262,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       Erick Ruiz<br>
         TB1:<br> Se establecieron reuniones semanales para revisar avances y definir metas alcanzables. Se usaron herramientas colaborativas como Miro y Structurizr para fomentar la participación activa y el consenso en decisiones de arquitectura.<br>
         TP1: <br>  El equipo planificó un cronograma de entregas intermedias para validar cada subcomponente del diseño UI/UX. Se fomentó la participación equitativa, la retroalimentación constante y la adaptación<br> 
-        TB2:<br>  <br> 
+        TB2:<br> Para esta entrega apoye en el desarrollo de la aplicaion web, de la misma forma para el desarrollo del video de about the product. <br> 
         TF1: <br>  <br>
       Jose Riegas<br>
         TB1:<br> Durante el proyecto fue de mi prioridad ayudar a mis compañeros en la realización de sus tareas, por este motivo he revisado todo el proyecto, corregido errores, como también aportado a la creación de ítems externos a mis responsabilidades asignadas.<br> 
@@ -2724,13 +2726,42 @@ En la siguiente tabla se presentan los principales commits realizados durante el
 ### 6.2.2.8. Software Deployment Evidence for Sprint Review.
 
 ### 6.2.2.9. Team Collaboration Insights during Sprint.
+En este Sprint se realizó la primera versión del backend, mobile application y Web Application
+
+
+|             Alumno            |  Actividad   |
+|------------|---------------------------------|
+| Cipriano Chumbes, Bruce Andres  |Desarrollo de backend y Web App|
+| Loarte Matos, Anthony Brahan   |Desarrollo de backend  y Mobbile App  |
+| Riegas Salas, Jose Miguel    |Desarrollo de Mobile App     |
+| Ruiz Torres, Erick Hernan    |Desarrollo de Web App   |
+| Quispe Tipo, Godofredo      |Desarrollo de documentacion y Web App |
+
+
+Backend
+
+<img src="assets/cap6/colaborations_sprint2_1.png" alt="Evidencias Sprint 1"/>
+
+Mobile App
+
+<img src="assets/cap6/colaborations_sprint2_2.png" alt="Evidencias Sprint 1"/>
+
+Mobile App
+
+<img src="assets/cap6/colaborations_sprint2_3.png" alt="Evidencias Sprint 1"/>
+
+
 
 ### 6.3. Validation Interviews.
 ### 6.3.1. Diseño de Entrevistas.
 ### 6.3.2. Registro de Entrevistas.
 ### 6.3.3. Evaluaciones según heurísticas.
 ### 6.4. Video About-the-Product.
+<img src="assets/cap6/videoabout.png" alt="Evidencias Sprint 1"/>
 
+Link deL video en Microsoft Stream:  https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118946_upc_edu_pe/IQD-gxgyOjeTRqRsUeLTKaOXAbD-pddv7X7LqoB7YoHYPUw?e=Gv5rZG
+
+Link de video en youtube:  https://youtu.be/pqpDH5zmjwk 
 
 
 
@@ -2757,4 +2788,12 @@ En la siguiente tabla se presentan los principales commits realizados durante el
       https://www.figma.com/design/5wUhtRHCzEBoJWnrsPvO8w/IOT-AGRO-PRE?node-id=0-1&t=flb0gsE9ZPUjDc0O-1
     </a>
   </li>
+
+  <li>
+    <strong>Link de Video de About the product:</strong>
+    <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118946_upc_edu_pe/IQD-gxgyOjeTRqRsUeLTKaOXAbD-pddv7X7LqoB7YoHYPUw?e=Gv5rZG" target="_blank">
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118946_upc_edu_pe/IQD-gxgyOjeTRqRsUeLTKaOXAbD-pddv7X7LqoB7YoHYPUw?e=Gv5rZG
+    </a>
+  </li>
+
 </ul>
