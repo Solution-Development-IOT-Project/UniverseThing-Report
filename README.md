@@ -2935,6 +2935,14 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 **Tabla Reusmen**
 
+| # | Problema | Escala deseveridad | Heurística/Principio violada(o |
+| 1 | __________ | __________ | __________ |
+| 2 | __________ | __________ | __________ |
+| 3 | __________ | __________ | __________ |
+| 4 | __________ | __________ | __________ |
+| 5 | __________ | __________ | __________ |
+| ... | ... | __________ | __________ |
+
 **Descripcion de Problemas**
 ### 6.4. Video About-the-Product.
 <img src="assets/cap6/videoabout.png" alt="Evidencias Sprint 1"/>
