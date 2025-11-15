@@ -2829,6 +2829,42 @@ Mobile App
 
 ### 6.3.2. Registro de Entrevistas.
 ### 6.3.3. Evaluaciones según heurísticas.
+
+**UX Heuristics & Principles Evaluation**
+
+Usability – Inclusive Design – Information Architecture
+
+- CARRERA: Ingeniería de Software
+- CURSO: Desarrollo de Soluciones IOT
+- RNC: 3414
+- PROFESOR: Marco Antonio Leon Baca
+- AUDITOR: Grupo 2
+- CLIENTE: 
+
+**SITE o APP A EVALUAR**
+
+Nombre de App: AgroPre
+
+**Tareas a evaluar:**
+
+- Registro de un usuario
+- Editar perfil de usuario
+- Recoleccion de datos
+- Vista de dispositivos IoT
+- Vista de reportes de los sistemas IOT
+- Agregar sistema IOT
+**ESCALA DE SEVERIDAD**
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+- Nivel 1: Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a menos que exista disponibilidad de tiempo.
+- Nivel 2: Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase.
+- Nivel 3: Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.
+- Nivel 4: Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.
+
+**Tabla Reusmen**
+
+**Descripcion de Problemas**
 ### 6.4. Video About-the-Product.
 <img src="assets/cap6/videoabout.png" alt="Evidencias Sprint 1"/>
 
