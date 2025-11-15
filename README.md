@@ -2743,6 +2743,8 @@ No hubieron más servicios durante el desarrollo de este sprint
 
 ### 6.2.2.8. Software Deployment Evidence for Sprint Review.
 
+No hubieron más deployments durante el desarrollo de este sprint
+
 ### 6.2.2.9. Team Collaboration Insights during Sprint.
 
 Analíticos de colaboración y commits realizados en la plataforma GitHub, realizados por los
