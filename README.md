@@ -2838,7 +2838,7 @@ Mobile App
 | **Entrevistado 1:** |                                                                                                                                                                                         |
 | **Edad:**           | 00 años                                                                                                                                                                                 |
 | **Ocupación:**      |                                                                                                                                                                                         |
-| **Imagen:**         | <img src="./assets/cap6//interview-validation-1-s1.png" alt="Imagen de Entrevista 1" width="85%">                                                                                       |
+| **Imagen:**         | <img src="./assets/cap6//interview-validation-1-s1.jpg" alt="Imagen de Entrevista 1" width="85%">                                                                                       |
 | **Descripción:**    |                                                                                                                                                                                         |
 | **Inicio: Min**     | 00:00                                                                                                                                                                                   |
 | **Finaliza: Min**   | 00:05                                                                                                                                                                                   |
@@ -2849,7 +2849,7 @@ Mobile App
 | **Entrevistado 2:** |                                                                                                                                                                                         |
 | **Edad:**           |                                                                                                                                                                                         |
 | **Ocupación:**      |                                                                                                                                                                                         |
-| **Imagen:**         | <img src="./assets/cap6/interview-validation-2-s1.png" alt="Imagen de Entrevista 2" width="85%">                                                                                        |
+| **Imagen:**         | <img src="./assets/cap6/interview-validation-2-s1.jpg" alt="Imagen de Entrevista 2" width="85%">                                                                                        |
 | **Descripción:**    |                                                                                                                                                                                         |
 | **Inicio: Min**     | 00:00                                                                                                                                                                                   |
 | **Finaliza: Min**   | 00:00                                                                                                                                                                                   |
@@ -2935,18 +2935,10 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 | 3 | | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
 | 4 | | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
 
-**Tabla Reusmen**
 
-| # | Problema | Escala deseveridad | Heurística/Principio violada(o |
-| 1 | __________ | __________ | __________ |
-| 2 | __________ | __________ | __________ |
-| 3 | __________ | __________ | __________ |
-| 4 | __________ | __________ | __________ |
-| 5 | __________ | __________ | __________ |
-| ... | ... | __________ | __________ |
 
-**Descripcion de Problemas**
 ### 6.4. Video About-the-Product.
+
 <img src="assets/cap6/videoabout.png" alt="Evidencias Sprint 1"/>
 
 Link deL video en Microsoft Stream:  https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118946_upc_edu_pe/IQD-gxgyOjeTRqRsUeLTKaOXAbD-pddv7X7LqoB7YoHYPUw?e=Gv5rZG
@@ -2960,6 +2952,10 @@ Link de video en youtube:  https://youtu.be/pqpDH5zmjwk
 ## Conclusiones y recomendaciones
 
 ## Video About-the-Team
+
+<img src="assets/cap6/video-team.png" alt="Evidencias Sprint 2"/>
+
+Link del video: <a href="https://upcedupe-my.sharepoint.com/:f:/g/personal/u202120772_upc_edu_pe/IgAy9Z-nCZljT7zVOulCWip2AdsU8bfRp-Z_dgP-rg8l58Q?e=gYcgQj" target="_blank">https://upcedupe-my.sharepoint.com/:f:/g/personal/u202120772_upc_edu_pe/IgAy9Z-nCZljT7zVOulCWip2AdsU8bfRp-Z_dgP-rg8l58Q?e=gYcgQj</a>
 
 # Bibliografía
 
