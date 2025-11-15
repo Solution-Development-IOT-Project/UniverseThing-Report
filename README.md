@@ -63,6 +63,7 @@
 |   0.2   | 2025-10-09 | Desarrollo de los ítems: 6.1. Software Configuration Management.6.1.1. Software Development Environment Configuration.6.1.2. Source Code Management.6.1.3. Source Code Style Guide & Conventions.V1.034/456.1.4. Software Deployment Configuration.6.2. Landing Page, Services & Applications Implementation.6.2.1. Sprint 16.2.1.1. Sprint Planning 1.6.2.1.2. Aspect Leaders and Collaborators.6.2.1.3. Sprint Backlog 1.6.2.1.4. Development Evidence for Sprint Review.6.2.1.5. Testing Suite Evidence for Sprint Review.6.2.1.6. Execution Evidence for Sprint Review.6.2.1.7. Services Documentation Evidence for Sprint Review.6.2.1.8. Software Deployment Evidence for Sprint Review.6.2.1.9. Team Collaboration Insights during Sprint. |                                Jose Riegas                                 |
 |   0.1   | 2025-10-09 |                                                                                                                                                                                                                                                                                                                                                      Desarrollo de los ítems: landing Pages.                                                                                                                                                                                                                                                                                                                                                      |                      Anthony Loarte y Bruce Cipriano                       |
 |   0.1   | 2025-10-16 |                                                                                                                                                                                                                                                                                                                                                     Desarrollo de los ítems: Web application                                                                                                                                                                                                                                                                                                                                                      | Bruce Cipriano, Godofredo Quispe, Anthony Loarte, Erick Ruiz y Jose Riegas |
+|   0.1   | 2025-11-14 |                                                                                                                                                                                                                                                                                                                                                     Desarrollo de los ítems: Web application  , Mobile Apa y Backend                                                                                                                                                                                                                                                                                                                                                    | Bruce Cipriano, Godofredo Quispe, Anthony Loarte, Erick Ruiz y Jose Riegas |
 
 <br><br>
 
@@ -227,7 +228,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       Erick Ruiz <br>
         TB1:<br> Elabore el EventStorming, asignando roles para identificar eventos de dominio, comandos, reglas de negocio y vistas. Además, se promovió la participación equitativa del equipo en la definición de los Bounded Contexts y en la construcción de los diagramas C4, distribuyendo responsabilidades de acuerdo con las fortalezas de cada integrante.<br>
         TP1:<br> Se distribuyeron responsabilidades para el desarrollo de las secciones del capítulo, donde cada integrante lideró la creación de partes específicas del diseño, en mi caso realice (Style Guidelines, Information Architecture, Navigation Systems). Se promovió la revisión cruzada entre los miembros para garantizar coherencia visual y conceptual.<br>
-        TB2:<br>  <br>
+        TB2:<br>Elabore items de la aplicacion web , ademas del desarrollo del video de about the product ,tambien en el apoyo del desarrollo del documento.
+        <br>
         TF1: <br>  <br>
       Jose Riegas<br>
         TB1:<br> Para el desarrollo del proyecto he participado de manera activa tanto en la toma de decisiones como en la división de responsabilidades, de la misma manera he ayudado en responsabilidades de mis compañeros con el afán de entregar un mejor producto.<br> 
@@ -260,7 +262,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       Erick Ruiz<br>
         TB1:<br> Se establecieron reuniones semanales para revisar avances y definir metas alcanzables. Se usaron herramientas colaborativas como Miro y Structurizr para fomentar la participación activa y el consenso en decisiones de arquitectura.<br>
         TP1: <br>  El equipo planificó un cronograma de entregas intermedias para validar cada subcomponente del diseño UI/UX. Se fomentó la participación equitativa, la retroalimentación constante y la adaptación<br> 
-        TB2:<br>  <br> 
+        TB2:<br> Para esta entrega apoye en el desarrollo de la aplicaion web, de la misma forma para el desarrollo del video de about the product. <br> 
         TF1: <br>  <br>
       Jose Riegas<br>
         TB1:<br> Durante el proyecto fue de mi prioridad ayudar a mis compañeros en la realización de sus tareas, por este motivo he revisado todo el proyecto, corregido errores, como también aportado a la creación de ítems externos a mis responsabilidades asignadas.<br> 
@@ -2594,7 +2596,7 @@ Deployment:
 
 <img src="assets/cap6/EvidenceN1.png" alt="Evidencias Sprint 1"/>
 
-#### 6.2.X.8. Team Collaboration Insights during Sprint.
+#### 6.2.1.8. Team Collaboration Insights during Sprint.
 
 Analíticos de colaboración y commits realizados en la plataforma GitHub, realizados por los
 miembros del equipo en desarrollo de cada producto asociado a nuestra solución:
@@ -2611,7 +2613,7 @@ Landing Page:
 
 <img src="assets/cap6/EvidenceLanding2.png" alt="Evidencias Sprint 1"/>
 
-#### 6.2.X.9. Team Collaboration Insights during Sprint.
+#### 6.2.1.9. Team Collaboration Insights during Sprint.
 
 En el presente sprint se implementó la **Landing Page** y una **primera versión de la Web Application**.  
 A continuación, se muestra la tabla de actividades de todos los participantes:
@@ -2636,21 +2638,324 @@ A continuación, se muestra la tabla de actividades de todos los participantes:
 
 <img src="assets/cap6/githubweb2.png" alt="Web App - 2" style="max-width:100%;height:auto;">
 
-## 6.3. Validation Interviews.
 
-### 6.3.1. Diseño de Entrevistas.
+
+
+
+
+
+### 6.2.2. Sprint 2
+
+Se presenta la planificación del segundo Sprint realizado por el equipo para consolidar el desarrollo **full-stack** de la solución UniverseThings, implementando la **Web Application**, la **Mobile Application** y el **backend de servicios IoT** sobre los cuales se consumen los datos de sensores y se gestionan las automatizaciones.
+
+---
+
+### 6.2.2.1. Sprint Planning 2.
+
+| Campo                      | Valor                                                                                                                                                                                                                                                                                       |
+|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sprint #                   | Sprint 2                                                                                                                                                                                                                                                                                    |
+| Sprint Planning Background | Sprint posterior a la entrega de la Landing Page y primera versión de la Web Application (Sprint 1). Se incorpora feedback inicial y se priorizan historias orientadas a disponer de un **MVP funcional full-stack (web + móvil + backend)**.                                               |
+| Date                       | 2025-10-23                                                                                                                                                                                                                                                                                  |
+| Time                       | 08:00 PM                                                                                                                                                                                                                                                                                    |
+| Location                   | Reunión virtual (Google Meet)                                                                                                                                                                                                                                                               |
+| Prepared By                | Quispe Tipo, Godofredo / Riegas Salas, Jose Miguel / Loarte Matos, Anthony Brahan / Ruiz Torres, Erick Hernan / Cipriano Chumbes, Bruce Andres                                                                                                                                              |
+| Attendees                  | Quispe Tipo, Godofredo / Riegas Salas, Jose Miguel / Loarte Matos, Anthony Brahan / Ruiz Torres, Erick Hernan / Cipriano Chumbes, Bruce Andres                                                                                                                                              |
+| Sprint 2-1 Review Summary  | El Sprint 1 permitió entregar la Landing Page y una primera versión de la Web Application. Historias como US027, US028, US029, US016, US021, US022 y US023 quedaron completadas; se mantuvieron en “To-do/To-review” historias de datos/reportes (US012, US013, US014, US024, US025).       |
+| Sprint 2-1 Retrospective   | Se acordó priorizar **vertical slices full-stack** (backend + web + móvil), mejorar la estimación de esfuerzo en historias de datos/reportes y formalizar el uso de **GitFlow** con PRs obligatorios y revisión cruzada por funcionalidad.                                                  |
+| Sprint 2 Goal              | Disponer de un **MVP funcional** que permita al usuario autenticarse, registrar finca y dispositivos, visualizar datos de sensores en tiempo real y recibir alertas climáticas desde la Web App y la Mobile App consumiendo el backend UniverseThings.                                      |
+| Hipótesis de Valor         | Si el usuario puede monitorear variables ambientales y recibir alertas desde cualquier dispositivo (web/móvil) sobre un backend estable, **percibirá la solución como útil para reducir riesgo en sus cultivos** y confiará en iteraciones posteriores (automatización avanzada, IA, etc.). |
+| Criterio de Confirmación   | El Sprint se considera exitoso si, en ambiente de prueba, al menos un usuario puede: (1) crear una finca, (2) registrar sensores/actuadores simulados, (3) visualizar datos en un dashboard web y móvil, y (4) recibir al menos una alerta climática generada por reglas de umbral.         |
+| Sprint 2 Velocity          | 39 (Story Points aceptados)                                                                                                                                                                                                                                                                 |
+| Sum of Story Points        | 39                                                                                                                                                                                                                                                                                          |
+
+### 6.2.2.2. Aspect Leaders and Collaborators.
+
+| Aspecto / Módulo                            | Líder                          | Colaboradores                                              | Descripción                                                                                                             |
+|---------------------------------------------|--------------------------------|------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
+| Backend IoT & API REST                      | Loarte Matos, Anthony Brahan   | Riegas Salas, Jose Miguel / Quispe Tipo, Godofredo         | Diseño e implementación de endpoints para fincas, sensores, actuadores, mediciones, alertas y reglas de automatización. |
+| Web Application (Dashboard & Configuración) | Cipriano Chumbes, Bruce Andres | Riegas Salas, Jose Miguel / Quispe Tipo, Godofredo         | Implementación del dashboard, vistas de detalle, formularios de registro y pantallas de configuración de umbrales.      |
+| Mobile Application (Monitoreo & Control)    | Ruiz Torres, Erick Hernan      | Loarte Matos, Anthony Brahan                               | Desarrollo de pantallas móviles para login, selección de finca, monitoreo rápido y override manual de automatizaciones. |
+| QA & Testing Suite                          | Quispe Tipo, Godofredo         | Cipriano Chumbes, Bruce Andres / Ruiz Torres, Erick Hernan | Definición y ejecución de pruebas funcionales, integración y revisión de criterios de aceptación por User Story.        |
+| DevOps & Deployment                         | Ruiz Torres, Erick Hernan      | Loarte Matos, Anthony Brahan                               | Configuración de Docker, entornos de despliegue, scripts de arranque y soporte a despliegue de backend y frontend.      |
+
+
+### 6.2.2.3. Sprint Backlog 2.
+
+En este Sprint se seleccionaron historias orientadas a **instalación/configuración del sistema IoT, monitoreo climático, automatización básica y visualización de datos**, tomando como base el Product Backlog definido en el capítulo de requerimientos.
+
+| User Story | Work-Item / Task | Título / Descripción (extracto)                                                                                               | Estimación (h) | Assigned To      | Status      |
+|------------|------------------|-------------------------------------------------------------------------------------------------------------------------------|----------------|------------------|-------------|
+| US001      | T01              | Instalación de gateway y sensores IoT en la finca, incluyendo registro inicial en la plataforma UniverseThings.               | 8              | Anthony Loarte   | Done        |
+| US002      | T01              | Registro de nuevos sensores en el sistema y asociación a finca / zona de cultivo desde la Web Application.                    | 6              | Jose Miguel      | Done        |
+| US003      | T01              | Registro de actuadores (riego, aspersores, ventiladores) y vínculo con sensores y parcelas correspondientes.                  | 10             | Godofredo Quispe | Done        |
+| US004      | T01              | Envío de notificaciones ante cambios bruscos de temperatura/humedad fuera de rango definido.                                  | 8              | Erick Ruiz       | Done        |
+| US005      | T01              | Dashboard de monitoreo en tiempo real de temperatura, humedad y luz por sensor en la Web Application.                         | 10             | Bruce Cipriano   | Done        |
+| US006      | T01              | Generación de reporte histórico de variables climáticas por parcela y rango de fechas (descarga en formato CSV/PDF).          | 10             | Jose Miguel      | To - review |
+| US007      | T01              | Activación automática de sistemas de protección (riego, aspersores) cuando se superan umbrales configurados.                  | 12             | Anthony Loarte   | To - review |
+| US008      | T01              | Pantalla de configuración de umbrales de alerta por cultivo, finca y tipo de sensor (mínimos/máximos).                        | 8              | Godofredo Quispe | Done        |
+| US009      | T01              | Confirmación y override manual de automatizaciones: el usuario puede forzar encendido/apagado de un actuador desde web/móvil. | 5              | Erick Ruiz       | Done        |
+| US012      | T01              | Visualización gráfica (líneas/barras) de datos históricos para comparar sensores y periodos.                                  | 10             | Bruce Cipriano   | Done        |
+| US014      | T01              | Integración vía API entre backend UniverseThings, Web Application y Mobile Application para lectura/escritura de datos IoT.   | 12             | Anthony Loarte   | Done        |
+
+
+### 6.2.2.4. Development Evidence for Sprint Review.
+
+En la siguiente tabla se presentan los principales commits realizados durante el Sprint 2 en los repositorios involucrados en el MVP full-stack de UniverseThings.
+
+| Repository                                           | Branch  | Commit Id | Commit Message                                                                    | Committed on |
+|------------------------------------------------------|---------|-----------|-----------------------------------------------------------------------------------|--------------|
+| 2510-356-Solution-Development-IOT-Project-Backend    | develop | a13f2c9   | feat: gestión de fincas, parcelas y zonas de cultivo (US001)                      | 18/10/2025   |
+| 2510-356-Solution-Development-IOT-Project-Backend    | develop | f47b9e2   | feat: registro de sensores y actuadores (US002, US003)                            | 19/10/2025   |
+| 2510-356-Solution-Development-IOT-Project-Backend    | develop | c89d4a1   | feat: mediciones, alertas y reglas de automatización (US004, US007, US008, US009) | 20/10/2025   |
+| 2510-356-Solution-Development-IOT-Project-Backend    | develop | d20ac77   | refactor: separación de routers, services y repositories                          | 21/10/2025   |
+| 2510-356-Solution-Development-IOT-Project-Frontend   | develop | e31b7f5   | feat: dashboard de monitoreo en tiempo real (US005)                               | 19/10/2025   |
+| 2510-356-Solution-Development-IOT-Project-Frontend   | develop | 9bc4e08   | feat: gráficas históricas y filtros por sensor/parcela (US012)                    | 20/10/2025   |
+| 2510-356-Solution-Development-IOT-Project-Frontend   | develop | 7da92c3   | feat: formularios de registro de sensores y umbrales (US002, US003, US008)        | 21/10/2025   |
+| 2510-356-Solution-Development-IOT-Project-Mobile-App | develop | 4f7c9e3   | feat: pantallas de login y selección de finca                                     | 19/10/2025   |
+| 2510-356-Solution-Development-IOT-Project-Mobile-App | develop | 6d8b0a4   | feat: monitoreo móvil y override de automatizaciones (US009)                      | 21/10/2025   |
+| 2510-356-Solution-Development-IOT-Project-Mobile-App | develop | b52e1d9   | fix: ajustes de consumo de API y manejo de estados                                | 22/10/2025   |
+
+
+### 6.2.2.6. Execution Evidence for Sprint Review.
+En esta sección presentamos el resumen de lo alcanzado en este Sprint describiendo la visualización y navegación de las principales vistas implementadas para nuestra solución siendo el primer Sprint y nuestro Producto Backlog y el desarrollo descrito en nuestro Sprint Backlog.
+
+Mobile App:
+
+<img src="assets/cap6/MobileEvidence1.png" alt="Evidencias Sprint 2"/>
+
+<img src="assets/cap6/MobileEvidence2.png" alt="Evidencias Sprint 2"/>
+
+<img src="assets/cap6/MobileEvidence3.png" alt="Evidencias Sprint 2"/>
+
+<img src="assets/cap6/MobileEvidence4.png" alt="Evidencias Sprint 2"/>
+
+<img src="assets/cap6/MobileEvidence5.png" alt="Evidencias Sprint 2"/>
+
+<img src="assets/cap6/MobileEvidence6.png" alt="Evidencias Sprint 2"/>
+
+<img src="assets/cap6/MobileEvidence7.png" alt="Evidencias Sprint 2"/>
+
+
+### 6.2.2.7. Services Documentation Evidence for Sprint Review.
+
+No hubieron más servicios durante el desarrollo de este sprint
+
+### 6.2.2.8. Software Deployment Evidence for Sprint Review.
+
+No hubieron más deployments durante el desarrollo de este sprint
+
+### 6.2.2.9. Team Collaboration Insights during Sprint.
+
+Analíticos de colaboración y commits realizados en la plataforma GitHub, realizados por los
+miembros del equipo en desarrollo de cada producto asociado a nuestra solución:
+
+<img src="assets/cap6/Collaboration.png" alt="Evidencias Sprint 2"/>
+
+<img src="assets/cap6/Collaboration2.png" alt="Evidencias Sprint 2"/>
+
+<img src="assets/cap6/Collaboration3.png" alt="Evidencias Sprint 2"/>
+
+<img src="assets/cap6/Collaboration4.png" alt="Evidencias Sprint 2"/>
+
+<img src="assets/cap6/Collaboration5.png" alt="Evidencias Sprint 2"/>
+
+
+| Alumno                         | Actividad                             |
+|--------------------------------|---------------------------------------|
+| Cipriano Chumbes, Bruce Andres | Desarrollo de backend y Web App       |
+| Loarte Matos, Anthony Brahan   | Desarrollo de backend  y Mobbile App  |
+| Riegas Salas, Jose Miguel      | Desarrollo de Mobile App              |
+| Ruiz Torres, Erick Hernan      | Desarrollo de Web App                 |
+| Quispe Tipo, Godofredo         | Desarrollo de documentacion y Web App |
+
+
+Backend
+
+<img src="assets/cap6/colaborations_sprint2_1.png" alt="Evidencias Sprint 1"/>
+
+Mobile App
+
+<img src="assets/cap6/colaborations_sprint2_2.png" alt="Evidencias Sprint 1"/>
+
+Mobile App
+
+<img src="assets/cap6/colaborations_sprint2_3.png" alt="Evidencias Sprint 1"/>
+
+
+
+## 6.3. Validation Interviews
+
+### 6.3.1. Diseño de Entrevistas
+
+**1. Información general**
+
+- ¿Cuál es tu nombre?
+- ¿Qué edad tienes?
+- ¿A qué te dedicas?
+- ¿Dónde vives?
+  
+**2. Opinión sobre el diseño**
+
+- ¿Qué te parece el diseño de la aplicación?
+- ¿Consideras que los colores y la disposición de los elementos son adecuados?
+- ¿El diseño te resulta atractivo y fácil de entender?
+
+**3. Experiencia de uso**
+
+- ¿Cómo describirías tu experiencia al usar la aplicación?
+- ¿Fue sencillo realizar las acciones que necesitabas?
+- ¿Encontraste algún obstáculo al navegar por la aplicación?
+
+**4. Funcionalidad más útil**
+
+- ¿Cuál fue la función que más te llamó la atención o que más utilizaste?
+- ¿Por qué consideras que esa función fue la más útil?
+  
+**5. Sugerencias de mejora**
+
+- ¿Qué añadirías a la aplicación para mejorarla?
+- ¿Hay algo que cambiarías en el diseño o en las funcionalidades?
+- ¿Crees que falta alguna característica importante para ti?
+
+**6. Impacto general**
+
+- ¿Crees que la aplicación cumple con sus objetivos?
+- Si el producto fuera lanzado hoy, ¿qué tan dispuesto estarías a utilizarlo o a pagar por él?
+- ¿Recomendarías esta aplicación a otras personas? ¿Por qué?
+  
+**7. Retroalimentación final**
+
+- ¿Hay algo más que te gustaría comentar sobre la aplicación?
+- ¿Qué impresión general te deja el uso de esta herramienta?
 
 ### 6.3.2. Registro de Entrevistas.
 
+#### Segmento: Agricultor Tecnificado
+
+| **Entrevistador:**  |                                                                                                                                                                                         |
+|---------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Entrevistado 1:** |                                                                                                                                                                                         |
+| **Edad:**           | 00 años                                                                                                                                                                                 |
+| **Ocupación:**      |                                                                                                                                                                                         |
+| **Imagen:**         | <img src="./assets/cap6//interview-validation-1-s1.jpg" alt="Imagen de Entrevista 1" width="85%">                                                                                       |
+| **Descripción:**    |                                                                                                                                                                                         |
+| **Inicio: Min**     | 00:00                                                                                                                                                                                   |
+| **Finaliza: Min**   | 00:05                                                                                                                                                                                   |
+| **Link del video:** | <a href="https://drive.google.com/drive/folders/1m6uv3zpQrGHcCnWeTljEjuVaS5T40Vhp?usp=sharing">https://drive.google.com/drive/folders/1m6uv3zpQrGHcCnWeTljEjuVaS5T40Vhp?usp=sharing</a> |
+
+| **Entrevistador:**  |                                                                                                                                                                                         |
+|---------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Entrevistado 2:** |                                                                                                                                                                                         |
+| **Edad:**           |                                                                                                                                                                                         |
+| **Ocupación:**      |                                                                                                                                                                                         |
+| **Imagen:**         | <img src="./assets/cap6/interview-validation-2-s1.jpg" alt="Imagen de Entrevista 2" width="85%">                                                                                        |
+| **Descripción:**    |                                                                                                                                                                                         |
+| **Inicio: Min**     | 00:00                                                                                                                                                                                   |
+| **Finaliza: Min**   | 00:00                                                                                                                                                                                   |
+| **Link del video:** | <a href="https://drive.google.com/drive/folders/1m6uv3zpQrGHcCnWeTljEjuVaS5T40Vhp?usp=sharing">https://drive.google.com/drive/folders/1m6uv3zpQrGHcCnWeTljEjuVaS5T40Vhp?usp=sharing</a> |
+
+| **Entrevistador:**  |                                                                                                                                                                                         |
+|---------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Entrevistado 3:** |                                                                                                                                                                                         |
+| **Edad:**           | 00 años                                                                                                                                                                                 |
+| **Ocupación:**      |                                                                                                                                                                                         |
+| **Imagen:**         | <img src="./assets/cap6/interview-validation-3-s1.png" alt="Imagen de Entrevista 3" width="85%">                                                                                        |
+| **Descripción:**    |                                                                                                                                                                                         |
+| **Inicio: Min**     | 00:00                                                                                                                                                                                   |
+| **Finaliza: Min**   | 00:00                                                                                                                                                                                   |
+| **Link del video:** | <a href="https://drive.google.com/drive/folders/1m6uv3zpQrGHcCnWeTljEjuVaS5T40Vhp?usp=sharing">https://drive.google.com/drive/folders/1m6uv3zpQrGHcCnWeTljEjuVaS5T40Vhp?usp=sharing</a> |
+
+#### Segmento: Representante de una Cooperativa Agrícola
+
+| **Entrevistador:**  | Anthony Loarte                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Entrevistado 1:** | Sandro Alarcon                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Edad:**           | 21 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Ocupación:**      | Ingeniero Agronomo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Imagen:**         | <img src="./assets/cap6/interview-validation-1-s2.jpg" alt="Imagen de Entrevista 1" width="85%">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Descripción:**    | Sandro Alarcon, joven ingeniero afronomo de 25 años y miembro de una cooperativa agrícola ubicada en la costa del Perú, opina que la aplicación tiene un diseño moderno, intuitivo y muy atractivo que transmite confianza y se alinea perfectamente con su propósito el monitoreo y la optimización de sus cultivos en tiempo real. Destaca como la función más útil la sección de Alertas y Recomendaciones en tiempo real basadas en la lectura de los sensores, ya que esta funcionalidad le permite tomar acciones preventivas inmediatas, como programar el riego o activar medidas de protección contra heladas, lo cual considera un valor agregado directo para aumentar la productividad y reducir pérdidas en sus cosechas. |
+| **Inicio: Min**     | 00:01                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Finaliza: Min**   | 13:01                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Link del video:** | <a href="https://drive.google.com/drive/folders/1m6uv3zpQrGHcCnWeTljEjuVaS5T40Vhp?usp=sharing">https://drive.google.com/drive/folders/1m6uv3zpQrGHcCnWeTljEjuVaS5T40Vhp?usp=sharing</a>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+
+| **Entrevistador:**  |                                                                                                                                                                                         |
+|---------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Entrevistado 2:** |                                                                                                                                                                                         |
+| **Edad:**           |                                                                                                                                                                                         |
+| **Ocupación:**      |                                                                                                                                                                                         |
+| **Imagen:**         | <img src="./assets/cap6/interview-validation-2-s2.png" alt="Imagen de Entrevista 2" width="85%">                                                                                        |
+| **Descripción:**    |                                                                                                                                                                                         |
+| **Inicio: Min**     | 00:00                                                                                                                                                                                   |
+| **Finaliza: Min**   | 00:00                                                                                                                                                                                   |
+| **Link del video:** | <a href="https://drive.google.com/drive/folders/1m6uv3zpQrGHcCnWeTljEjuVaS5T40Vhp?usp=sharing">https://drive.google.com/drive/folders/1m6uv3zpQrGHcCnWeTljEjuVaS5T40Vhp?usp=sharing</a> |
+
+| **Entrevistador:**  |                                                                                                                                                                                         |
+|---------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Entrevistado 3:** |                                                                                                                                                                                         |
+| **Edad:**           | 00 años                                                                                                                                                                                 |
+| **Ocupación:**      |                                                                                                                                                                                         |
+| **Imagen:**         | <img src="./assets/cap6/interview-validation-3-s2.png" alt="Imagen de Entrevista 3" width="85%">                                                                                        |
+| **Descripción:**    |                                                                                                                                                                                         |
+| **Inicio: Min**     | 00:00                                                                                                                                                                                   |
+| **Finaliza: Min**   | 00:00                                                                                                                                                                                   |
+| **Link del video:** | <a href="https://drive.google.com/drive/folders/1m6uv3zpQrGHcCnWeTljEjuVaS5T40Vhp?usp=sharing">https://drive.google.com/drive/folders/1m6uv3zpQrGHcCnWeTljEjuVaS5T40Vhp?usp=sharing</a> |
 ### 6.3.3. Evaluaciones según heurísticas.
 
-## 6.4. Video About-the-Product.
+**UX Heuristics & Principles Evaluation**
+
+Usability – Inclusive Design – Information Architecture
+
+- CARRERA: Ingeniería de Software
+- CURSO: Desarrollo de Soluciones IOT
+- RNC: 3414
+- PROFESOR: Marco Antonio Leon Baca
+- AUDITOR: Grupo 2
+- CLIENTE: 
+
+**SITE o APP A EVALUAR**
+
+Nombre de App: AgroPre
+
+**Tareas a evaluar:**
+
+- Registro de un usuario
+- Editar perfil de usuario
+- Recoleccion de datos
+- Vista de dispositivos IoT
+- Vista de reportes de los sistemas IOT
+- Agregar sistema IOT
+**ESCALA DE SEVERIDAD**
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción |
+| 1 | | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a menos que exista disponibilidad de tiempo. |
+| 2 | | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase |
+| 3 | | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4 | | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+
+
+### 6.4. Video About-the-Product.
+
+<img src="assets/cap6/videoabout.png" alt="Evidencias Sprint 1"/>
+
+Link deL video en Microsoft Stream:  https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118946_upc_edu_pe/IQD-gxgyOjeTRqRsUeLTKaOXAbD-pddv7X7LqoB7YoHYPUw?e=Gv5rZG
+
+Link de video en youtube:  https://youtu.be/pqpDH5zmjwk 
+
+
 
 # Conclusiones
 
 ## Conclusiones y recomendaciones
 
 ## Video About-the-Team
+
+<img src="assets/cap6/video-team.png" alt="Evidencias Sprint 2"/>
+
+Link del video: <a href="https://upcedupe-my.sharepoint.com/:f:/g/personal/u202120772_upc_edu_pe/IgAy9Z-nCZljT7zVOulCWip2AdsU8bfRp-Z_dgP-rg8l58Q?e=gYcgQj" target="_blank">https://upcedupe-my.sharepoint.com/:f:/g/personal/u202120772_upc_edu_pe/IgAy9Z-nCZljT7zVOulCWip2AdsU8bfRp-Z_dgP-rg8l58Q?e=gYcgQj</a>
 
 # Bibliografía
 
@@ -2669,4 +2974,12 @@ A continuación, se muestra la tabla de actividades de todos los participantes:
       https://www.figma.com/design/5wUhtRHCzEBoJWnrsPvO8w/IOT-AGRO-PRE?node-id=0-1&t=flb0gsE9ZPUjDc0O-1
     </a>
   </li>
+
+  <li>
+    <strong>Link de Video de About the product:</strong>
+    <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118946_upc_edu_pe/IQD-gxgyOjeTRqRsUeLTKaOXAbD-pddv7X7LqoB7YoHYPUw?e=Gv5rZG" target="_blank">
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118946_upc_edu_pe/IQD-gxgyOjeTRqRsUeLTKaOXAbD-pddv7X7LqoB7YoHYPUw?e=Gv5rZG
+    </a>
+  </li>
+
 </ul>
