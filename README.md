@@ -230,7 +230,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         TP1:<br> Se distribuyeron responsabilidades para el desarrollo de las secciones del capítulo, donde cada integrante lideró la creación de partes específicas del diseño, en mi caso realice (Style Guidelines, Information Architecture, Navigation Systems). Se promovió la revisión cruzada entre los miembros para garantizar coherencia visual y conceptual.<br>
         TB2:<br>Elabore items de la aplicacion web , ademas del desarrollo del video de about the product ,tambien en el apoyo del desarrollo del documento.
         <br>
-        TF1: <br>  <br>
+        TF1: <br> Elabore los ultimos items de la aplicacion web ,tambien en el apoyo del desarrollo del documento. <br>
       Jose Riegas<br>
         TB1:<br> Para el desarrollo del proyecto he participado de manera activa tanto en la toma de decisiones como en la división de responsabilidades, de la misma manera he ayudado en responsabilidades de mis compañeros con el afán de entregar un mejor producto.<br> 
         TP1:<br>  La elaboración del capítulo se organizó mediante la distribución de responsabilidades, asignando a cada integrante el liderazgo en el desarrollo de secciones específicas del diseño. En mi caso, estuve a cargo de la creación de las Guías de Estilo, la Arquitectura de la Información y los Sistemas de Navegación. Para asegurar la uniformidad en el resultado, se implementó un sistema de revisión por pares entre todos los miembros.<br>  
@@ -263,7 +263,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         TB1:<br> Se establecieron reuniones semanales para revisar avances y definir metas alcanzables. Se usaron herramientas colaborativas como Miro y Structurizr para fomentar la participación activa y el consenso en decisiones de arquitectura.<br>
         TP1: <br>  El equipo planificó un cronograma de entregas intermedias para validar cada subcomponente del diseño UI/UX. Se fomentó la participación equitativa, la retroalimentación constante y la adaptación<br> 
         TB2:<br> Para esta entrega apoye en el desarrollo de la aplicaion web, de la misma forma para el desarrollo del video de about the product. <br> 
-        TF1: <br>  <br>
+        TF1: <br> Elabore los ultimos items de la aplicacion web ,tambien en el apoyo del desarrollo del documento. <br>
       Jose Riegas<br>
         TB1:<br> Durante el proyecto fue de mi prioridad ayudar a mis compañeros en la realización de sus tareas, por este motivo he revisado todo el proyecto, corregido errores, como también aportado a la creación de ítems externos a mis responsabilidades asignadas.<br> 
         TP1:<br> Durante la entrega, fomenté un entorno colaborativo e inclusivo asegurándome de que todos los integrantes tuvieran la oportunidad de participar activamente. Establecí objetivos claros y prioricé una planificación efectiva, asegurando el cumplimiento de mis responsabilidades mediante una comunicación constante.<br> 
