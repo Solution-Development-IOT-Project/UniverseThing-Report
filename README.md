@@ -2241,7 +2241,7 @@ Trabajando con los wireframes anteriormente mostrados, luego se aplicó los Styl
 
 Vista general de ambos diseños:
 
-<img src="assets/cap5/wireframerLanding.png" alt="WireFrame Landing Page" width="300" /> <img src="assets/cap5/moockupLanding.png" alt="Mock-up Landing Page" width="300" />
+<img src="assets/cap5/wireframerLanding.png" alt="WireFrame Landing Page" /> <img src="assets/cap5/moockupLanding.png" alt="Mock-up Landing Page"  />
 
 Link de figma lading page: <a href="https://www.figma.com/design/EHi82ICkHRBIJbRcUAo2fF/IoT-Figma?node-id=0-1&t=mBL4zOuR51tJplyB-1">https://www.figma.com/design/EHi82ICkHRBIJbRcUAo2fF/IoT-Figma?node-id=0-1&t=mBL4zOuR51tJplyB-1</a>
 
@@ -2252,88 +2252,88 @@ Link de figma lading page: <a href="https://www.figma.com/design/EHi82ICkHRBIJbR
 Web Application
 Pantallas relacionadas al inicio de sesión y registro de usuario:
 
-<img src="assets/cap5/wireframerWeb.png" alt="WireFrame Web app" width="300" /> <img src="assets/cap5/wireframerWeb1.png" alt="WireFrame Web app" width="300" />
+<img src="assets/cap5/wireframerWeb.png" alt="WireFrame Web app"  /> <img src="assets/cap5/wireframerWeb1.png" alt="WireFrame Web app" />
 
 Pantallas relacionadas al dashboard donde se podra visualizar la temperatura , luminocidad y la deteccion de plagas con un grafico intuitivo:
 
-<img src="assets/cap5/wireframerWeb2.png" alt="WireFrame Web app" width="300" />
+<img src="assets/cap5/wireframerWeb2.png" alt="WireFrame Web app"  />
 
 Pantallas relacionadas a los dispositivos donde se podra visualizar todos los sensores que tiene activados o desactivados:
 
-<img src="assets/cap5/wireframerWeb3.png" alt="WireFrame Web app" width="300" />
+<img src="assets/cap5/wireframerWeb3.png" alt="WireFrame Web app"  />
 
 Pantallas relacionadas a las alertas como la de alrestas activas,pendietes,resultados de hoy y el tiempo respuesta .Ademas de un historial de todos ellos:
 
-<img src="assets/cap5/wireframerWeb4.png" alt="WireFrame Web app" width="300" /> <img src="assets/cap5/wireframerWeb5.png" alt="Mock-up Web app" width="300" />
+<img src="assets/cap5/wireframerWeb4.png" alt="WireFrame Web app"  /> <img src="assets/cap5/wireframerWeb5.png" alt="Mock-up Web app"  />
 
 Pantallas relacionadas a los datos de los sensores se visualizara el porcentade de cada uno de ellos con un grafico:
 
-<img src="assets/cap5/wireframerWeb6.png" alt="WireFrame Web app" width="300" /> <img src="assets/cap5/wireframerWeb7.png" alt="Mock-up Web app" width="300" /><img src="assets/cap5/wireframerWeb8.png" alt="Mock-up Web app" width="300" /><img src="assets/cap5/wireframerWeb9.png" alt="Mock-up Web app" width="300" />
+<img src="assets/cap5/wireframerWeb6.png" alt="WireFrame Web app"  /> <img src="assets/cap5/wireframerWeb7.png" alt="Mock-up Web app" /><img src="assets/cap5/wireframerWeb8.png" alt="Mock-up Web app"  /><img src="assets/cap5/wireframerWeb9.png" alt="Mock-up Web app"  />
 
 Pantallas relacionadas a las configuraciones donde tomas tus configuracion propias:
 
-<img src="assets/cap5/wireframerWeb10.png" alt="WireFrame Web app" width="300" />
+<img src="assets/cap5/wireframerWeb10.png" alt="WireFrame Web app" />
 
 Pantallas relacionadas al perfil de usuario aqui visualizaras el perfil y los datos de dais activadasm sesosres configrados, alertas reltados y el ahorro de insecticida y claro los datos personales que fue registrado :
 
-<img src="assets/cap5/wireframerWeb11.png" alt="WireFrame Web app" width="300" />
+<img src="assets/cap5/wireframerWeb11.png" alt="WireFrame Web app"  />
 
 ### 5.4.2. Applications Wireflow Diagrams
 
 En esta sección, se presentan los wireflows de la aplicación web guiándose de las historias de usuario:
 
 Usar Goal: Como usuario, quiero poder registrarme en la aplicación para acceder a las funcionalidades disponibles.
-<img src="assets/cap5/DiagramWireframer3.png" alt="WireFrame Web app" width="300" />
+<img src="assets/cap5/DiagramWireframer3.png" alt="WireFrame Web app"  />
 
 En esta sección, se presentan los wireflows de la aplicación web guiándose de las historias de usuario:
 
 Usar Goal: Como usuario, quiero poder visualizar con graficso cada aparatode los de sensores.
 
-<img src="assets/cap5/DiagramWireframer1.png" alt="WireFrame Web app" width="300" />
+<img src="assets/cap5/DiagramWireframer1.png" alt="WireFrame Web app" />
 
 En esta sección, se presentan los wireflows de la aplicación web guiándose de las historias de usuario:
 
 Usar Goal: Como usuario, quiero poder visualizar los datos captados de los sensores
 y asi poder tomar represarias sobre ellos
 
-<img src="assets/cap5/DiagramWireframer2.png" alt="WireFrame Web app" width="300" />
+<img src="assets/cap5/DiagramWireframer2.png" alt="WireFrame Web app"  />
 
 En esta sección, se presentan los wireflows de la aplicación web guiándose de las historias de usuario:
 
 Usar Goal: Como usuario, quiero poder visualizar los dashboard que se tiene en la web
 
-<img src="assets/cap5/DiagramWireframer.png" alt="WireFrame Web app" width="300" />
+<img src="assets/cap5/DiagramWireframer.png" alt="WireFrame Web app"  />
 
 ### 5.4.3. Applications Mock-ups
 
 Web Application
 Pantallas relacionadas al inicio de sesión y registro de usuario:
 
-<img src="assets/cap5/wireframerWeb0.png" alt="WireFrame Web app" width="300" /> <img src="assets/cap5/wireframerWeb01.png" alt="Mock-up Web app" width="300" />
+<img src="assets/cap5/wireframerWeb0.png" alt="WireFrame Web app"  /> <img src="assets/cap5/wireframerWeb01.png" alt="Mock-up Web app"  />
 
 Pantallas relacionadas al dashboard donde se podra visualizar la temperatura , luminocidad y la deteccion de plagas con un grafico intuitivo:
 
-<img src="assets/cap5/wireframerWeb02.png" alt="WireFrame Web app" width="300" />
+<img src="assets/cap5/wireframerWeb02.png" alt="WireFrame Web app" />
 
 Pantallas relacionadas a los dispositivos donde se podra visualizar todos los sensores que tiene activados o desactivados:
 
-<img src="assets/cap5/wireframerWeb03.png" alt="WireFrame Web app" width="300" />
+<img src="assets/cap5/wireframerWeb03.png" alt="WireFrame Web app"  />
 
 Pantallas relacionadas a las alertas como la de alrestas activas,pendietes,resultados de hoy y el tiempo respuesta .Ademas de un historial de todos ellos:
 
-<img src="assets/cap5/wireframerWeb04.png" alt="WireFrame Web app" width="300" /> <img src="assets/cap5/wireframerWeb05.png" alt="Mock-up Web app" width="300" />
+<img src="assets/cap5/wireframerWeb04.png" alt="WireFrame Web app" /> <img src="assets/cap5/wireframerWeb05.png" alt="Mock-up Web app" />
 
 Pantallas relacionadas a los datos de los sensores se visualizara el porcentade de cada uno de ellos con un grafico:
 
-<img src="assets/cap5/wireframerWeb06.png" alt="WireFrame Web app" width="300" /> <img src="assets/cap5/wireframerWeb07.png" alt="Mock-up Web app" width="300" /><img src="assets/cap5/wireframerWeb08.png" alt="Mock-up Web app" width="300" /><img src="assets/cap5/wireframerWeb09.png" alt="Mock-up Web app" width="300" />
+<img src="assets/cap5/wireframerWeb06.png" alt="WireFrame Web app" /> <img src="assets/cap5/wireframerWeb07.png" alt="Mock-up Web app"  /><img src="assets/cap5/wireframerWeb08.png" alt="Mock-up Web app" /><img src="assets/cap5/wireframerWeb09.png" alt="Mock-up Web app"  />
 
 Pantallas relacionadas a las configuraciones donde tomas tus configuracion propias:
 
-<img src="assets/cap5/wireframerWeb010.png" alt="WireFrame Web app" width="300" />
+<img src="assets/cap5/wireframerWeb010.png" alt="WireFrame Web app"  />
 
 Pantallas relacionadas al perfil de usuario aqui visualizaras el perfil y los datos de dais activadasm sesosres configrados, alertas reltados y el ahorro de insecticida y claro los datos personales que fue registrado :
 
-<img src="assets/cap5/wireframerWeb011.png" alt="WireFrame Web app" width="300" />
+<img src="assets/cap5/wireframerWeb011.png" alt="WireFrame Web app"  />
 
 ### 5.4.4. Applications User Flow Diagrams
 
@@ -2341,26 +2341,26 @@ En esta sección, se presentan los wireflows de la aplicación web guiándose de
 
 Usar Goal: Como usuario, quiero poder registrarme en la aplicación para acceder a las funcionalidades disponibles.
 
-<img src="assets/cap5/DiagramWireframer03.png" alt="WireFrame Web app" width="300" />
+<img src="assets/cap5/DiagramWireframer03.png" alt="WireFrame Web app"  />
 
 En esta sección, se presentan los wireflows de la aplicación web guiándose de las historias de usuario:
 
 Usar Goal: Como usuario, quiero poder visualizar con graficso cada aparatode los de sensores.
 
-<img src="assets/cap5/DiagramWireframer01.png" alt="WireFrame Web app" width="300" />
+<img src="assets/cap5/DiagramWireframer01.png" alt="WireFrame Web app"  />
 
 En esta sección, se presentan los wireflows de la aplicación web guiándose de las historias de usuario:
 
 Usar Goal: Como usuario, quiero poder visualizar los datos captados de los sensores
 y asi poder tomar represarias sobre ellos
 
-<img src="assets/cap5/DiagramWireframer02.png" alt="WireFrame Web app" width="300" />
+<img src="assets/cap5/DiagramWireframer02.png" alt="WireFrame Web app" />
 
 En esta sección, se presentan los wireflows de la aplicación web guiándose de las historias de usuario:
 
 Usar Goal: Como usuario, quiero poder visualizar los dashboard que se tiene en la web
 
-<img src="assets/cap5/DiagramWireframer0.png" alt="WireFrame Web app" width="300" />
+<img src="assets/cap5/DiagramWireframer0.png" alt="WireFrame Web app" />
 
 ## 5.5. Applications Prototyping
 
@@ -2371,7 +2371,7 @@ superior e inferior siempre en la aplicación con 4 secciones, los cuales podrá
 Principio de divulgación: La información presentada se separa por partes, de tal manera que el usuario encuentre lo que desee. Esto se evidencia en
 los detalles al seleccionar un cultivo.
 
-<img src="assets/cap5/Figma.png" alt="WireFrame Web app" width="300" />
+<img src="assets/cap5/Figma.png" alt="WireFrame Web app"  />
 
 Link de video: <a href="https://upcedupe-my.sharepoint.com/:f:/g/personal/u20211d640_upc_edu_pe/EvW3EPDQFLpNjAy0wUX5_DAB8o0BFQr0plBacKRFbMxsKw?e=7cMWfU">https://upcedupe-my.sharepoint.com/:f:/g/personal/u20211d640_upc_edu_pe/EvW3EPDQFLpNjAy0wUX5_DAB8o0BFQr0plBacKRFbMxsKw?e=7cMWfU</a>
 
@@ -3046,6 +3046,13 @@ Link del video: <a href="https://upcedupe-my.sharepoint.com/:f:/g/personal/u2021
     <strong>Link de Video de About the product:</strong>
     <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118946_upc_edu_pe/IQD-gxgyOjeTRqRsUeLTKaOXAbD-pddv7X7LqoB7YoHYPUw?e=Gv5rZG" target="_blank">
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118946_upc_edu_pe/IQD-gxgyOjeTRqRsUeLTKaOXAbD-pddv7X7LqoB7YoHYPUw?e=Gv5rZG
+    </a>
+  </li>
+
+  <li>
+    <strong>Link de Videos de About the Team:</strong>
+    <a href="-------------------------">
+      -----------------------
     </a>
   </li>
 
