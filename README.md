@@ -2845,17 +2845,26 @@ A continuación se detalla la configuración necesaria para el despliegue de cad
 
 ### 6.2.3.9. Team Collaboration Insights during Sprint.
 
+Analíticos de colaboración y commits realizados en la plataforma GitHub, realizados por los
+miembros del equipo en desarrollo de cada producto asociado a nuestra solución:
 
+<img src="assets/cap6/Commits1.png" alt="Evidencias Sprint 3"/>
+
+<img src="assets/cap6/Commits2.png" alt="Evidencias Sprint 3"/>
+
+<img src="assets/cap6/Commits3.png" alt="Evidencias Sprint 3"/>
+
+<img src="assets/cap6/Commits4.png" alt="Evidencias Sprint 3"/>
 
 
 
 | Alumno                         | Actividad                             |
 |--------------------------------|---------------------------------------|
-| Cipriano Chumbes, Bruce Andres | xxxxxxxxxxxxxxx     |
-| Loarte Matos, Anthony Brahan   | Dxxxxxxxxxx  |
-| Riegas Salas, Jose Miguel      | xxxxxxxxxxxxxxx            |
-| Ruiz Torres, Erick Hernan      | xxxxxxxxxxxxxxxxx               |
-| Quispe Tipo, Godofredo         | xxxxxxxxxx |
+| Cipriano Chumbes, Bruce Andres | Desarrollo de backend y Web App       |
+| Loarte Matos, Anthony Brahan   | Desarrollo de backend y Mobile app    |
+| Riegas Salas, Jose Miguel      | Desarrollo de Mobile App y web app         |
+| Ruiz Torres, Erick Hernan      | Desarrollo de Web App                 |
+| Quispe Tipo, Godofredo         | Desarrollo de capa embebida |
 
 
 
