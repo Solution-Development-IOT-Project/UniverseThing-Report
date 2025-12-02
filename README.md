@@ -2854,8 +2854,6 @@ miembros del equipo en desarrollo de cada producto asociado a nuestra solución:
 
 <img src="assets/cap6/Commits3.png" alt="Evidencias Sprint 3"/>
 
-<img src="assets/cap6/Commits4.png" alt="Evidencias Sprint 3"/>
-
 
 
 | Alumno                         | Actividad                             |
