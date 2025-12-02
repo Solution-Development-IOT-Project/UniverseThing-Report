@@ -2813,11 +2813,20 @@ Mobile App
 
 ### 6.2.3.6. Execution Evidence for Sprint Review.
 
+En esta sección presentamos el resumen de lo alcanzado en este Sprint describiendo la visualización y navegación de las principales vistas implementadas para nuestra solución siendo el tercer Sprint y nuestro Product Backlog y el desarrollo descrito en nuestro Sprint Backlog.
 
+Frontend:
+
+<img src="assets/cap6/FrontEvidence1.png" alt="Evidencias Sprint 3"/>
+<img src="assets/cap6/FrontEvidence2.png" alt="Evidencias Sprint 3"/>
+<img src="assets/cap6/FrontEvidence3.png" alt="Evidencias Sprint 3"/>
+<img src="assets/cap6/FrontEvidence4.png" alt="Evidencias Sprint 3"/>
+<img src="assets/cap6/FrontEvidence5.png" alt="Evidencias Sprint 3"/>
+<img src="assets/cap6/FrontEvidence6.png" alt="Evidencias Sprint 3"/>
 
 ### 6.2.3.7. Services Documentation Evidence for Sprint Review.
 
-
+No hubieron mas servicios durante el sprint 
 
 ### 6.2.3.8. Software Deployment Evidence for Sprint Review.
 
