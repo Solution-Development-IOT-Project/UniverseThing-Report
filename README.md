@@ -2821,7 +2821,18 @@ Mobile App
 
 ### 6.2.3.8. Software Deployment Evidence for Sprint Review.
 
+A continuación se detalla la configuración necesaria para el despliegue de cada producto digital desarrollado. Asimismo, se incluyen los pasos requeridos para llevar a cabo el despliegue y la publicación, partiendo desde los repositorios de código fuente alojados en nuestra organización en la plataforma GitHub.
 
+#### Frontend
+**Requisitos para realizar el despliegue**
+
+- Repositorio en la plataforma GitHub
+- Tener todos los permisos necesarios para modificar el repositorio
+- Archivos con el código fuente del Frontend
+  
+**Resultado del despliegue**
+
+<img src="assets/cap6/EvidenciaDeploy.png" alt="Evidencia deploy"/>
 
 ### 6.2.3.9. Team Collaboration Insights during Sprint.
 
