@@ -13,7 +13,6 @@
 
 <h4 align="center"> NRC: 3414</h4>
 
-
 <h3 align="center"> Docente: Marco Antonio Leon Baca </h3>
 
 # <center>Informe de Trabajo Final</center>
@@ -27,7 +26,7 @@
 <div align="center">
 
 |    Code    |             Member             |
-| :--------: | :----------------------------: |
+|:----------:|:------------------------------:|
 | U20211D640 | Cipriano Chumbes, Bruce Andres |
 | U20211D563 |  Loarte Matos, Anthony Brahan  |
 | U202211254 |   Riegas Salas, Jose Miguel    |
@@ -43,7 +42,7 @@
 ### [Registro de versiones del informe](#registro-de-versiones-del-informe)
 
 | Versión |   Fecha    |                                                                                                                                                                                                                                                                                                                                        Descripción                                                                                                                                                                                                                                                                                                                                         |               Autor               |
-| :-----: | :--------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------: |
+|:-------:|:----------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------:|
 |   0.1   | 2025-09-18 |                                                                         Desarrollo de los ítems: 1.1. Startup Profile, que incluye los subítems 1.1.1. Descripción de la Startup y 1.1.2. Perfiles de integrantes del equipo. Luego se presenta el 1.2. Solution Profile, que contiene los apartados 1.2.1. Antecedentes y problemática y 1.2.2. Lean UX Process, el cual se desglosa en 1.2.2.1. Lean UX Problem Statements, 1.2.2.2, 1.2.2.3 y 1.2.2.4. Finalmente, se desarrolla la sección 1.3. Lean UX Assumptions, que incluye los ítems Lean UX Hypothesis Statements, Lean UX Canvas y Segmentos objetivo.                                                                         |         Godofredo Quispe          |
 |   0.1   | 2025-09-19 | Desarrollo de los ítems: La sección 2 del informe está compuesta por varios apartados clave, comenzando con el 2.1. Competidores, que abarca los subítems 2.1.1. Análisis competitivo y 2.1.2. Estrategias y tácticas frente a competidores. Luego se desarrolla el 2.2. Entrevistas, que incluye 2.2.1. Diseño de entrevistas, 2.2.2. Registro de entrevistas y 2.2.3. Análisis de entrevistas. A continuación, se presenta el 2.3. Needfinding, compuesto por 2.3.1. User Personas, 2.3.2. User Task Matrix, 2.3.3. User Journey Mapping, 2.3.4. Empathy Mapping y 2.3.5. As-is Scenario Mapping. Finalmente, se cierra esta parte del informe con el apartado 2.4. Ubiquitous Language. | Anthony Loarte y Godofredo Quispe |
 |   0.1   | 2025-09-20 |                                                                                                                                                                                                                                                                       Desarrollo de los ítems: 3.1. To-Be Scenario Mapping, 3.2. Avance de las User Stories, 3.3. Impact Mapping y 3.4. Avance del Product Backlog.                                                                                                                                                                                                                                                                        |   Bruce Cipriano y Jose Riegas    |
@@ -318,7 +317,7 @@ La agricultura enfrenta desafíos críticos debido a la imprevisibilidad climát
 ### 1.1.2. Perfiles de integrantes del equipo
 
 |                                   Foto                                   |                                                                                                                                                                                                                                                                   Descripción                                                                                                                                                                                                                                                                    |
-|:------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| :----------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | <img src="assets/cap1/Godofredo.jpg" alt="Foto de perfil de Godofredo" > | **Nombre:** Mi nombre es Godofredo y actualmente me encuentro cursando la carrera de Ingeniería de Software, un campo que me apasiona profundamente. Mi interés por las nuevas tecnologías es constante, y estoy siempre al tanto de las últimas innovaciones que están redefiniendo el panorama tecnológico. Me considero un entusiasta de la programación, área en la que he adquirido un dominio en diversos lenguajes, tales como Python, C++ y Assembler, lo que me ha permitido abordar una amplia gama de proyectos y desafíos técnicos . |
 |   <img src="assets/cap1/erickfoto.png" alt="Foto de perfil de Erick" >   |                                                                        **Nombre:** Mi nombre es Erick Ruiz y actualmente me encuentro cursando la carrera de Ingeniería de Software, la cual decidi estudiar porque me gusta la tecnologia. Me considero una persona que le gusta aprender nuevas tecnologias , manejo varias herramientas y tambien lenguajes, tales como Python, C++ y Kotlin, lo que me ha permitidodesarrollar una amplia gama de proyectos nuevos .                                                                         |
 |     <img src="assets/cap1/Bruce.png" alt="Foto de perfil de Bruce" >     |                                **Nombre:** Soy Bruce, estudiante de Ingeniería de Software en la UPC (Universidad Peruana de Ciencias Aplicadas). Siempre me ha fascinado la tecnología y cómo funciona. Disfruto programar, ser responsable y trabajar en equipo. Tengo conocimientos básicos en C#, Java, JavaScript, HTML y CSS, y conocimientos intermedios en C++, SQL y MongoDB. Mi objetivo es contribuir al mundo de la tecnología mientras desarrollo mi carrera profesional como ingeniero de software.                                |
@@ -802,7 +801,7 @@ Preguntas principales:
 #### Segmento 2 – Representante de una Cooperativa Agrícola
 
 | **Segmento**          | **Descripción**                                                                                                                                                                                                                                                                                                                                                        |
-|-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Entrevista 2**      | El entrevistado es un ingeniero agrícola de 25 años, director técnico en una cooperativa de Huánuco con más de 150 socios y alrededor de 1,200 hectáreas de producción conjunta. La cooperativa cultiva papa, yuca, camote y tubérculos. Su rol principal es la asistencia técnica, capacitación, gestión de proyectos y transferencia de tecnología hacia los socios. |
 | **Desafíos**          | Los desafíos más relevantes son las plagas y los cambios climáticos extremos que afectan grandes volúmenes de producción. Otro reto es la heterogeneidad en el nivel tecnológico de los socios, lo que dificulta una adopción homogénea de nuevas soluciones.                                                                                                          |
 | **Recursos y visión** | Cuentan con cierta capacidad de inversión conjunta y organizan compras colectivas para reducir costos. Valoran las herramientas digitales que mejoren la producción, especialmente aquellas que permitan prevenir problemas y optimizar recursos. Están abiertos a implementar pilotos tecnológicos, siempre que haya capacitación y soporte constante.                |
@@ -2635,8 +2634,6 @@ A continuación, se muestra la tabla de actividades de todos los participantes:
 
 <img src="assets/cap6/githubweb2.png" alt="Web App - 2" style="max-width:100%;height:auto;">
 
-
-
 ### 6.2.2. Sprint 2
 
 Se presenta la planificación del segundo Sprint realizado por el equipo para consolidar el desarrollo **full-stack** de la solución UniverseThings, implementando la **Web Application**, la **Mobile Application** y el **backend de servicios IoT** sobre los cuales se consumen los datos de sensores y se gestionan las automatizaciones.
@@ -2672,7 +2669,6 @@ Se presenta la planificación del segundo Sprint realizado por el equipo para co
 | QA & Testing Suite                          | Quispe Tipo, Godofredo         | Cipriano Chumbes, Bruce Andres / Ruiz Torres, Erick Hernan | Definición y ejecución de pruebas funcionales, integración y revisión de criterios de aceptación por User Story.        |
 | DevOps & Deployment                         | Ruiz Torres, Erick Hernan      | Loarte Matos, Anthony Brahan                               | Configuración de Docker, entornos de despliegue, scripts de arranque y soporte a despliegue de backend y frontend.      |
 
-
 ### 6.2.2.3. Sprint Backlog 2.
 
 En este Sprint se seleccionaron historias orientadas a **instalación/configuración del sistema IoT, monitoreo climático, automatización básica y visualización de datos**, tomando como base el Product Backlog definido en el capítulo de requerimientos.
@@ -2691,7 +2687,6 @@ En este Sprint se seleccionaron historias orientadas a **instalación/configurac
 | US012      | T01              | Visualización gráfica (líneas/barras) de datos históricos para comparar sensores y periodos.                                  | 10             | Bruce Cipriano   | Done        |
 | US014      | T01              | Integración vía API entre backend UniverseThings, Web Application y Mobile Application para lectura/escritura de datos IoT.   | 12             | Anthony Loarte   | Done        |
 
-
 ### 6.2.2.4. Development Evidence for Sprint Review.
 
 En la siguiente tabla se presentan los principales commits realizados durante el Sprint 2 en los repositorios involucrados en el MVP full-stack de UniverseThings.
@@ -2708,7 +2703,6 @@ En la siguiente tabla se presentan los principales commits realizados durante el
 | 2510-356-Solution-Development-IOT-Project-Mobile-App | develop | 4f7c9e3   | feat: pantallas de login y selección de finca                                     | 19/10/2025   |
 | 2510-356-Solution-Development-IOT-Project-Mobile-App | develop | 6d8b0a4   | feat: monitoreo móvil y override de automatizaciones (US009)                      | 21/10/2025   |
 | 2510-356-Solution-Development-IOT-Project-Mobile-App | develop | b52e1d9   | fix: ajustes de consumo de API y manejo de estados                                | 22/10/2025   |
-
 
 ### 6.2.2.6. Execution Evidence for Sprint Review.
 
@@ -2729,7 +2723,6 @@ Mobile App:
 <img src="assets/cap6/MobileEvidence6.png" alt="Evidencias Sprint 2"/>
 
 <img src="assets/cap6/MobileEvidence7.png" alt="Evidencias Sprint 2"/>
-
 
 ### 6.2.2.7. Services Documentation Evidence for Sprint Review.
 
@@ -2754,7 +2747,6 @@ miembros del equipo en desarrollo de cada producto asociado a nuestra solución:
 
 <img src="assets/cap6/Collaboration5.png" alt="Evidencias Sprint 2"/>
 
-
 | Alumno                         | Actividad                             |
 | ------------------------------ | ------------------------------------- |
 | Cipriano Chumbes, Bruce Andres | Desarrollo de backend y Web App       |
@@ -2762,7 +2754,6 @@ miembros del equipo en desarrollo de cada producto asociado a nuestra solución:
 | Riegas Salas, Jose Miguel      | Desarrollo de Mobile App              |
 | Ruiz Torres, Erick Hernan      | Desarrollo de Web App                 |
 | Quispe Tipo, Godofredo         | Desarrollo de documentacion y Web App |
-
 
 Backend
 
@@ -2776,16 +2767,14 @@ Mobile App
 
 <img src="assets/cap6/colaborations_sprint2_3.png" alt="Evidencias Sprint 1"/>
 
+### 6.2.3. Sprint 3
 
-### 6.2.3. Sprint 3  
+En este Sprint, el equipo orientó sus esfuerzos al desarrollo y validación de la _capa embebida (edge layer)_ de la solución UniverseThings, construida sobre _ESP32_, así como a la integración completa del pipeline IoT (dispositivo → edge → backend → web/móvil) para completar el MVP full-stack. Además, se abordaron mejoras en la gestión de telemetría, pruebas de estabilidad y documentación técnica del sistema embebido.
 
-En este Sprint, el equipo orientó sus esfuerzos al desarrollo y validación de la *capa embebida (edge layer)* de la solución UniverseThings, construida sobre *ESP32*, así como a la integración completa del pipeline IoT (dispositivo → edge → backend → web/móvil) para completar el MVP full-stack. Además, se abordaron mejoras en la gestión de telemetría, pruebas de estabilidad y documentación técnica del sistema embebido.
-
-
-### 6.2.3.1. Sprint Planning 3.  
+### 6.2.3.1. Sprint Planning 3.
 
 | Campo                      | Valor                                                                                                                                                                                                                                                                           |
-|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Sprint #                   | Sprint 3                                                                                                                                                                                                                                                                        |
 | Sprint Planning Background | Sprint posterior a la estabilización del backend y primeras integraciones full-stack del Sprint 2. En esta iteración se prioriza alcanzar la operatividad real de los dispositivos IoT mediante firmware optimizado para ESP32 y su comunicación con el backend UniverseThings. |
 | Date                       | 2025-11-14                                                                                                                                                                                                                                                                      |
@@ -2801,20 +2790,20 @@ En este Sprint, el equipo orientó sus esfuerzos al desarrollo y validación de 
 | Sprint 3 Velocity          | 34 (Story Points aceptados)                                                                                                                                                                                                                                                     |
 | Sum of Story Points        | 34                                                                                                                                                                                                                                                                              |
 
-### 6.2.3.2. Aspect Leaders and Collaborators. 
+### 6.2.3.2. Aspect Leaders and Collaborators.
 
 | Aspecto / Módulo                  | Líder                          | Colaboradores                                         | Descripción                                                                                                        |
-|-----------------------------------|--------------------------------|-------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
+| --------------------------------- | ------------------------------ | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
 | Embedded IoT (ESP32 Firmware)     | Loarte Matos, Anthony Brahan   | Riegas Salas, Jose Miguel / Ruiz Torres, Erick Hernan | Desarrollo del firmware ESP32, lectura de sensores, manejo de WiFi y transmisión MQTT/HTTP hacia la nube.          |
 | Edge Computing & Device Pipeline  | Ruiz Torres, Erick Hernan      | Loarte Matos, Anthony Brahan / Godofredo Quispe       | Definición del comportamiento de edge, reconexión, buffering local y estructura del payload IoT.                   |
 | Backend IoT Ingest Layer          | Riegas Salas, Jose Miguel      | Quispe Tipo, Godofredo                                | Ajustes al backend para recibir y procesar telemetría real desde dispositivos físicos.                             |
 | QA & Hardware Testing             | Cipriano Chumbes, Bruce Andres | Ruiz Torres, Erick Hernan / Riegas Salas, Jose Miguel | Pruebas funcionales con hardware, validación de datos y reporte de estabilidad del envío.                          |
 | Documentation & Deployment Guides | Quispe Tipo, Godofredo         | Equipo completo                                       | Redacción de guías para despliegue en campo, configuración de firmware, flujos del pipeline IoT y troubleshooting. |
 
-### 6.2.3.3. Sprint Backlog 3.  
+### 6.2.3.3. Sprint Backlog 3.
 
 | User Story | Work-Item / Task | Título / Descripción (extracto)                                                                  | Estimación (h) | Assigned To      | Status     |
-|------------|------------------|--------------------------------------------------------------------------------------------------|----------------|------------------|------------|
+| ---------- | ---------------- | ------------------------------------------------------------------------------------------------ | -------------- | ---------------- | ---------- |
 | US030      | T01              | Desarrollo de firmware ESP32 para lectura de sensores (temp/humedad/ADC) y publicación de datos. | 10             | Anthony Loarte   | Done       |
 | US031      | T01              | Implementación de conectividad WiFi + MQTT/HTTP con reintentos y reconexión estable.             | 8              | Erick Ruiz       | Done       |
 | US032      | T01              | Estructuración del payload IoT (JSON) con metadatos, timestamps y valores normalizados.          | 5              | Jose Miguel      | Done       |
@@ -2823,10 +2812,10 @@ En este Sprint, el equipo orientó sus esfuerzos al desarrollo y validación de 
 | US035      | T01              | Control desde backend al dispositivo (comando simple: LED/relay on-off).                         | 6              | Anthony Loarte   | In-process |
 | US036      | T01              | Documentación técnica del sistema embebido: pines, esquemas, pasos de flasheo y configuración.   | 4              | Godofredo Quispe | Done       |
 
-### 6.2.3.4. Development Evidence for Sprint Review.  
+### 6.2.3.4. Development Evidence for Sprint Review.
 
 | Repository                               | Branch  | Commit Id | Commit Message                                                                     | Committed on |
-|------------------------------------------|---------|-----------|------------------------------------------------------------------------------------|--------------|
+| ---------------------------------------- | ------- | --------- | ---------------------------------------------------------------------------------- | ------------ |
 | UniverseThings-Backend                   | develop | 8ac3f7e   | feat: endpoint de ingesta IoT para telemetría real desde ESP32 (US033)             | 11/11/2025   |
 | UniverseThings-Backend                   | develop | c4b9d12   | fix: normalización de payload y timestamps para compatibilidad edge → backend      | 12/11/2025   |
 | UniverseThings-Embedded (ESP32 Firmware) | main    | f29ce01   | feat: lectura de sensores, WiFi manager y envío MQTT con reconexión (US030, US031) | 10/11/2025   |
@@ -2989,8 +2978,6 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 | 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.                                |
 | 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                              |
 
-
-
 ### 6.4. Video About-the-Product.
 
 <img src="assets/cap6/videoabout.png" alt="Evidencias Sprint 1"/>
@@ -2999,18 +2986,15 @@ Link deL video en Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/per
 
 Link de video en youtube: https://youtu.be/pqpDH5zmjwk
 
-
-
 # Conclusiones
 
 ## Conclusiones y recomendaciones
 
- * La implementación de dispositivos IoT en el sector agrícola puede transformar significativamente las prácticas tradicionales, permitiendo una gestión más eficiente y sostenible de los recursos.
-  * La recopilación y análisis de datos en tiempo real proporciona a los agricultores información valiosa para tomar decisiones informadas, optimizando el uso del agua, fertilizantes y otros insumos.
-  * La integración de tecnologías IoT con plataformas digitales facilita la monitorización remota de cultivos, reduciendo la necesidad de presencia física constante y permitiendo una respuesta rápida a las condiciones cambiantes del entorno.
-  * Es fundamental considerar la capacitación de los agricultores en el uso de estas tecnologías para maximizar su adopción y efectividad.
-  * Se recomienda continuar investigando y desarrollando soluciones IoT adaptadas a las necesidades específicas de diferentes tipos de cultivos y regiones agrícolas, promoviendo la innovación en el sector.
-  
+- La implementación de dispositivos IoT en el sector agrícola puede transformar significativamente las prácticas tradicionales, permitiendo una gestión más eficiente y sostenible de los recursos.
+- La recopilación y análisis de datos en tiempo real proporciona a los agricultores información valiosa para tomar decisiones informadas, optimizando el uso del agua, fertilizantes y otros insumos.
+- La integración de tecnologías IoT con plataformas digitales facilita la monitorización remota de cultivos, reduciendo la necesidad de presencia física constante y permitiendo una respuesta rápida a las condiciones cambiantes del entorno.
+- Es fundamental considerar la capacitación de los agricultores en el uso de estas tecnologías para maximizar su adopción y efectividad.
+- Se recomienda continuar investigando y desarrollando soluciones IoT adaptadas a las necesidades específicas de diferentes tipos de cultivos y regiones agrícolas, promoviendo la innovación en el sector.
 
 ## Video About-the-Team
 
