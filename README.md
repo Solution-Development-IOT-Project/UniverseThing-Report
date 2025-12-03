@@ -35,7 +35,7 @@
 
 </div>
 
-<h3 align="center">Noviembre, 2025</h3>
+<h3 align="center">Diciembre, 2025</h3>
 
 <br><br>
 
@@ -226,7 +226,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         TP1:<br> Se distribuyeron responsabilidades para el desarrollo de las secciones del capítulo, donde cada integrante lideró la creación de partes específicas del diseño, en mi caso realice (Style Guidelines, Information Architecture, Navigation Systems). Se promovió la revisión cruzada entre los miembros para garantizar coherencia visual y conceptual.<br>
         TB2:<br>Elabore items de la aplicacion web , ademas del desarrollo del video de about the product ,tambien en el apoyo del desarrollo del documento.
         <br>
-        TF1: <br>  <br>
+        TF1: <br> Elabore los ultimos items de la aplicacion web ,tambien en el apoyo del desarrollo del documento. <br>
       Jose Riegas<br>
         TB1:<br> Para el desarrollo del proyecto he participado de manera activa tanto en la toma de decisiones como en la división de responsabilidades, de la misma manera he ayudado en responsabilidades de mis compañeros con el afán de entregar un mejor producto.<br> 
         TP1:<br>  La elaboración del capítulo se organizó mediante la distribución de responsabilidades, asignando a cada integrante el liderazgo en el desarrollo de secciones específicas del diseño. En mi caso, estuve a cargo de la creación de las Guías de Estilo, la Arquitectura de la Información y los Sistemas de Navegación. Para asegurar la uniformidad en el resultado, se implementó un sistema de revisión por pares entre todos los miembros.<br>  
@@ -259,7 +259,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         TB1:<br> Se establecieron reuniones semanales para revisar avances y definir metas alcanzables. Se usaron herramientas colaborativas como Miro y Structurizr para fomentar la participación activa y el consenso en decisiones de arquitectura.<br>
         TP1: <br>  El equipo planificó un cronograma de entregas intermedias para validar cada subcomponente del diseño UI/UX. Se fomentó la participación equitativa, la retroalimentación constante y la adaptación<br> 
         TB2:<br> Para esta entrega apoye en el desarrollo de la aplicaion web, de la misma forma para el desarrollo del video de about the product. <br> 
-        TF1: <br>  <br>
+        TF1: <br> Elabore los ultimos items de la aplicacion web ,tambien en el apoyo del desarrollo del documento. <br>
       Jose Riegas<br>
         TB1:<br> Durante el proyecto fue de mi prioridad ayudar a mis compañeros en la realización de sus tareas, por este motivo he revisado todo el proyecto, corregido errores, como también aportado a la creación de ítems externos a mis responsabilidades asignadas.<br> 
         TP1:<br> Durante la entrega, fomenté un entorno colaborativo e inclusivo asegurándome de que todos los integrantes tuvieran la oportunidad de participar activamente. Establecí objetivos claros y prioricé una planificación efectiva, asegurando el cumplimiento de mis responsabilidades mediante una comunicación constante.<br> 
@@ -317,7 +317,7 @@ La agricultura enfrenta desafíos críticos debido a la imprevisibilidad climát
 ### 1.1.2. Perfiles de integrantes del equipo
 
 |                                   Foto                                   |                                                                                                                                                                                                                                                                   Descripción                                                                                                                                                                                                                                                                    |
-| :----------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|:------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 | <img src="assets/cap1/Godofredo.jpg" alt="Foto de perfil de Godofredo" > | **Nombre:** Mi nombre es Godofredo y actualmente me encuentro cursando la carrera de Ingeniería de Software, un campo que me apasiona profundamente. Mi interés por las nuevas tecnologías es constante, y estoy siempre al tanto de las últimas innovaciones que están redefiniendo el panorama tecnológico. Me considero un entusiasta de la programación, área en la que he adquirido un dominio en diversos lenguajes, tales como Python, C++ y Assembler, lo que me ha permitido abordar una amplia gama de proyectos y desafíos técnicos . |
 |   <img src="assets/cap1/erickfoto.png" alt="Foto de perfil de Erick" >   |                                                                        **Nombre:** Mi nombre es Erick Ruiz y actualmente me encuentro cursando la carrera de Ingeniería de Software, la cual decidi estudiar porque me gusta la tecnologia. Me considero una persona que le gusta aprender nuevas tecnologias , manejo varias herramientas y tambien lenguajes, tales como Python, C++ y Kotlin, lo que me ha permitidodesarrollar una amplia gama de proyectos nuevos .                                                                         |
 |     <img src="assets/cap1/Bruce.png" alt="Foto de perfil de Bruce" >     |                                **Nombre:** Soy Bruce, estudiante de Ingeniería de Software en la UPC (Universidad Peruana de Ciencias Aplicadas). Siempre me ha fascinado la tecnología y cómo funciona. Disfruto programar, ser responsable y trabajar en equipo. Tengo conocimientos básicos en C#, Java, JavaScript, HTML y CSS, y conocimientos intermedios en C++, SQL y MongoDB. Mi objetivo es contribuir al mundo de la tecnología mientras desarrollo mi carrera profesional como ingeniero de software.                                |
@@ -801,7 +801,7 @@ Preguntas principales:
 #### Segmento 2 – Representante de una Cooperativa Agrícola
 
 | **Segmento**          | **Descripción**                                                                                                                                                                                                                                                                                                                                                        |
-| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Entrevista 2**      | El entrevistado es un ingeniero agrícola de 25 años, director técnico en una cooperativa de Huánuco con más de 150 socios y alrededor de 1,200 hectáreas de producción conjunta. La cooperativa cultiva papa, yuca, camote y tubérculos. Su rol principal es la asistencia técnica, capacitación, gestión de proyectos y transferencia de tecnología hacia los socios. |
 | **Desafíos**          | Los desafíos más relevantes son las plagas y los cambios climáticos extremos que afectan grandes volúmenes de producción. Otro reto es la heterogeneidad en el nivel tecnológico de los socios, lo que dificulta una adopción homogénea de nuevas soluciones.                                                                                                          |
 | **Recursos y visión** | Cuentan con cierta capacidad de inversión conjunta y organizan compras colectivas para reducir costos. Valoran las herramientas digitales que mejoren la producción, especialmente aquellas que permitan prevenir problemas y optimizar recursos. Están abiertos a implementar pilotos tecnológicos, siempre que haya capacitación y soporte constante.                |
@@ -2237,7 +2237,7 @@ Trabajando con los wireframes anteriormente mostrados, luego se aplicó los Styl
 
 Vista general de ambos diseños:
 
-<img src="assets/cap5/wireframerLanding.png" alt="WireFrame Landing Page" width="300" /> <img src="assets/cap5/moockupLanding.png" alt="Mock-up Landing Page" width="300" />
+<img src="assets/cap5/wireframerLanding.png" alt="WireFrame Landing Page" /> <img src="assets/cap5/moockupLanding.png" alt="Mock-up Landing Page"  />
 
 Link de figma lading page: <a href="https://www.figma.com/design/EHi82ICkHRBIJbRcUAo2fF/IoT-Figma?node-id=0-1&t=mBL4zOuR51tJplyB-1">https://www.figma.com/design/EHi82ICkHRBIJbRcUAo2fF/IoT-Figma?node-id=0-1&t=mBL4zOuR51tJplyB-1</a>
 
@@ -2248,88 +2248,88 @@ Link de figma lading page: <a href="https://www.figma.com/design/EHi82ICkHRBIJbR
 Web Application
 Pantallas relacionadas al inicio de sesión y registro de usuario:
 
-<img src="assets/cap5/wireframerWeb.png" alt="WireFrame Web app" width="300" /> <img src="assets/cap5/wireframerWeb1.png" alt="WireFrame Web app" width="300" />
+<img src="assets/cap5/wireframerWeb.png" alt="WireFrame Web app"  /> <img src="assets/cap5/wireframerWeb1.png" alt="WireFrame Web app" />
 
 Pantallas relacionadas al dashboard donde se podra visualizar la temperatura , luminocidad y la deteccion de plagas con un grafico intuitivo:
 
-<img src="assets/cap5/wireframerWeb2.png" alt="WireFrame Web app" width="300" />
+<img src="assets/cap5/wireframerWeb2.png" alt="WireFrame Web app"  />
 
 Pantallas relacionadas a los dispositivos donde se podra visualizar todos los sensores que tiene activados o desactivados:
 
-<img src="assets/cap5/wireframerWeb3.png" alt="WireFrame Web app" width="300" />
+<img src="assets/cap5/wireframerWeb3.png" alt="WireFrame Web app"  />
 
 Pantallas relacionadas a las alertas como la de alrestas activas,pendietes,resultados de hoy y el tiempo respuesta .Ademas de un historial de todos ellos:
 
-<img src="assets/cap5/wireframerWeb4.png" alt="WireFrame Web app" width="300" /> <img src="assets/cap5/wireframerWeb5.png" alt="Mock-up Web app" width="300" />
+<img src="assets/cap5/wireframerWeb4.png" alt="WireFrame Web app"  /> <img src="assets/cap5/wireframerWeb5.png" alt="Mock-up Web app"  />
 
 Pantallas relacionadas a los datos de los sensores se visualizara el porcentade de cada uno de ellos con un grafico:
 
-<img src="assets/cap5/wireframerWeb6.png" alt="WireFrame Web app" width="300" /> <img src="assets/cap5/wireframerWeb7.png" alt="Mock-up Web app" width="300" /><img src="assets/cap5/wireframerWeb8.png" alt="Mock-up Web app" width="300" /><img src="assets/cap5/wireframerWeb9.png" alt="Mock-up Web app" width="300" />
+<img src="assets/cap5/wireframerWeb6.png" alt="WireFrame Web app"  /> <img src="assets/cap5/wireframerWeb7.png" alt="Mock-up Web app" /><img src="assets/cap5/wireframerWeb8.png" alt="Mock-up Web app"  /><img src="assets/cap5/wireframerWeb9.png" alt="Mock-up Web app"  />
 
 Pantallas relacionadas a las configuraciones donde tomas tus configuracion propias:
 
-<img src="assets/cap5/wireframerWeb10.png" alt="WireFrame Web app" width="300" />
+<img src="assets/cap5/wireframerWeb10.png" alt="WireFrame Web app" />
 
 Pantallas relacionadas al perfil de usuario aqui visualizaras el perfil y los datos de dais activadasm sesosres configrados, alertas reltados y el ahorro de insecticida y claro los datos personales que fue registrado :
 
-<img src="assets/cap5/wireframerWeb11.png" alt="WireFrame Web app" width="300" />
+<img src="assets/cap5/wireframerWeb11.png" alt="WireFrame Web app"  />
 
 ### 5.4.2. Applications Wireflow Diagrams
 
 En esta sección, se presentan los wireflows de la aplicación web guiándose de las historias de usuario:
 
 Usar Goal: Como usuario, quiero poder registrarme en la aplicación para acceder a las funcionalidades disponibles.
-<img src="assets/cap5/DiagramWireframer3.png" alt="WireFrame Web app" width="300" />
+<img src="assets/cap5/DiagramWireframer3.png" alt="WireFrame Web app"  />
 
 En esta sección, se presentan los wireflows de la aplicación web guiándose de las historias de usuario:
 
 Usar Goal: Como usuario, quiero poder visualizar con graficso cada aparatode los de sensores.
 
-<img src="assets/cap5/DiagramWireframer1.png" alt="WireFrame Web app" width="300" />
+<img src="assets/cap5/DiagramWireframer1.png" alt="WireFrame Web app" />
 
 En esta sección, se presentan los wireflows de la aplicación web guiándose de las historias de usuario:
 
 Usar Goal: Como usuario, quiero poder visualizar los datos captados de los sensores
 y asi poder tomar represarias sobre ellos
 
-<img src="assets/cap5/DiagramWireframer2.png" alt="WireFrame Web app" width="300" />
+<img src="assets/cap5/DiagramWireframer2.png" alt="WireFrame Web app"  />
 
 En esta sección, se presentan los wireflows de la aplicación web guiándose de las historias de usuario:
 
 Usar Goal: Como usuario, quiero poder visualizar los dashboard que se tiene en la web
 
-<img src="assets/cap5/DiagramWireframer.png" alt="WireFrame Web app" width="300" />
+<img src="assets/cap5/DiagramWireframer.png" alt="WireFrame Web app"  />
 
 ### 5.4.3. Applications Mock-ups
 
 Web Application
 Pantallas relacionadas al inicio de sesión y registro de usuario:
 
-<img src="assets/cap5/wireframerWeb0.png" alt="WireFrame Web app" width="300" /> <img src="assets/cap5/wireframerWeb01.png" alt="Mock-up Web app" width="300" />
+<img src="assets/cap5/wireframerWeb0.png" alt="WireFrame Web app"  /> <img src="assets/cap5/wireframerWeb01.png" alt="Mock-up Web app"  />
 
 Pantallas relacionadas al dashboard donde se podra visualizar la temperatura , luminocidad y la deteccion de plagas con un grafico intuitivo:
 
-<img src="assets/cap5/wireframerWeb02.png" alt="WireFrame Web app" width="300" />
+<img src="assets/cap5/wireframerWeb02.png" alt="WireFrame Web app" />
 
 Pantallas relacionadas a los dispositivos donde se podra visualizar todos los sensores que tiene activados o desactivados:
 
-<img src="assets/cap5/wireframerWeb03.png" alt="WireFrame Web app" width="300" />
+<img src="assets/cap5/wireframerWeb03.png" alt="WireFrame Web app"  />
 
 Pantallas relacionadas a las alertas como la de alrestas activas,pendietes,resultados de hoy y el tiempo respuesta .Ademas de un historial de todos ellos:
 
-<img src="assets/cap5/wireframerWeb04.png" alt="WireFrame Web app" width="300" /> <img src="assets/cap5/wireframerWeb05.png" alt="Mock-up Web app" width="300" />
+<img src="assets/cap5/wireframerWeb04.png" alt="WireFrame Web app" /> <img src="assets/cap5/wireframerWeb05.png" alt="Mock-up Web app" />
 
 Pantallas relacionadas a los datos de los sensores se visualizara el porcentade de cada uno de ellos con un grafico:
 
-<img src="assets/cap5/wireframerWeb06.png" alt="WireFrame Web app" width="300" /> <img src="assets/cap5/wireframerWeb07.png" alt="Mock-up Web app" width="300" /><img src="assets/cap5/wireframerWeb08.png" alt="Mock-up Web app" width="300" /><img src="assets/cap5/wireframerWeb09.png" alt="Mock-up Web app" width="300" />
+<img src="assets/cap5/wireframerWeb06.png" alt="WireFrame Web app" /> <img src="assets/cap5/wireframerWeb07.png" alt="Mock-up Web app"  /><img src="assets/cap5/wireframerWeb08.png" alt="Mock-up Web app" /><img src="assets/cap5/wireframerWeb09.png" alt="Mock-up Web app"  />
 
 Pantallas relacionadas a las configuraciones donde tomas tus configuracion propias:
 
-<img src="assets/cap5/wireframerWeb010.png" alt="WireFrame Web app" width="300" />
+<img src="assets/cap5/wireframerWeb010.png" alt="WireFrame Web app"  />
 
 Pantallas relacionadas al perfil de usuario aqui visualizaras el perfil y los datos de dais activadasm sesosres configrados, alertas reltados y el ahorro de insecticida y claro los datos personales que fue registrado :
 
-<img src="assets/cap5/wireframerWeb011.png" alt="WireFrame Web app" width="300" />
+<img src="assets/cap5/wireframerWeb011.png" alt="WireFrame Web app"  />
 
 ### 5.4.4. Applications User Flow Diagrams
 
@@ -2337,26 +2337,26 @@ En esta sección, se presentan los wireflows de la aplicación web guiándose de
 
 Usar Goal: Como usuario, quiero poder registrarme en la aplicación para acceder a las funcionalidades disponibles.
 
-<img src="assets/cap5/DiagramWireframer03.png" alt="WireFrame Web app" width="300" />
+<img src="assets/cap5/DiagramWireframer03.png" alt="WireFrame Web app"  />
 
 En esta sección, se presentan los wireflows de la aplicación web guiándose de las historias de usuario:
 
 Usar Goal: Como usuario, quiero poder visualizar con graficso cada aparatode los de sensores.
 
-<img src="assets/cap5/DiagramWireframer01.png" alt="WireFrame Web app" width="300" />
+<img src="assets/cap5/DiagramWireframer01.png" alt="WireFrame Web app"  />
 
 En esta sección, se presentan los wireflows de la aplicación web guiándose de las historias de usuario:
 
 Usar Goal: Como usuario, quiero poder visualizar los datos captados de los sensores
 y asi poder tomar represarias sobre ellos
 
-<img src="assets/cap5/DiagramWireframer02.png" alt="WireFrame Web app" width="300" />
+<img src="assets/cap5/DiagramWireframer02.png" alt="WireFrame Web app" />
 
 En esta sección, se presentan los wireflows de la aplicación web guiándose de las historias de usuario:
 
 Usar Goal: Como usuario, quiero poder visualizar los dashboard que se tiene en la web
 
-<img src="assets/cap5/DiagramWireframer0.png" alt="WireFrame Web app" width="300" />
+<img src="assets/cap5/DiagramWireframer0.png" alt="WireFrame Web app" />
 
 ## 5.5. Applications Prototyping
 
@@ -2367,7 +2367,7 @@ superior e inferior siempre en la aplicación con 4 secciones, los cuales podrá
 Principio de divulgación: La información presentada se separa por partes, de tal manera que el usuario encuentre lo que desee. Esto se evidencia en
 los detalles al seleccionar un cultivo.
 
-<img src="assets/cap5/Figma.png" alt="WireFrame Web app" width="300" />
+<img src="assets/cap5/Figma.png" alt="WireFrame Web app"  />
 
 Link de video: <a href="https://upcedupe-my.sharepoint.com/:f:/g/personal/u20211d640_upc_edu_pe/EvW3EPDQFLpNjAy0wUX5_DAB8o0BFQr0plBacKRFbMxsKw?e=7cMWfU">https://upcedupe-my.sharepoint.com/:f:/g/personal/u20211d640_upc_edu_pe/EvW3EPDQFLpNjAy0wUX5_DAB8o0BFQr0plBacKRFbMxsKw?e=7cMWfU</a>
 
@@ -2634,6 +2634,8 @@ A continuación, se muestra la tabla de actividades de todos los participantes:
 
 <img src="assets/cap6/githubweb2.png" alt="Web App - 2" style="max-width:100%;height:auto;">
 
+
+
 ### 6.2.2. Sprint 2
 
 Se presenta la planificación del segundo Sprint realizado por el equipo para consolidar el desarrollo **full-stack** de la solución UniverseThings, implementando la **Web Application**, la **Mobile Application** y el **backend de servicios IoT** sobre los cuales se consumen los datos de sensores y se gestionan las automatizaciones.
@@ -2669,6 +2671,7 @@ Se presenta la planificación del segundo Sprint realizado por el equipo para co
 | QA & Testing Suite                          | Quispe Tipo, Godofredo         | Cipriano Chumbes, Bruce Andres / Ruiz Torres, Erick Hernan | Definición y ejecución de pruebas funcionales, integración y revisión de criterios de aceptación por User Story.        |
 | DevOps & Deployment                         | Ruiz Torres, Erick Hernan      | Loarte Matos, Anthony Brahan                               | Configuración de Docker, entornos de despliegue, scripts de arranque y soporte a despliegue de backend y frontend.      |
 
+
 ### 6.2.2.3. Sprint Backlog 2.
 
 En este Sprint se seleccionaron historias orientadas a **instalación/configuración del sistema IoT, monitoreo climático, automatización básica y visualización de datos**, tomando como base el Product Backlog definido en el capítulo de requerimientos.
@@ -2687,6 +2690,7 @@ En este Sprint se seleccionaron historias orientadas a **instalación/configurac
 | US012      | T01              | Visualización gráfica (líneas/barras) de datos históricos para comparar sensores y periodos.                                  | 10             | Bruce Cipriano   | Done        |
 | US014      | T01              | Integración vía API entre backend UniverseThings, Web Application y Mobile Application para lectura/escritura de datos IoT.   | 12             | Anthony Loarte   | Done        |
 
+
 ### 6.2.2.4. Development Evidence for Sprint Review.
 
 En la siguiente tabla se presentan los principales commits realizados durante el Sprint 2 en los repositorios involucrados en el MVP full-stack de UniverseThings.
@@ -2703,6 +2707,7 @@ En la siguiente tabla se presentan los principales commits realizados durante el
 | 2510-356-Solution-Development-IOT-Project-Mobile-App | develop | 4f7c9e3   | feat: pantallas de login y selección de finca                                     | 19/10/2025   |
 | 2510-356-Solution-Development-IOT-Project-Mobile-App | develop | 6d8b0a4   | feat: monitoreo móvil y override de automatizaciones (US009)                      | 21/10/2025   |
 | 2510-356-Solution-Development-IOT-Project-Mobile-App | develop | b52e1d9   | fix: ajustes de consumo de API y manejo de estados                                | 22/10/2025   |
+
 
 ### 6.2.2.6. Execution Evidence for Sprint Review.
 
@@ -2723,6 +2728,7 @@ Mobile App:
 <img src="assets/cap6/MobileEvidence6.png" alt="Evidencias Sprint 2"/>
 
 <img src="assets/cap6/MobileEvidence7.png" alt="Evidencias Sprint 2"/>
+
 
 ### 6.2.2.7. Services Documentation Evidence for Sprint Review.
 
@@ -2747,6 +2753,7 @@ miembros del equipo en desarrollo de cada producto asociado a nuestra solución:
 
 <img src="assets/cap6/Collaboration5.png" alt="Evidencias Sprint 2"/>
 
+
 | Alumno                         | Actividad                             |
 | ------------------------------ | ------------------------------------- |
 | Cipriano Chumbes, Bruce Andres | Desarrollo de backend y Web App       |
@@ -2754,6 +2761,7 @@ miembros del equipo en desarrollo de cada producto asociado a nuestra solución:
 | Riegas Salas, Jose Miguel      | Desarrollo de Mobile App              |
 | Ruiz Torres, Erick Hernan      | Desarrollo de Web App                 |
 | Quispe Tipo, Godofredo         | Desarrollo de documentacion y Web App |
+
 
 Backend
 
@@ -2766,6 +2774,8 @@ Mobile App
 Mobile App
 
 <img src="assets/cap6/colaborations_sprint2_3.png" alt="Evidencias Sprint 1"/>
+
+
 
 ## 6.3. Validation Interviews
 
@@ -2928,6 +2938,8 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 Link deL video en Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118946_upc_edu_pe/IQD-gxgyOjeTRqRsUeLTKaOXAbD-pddv7X7LqoB7YoHYPUw?e=Gv5rZG
 
 Link de video en youtube: https://youtu.be/pqpDH5zmjwk
+
+
 
 # Conclusiones
 
