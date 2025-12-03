@@ -7,11 +7,12 @@
 
 <h3 align="center"> Ingeniería de Software </h3>
 
-<h3 align="center">Ciclo 2025 - 2</h3>
+<h3 align="center">Ciclo 2025 - 20</h3>
 
 <h3 align="center"> 1ASI0572 - Desarrollo de Soluciones IoT </h3>
 
-<h4 align="center"> NRC: 3414 </h4>
+<h4 align="center"> NRC: 3414</h4>
+
 
 <h3 align="center"> Docente: Marco Antonio Leon Baca </h3>
 
@@ -2776,6 +2777,63 @@ Mobile App
 <img src="assets/cap6/colaborations_sprint2_3.png" alt="Evidencias Sprint 1"/>
 
 
+### 6.2.3. Sprint 3  
+
+En este Sprint, el equipo orientó sus esfuerzos al desarrollo y validación de la *capa embebida (edge layer)* de la solución UniverseThings, construida sobre *ESP32*, así como a la integración completa del pipeline IoT (dispositivo → edge → backend → web/móvil) para completar el MVP full-stack. Además, se abordaron mejoras en la gestión de telemetría, pruebas de estabilidad y documentación técnica del sistema embebido.
+
+
+### 6.2.3.1. Sprint Planning 3.  
+
+| Campo                      | Valor                                                                                                                                                                                                                                                                           |
+|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sprint #                   | Sprint 3                                                                                                                                                                                                                                                                        |
+| Sprint Planning Background | Sprint posterior a la estabilización del backend y primeras integraciones full-stack del Sprint 2. En esta iteración se prioriza alcanzar la operatividad real de los dispositivos IoT mediante firmware optimizado para ESP32 y su comunicación con el backend UniverseThings. |
+| Date                       | 2025-11-14                                                                                                                                                                                                                                                                      |
+| Time                       | 08:00 PM                                                                                                                                                                                                                                                                        |
+| Location                   | Reunión virtual (Google Meet)                                                                                                                                                                                                                                                   |
+| Prepared By                | Quispe Tipo, Godofredo / Riegas Salas, Jose Miguel / Loarte Matos, Anthony Brahan / Ruiz Torres, Erick Hernan / Cipriano Chumbes, Bruce Andres                                                                                                                                  |
+| Attendees                  | Quispe Tipo, Godofredo / Riegas Salas, Jose Miguel / Loarte Matos, Anthony Brahan / Ruiz Torres, Erick Hernan / Cipriano Chumbes, Bruce Andres                                                                                                                                  |
+| Sprint 3-1 Review Summary  | El Sprint 2 consolidó el MVP full-stack (backend + web + móvil). En este Sprint, el objetivo fue trasladar la operación desde simuladores a hardware real (ESP32), logrando lectura de sensores físicos, transmisión estable al backend y pruebas en finca piloto.              |
+| Sprint 3-1 Retrospective   | Se identificó la necesidad de mejorar la robustez del firmware, estandarizar el payload enviado por el ESP32 y tener una guía técnica más clara para futuros despliegues. Se acordó fortalecer testing en la capa edge y documentar el pipeline IoT completo.                   |
+| Sprint 3 Goal              | Conectar el dispositivo físico (ESP32) a la nube UniverseThings, permitir lectura real de sensores, transmitir telemetría en tiempo real y recibir comandos simples desde el backend.                                                                                           |
+| Hipótesis de Valor         | Si el sistema funciona con hardware real en condiciones de campo, se valida que UniverseThings es desplegable a escala y útil para agricultores al proveer datos reales sin intervención técnica.                                                                               |
+| Criterio de Confirmación   | El Sprint es exitoso si un ESP32 real puede: (1) conectarse a WiFi, (2) leer sensores físicos, (3) enviar telemetría continua al backend, (4) recibir comandos básicos desde la plataforma, y (5) entregar evidencia técnica de pruebas funcionales.                            |
+| Sprint 3 Velocity          | 34 (Story Points aceptados)                                                                                                                                                                                                                                                     |
+| Sum of Story Points        | 34                                                                                                                                                                                                                                                                              |
+
+### 6.2.3.2. Aspect Leaders and Collaborators. 
+
+| Aspecto / Módulo                  | Líder                          | Colaboradores                                         | Descripción                                                                                                        |
+|-----------------------------------|--------------------------------|-------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
+| Embedded IoT (ESP32 Firmware)     | Loarte Matos, Anthony Brahan   | Riegas Salas, Jose Miguel / Ruiz Torres, Erick Hernan | Desarrollo del firmware ESP32, lectura de sensores, manejo de WiFi y transmisión MQTT/HTTP hacia la nube.          |
+| Edge Computing & Device Pipeline  | Ruiz Torres, Erick Hernan      | Loarte Matos, Anthony Brahan / Godofredo Quispe       | Definición del comportamiento de edge, reconexión, buffering local y estructura del payload IoT.                   |
+| Backend IoT Ingest Layer          | Riegas Salas, Jose Miguel      | Quispe Tipo, Godofredo                                | Ajustes al backend para recibir y procesar telemetría real desde dispositivos físicos.                             |
+| QA & Hardware Testing             | Cipriano Chumbes, Bruce Andres | Ruiz Torres, Erick Hernan / Riegas Salas, Jose Miguel | Pruebas funcionales con hardware, validación de datos y reporte de estabilidad del envío.                          |
+| Documentation & Deployment Guides | Quispe Tipo, Godofredo         | Equipo completo                                       | Redacción de guías para despliegue en campo, configuración de firmware, flujos del pipeline IoT y troubleshooting. |
+
+### 6.2.3.3. Sprint Backlog 3.  
+
+| User Story | Work-Item / Task | Título / Descripción (extracto)                                                                  | Estimación (h) | Assigned To      | Status     |
+|------------|------------------|--------------------------------------------------------------------------------------------------|----------------|------------------|------------|
+| US030      | T01              | Desarrollo de firmware ESP32 para lectura de sensores (temp/humedad/ADC) y publicación de datos. | 10             | Anthony Loarte   | Done       |
+| US031      | T01              | Implementación de conectividad WiFi + MQTT/HTTP con reintentos y reconexión estable.             | 8              | Erick Ruiz       | Done       |
+| US032      | T01              | Estructuración del payload IoT (JSON) con metadatos, timestamps y valores normalizados.          | 5              | Jose Miguel      | Done       |
+| US033      | T01              | Integración ESP32 → Backend: endpoint de ingesta y pruebas de flujo completo.                    | 10             | Godofredo Quispe | To-review  |
+| US034      | T01              | Pruebas de comportamiento edge: buffer local si no hay red (offline mode).                       | 6              | Bruce Cipriano   | Done       |
+| US035      | T01              | Control desde backend al dispositivo (comando simple: LED/relay on-off).                         | 6              | Anthony Loarte   | In-process |
+| US036      | T01              | Documentación técnica del sistema embebido: pines, esquemas, pasos de flasheo y configuración.   | 4              | Godofredo Quispe | Done       |
+
+### 6.2.3.4. Development Evidence for Sprint Review.  
+
+| Repository                               | Branch  | Commit Id | Commit Message                                                                     | Committed on |
+|------------------------------------------|---------|-----------|------------------------------------------------------------------------------------|--------------|
+| UniverseThings-Backend                   | develop | 8ac3f7e   | feat: endpoint de ingesta IoT para telemetría real desde ESP32 (US033)             | 11/11/2025   |
+| UniverseThings-Backend                   | develop | c4b9d12   | fix: normalización de payload y timestamps para compatibilidad edge → backend      | 12/11/2025   |
+| UniverseThings-Embedded (ESP32 Firmware) | main    | f29ce01   | feat: lectura de sensores, WiFi manager y envío MQTT con reconexión (US030, US031) | 10/11/2025   |
+| UniverseThings-Embedded (ESP32 Firmware) | main    | 903bd7a   | feat: payload JSON estructurado + metadata + pruebas de campo                      | 12/11/2025   |
+| UniverseThings-Embedded (ESP32 Firmware) | main    | 7c13df9   | feat: modo offline + buffer local para envío diferido (US034)                      | 13/11/2025   |
+| UniverseThings-Frontend-Web              | develop | b91ed20   | feat: indicador de dispositivo online/offline en dashboard                         | 12/11/2025   |
+| UniverseThings-Frontend-Mobile           | develop | a028fe2   | feat: visualización de telemetría recibida desde ESP32 en tiempo real              | 13/11/2025   |
 
 ## 6.3. Validation Interviews
 
@@ -2931,6 +2989,8 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 | 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.                                |
 | 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                              |
 
+
+
 ### 6.4. Video About-the-Product.
 
 <img src="assets/cap6/videoabout.png" alt="Evidencias Sprint 1"/>
@@ -2944,6 +3004,13 @@ Link de video en youtube: https://youtu.be/pqpDH5zmjwk
 # Conclusiones
 
 ## Conclusiones y recomendaciones
+
+ * La implementación de dispositivos IoT en el sector agrícola puede transformar significativamente las prácticas tradicionales, permitiendo una gestión más eficiente y sostenible de los recursos.
+  * La recopilación y análisis de datos en tiempo real proporciona a los agricultores información valiosa para tomar decisiones informadas, optimizando el uso del agua, fertilizantes y otros insumos.
+  * La integración de tecnologías IoT con plataformas digitales facilita la monitorización remota de cultivos, reduciendo la necesidad de presencia física constante y permitiendo una respuesta rápida a las condiciones cambiantes del entorno.
+  * Es fundamental considerar la capacitación de los agricultores en el uso de estas tecnologías para maximizar su adopción y efectividad.
+  * Se recomienda continuar investigando y desarrollando soluciones IoT adaptadas a las necesidades específicas de diferentes tipos de cultivos y regiones agrícolas, promoviendo la innovación en el sector.
+  
 
 ## Video About-the-Team
 
@@ -2973,6 +3040,13 @@ Link del video: <a href="https://upcedupe-my.sharepoint.com/:f:/g/personal/u2021
     <strong>Link de Video de About the product:</strong>
     <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118946_upc_edu_pe/IQD-gxgyOjeTRqRsUeLTKaOXAbD-pddv7X7LqoB7YoHYPUw?e=Gv5rZG" target="_blank">
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118946_upc_edu_pe/IQD-gxgyOjeTRqRsUeLTKaOXAbD-pddv7X7LqoB7YoHYPUw?e=Gv5rZG
+    </a>
+  </li>
+
+ <li>
+    <strong>Link de Video de About the Team:</strong>
+    <a href="https://upcedupe-my.sharepoint.com/:f:/g/personal/u20211d640_upc_edu_pe/IgA0Wufc9g9JR4VkSKjc2scrAXRwHc4gpnYnDIvxpE-OsC4?e=ARz4Pb" target="_blank">
+https://upcedupe-my.sharepoint.com/:f:/g/personal/u20211d640_upc_edu_pe/IgA0Wufc9g9JR4VkSKjc2scrAXRwHc4gpnYnDIvxpE-OsC4?e=ARz4Pb
     </a>
   </li>
 
